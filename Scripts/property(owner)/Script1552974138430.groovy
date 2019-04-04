@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Property(owner)/individual owner/owner/Page_Chiragh/
 WebUI.setText(findTestObject('Property(owner)/individual owner/owner/Page_Chiragh/input_Soon_select2-search__fie'), 'Emirati')
 
 WebUI.sendKeys(findTestObject('Property(owner)/individual owner/owner/Page_Chiragh/input_Soon_select2-search__fie'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 def ownerpassport = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -102,7 +102,7 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/individual owner/s
 WebUI.setText(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), ownerphcode)
 
 WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 def ownerphno = org.apache.commons.lang.RandomStringUtils.randomNumeric(8)
 
@@ -113,7 +113,7 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/individual owner/s
 WebUI.setText(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), ownermobcode)
 
 WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 def ownermobno = org.apache.commons.lang.RandomStringUtils.randomNumeric(8)
 
@@ -130,24 +130,24 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/individual owner/s
 WebUI.setText(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), 'Arab E')
 
 WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/individual owner/span_Sharjah'))
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), 'SH')
 
 WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 def ownerpobox = org.apache.commons.lang.RandomStringUtils.randomNumeric(8)
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/individual owner/input_P.O.Box_pobox'), ownerpobox)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with'),
-	3)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with'), 
+    3)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with'), 
+    5)
 
 //WebUI.click(findTestObject('Property(owner)/individual owner/div_Upload_upload-doc-div'))
 WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/individual owner/div_Upload_upload-doc-div'), 'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
@@ -164,14 +164,14 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Property(owner)/individual owner/button_Next'))
 
 // ***********POA Form**************
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/snack-bar-container_Data  Save'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/snack-bar-container_Data  Save'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/span_Data  Saved Successfully'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/individual owner/span_Data  Saved Successfully'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/form_POA Details POA StatusSel'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/form_POA Details POA StatusSel'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/button_Close'))
 
@@ -193,13 +193,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/nationality/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field'),
-	'Pakistani')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field'), 
+    'Pakistani')
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 def poapassport = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -232,8 +232,8 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/b
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/button_JAN 2019'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_20162017201820192020202120'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_20162017201820192020202120'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_2021'))
 
@@ -245,11 +245,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field'),
-	'971')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field'), 
+    '971')
 
-WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 def poaphnno = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -257,11 +257,11 @@ WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field'),
-	'971')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field'), 
+    '971')
 
-WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 def poamobno = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -275,18 +275,18 @@ WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/country/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field'),
-	'ARAB E')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field'), 
+    'ARAB E')
 
-WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/city/Page_Chiragh/span_Select'))
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/poa/city/Page_Chiragh/input__select2-search__field'), 'SHA')
 
 WebUI.sendKeys(findTestObject('Object Repository/Property(owner)/poa/city/Page_Chiragh/input__select2-search__field'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 def poapobox = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -313,28 +313,28 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/m
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/mat-option_Individual Property'))
 
 //  Scanned Passport Copy  //
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with'), 
+    5)
 
 WebUI.delay(6)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_Scanned Passport Copy_doc-'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_Scanned Passport Copy_doc-'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 //  Scanned Notarized POA  //
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div'), 
+    5)
 
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_(International POA should'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_(International POA should'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 // submitt Poa form
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/span_General POA not accepted_'))
@@ -344,14 +344,14 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/button_Next'))
 
 //*****************************Property Form****************************************//
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/snack-bar-container_Data  Save'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/snack-bar-container_Data  Save'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/span_Data  Saved Successfully'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/span_Data  Saved Successfully'), 
+    5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/div_Property DetailsArea Detai'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/poa/Page_Chiragh/div_Property DetailsArea Detai'), 
+    5)
 
 WebUI.delay(3)
 
@@ -359,15 +359,15 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/property/Property 
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Property Status/Page_Chiragh/span_Other'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Property Status/Page_Chiragh/input_Other_propertyStatusOthe'),
-	'in progress')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Property Status/Page_Chiragh/input_Other_propertyStatusOthe'), 
+    'in progress')
 
 WebUI.delay(3)
 
 def titledeed = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(7)
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Title Deed Number_titlDe'),
-	titledeed)
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Title Deed Number_titlDe'), 
+    titledeed)
 
 def oqoodino = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(7)
 
@@ -377,8 +377,8 @@ def makanino = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(7)
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Makani Number_makaniNo'), makanino)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/mat-select_Select One'),
-	7)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/mat-select_Select One'), 
+    7)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/mat-select_Select One'))
 
@@ -393,25 +393,25 @@ WebUI.delay(3)
 //WebUI.scrollToElement('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/Page_Chiragh/span_Other')
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/Page_Chiragh/span_Other'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/input_Other_typePropertyOther'),
-	'Hotel')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/input_Other_typePropertyOther'), 
+    'Tower')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Project Name_projectName'),
-	projectname)
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Project Name_projectName'), 
+    projectname)
 
 def plotno = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(7)
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Plot Number_plotNo'), plotno)
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Building Name_bulidingNa'),
-	projectname)
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Building Name_bulidingNa'), 
+    projectname)
 
 def buildingnumber = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(3)
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Building Number_buliding'),
-	buildingnumber)
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/input_Building Number_buliding'), 
+    buildingnumber)
 
 def officeno = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(3)
 
@@ -438,15 +438,15 @@ WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Ch
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/country/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/country/Page_Chiragh/input__select2-search__field'),
-	'ARAB E')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/country/Page_Chiragh/input__select2-search__field'), 
+    'ARAB E')
 
 WebUI.sendKeys(findTestObject('Property(owner)/property/country/Page_Chiragh/input__select2-search__field'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Property(owner)/property/city/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Hatta')
+WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Al Ain')
 
 WebUI.sendKeys(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), Keys.chord(Keys.ENTER))
 
@@ -454,14 +454,16 @@ WebUI.setText(findTestObject('Object Repository/Property(owner)/property/map/Pag
 
 WebUI.click(findTestObject('Property(owner)/property/map/Page_Chiragh/div_HattaDubai - United Arab E'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property/map/Page_Chiragh/div_Map DataMap data 2019 Goog'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property/map/Page_Chiragh/div_Map DataMap data 2019 Goog'), 
+    5)
+
+WebUI.delay(4)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Property(owner)/property/map/Page_Chiragh/button_'), 4)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/map/Page_Chiragh/button_'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 String developersname = faker.company().name()
 
@@ -535,27 +537,27 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/property/Neighbour
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Super Markets_check mr-2'))
 
 // description //
-WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/textarea_Description_propertyD'),
-	'property for sale')
+WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/textarea_Description_propertyD'), 
+    'property for sale')
 
 // Scanned Title Deed //
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_jpg png pdf accepted with'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_jpg png pdf accepted with'), 
+    5)
 
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_Scanned Title Deed_doc-upl') , 5)
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_Scanned Title Deed_doc-upl'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_Scanned Title Deed_doc-upl'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 // SPA //
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/property/SPA/Page_Chiragh/div_Upload_upload-doc-div'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/property/SPA/Page_Chiragh/div_Upload_upload-doc-div'), 
+    5)
 
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/property/SPA/Page_Chiragh/Page_Chiragh/div_(Sale purchase agreement)_'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/property/SPA/Page_Chiragh/Page_Chiragh/div_(Sale purchase agreement)_'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 WebUI.delay(7)
 
@@ -611,22 +613,22 @@ WebUI.click(findTestObject('Property(owner)/mortgage/Financing/Page_Chiragh/span
 WebUI.setText(findTestObject('Property(owner)/mortgage/Financing/Page_Chiragh/input__select2-search__field'), 'Other')
 
 WebUI.sendKeys(findTestObject('Property(owner)/mortgage/Financing/Page_Chiragh/input__select2-search__field'), Keys.chord(
-		Keys.ENTER))
+        Keys.ENTER))
 
 WebUI.setText(findTestObject('Property(owner)/mortgage/Financing/Page_Chiragh/input_Other_otherBank'), 'UAE Bank')
 
 //Scanned NOC Form//
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_jpg png pdf accepted with'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_jpg png pdf accepted with'), 
+    5)
 
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_(Mortgage Company)_doc-upl'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_(Mortgage Company)_doc-upl'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 //other//
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/mortgage/other/Page_Chiragh/div_Upload_upload-doc-div'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/mortgage/other/Page_Chiragh/div_Upload_upload-doc-div'), 
+    5)
 
 WebUI.delay(7)
 
@@ -688,22 +690,22 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/rent/Lease End Dat
 WebUI.click(findTestObject('Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_10'), FailureHandling.STOP_ON_FAILURE)
 
 //Scanned Tenancy Contract//
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_jpg png pdf accepted with'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_jpg png pdf accepted with'), 
+    5)
 
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_Scanned Tenancy Contract_d'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_Scanned Tenancy Contract_d'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 // other //
-WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/rent/other/Page_Chiragh/div_Upload_upload-doc-div'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/rent/other/Page_Chiragh/div_Upload_upload-doc-div'), 
+    5)
 
 WebUI.delay(7)
 
-WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/rent/other/Page_Chiragh/Page_Chiragh/div_Other_doc-upload'),
-	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/rent/other/Page_Chiragh/Page_Chiragh/div_Other_doc-upload'), 
+    'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
 WebUI.click(findTestObject('Property(owner)/mortgage/Page_Chiragh/button_Next'))
 
@@ -718,29 +720,22 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/property saved/Pag
 WebUI.delay(3)
 
 //WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/b_3100'), 5)
-
 //def payment= WebUI.getText('Object Repository/Property(owner)/property saved/Page_Chiragh/b_3100', FailureHandling.STOP_ON_FAILURE)
-
 //if (payment >= 2000 )
 //{
+WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/button_SUBMIT FOR VALUATION'))
 
-	WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/button_SUBMIT FOR VALUATION'))
-	
 //}
-
 /*else
 {
 	WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/span_INDEPENDENT REAL ESTATE V'))
 	
 	WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/button_SUBMIT FOR VALUATION'))
 }*/
-
-
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/div_Your property details have'),
-	5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/div_Your property details have'), 
+    5)
 
 WebUI.closeBrowser()
-
 

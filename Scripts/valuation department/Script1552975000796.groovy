@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza'))
 
+//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Haleem Hanif'))
+
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 
 WebUI.delay(5)
@@ -74,13 +76,15 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Help_cdk-overlay-backdrop'))
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Mar 2019'))
+/*WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Mar 2019'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_2019'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Dec'))
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_30'))
+WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_30'))*/
+
+WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_20'))
 
 WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Sat_owl-dt-timer-input'),
 	'11')

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[5]/div/div/a</value>
+         <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[4]/div/div/a</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[5]/div/div/a</value>
+      <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[4]/div/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

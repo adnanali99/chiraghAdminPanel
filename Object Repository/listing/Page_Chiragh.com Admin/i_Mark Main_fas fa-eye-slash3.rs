@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-tab-content-2-6&quot;]/div/app-myleads-sidebar-gallery/section/div/div[1]/div/div/div/div[2]/div[4]/div[2]/div[1]/a/i</value>
+         <value>//*[@id=&quot;mat-tab-content-1-6&quot;]/div/app-myleads-sidebar-gallery/section/div/div[1]/div/div/div/div[2]/div[3]/div[2]/div[1]/a/i</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-tab-content-2-6&quot;]/div/app-myleads-sidebar-gallery/section/div/div[1]/div/div/div/div[2]/div[4]/div[2]/div[1]/a/i</value>
+      <value>//*[@id=&quot;mat-tab-content-1-6&quot;]/div/app-myleads-sidebar-gallery/section/div/div[1]/div/div/div/div[2]/div[3]/div[2]/div[1]/a/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

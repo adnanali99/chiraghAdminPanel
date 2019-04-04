@@ -6,14 +6,18 @@
    <elementGuidId>e64361a8-bb53-4b6c-ba4f-79356002b579</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-checkbox-2&quot;]/label/div</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-2']/label/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-checkbox-2&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
+      <value>//*[@id=&quot;mat-checkbox-2&quot;]/label/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-layout/div/app-brokerage/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[6]/a/i</value>
+         <value>/html/body/app-root/app-layout/div/app-brokerage/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[7]/a/i</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-layout/div/app-brokerage/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[6]/a/i</value>
+      <value>/html/body/app-root/app-layout/div/app-brokerage/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[7]/a/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

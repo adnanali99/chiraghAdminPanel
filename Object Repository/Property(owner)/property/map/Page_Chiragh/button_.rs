@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/button[count(. | //*[(text() = '×' or . = '×')]) = count(//*[(text() = '×' or . = '×')])]</value>
+         <value>//*[@id=&quot;mapModal&quot;]/div/div/div[1]/button/span[count(. | //*[(text() = '×' or . = '×')]) = count(//*[(text() = '×' or . = '×')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/button</value>
+      <value>//*[@id=&quot;mapModal&quot;]/div/div/div[1]/button/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,11 +6,15 @@
    <elementGuidId>6da5331f-ace2-4634-9aed-645210eb2a40</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-layout/app-topnav/mat-toolbar/button[3][count(. | //button[(text() = 'FM' or . = 'FM')]) = count(//button[(text() = 'FM' or . = 'FM')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='This collection is empty.. Keep checking.....'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,11 +45,11 @@
       <value>FM</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/app-topnav[1]/mat-toolbar[@class=&quot;fix-nav mat-toolbar mat-toolbar-single-row&quot;]/button[@class=&quot;hidden-sm name-btn mat-icon-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>/html/body/app-root/app-layout/app-topnav/mat-toolbar/button[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

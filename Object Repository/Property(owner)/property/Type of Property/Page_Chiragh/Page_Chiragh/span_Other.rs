@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-option-105&quot;]</value>
+         <value>//mat-option[12]/span</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-option-105&quot;]</value>
+      <value>//mat-option[12]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

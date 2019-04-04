@@ -6,32 +6,36 @@
    <elementGuidId>e1f3587a-b2a0-497c-811b-53ff739492a1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;myModal2&quot;]/div/div/div/div/div[1]/button/img</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='propertyDetailsModal']/div/div/div/button/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>assets/images/cross-circular-button-outline.svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;propertyDetailsModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;header-wrapper mt-1&quot;]/button[@class=&quot;close&quot;]/img[1]</value>
+      <value>//*[@id=&quot;myModal2&quot;]/div/div/div/div/div[1]/button/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

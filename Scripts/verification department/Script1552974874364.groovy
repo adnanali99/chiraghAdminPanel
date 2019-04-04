@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/verification department/Page_Chira
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_Mumtaz Hassan'))
+WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)'))
 
 //WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to'))
 

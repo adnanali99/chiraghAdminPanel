@@ -6,14 +6,18 @@
    <elementGuidId>e41fecf5-a020-4110-b73f-ca9b57ffa65a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[4]/div/div/div/a[1][count(. | //*[(text() = 'Confirm' or . = 'Confirm')]) = count(//*[(text() = 'Confirm' or . = 'Confirm')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Confirm')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -41,11 +45,11 @@
       <value>Confirm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;main-container&quot;]/app-valuation[@class=&quot;ng-star-inserted&quot;]/app-third-party-valuation[@class=&quot;ng-star-inserted&quot;]/app-agent[@class=&quot;ng-star-inserted&quot;]/app-seller[@class=&quot;ng-star-inserted&quot;]/app-myleads[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;common-table-section&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row dashboard-tbl-wrap&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table dashboard-tbl&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;dept-td&quot;]/div[@class=&quot;send-options justify-content-center&quot;]/div[@class=&quot;dropdown user-icon-dropdown show&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[@class=&quot;dropdown-item ng-star-inserted&quot;]</value>
+      <value>/html/body/app-root/app-layout/div/app-valuation/app-third-party-valuation/app-agent/app-seller/app-myleads/section/div/div/div/div/table/tbody/tr[1]/td[4]/div/div/div/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
