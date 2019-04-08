@@ -35,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_New Leads'))
 
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
 
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_Abdullah M'))
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_Abdullah M'))
 
 WebUI.delay(5)
 

@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(5)
 
-/*WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Admin Panel_userName'), 'sami')
+WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Admin Panel_userName'), 'sami')
 
 WebUI.click(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Password'))
 
@@ -45,7 +45,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
-WebUI.waitForPageLoad(5)*/
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Username'))
 
@@ -71,15 +71,15 @@ def title = WebUI.getText(findTestObject('Object Repository/listing/Page_Chiragh
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Property Title_title'), title + '!!!')
+WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Property Title_title'), title+ '!!!')
 
 def description = WebUI.getText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Marina Studio 312 sqft Stu'))
 
-WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Marina Studio 312 sqft Stu'),  description + 'for Sale!!!')
+WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Marina Studio 312 sqft Stu'),  description+ 'for Sale!!!')
 
 WebUI.click(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/div_Property TitleProperty Des'))
 
-WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Minimum Subsequent Bid_b'), '1000')
+WebUI.setText(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/input_Minimum Subsequent Bid_b'), '2000')
 
 WebUI.delay(3)
 

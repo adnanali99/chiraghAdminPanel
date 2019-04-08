@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-option-125&quot;]/span[count(. | //*[(text() = 'Yes' or . = 'Yes')]) = count(//*[(text() = 'Yes' or . = 'Yes')])]</value>
+         <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>Yes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
