@@ -6,11 +6,15 @@
    <elementGuidId>452686e5-f660-4f52-9b1e-a70809e80f12</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Approve' or . = 'Approve')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-2-5&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-brokerage-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;documents-section px-0 container-fluid mt-4&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-md-12&quot;]/form[@class=&quot;sidenav-form ng-untouched ng-pristine&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 mt-2&quot;]/div[@class=&quot;row border-bottom ng-star-inserted&quot;]/div[@class=&quot;col-md-6 text-right my-3&quot;]/button[@class=&quot;btn btn-sidenav-save mb-1 mr-2&quot;]</value>
+      <value>//*[@id=&quot;mat-tab-content-2-5&quot;]/div/app-brokerage-tab/div[1]/div[2]/div/form/div/div[3]/div/div[2]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-option-183&quot;]/span[count(. | //*[(text() = 'Wallet' or . = 'Wallet')]) = count(//*[(text() = 'Wallet' or . = 'Wallet')])]</value>
+         <value>//span[(text() = 'Wallet' or . = 'Wallet')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,11 +38,11 @@
       <value>Wallet</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-option-183&quot;]/span</value>
+      <value>//*[@id=&quot;mat-option-163&quot;]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

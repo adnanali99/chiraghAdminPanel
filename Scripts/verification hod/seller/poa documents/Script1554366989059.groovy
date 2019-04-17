@@ -41,20 +41,20 @@ WebUI.delay(5)
 
 WebUI.doubleClick(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_POAs'))
 
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status'),4))
+if(WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status'),4)== true )
 {
 	WebUI.click(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/a_POA 1 Mauricio Ophelia_attac'))
 
-	WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_(Not Uploaded)_document-bo'),4)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_Scanned Passport CopyScann'),4)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_Property Id ARE-DXB-52656_'),4)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_Scanned Passport Copy'),4)
 	
-	WebUI.click(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/img2'))
+	WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_Scanned Notarized POA'),4)
 	
 	WebUI.closeBrowser()
 	
 }
-else if(WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/property details present/Page_Chiragh.com Admin/Page_Chiragh.com Admin/h3_Nothing here yet .....'),4))
+else if(WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/imgEmpty'),4) == true)
 {
 	WebUI.closeBrowser()
 }

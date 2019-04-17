@@ -146,6 +146,8 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_1'))
 
+WebUI.delay(8)
+
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_Approve'))
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/img'))
@@ -174,7 +176,7 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_In Process_1'))
 
-WebUI.delay(15)
+WebUI.delay(250)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_June Light Hotel_fas fa-bars_2'))
 
@@ -196,7 +198,7 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/img'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_NB'))
 

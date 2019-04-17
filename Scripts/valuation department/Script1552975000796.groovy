@@ -101,7 +101,9 @@ WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chirag
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_SAVE'))
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/img'))
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/img1'))
 
 WebUI.delay(3)
 
@@ -163,7 +165,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Valuation_file'),
 	'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\pdf\\valuation.pdf')
 
-WebUI.delay(8)
+WebUI.delay(10)
 
 //WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Third party valuation rep'))
 
@@ -266,7 +268,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Gallery'))
 
-WebUI.delay(3)
+WebUI.delay(8)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'),
 	'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\15.jpg')
@@ -364,11 +366,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List_7'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Approve'))
 
 WebUI.doubleClick(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes'))
 
-WebUI.delay(5)
+WebUI.delay(9)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 

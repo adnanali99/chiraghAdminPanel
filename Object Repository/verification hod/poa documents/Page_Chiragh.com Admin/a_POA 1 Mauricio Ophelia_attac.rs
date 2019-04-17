@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-tab-content-1-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
+         <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-tab-content-1-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
+      <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

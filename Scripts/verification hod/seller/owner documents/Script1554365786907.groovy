@@ -45,8 +45,10 @@ WebUI.click(findTestObject('Object Repository/verification hod/property details 
 
 WebUI.click(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Property Id ARE-DXB-52656_'),4)
+WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport CopyScann'),4)
 
-WebUI.click(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img1'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport Copy'),4)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img'),4)
 
 WebUI.closeBrowser()

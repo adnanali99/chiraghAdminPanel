@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verificationHod" time="591" tests="13" failures="5" errors="0">
+   <testsuite name="verificationHod" tests="13" failures="5" errors="0" time="591" timestamp="2019-04-17 16:58:39" hostname="HP - DESKTOP-2D7LI1O" id="Test Suites/verificationHod">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502515549.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502556388.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502556781.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502710560.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502711062.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502788671.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502789046.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502882619.png, C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502883033.png"/>
+         <property name="hostName" value="HP - DESKTOP-2D7LI1O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.0.163"/>
+         <property name="sessionId" value="20586153c1e8c03b5eee257085b35071"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/verification hod/buyer/approved" classname="Test Cases/verification hod/buyer/approved" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:58:39 - [TEST_CASE][PASSED] - Test Cases/verification hod/buyer/approved: Test Cases/verification hod/buyer/approved
+
+2019-04-17 16:58:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 16:58:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:58:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 16:58:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 16:58:44 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:58:52 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:58:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:58:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:58:53 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 16:58:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 16:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 16:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 16:58:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:58:54 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:58:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:58:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:58:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 16:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 16:58:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 16:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 16:58:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:59:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads' is clicked on
+
+2019-04-17 16:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads' is clicked on
+
+2019-04-17 16:59:03 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-04-17 16:59:18 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-17 16:59:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved"), 4)): Browser is closed
+
+2019-04-17 16:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 16:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved' is present
+
+2019-04-17 16:59:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:59:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/archived" classname="Test Cases/verification hod/buyer/archived" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:59:19 - [TEST_CASE][PASSED] - Test Cases/verification hod/buyer/archived: Test Cases/verification hod/buyer/archived
+
+2019-04-17 16:59:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 16:59:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:59:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 16:59:21 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:59:29 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:59:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:59:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:59:30 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 16:59:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 16:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 16:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 16:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:59:31 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 16:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 16:59:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:59:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:59:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login' is double clicked on
+
+2019-04-17 16:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login' is double clicked on
+
+2019-04-17 16:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 16:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 16:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads' is clicked on
+
+2019-04-17 16:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads' is clicked on
+
+2019-04-17 16:59:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 16:59:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 16:59:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived"), 4)): Browser is closed
+
+2019-04-17 16:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 16:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived' is present
+
+2019-04-17 16:59:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:59:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/In process" classname="Test Cases/verification hod/buyer/In process" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:59:45 - [TEST_CASE][PASSED] - Test Cases/verification hod/buyer/In process: Test Cases/verification hod/buyer/In process
+
+2019-04-17 16:59:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 16:59:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:59:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 16:59:48 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:59:56 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 16:59:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 16:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:00:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:00:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:00:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:00:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 17:00:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 17:00:16 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process"), 4)): Browser is closed
+
+2019-04-17 17:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 17:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process' is present
+
+2019-04-17 17:00:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:00:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/new leads tab" classname="Test Cases/verification hod/buyer/new leads tab" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:00:17 - [TEST_CASE][PASSED] - Test Cases/verification hod/buyer/new leads tab: Test Cases/verification hod/buyer/new leads tab
+
+2019-04-17 17:00:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:00:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:00:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:00:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:00:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2019-04-17 17:00:26 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:00:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:00:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:00:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:00:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2019-04-17 17:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2019-04-17 17:00:37 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2019-04-17 17:00:44 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-04-17 17:00:44 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To"), 4) || verifyElementPresent("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/h3_This collection is empty..", 4)): Browser is closed
+
+2019-04-17 17:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To' is present
+
+2019-04-17 17:00:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:00:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/owner documents" classname="Test Cases/verification hod/buyer/owner documents" status="FAILED">
+         <failure type="FAILED" message="Test Cases/verification hod/buyer/owner documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 17:00:46 - [TEST_CASE][FAILED] - Test Cases/verification hod/buyer/owner documents: Test Cases/verification hod/buyer/owner documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:00:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:00:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:00:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:00:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:00:56 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:00:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:00:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:00:57 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:00:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:00:58 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:00:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:00:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:01:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:01:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:01:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:01:07 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-17 17:01:15 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-17 17:01:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:01:15 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-17 17:01:23 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-17 17:01:23 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm")): click(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:01:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 17:01:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502515549.png]]
+
+2019-04-17 17:01:55 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 17:00:46 - [TEST_CASE][FAILED] - Test Cases/verification hod/buyer/owner documents: Test Cases/verification hod/buyer/owner documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/poa documents" classname="Test Cases/verification hod/buyer/poa documents" status="FAILED">
+         <failure type="FAILED" message="Test Cases/verification hod/buyer/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 17:01:56 - [TEST_CASE][FAILED] - Test Cases/verification hod/buyer/poa documents: Test Cases/verification hod/buyer/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:01:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:01:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 17:01:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:01:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:01:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:02:07 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:02:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:02:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:02:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:02:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:02:18 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-17 17:02:26 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-17 17:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:02:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:02:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:02:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/div_POAs")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/div_POAs' is double clicked on
+
+2019-04-17 17:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/div_POAs' is double clicked on
+
+2019-04-17 17:02:32 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4)): if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:02:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 17:02:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502556388.png]]
+
+2019-04-17 17:02:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502556781.png]]
+
+2019-04-17 17:02:37 - [MESSAGE][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 17:01:56 - [TEST_CASE][FAILED] - Test Cases/verification hod/buyer/poa documents: Test Cases/verification hod/buyer/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/buyer/request for change" classname="Test Cases/verification hod/buyer/request for change" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:02:37 - [TEST_CASE][PASSED] - Test Cases/verification hod/buyer/request for change: Test Cases/verification hod/buyer/request for change
+
+2019-04-17 17:02:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:02:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 17:02:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:02:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:02:41 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:02:49 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:02:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:02:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer' is clicked on
+
+2019-04-17 17:02:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:02:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change' is clicked on
+
+2019-04-17 17:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change' is clicked on
+
+2019-04-17 17:02:59 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-17 17:03:07 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-17 17:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0")): Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0' is clicked on
+
+2019-04-17 17:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c"), 4): Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c' is present
+
+2019-04-17 17:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c' is present
+
+2019-04-17 17:03:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests"), 4): Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests' is present
+
+2019-04-17 17:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests' is present
+
+2019-04-17 17:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img' is clicked on
+
+2019-04-17 17:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img' is clicked on
+
+2019-04-17 17:03:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:03:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/approved leads" classname="Test Cases/verification hod/seller/approved leads" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:03:10 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/approved leads: Test Cases/verification hod/seller/approved leads
+
+2019-04-17 17:03:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:03:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:03:12 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:03:21 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:03:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads")): Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads' is clicked on
+
+2019-04-17 17:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads' is clicked on
+
+2019-04-17 17:03:26 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-04-17 17:03:41 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-17 17:03:41 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved"), 4)): Browser is closed
+
+2019-04-17 17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved' is present
+
+2019-04-17 17:03:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:03:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/archived leads tab" classname="Test Cases/verification hod/seller/archived leads tab" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:03:43 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/archived leads tab: Test Cases/verification hod/seller/archived leads tab
+
+2019-04-17 17:03:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:03:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:03:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:03:45 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:03:53 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:03:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login' is double clicked on
+
+2019-04-17 17:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login' is double clicked on
+
+2019-04-17 17:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads")): Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads' is clicked on
+
+2019-04-17 17:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads' is clicked on
+
+2019-04-17 17:03:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 17:04:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 17:04:09 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived"), 4)): Browser is closed
+
+2019-04-17 17:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 17:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived' is present
+
+2019-04-17 17:04:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:04:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/In process tab" classname="Test Cases/verification hod/seller/In process tab" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:04:10 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/In process tab: Test Cases/verification hod/seller/In process tab
+
+2019-04-17 17:04:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:04:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:04:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:04:13 - [TEST_STEP][PASSED] - navigateToUrl("http://admin-chiragh.surge.sh/"): Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:04:21 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh/' successfully
+
+2019-04-17 17:04:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:04:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:04:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 17:04:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 17:04:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee"), 4) && verifyElementPresent(findTestObject("Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process"), 4)): Browser is closed
+
+2019-04-17 17:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee' is present
+
+2019-04-17 17:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process' is present
+
+2019-04-17 17:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:04:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/mortgage document" classname="Test Cases/verification hod/seller/mortgage document" status="FAILED">
+         <failure type="FAILED" message="Test Cases/verification hod/seller/mortgage document FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at mortgage document.run(mortgage document:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 17:04:36 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/mortgage document: Test Cases/verification hod/seller/mortgage document FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at mortgage document.run(mortgage document:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:04:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:04:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:04:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:04:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:04:48 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:04:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:05:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:05:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:05:05 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage")): Object: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage' is double clicked on
+
+2019-04-17 17:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage' is double clicked on
+
+2019-04-17 17:05:06 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes"), 4)): if (verifyElementPresent(findTestObject("Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at mortgage document.run(mortgage document:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:05:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 17:05:11 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502710560.png]]
+
+2019-04-17 17:05:11 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502711062.png]]
+
+2019-04-17 17:05:11 - [MESSAGE][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at mortgage document.run(mortgage document:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 17:04:36 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/mortgage document: Test Cases/verification hod/seller/mortgage document FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-3']/div/app-mortgage/div/div[2]/div/div' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at mortgage document.run(mortgage document:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/new leads tab" classname="Test Cases/verification hod/seller/new leads tab" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:05:11 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/new leads tab: Test Cases/verification hod/seller/new leads tab
+
+2019-04-17 17:05:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:05:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 17:05:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:05:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:05:15 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:05:23 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:05:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:05:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads")): Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2019-04-17 17:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2019-04-17 17:05:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To"), 4) || verifyElementPresent("Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/h3_This collection is empty..", 4)): Browser is closed
+
+2019-04-17 17:05:30 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To' is present
+
+2019-04-17 17:05:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:05:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/owner documents" classname="Test Cases/verification hod/seller/owner documents" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:05:30 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/owner documents: Test Cases/verification hod/seller/owner documents
+
+2019-04-17 17:05:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:05:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:05:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:05:33 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:05:41 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:05:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:05:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:05:42 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:05:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:05:43 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:05:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:05:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin' is clicked on
+
+2019-04-17 17:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin' is clicked on
+
+2019-04-17 17:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name' is clicked on
+
+2019-04-17 17:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name' is clicked on
+
+2019-04-17 17:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners' is clicked on
+
+2019-04-17 17:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners' is clicked on
+
+2019-04-17 17:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm")): Object: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' is clicked on
+
+2019-04-17 17:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' is clicked on
+
+2019-04-17 17:05:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport CopyScann"), 4): Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport CopyScann' is present
+
+2019-04-17 17:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport CopyScann' is present
+
+2019-04-17 17:05:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport Copy"), 4): Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport Copy' is present
+
+2019-04-17 17:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport Copy' is present
+
+2019-04-17 17:05:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img"), 4): Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img' is present
+
+2019-04-17 17:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img' is present
+
+2019-04-17 17:05:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:05:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/poa documents" classname="Test Cases/verification hod/seller/poa documents" status="FAILED">
+         <failure type="FAILED" message="Test Cases/verification hod/seller/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 17:05:56 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/poa documents: Test Cases/verification hod/seller/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:05:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:05:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:05:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:05:58 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:06:06 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:06:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:06:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:06:07 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:06:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:06:08 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:06:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:06:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:06:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:06:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:06:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_POAs")): Object: 'Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_POAs' is double clicked on
+
+2019-04-17 17:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_POAs' is double clicked on
+
+2019-04-17 17:06:24 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4) == true): if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4) == true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:06:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 17:06:29 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502788671.png]]
+
+2019-04-17 17:06:29 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502789046.png]]
+
+2019-04-17 17:06:29 - [MESSAGE][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status"), 4) == true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 17:05:56 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/poa documents: Test Cases/verification hod/seller/poa documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status' located by 'By.xpath: //*[@id="mat-tab-content-0-1"]/div/app-poas/div/div[2]/div/div[1]/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at poa documents.run(poa documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/property detail present" classname="Test Cases/verification hod/seller/property detail present" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:06:29 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/property detail present: Test Cases/verification hod/seller/property detail present
+
+2019-04-17 17:06:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:06:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 17:06:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:06:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:06:33 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:06:41 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:06:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin' is clicked on
+
+2019-04-17 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin' is clicked on
+
+2019-04-17 17:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name' is clicked on
+
+2019-04-17 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name' is clicked on
+
+2019-04-17 17:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners' is clicked on
+
+2019-04-17 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners' is clicked on
+
+2019-04-17 17:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_POAs")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_POAs' is clicked on
+
+2019-04-17 17:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_POAs' is clicked on
+
+2019-04-17 17:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Property Details")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2019-04-17 17:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2019-04-17 17:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Project Name")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Project Name' is clicked on
+
+2019-04-17 17:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Project Name' is clicked on
+
+2019-04-17 17:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Murazik Manors")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Murazik Manors' is clicked on
+
+2019-04-17 17:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Murazik Manors' is clicked on
+
+2019-04-17 17:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Mortgage")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Mortgage' is clicked on
+
+2019-04-17 17:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Mortgage' is clicked on
+
+2019-04-17 17:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Rental")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Rental' is clicked on
+
+2019-04-17 17:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Rental' is clicked on
+
+2019-04-17 17:06:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:06:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/property documents" classname="Test Cases/verification hod/seller/property documents" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:06:57 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/property documents: Test Cases/verification hod/seller/property documents
+
+2019-04-17 17:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:06:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:07:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:07:00 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:07:08 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:07:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:07:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:07:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Property Details")): Object: 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2019-04-17 17:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2019-04-17 17:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property documents/Page_Chiragh.com Admin/a_Property Details_attachment-")): Object: 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/a_Property Details_attachment-' is clicked on
+
+2019-04-17 17:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/a_Property Details_attachment-' is clicked on
+
+2019-04-17 17:07:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Scanned Title Deed"), 4): Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Scanned Title Deed' is present
+
+2019-04-17 17:07:27 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Scanned Title Deed' is present
+
+2019-04-17 17:07:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_(Not Uploaded)_document-bo"), 4): Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_(Not Uploaded)_document-bo' is present
+
+2019-04-17 17:07:27 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_(Not Uploaded)_document-bo' is present
+
+2019-04-17 17:07:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_SPA Document"), 4): Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_SPA Document' is present
+
+2019-04-17 17:07:27 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_SPA Document' is present
+
+2019-04-17 17:07:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:07:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/rental documents" classname="Test Cases/verification hod/seller/rental documents" status="FAILED">
+         <failure type="FAILED" message="Test Cases/verification hod/seller/rental documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at rental documents.run(rental documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 17:07:28 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/rental documents: Test Cases/verification hod/seller/rental documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at rental documents.run(rental documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:07:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:07:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:07:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:07:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:07:40 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:07:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:07:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:07:41 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:07:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo' is clicked on
+
+2019-04-17 17:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:07:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:07:42 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:07:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:07:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2019-04-17 17:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa")): Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa' is clicked on
+
+2019-04-17 17:07:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 17:07:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 17:07:57 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/div_Rental")): Object: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/div_Rental' is double clicked on
+
+2019-04-17 17:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/div_Rental' is double clicked on
+
+2019-04-17 17:07:58 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes"), 4)): if (verifyElementPresent(findTestObject("Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at rental documents.run(rental documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)
+
+
+2019-04-17 17:08:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 17:08:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502882619.png]]
+
+2019-04-17 17:08:03 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\HP\\git\\chiraghAdminPanel\\Reports\\verificationHod\\20190417_165831\\1555502883033.png]]
+
+2019-04-17 17:08:03 - [MESSAGE][FAILED] - if (verifyElementPresent(findTestObject("Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes"), 4)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at rental documents.run(rental documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 17:07:28 - [TEST_CASE][FAILED] - Test Cases/verification hod/seller/rental documents: Test Cases/verification hod/seller/rental documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-4']/div/app-rental/div/div[2]/div/div/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$6.call(Unknown Source)
+	at rental documents.run(rental documents:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/verification hod/seller/request for change tab" classname="Test Cases/verification hod/seller/request for change tab" status="PASSED">
+         <system-out><![CDATA[2019-04-17 17:08:03 - [TEST_CASE][PASSED] - Test Cases/verification hod/seller/request for change tab: Test Cases/verification hod/seller/request for change tab
+
+2019-04-17 17:08:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 17:08:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 17:08:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 17:08:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 17:08:07 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:08:15 - [MESSAGE][PASSED] - Navigate to 'http://admin-chiragh.surge.sh' successfully
+
+2019-04-17 17:08:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password'
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2019-04-17 17:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change' is clicked on
+
+2019-04-17 17:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change' is clicked on
+
+2019-04-17 17:08:20 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-17 17:08:28 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-17 17:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_FIVE STAR HOTEL 30 Bed Hotel")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_FIVE STAR HOTEL 30 Bed Hotel' is clicked on
+
+2019-04-17 17:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_FIVE STAR HOTEL 30 Bed Hotel' is clicked on
+
+2019-04-17 17:08:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c"), 4): Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c' is present
+
+2019-04-17 17:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c' is present
+
+2019-04-17 17:08:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests"), 4): Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests' is present
+
+2019-04-17 17:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests' is present
+
+2019-04-17 17:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img")): Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img' is clicked on
+
+2019-04-17 17:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img' is clicked on
+
+2019-04-17 17:08:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 17:08:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 16:58:39 - [TEST_SUITE][FAILED] - verificationHod: Test Cases/verification hod/buyer/owner documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-17 16:58:39 - [TEST_SUITE][FAILED] - verificationHod: Test Cases/verification hod/buyer/owner documents FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm' located by 'By.xpath: //mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at owner documents.run(owner documents:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555502311687.run(TempTestSuite1555502311687.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

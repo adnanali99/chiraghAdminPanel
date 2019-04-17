@@ -1,0 +1,937 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AdminTests,Chrome 73.0.3683.103,,2019-04-16 12:34:11,2019-04-16 13:10:05,35m - 53.407s,FAILED
+,,,,,,
+Test Cases/property(owner),Chrome 73.0.3683.103,,2019-04-16 12:34:12,2019-04-16 12:38:19,4m - 7.403s,PASSED
+faker = new com.github.javafaker.Faker(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.416s,PASSED
+ownerfirst = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.011s,PASSED
+ownermiddle = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.002s,PASSED
+ownerlast = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.003s,PASSED
+ownerphcode = address().countryCode(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.009s,PASSED
+ownermobcode = address().countryCode(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.004s,PASSED
+owneraddress = address().streetAddress(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.007s,PASSED
+poafirst = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.003s,PASSED
+poamiddle = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.008s,PASSED
+poalast = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.004s,PASSED
+poaphncode = address().countryCode(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.002s,PASSED
+poamobcode = address().countryCode(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.003s,PASSED
+poaaddress = address().streetAddress(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.001s,PASSED
+projectname = address().streetName(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.003s,PASSED
+propertyaddress = address().streetAddress(),Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:13,0.007s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:34:13,2019-04-16 12:34:18,4.683s,PASSED
+navigateToUrl(Url),Chrome 73.0.3683.103,,2019-04-16 12:34:18,2019-04-16 12:34:38,20.203s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:34:38,2019-04-16 12:34:39,1.184s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/a_Sell""))",Chrome 73.0.3683.103,,2019-04-16 12:34:39,2019-04-16 12:34:39,0.279s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Sign In_userName""), userName)",Chrome 73.0.3683.103,,2019-04-16 12:34:39,2019-04-16 12:34:44,5.078s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Sign In_userPassword""), passWord)",Chrome 73.0.3683.103,,2019-04-16 12:34:44,2019-04-16 12:34:45,0.206s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/button_Sign In""))",Chrome 73.0.3683.103,,2019-04-16 12:34:45,2019-04-16 12:34:45,0.116s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_First Name_userFirstName""), ownerfirst)",Chrome 73.0.3683.103,,2019-04-16 12:34:45,2019-04-16 12:34:49,4.303s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_Middle Name_userMiddleNa""), ownermiddle)",Chrome 73.0.3683.103,,2019-04-16 12:34:49,2019-04-16 12:34:49,0.236s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_Last Name_userLastName""), ownerlast)",Chrome 73.0.3683.103,,2019-04-16 12:34:49,2019-04-16 12:34:50,0.335s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/span_Emirati""))",Chrome 73.0.3683.103,,2019-04-16 12:34:50,2019-04-16 12:34:50,0.208s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_Soon_select2-search__fie""), ""Emirati"")",Chrome 73.0.3683.103,,2019-04-16 12:34:50,2019-04-16 12:34:50,0.308s,PASSED
+"sendKeys(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_Soon_select2-search__fie""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:34:50,2019-04-16 12:34:50,0.104s,PASSED
+ownerpassport = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:34:50,2019-04-16 12:34:50,0.017s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_Passport Number_passport""), ownerpassport)",Chrome 73.0.3683.103,,2019-04-16 12:34:50,2019-04-16 12:34:51,0.304s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/mat-form-field_Passport Expiry""))",Chrome 73.0.3683.103,,2019-04-16 12:34:51,2019-04-16 12:34:51,0.135s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/button_Passport Expiry Date_ma""))",Chrome 73.0.3683.103,,2019-04-16 12:34:51,2019-04-16 12:34:51,0.411s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/div_30""))",Chrome 73.0.3683.103,,2019-04-16 12:34:51,2019-04-16 12:34:51,0.143s,PASSED
+owneridcard = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:34:51,2019-04-16 12:34:51,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/input_ID Card Number_idCardNo""), owneridcard)",Chrome 73.0.3683.103,,2019-04-16 12:34:51,2019-04-16 12:34:52,0.324s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/div_ID Card Expiry Date_mat-fo""))",Chrome 73.0.3683.103,,2019-04-16 12:34:52,2019-04-16 12:34:52,0.103s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/button_ID Card Expiry Date_mat""))",Chrome 73.0.3683.103,,2019-04-16 12:34:52,2019-04-16 12:34:52,0.305s,PASSED
+"click(findTestObject(""Property(owner)/individual owner/owner/Page_Chiragh/td_29""))",Chrome 73.0.3683.103,,2019-04-16 12:34:52,2019-04-16 12:34:52,0.110s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/span_(228) Togo""))",Chrome 73.0.3683.103,,2019-04-16 12:34:52,2019-04-16 12:34:52,0.178s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), ownerphcode)",Chrome 73.0.3683.103,,2019-04-16 12:34:52,2019-04-16 12:34:53,0.197s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.066s,PASSED
+ownerphno = RandomStringUtils.randomNumeric(8),Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Phone Number_telephone""), ownerphno)",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.316s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/span_(971) United Arab Emirate""))",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.187s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), ownermobcode)",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.191s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.084s,PASSED
+ownermobno = RandomStringUtils.randomNumeric(8),Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:53,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Mobile Number_mobile""), ownermobno)",Chrome 73.0.3683.103,,2019-04-16 12:34:53,2019-04-16 12:34:54,0.405s,PASSED
+owneremail = RandomStringUtils.randomAlphanumeric(3),Chrome 73.0.3683.103,,2019-04-16 12:34:54,2019-04-16 12:34:54,0.003s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Email_email""), owneremail + ""@gmail.com"")",Chrome 73.0.3683.103,,2019-04-16 12:34:54,2019-04-16 12:34:54,0.398s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_Address_userAddress""), owneraddress)",Chrome 73.0.3683.103,,2019-04-16 12:34:54,2019-04-16 12:34:55,0.465s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/span_United Arab Emirates""))",Chrome 73.0.3683.103,,2019-04-16 12:34:55,2019-04-16 12:34:55,0.208s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), ""Arab E"")",Chrome 73.0.3683.103,,2019-04-16 12:34:55,2019-04-16 12:34:55,0.335s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:34:55,2019-04-16 12:34:55,0.106s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/span_Sharjah""))",Chrome 73.0.3683.103,,2019-04-16 12:34:55,2019-04-16 12:34:55,0.191s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), ""SH"")",Chrome 73.0.3683.103,,2019-04-16 12:34:55,2019-04-16 12:34:56,0.183s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/individual owner/input_JAN 2021_select2-search_""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.095s,PASSED
+ownerpobox = RandomStringUtils.randomNumeric(8),Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/individual owner/input_P.O.Box_pobox""), ownerpobox)",Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.348s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with""), 3)",Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.097s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/individual owner/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.042s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/individual owner/div_Upload_upload-doc-div""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:34:56,0.088s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:34:56,2019-04-16 12:35:01,5.033s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/individual owner/button_Next""))",Chrome 73.0.3683.103,,2019-04-16 12:35:01,2019-04-16 12:35:01,0.127s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/individual owner/snack-bar-container_Data  Save""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:01,2019-04-16 12:35:04,2.212s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/individual owner/span_Data  Saved Successfully""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:04,2019-04-16 12:35:04,0.038s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/form_POA Details POA StatusSel""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:04,2019-04-16 12:35:04,0.037s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/button_Close""))",Chrome 73.0.3683.103,,2019-04-16 12:35:04,2019-04-16 12:35:04,0.099s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:04,2019-04-16 12:35:07,3.004s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:35:07,2019-04-16 12:35:07,0.413s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/span_Yes""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:07,2019-04-16 12:35:07,0.041s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/span_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:35:07,2019-04-16 12:35:07,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_First Name_userFirstName""), poafirst)",Chrome 73.0.3683.103,,2019-04-16 12:35:07,2019-04-16 12:35:08,0.266s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Middle Name_userMiddleNa""), poamiddle)",Chrome 73.0.3683.103,,2019-04-16 12:35:08,2019-04-16 12:35:08,0.208s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Last Name_userLastName""), poalast)",Chrome 73.0.3683.103,,2019-04-16 12:35:08,2019-04-16 12:35:08,0.266s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:08,2019-04-16 12:35:11,3.004s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/nationality/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:35:11,2019-04-16 12:35:12,0.316s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field""), ""Pakistani"")",Chrome 73.0.3683.103,,2019-04-16 12:35:12,2019-04-16 12:35:12,0.313s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:12,2019-04-16 12:35:15,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/poa/nationality/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:35:15,2019-04-16 12:35:15,0.196s,PASSED
+poapassport = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:15,2019-04-16 12:35:15,0.003s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Passport Number_passport""), poapassport)",Chrome 73.0.3683.103,,2019-04-16 12:35:15,2019-04-16 12:35:15,0.287s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/div_Passport Expiry Date_mat-f""))",Chrome 73.0.3683.103,,2019-04-16 12:35:15,2019-04-16 12:35:15,0.141s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/button_Passport Expiry Date_ma""))",Chrome 73.0.3683.103,,2019-04-16 12:35:15,2019-04-16 12:35:16,0.223s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/button_FEB 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:16,0.187s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/div_2021""))",Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:16,0.198s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/div_DEC""))",Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:16,0.264s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/div_27""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:16,0.105s,PASSED
+poaidcard = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:16,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_ID Card Number_idCardNo""), poaidcard)",Chrome 73.0.3683.103,,2019-04-16 12:35:16,2019-04-16 12:35:17,0.323s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:17,2019-04-16 12:35:20,3.005s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/mat-form-field_ID Card Expiry""))",Chrome 73.0.3683.103,,2019-04-16 12:35:20,2019-04-16 12:35:20,0.175s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/button_ID Card Expiry Date_mat""))",Chrome 73.0.3683.103,,2019-04-16 12:35:20,2019-04-16 12:35:20,0.252s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/button_JAN 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:35:20,2019-04-16 12:35:20,0.216s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_20162017201820192020202120""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:20,2019-04-16 12:35:20,0.028s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_2021""))",Chrome 73.0.3683.103,,2019-04-16 12:35:20,2019-04-16 12:35:21,0.186s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_SEP""))",Chrome 73.0.3683.103,,2019-04-16 12:35:21,2019-04-16 12:35:21,0.375s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/id card expiry/Page_Chiragh/div_16""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-16 12:35:21,2019-04-16 12:35:21,0.100s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:35:21,2019-04-16 12:35:26,5.002s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:35:26,2019-04-16 12:35:26,0.366s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field""), ""971"")",Chrome 73.0.3683.103,,2019-04-16 12:35:26,2019-04-16 12:35:27,0.256s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:35:27,2019-04-16 12:35:27,0.089s,PASSED
+poaphnno = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:27,2019-04-16 12:35:27,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Phone Number_telephone""), poaphnno)",Chrome 73.0.3683.103,,2019-04-16 12:35:27,2019-04-16 12:35:27,0.317s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:35:27,2019-04-16 12:35:27,0.135s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field""), ""971"")",Chrome 73.0.3683.103,,2019-04-16 12:35:27,2019-04-16 12:35:28,0.259s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/poa/Mobile Number/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:28,0.103s,PASSED
+poamobno = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:28,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Mobile Number_mobile""), poamobno)",Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:28,0.378s,PASSED
+poaemail = RandomStringUtils.randomAlphanumeric(3),Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:28,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Email_email""), poaemail + ""@GMAIL.COM"")",Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:28,0.365s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_Address_userAddress""), poaaddress)",Chrome 73.0.3683.103,,2019-04-16 12:35:28,2019-04-16 12:35:29,0.536s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/country/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:35:29,2019-04-16 12:35:29,0.134s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field""), ""ARAB E"")",Chrome 73.0.3683.103,,2019-04-16 12:35:29,2019-04-16 12:35:29,0.304s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/poa/country/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:35:29,2019-04-16 12:35:29,0.111s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/city/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:35:29,2019-04-16 12:35:30,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/city/Page_Chiragh/input__select2-search__field""), ""SHA"")",Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.214s,PASSED
+"sendKeys(findTestObject(""Object Repository/Property(owner)/poa/city/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.107s,PASSED
+poapobox = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_P.O.Box_pobox""), poapobox)",Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.264s,PASSED
+poano = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/input_POA Number_poaNumber""), poano)",Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:30,0.288s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/div_POA Expiry Date_mat-form-f""))",Chrome 73.0.3683.103,,2019-04-16 12:35:30,2019-04-16 12:35:31,0.133s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/button_POA Expiry Date_mat-ico""))",Chrome 73.0.3683.103,,2019-04-16 12:35:31,2019-04-16 12:35:31,0.350s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/button_JAN 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:35:31,2019-04-16 12:35:31,0.196s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/div_2021""))",Chrome 73.0.3683.103,,2019-04-16 12:35:31,2019-04-16 12:35:31,0.181s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/div_AUG""))",Chrome 73.0.3683.103,,2019-04-16 12:35:31,2019-04-16 12:35:32,0.253s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/poa expiry date/Page_Chiragh/div_11""))",Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:32,0.152s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/mat-select_Select One_1""))",Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:32,0.116s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/mat-option_Individual Property""))",Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:32,0.135s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:32,0.040s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:32,0.022s,PASSED
+delay(6),Chrome 73.0.3683.103,,2019-04-16 12:35:32,2019-04-16 12:35:38,6.004s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/poa/Scanned Passport Copy/Page_Chiragh/div_Scanned Passport Copy_doc-""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:35:38,2019-04-16 12:35:38,0.172s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:38,2019-04-16 12:35:38,0.054s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_Upload_upload-doc-div""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:38,2019-04-16 12:35:38,0.023s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:35:38,2019-04-16 12:35:45,7.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/poa/Scanned Notarized POA/Page_Chiragh/div_(International POA should""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:35:45,2019-04-16 12:35:45,0.139s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/span_General POA not accepted_""))",Chrome 73.0.3683.103,,2019-04-16 12:35:45,2019-04-16 12:35:46,0.103s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:46,2019-04-16 12:35:49,3.003s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/button_Next""))",Chrome 73.0.3683.103,,2019-04-16 12:35:49,2019-04-16 12:35:49,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/snack-bar-container_Data  Save""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:49,2019-04-16 12:35:51,1.733s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/span_Data  Saved Successfully""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:51,2019-04-16 12:35:51,0.034s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/poa/Page_Chiragh/div_Property DetailsArea Detai""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:35:51,2019-04-16 12:35:51,0.041s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:51,2019-04-16 12:35:54,3.002s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Property Status/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:35:54,2019-04-16 12:35:54,0.305s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Property Status/Page_Chiragh/span_Other""))",Chrome 73.0.3683.103,,2019-04-16 12:35:54,2019-04-16 12:35:54,0.181s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Property Status/Page_Chiragh/input_Other_propertyStatusOthe""), ""in progress"")",Chrome 73.0.3683.103,,2019-04-16 12:35:54,2019-04-16 12:35:55,0.424s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:55,2019-04-16 12:35:58,3.003s,PASSED
+titledeed = RandomStringUtils.randomAlphanumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Title Deed Number_titlDe""), titledeed)",Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:58,0.484s,PASSED
+oqoodino = RandomStringUtils.randomAlphanumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Oqoodi Number_oqoodiNo""), oqoodino)",Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:58,0.324s,PASSED
+makanino = RandomStringUtils.randomAlphanumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:58,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Makani Number_makaniNo""), makanino)",Chrome 73.0.3683.103,,2019-04-16 12:35:58,2019-04-16 12:35:59,0.257s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/mat-select_Select One""), 7)",Chrome 73.0.3683.103,,2019-04-16 12:35:59,2019-04-16 12:35:59,0.045s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:35:59,2019-04-16 12:35:59,0.100s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Type of Area/Page_Chiragh/span_Lease Hold""))",Chrome 73.0.3683.103,,2019-04-16 12:35:59,2019-04-16 12:35:59,0.108s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:35:59,2019-04-16 12:36:02,3.002s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:36:02,2019-04-16 12:36:02,0.360s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:36:02,2019-04-16 12:36:05,3.003s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/Page_Chiragh/span_Other""))",Chrome 73.0.3683.103,,2019-04-16 12:36:05,2019-04-16 12:36:05,0.171s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/input_Other_typePropertyOther""), ""villa"")",Chrome 73.0.3683.103,,2019-04-16 12:36:05,2019-04-16 12:36:06,0.278s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:36:06,2019-04-16 12:36:09,3.004s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Project Name_projectName""), projectname)",Chrome 73.0.3683.103,,2019-04-16 12:36:09,2019-04-16 12:36:09,0.684s,PASSED
+plotno = RandomStringUtils.randomAlphanumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:36:09,2019-04-16 12:36:09,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Plot Number_plotNo""), plotno)",Chrome 73.0.3683.103,,2019-04-16 12:36:09,2019-04-16 12:36:10,0.416s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Building Name_bulidingNa""), projectname)",Chrome 73.0.3683.103,,2019-04-16 12:36:10,2019-04-16 12:36:10,0.443s,PASSED
+buildingnumber = RandomStringUtils.randomAlphanumeric(3),Chrome 73.0.3683.103,,2019-04-16 12:36:10,2019-04-16 12:36:10,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Building Number_buliding""), buildingnumber)",Chrome 73.0.3683.103,,2019-04-16 12:36:10,2019-04-16 12:36:10,0.178s,PASSED
+officeno = RandomStringUtils.randomAlphanumeric(3),Chrome 73.0.3683.103,,2019-04-16 12:36:10,2019-04-16 12:36:10,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_FlatOffice No._officeNo""), officeno)",Chrome 73.0.3683.103,,2019-04-16 12:36:10,2019-04-16 12:36:11,0.214s,PASSED
+netarea = RandomStringUtils.randomNumeric(3),Chrome 73.0.3683.103,,2019-04-16 12:36:11,2019-04-16 12:36:11,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/area/input_Net Area_netArea""), netarea)",Chrome 73.0.3683.103,,2019-04-16 12:36:11,2019-04-16 12:36:11,0.269s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/area/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:36:11,2019-04-16 12:36:11,0.115s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/area/Page_Chiragh/span_sqft""))",Chrome 73.0.3683.103,,2019-04-16 12:36:11,2019-04-16 12:36:11,0.191s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:36:11,2019-04-16 12:36:14,3.003s,PASSED
+grossarea = RandomStringUtils.randomNumeric(4),Chrome 73.0.3683.103,,2019-04-16 12:36:14,2019-04-16 12:36:14,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/area/input_Gross Area_grossArea""), grossarea)",Chrome 73.0.3683.103,,2019-04-16 12:36:14,2019-04-16 12:36:15,0.447s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/input_Address_address""), propertyaddress)",Chrome 73.0.3683.103,,2019-04-16 12:36:15,2019-04-16 12:36:15,0.531s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/country/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:36:15,2019-04-16 12:36:15,0.185s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/country/Page_Chiragh/input__select2-search__field""), ""ARAB E"")",Chrome 73.0.3683.103,,2019-04-16 12:36:15,2019-04-16 12:36:16,0.306s,PASSED
+"sendKeys(findTestObject(""Property(owner)/property/country/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:36:16,2019-04-16 12:36:16,0.109s,PASSED
+"click(findTestObject(""Property(owner)/property/city/Page_Chiragh/span_Select""))",Chrome 73.0.3683.103,,2019-04-16 12:36:16,2019-04-16 12:36:16,0.120s,PASSED
+"setText(findTestObject(""Property(owner)/property/city/Page_Chiragh/input__select2-search__field""), ""Sharjah"")",Chrome 73.0.3683.103,,2019-04-16 12:36:16,2019-04-16 12:36:16,0.277s,PASSED
+"sendKeys(findTestObject(""Property(owner)/property/city/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:36:16,2019-04-16 12:36:16,0.076s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/map/Page_Chiragh/input_View_searchAddress""), ""Hatta"")",Chrome 73.0.3683.103,,2019-04-16 12:36:16,2019-04-16 12:36:17,0.294s,PASSED
+"click(findTestObject(""Property(owner)/property/map/Page_Chiragh/div_HattaDubai - United Arab E""))",Chrome 73.0.3683.103,,2019-04-16 12:36:17,2019-04-16 12:36:17,0.685s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/property/map/Page_Chiragh/div_Map DataMap data 2019 Goog""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:36:17,2019-04-16 12:36:17,0.031s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:36:17,2019-04-16 12:36:21,4.004s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Property(owner)/property/map/Page_Chiragh/button_""), 4)",Chrome 73.0.3683.103,,2019-04-16 12:36:21,2019-04-16 12:36:21,0.222s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/map/Page_Chiragh/button_""))",Chrome 73.0.3683.103,,2019-04-16 12:36:22,2019-04-16 12:36:22,0.140s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:36:22,2019-04-16 12:36:27,5.002s,PASSED
+developersname = company().name(),Chrome 73.0.3683.103,,2019-04-16 12:36:27,2019-04-16 12:36:27,0.034s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Developer Name_developer""), developersname)",Chrome 73.0.3683.103,,2019-04-16 12:36:27,2019-04-16 12:36:27,0.786s,PASSED
+associationnumber = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:36:27,2019-04-16 12:36:27,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Owner Association Number""), associationnumber)",Chrome 73.0.3683.103,,2019-04-16 12:36:27,2019-04-16 12:36:28,0.332s,PASSED
+communitynumber = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:28,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Community Number_communi""), communitynumber)",Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:28,0.354s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Present Use/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:28,0.161s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Present Use/Page_Chiragh/span_Commercial""))",Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:28,0.174s,PASSED
+approxage = RandomStringUtils.randomNumeric(1),Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:28,0.002s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Property Approx. Age_pro""), approxage + "" Years"")",Chrome 73.0.3683.103,,2019-04-16 12:36:28,2019-04-16 12:36:29,0.364s,PASSED
+noOfBedrooms = RandomStringUtils.randomNumeric(1),Chrome 73.0.3683.103,,2019-04-16 12:36:29,2019-04-16 12:36:29,0.000s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Bedrooms_noOfBedrooms""), noOfBedrooms)",Chrome 73.0.3683.103,,2019-04-16 12:36:29,2019-04-16 12:36:29,0.222s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Bathrooms_noOfBaths""), noOfBedrooms)",Chrome 73.0.3683.103,,2019-04-16 12:36:29,2019-04-16 12:36:29,0.197s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Car Parks_carParks""), ""2"")",Chrome 73.0.3683.103,,2019-04-16 12:36:29,2019-04-16 12:36:30,0.239s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Kitchens_kitchens""), ""2"")",Chrome 73.0.3683.103,,2019-04-16 12:36:30,2019-04-16 12:36:30,0.157s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Floor No._floorNo""), ""1"")",Chrome 73.0.3683.103,,2019-04-16 12:36:30,2019-04-16 12:36:30,0.195s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_Unit No._noUnits""), ""1"")",Chrome 73.0.3683.103,,2019-04-16 12:36:30,2019-04-16 12:36:30,0.250s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_No. of Floors_noOfFloors""), ""3"")",Chrome 73.0.3683.103,,2019-04-16 12:36:30,2019-04-16 12:36:30,0.254s,PASSED
+"setText(findTestObject(""Property(owner)/property/Page_Chiragh/input_No. of Shops_noShops""), ""1"")",Chrome 73.0.3683.103,,2019-04-16 12:36:30,2019-04-16 12:36:31,0.251s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Features/Page_Chiragh/span_Community View_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.127s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Features/Page_Chiragh/span_Covered Parking_check mr-""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.121s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Features/Page_Chiragh/span_Fully Fitted Kitchen_chec""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.112s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Features/Page_Chiragh/span_Fully Furnished_check mr-""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.117s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Features/Page_Chiragh/span_Intercom_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.116s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Facilities/Page_Chiragh/span_Basket Ball Court_check m""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.125s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Facilities/Page_Chiragh/span_Children Play Area_check""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:31,0.122s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Facilities/Page_Chiragh/span_Business Center_check mr-""))",Chrome 73.0.3683.103,,2019-04-16 12:36:31,2019-04-16 12:36:32,0.111s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Facilities/Page_Chiragh/span_Facilities_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.142s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Beaches_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.136s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Medical Centers_check mr-""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.112s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Mosques_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.165s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Park_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.133s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Schools_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:32,0.139s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Neighbourhood Information/Page_Chiragh/span_Super Markets_check mr-2""))",Chrome 73.0.3683.103,,2019-04-16 12:36:32,2019-04-16 12:36:33,0.178s,PASSED
+"setText(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/textarea_Description_propertyD""), ""property for sale"")",Chrome 73.0.3683.103,,2019-04-16 12:36:33,2019-04-16 12:36:33,0.394s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:36:33,2019-04-16 12:36:33,0.035s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:36:33,2019-04-16 12:36:40,7.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/property/Scanned Title Deed/Page_Chiragh/div_Scanned Title Deed_doc-upl""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:36:40,2019-04-16 12:36:40,0.203s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/property/SPA/Page_Chiragh/div_Upload_upload-doc-div""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:36:40,2019-04-16 12:36:40,0.051s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:36:40,2019-04-16 12:36:47,7.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/property/SPA/Page_Chiragh/Page_Chiragh/div_(Sale purchase agreement)_""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:36:47,2019-04-16 12:36:47,0.181s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:36:47,2019-04-16 12:36:54,7.003s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property/Page_Chiragh/button_Next""))",Chrome 73.0.3683.103,,2019-04-16 12:36:54,2019-04-16 12:36:55,0.359s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:36:55,2019-04-16 12:36:58,3.002s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Mortgage Status/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:36:58,2019-04-16 12:36:59,1.310s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Mortgage Status/Page_Chiragh/span_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:36:59,2019-04-16 12:36:59,0.143s,PASSED
+Mortgagenumber = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:36:59,2019-04-16 12:36:59,0.000s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Page_Chiragh/input_Mortgage Number_morgageR""), Mortgagenumber)",Chrome 73.0.3683.103,,2019-04-16 12:36:59,2019-04-16 12:36:59,0.225s,PASSED
+MortgageInitialAmount = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:36:59,2019-04-16 12:37:00,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Page_Chiragh/input_Mortgage Initial Amount_""), MortgageInitialAmount)",Chrome 73.0.3683.103,,2019-04-16 12:37:00,2019-04-16 12:37:00,0.182s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:37:00,2019-04-16 12:37:03,3.002s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/mat-form-field_Mortgage Start""))",Chrome 73.0.3683.103,,2019-04-16 12:37:03,2019-04-16 12:37:03,0.246s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/button_Mortgage Start Date_mat""))",Chrome 73.0.3683.103,,2019-04-16 12:37:03,2019-04-16 12:37:03,0.209s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/button_JAN 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:37:03,2019-04-16 12:37:03,0.178s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/div_2022""))",Chrome 73.0.3683.103,,2019-04-16 12:37:03,2019-04-16 12:37:03,0.179s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/div_NOV""))",Chrome 73.0.3683.103,,2019-04-16 12:37:03,2019-04-16 12:37:04,0.248s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/mortgage/Mortgage Start Date/Page_Chiragh/div_17""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.096s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Mortgage Period/Page_Chiragh/mat-select_Year""))",Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.116s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Mortgage Period/Page_Chiragh/span_3""))",Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.205s,PASSED
+OutstandingAmount = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Page_Chiragh/input_Outstanding Amount_outst""), OutstandingAmount)",Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.187s,PASSED
+MonthlyMortgagepayment = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:04,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Page_Chiragh/input_Monthly Mortgage payment""), MonthlyMortgagepayment)",Chrome 73.0.3683.103,,2019-04-16 12:37:04,2019-04-16 12:37:05,0.282s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Financing/Page_Chiragh/span_Select Bank""))",Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:05,0.129s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Financing/Page_Chiragh/input__select2-search__field""), ""Other"")",Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:05,0.175s,PASSED
+"sendKeys(findTestObject(""Property(owner)/mortgage/Financing/Page_Chiragh/input__select2-search__field""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:05,0.082s,PASSED
+"setText(findTestObject(""Property(owner)/mortgage/Financing/Page_Chiragh/input_Other_otherBank""), ""UAE Bank"")",Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:05,0.316s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:05,0.044s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:05,2019-04-16 12:37:12,7.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/mortgage/Scanned NOC Form/Page_Chiragh/div_(Mortgage Company)_doc-upl""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:37:12,2019-04-16 12:37:13,0.168s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/mortgage/other/Page_Chiragh/div_Upload_upload-doc-div""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:37:13,2019-04-16 12:37:13,0.046s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:13,2019-04-16 12:37:20,7.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/mortgage/other/Page_Chiragh/div_Other_doc-upload""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:37:20,2019-04-16 12:37:20,0.153s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:37:20,2019-04-16 12:37:25,5.005s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Page_Chiragh/button_Next""))",Chrome 73.0.3683.103,,2019-04-16 12:37:25,2019-04-16 12:37:25,0.281s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:37:25,2019-04-16 12:37:28,3.001s,PASSED
+"click(findTestObject(""Property(owner)/rent/Property Rented/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:37:28,2019-04-16 12:37:28,0.277s,PASSED
+"click(findTestObject(""Property(owner)/rent/Property Rented/Page_Chiragh/span_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:37:28,2019-04-16 12:37:28,0.142s,PASSED
+EjariNumber = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:37:28,2019-04-16 12:37:28,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/rent/Page_Chiragh/input_Ejari Number_rentalEjari""), EjariNumber)",Chrome 73.0.3683.103,,2019-04-16 12:37:28,2019-04-16 12:37:29,0.257s,PASSED
+tenantName = name().firstName(),Chrome 73.0.3683.103,,2019-04-16 12:37:29,2019-04-16 12:37:29,0.000s,PASSED
+"setText(findTestObject(""Property(owner)/rent/Page_Chiragh/input_Tenant Name_tenantName""), tenantName)",Chrome 73.0.3683.103,,2019-04-16 12:37:29,2019-04-16 12:37:29,0.162s,PASSED
+AnnualRentAmount = RandomStringUtils.randomNumeric(7),Chrome 73.0.3683.103,,2019-04-16 12:37:29,2019-04-16 12:37:29,0.001s,PASSED
+"setText(findTestObject(""Property(owner)/rent/Page_Chiragh/input_Annual Rent Amount_renta""), AnnualRentAmount)",Chrome 73.0.3683.103,,2019-04-16 12:37:29,2019-04-16 12:37:29,0.255s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:29,2019-04-16 12:37:36,7.003s,PASSED
+"click(findTestObject(""Property(owner)/rent/Payment Structure/Page_Chiragh/mat-select_Select One""))",Chrome 73.0.3683.103,,2019-04-16 12:37:36,2019-04-16 12:37:36,0.151s,PASSED
+"click(findTestObject(""Property(owner)/rent/Payment Structure/Page_Chiragh/span_2""))",Chrome 73.0.3683.103,,2019-04-16 12:37:36,2019-04-16 12:37:36,0.166s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/div_Lease Start Date_mat-form-""))",Chrome 73.0.3683.103,,2019-04-16 12:37:36,2019-04-16 12:37:37,0.125s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/button_Lease Start Date_mat-ic""))",Chrome 73.0.3683.103,,2019-04-16 12:37:37,2019-04-16 12:37:37,0.279s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/button_JAN 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:37:37,2019-04-16 12:37:37,0.281s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/div_2022""))",Chrome 73.0.3683.103,,2019-04-16 12:37:37,2019-04-16 12:37:37,0.155s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/div_NOV""))",Chrome 73.0.3683.103,,2019-04-16 12:37:37,2019-04-16 12:37:38,0.221s,PASSED
+"click(findTestObject(""Property(owner)/rent/Lease Start Date/Page_Chiragh/td_25""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:38,0.094s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_Lease End Date_mat-form-fi""))",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:38,0.084s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/button_Lease End Date_mat-icon""))",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:38,0.239s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/button_JAN 2019""))",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:38,0.182s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_2026""))",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:38,0.265s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_NOV""))",Chrome 73.0.3683.103,,2019-04-16 12:37:38,2019-04-16 12:37:39,0.258s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_10""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-16 12:37:39,2019-04-16 12:37:39,0.121s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:39,2019-04-16 12:37:46,7.002s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_jpg png pdf accepted with""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:37:46,2019-04-16 12:37:46,0.146s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:46,2019-04-16 12:37:53,7.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_Scanned Tenancy Contract_d""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:37:53,2019-04-16 12:37:53,0.171s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Property(owner)/rent/other/Page_Chiragh/div_Upload_upload-doc-div""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:37:53,2019-04-16 12:37:53,0.069s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:37:53,2019-04-16 12:38:00,7.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/Property(owner)/rent/other/Page_Chiragh/Page_Chiragh/div_Other_doc-upload""), ""C:\Users\HP\Katalon Studio\register\Include\images\Scanned Passport Copy.png"")",Chrome 73.0.3683.103,,2019-04-16 12:38:00,2019-04-16 12:38:00,0.182s,PASSED
+"click(findTestObject(""Property(owner)/mortgage/Page_Chiragh/button_Next""))",Chrome 73.0.3683.103,,2019-04-16 12:38:00,2019-04-16 12:38:00,0.118s,PASSED
+"click(findTestObject(""Property(owner)/Valuation/Page_Chiragh/span_INDEPENDENT REAL ESTATE V""))",Chrome 73.0.3683.103,,2019-04-16 12:38:00,2019-04-16 12:38:04,3.521s,PASSED
+"click(findTestObject(""Property(owner)/Valuation/Page_Chiragh/h3_JLL""))",Chrome 73.0.3683.103,,2019-04-16 12:38:04,2019-04-16 12:38:04,0.144s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:38:04,2019-04-16 12:38:07,3.002s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property saved/Page_Chiragh/mat-select_Select Payment Mode""))",Chrome 73.0.3683.103,,2019-04-16 12:38:07,2019-04-16 12:38:07,0.215s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:38:07,2019-04-16 12:38:10,3.004s,PASSED
+"click(findTestObject(""Object Repository/Property(owner)/property saved/Page_Chiragh/span_Wallet""))",Chrome 73.0.3683.103,,2019-04-16 12:38:10,2019-04-16 12:38:11,0.228s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:38:11,2019-04-16 12:38:14,3.003s,PASSED
+"click(findTestObject(""Property(owner)/Valuation/Page_Chiragh/button_SUBMIT FOR VALUATION""))",Chrome 73.0.3683.103,,2019-04-16 12:38:14,2019-04-16 12:38:14,0.265s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:38:14,2019-04-16 12:38:19,5.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Property(owner)/property saved/Page_Chiragh/div_Your property details have""), 5)",Chrome 73.0.3683.103,,2019-04-16 12:38:19,2019-04-16 12:38:19,0.086s,PASSED
+,,,,,,
+Test Cases/verification department,Chrome 73.0.3683.103,,2019-04-16 12:38:19,2019-04-16 12:40:13,1m - 54.344s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:38:19,2019-04-16 12:38:23,3.180s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:38:23,2019-04-16 12:38:39,16.021s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:38:39,2019-04-16 12:38:40,1.163s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:38:40,2019-04-16 12:38:40,0.118s,PASSED
+"setText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:38:40,2019-04-16 12:38:40,0.194s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:38:40,2019-04-16 12:38:40,0.090s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:38:40,2019-04-16 12:38:41,0.363s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:38:41,2019-04-16 12:38:41,0.097s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:38:41,2019-04-16 12:38:46,5.655s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ""))",Chrome 73.0.3683.103,,2019-04-16 12:38:46,2019-04-16 12:38:50,3.502s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)""))",Chrome 73.0.3683.103,,2019-04-16 12:38:50,2019-04-16 12:38:50,0.146s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:38:50,2019-04-16 12:38:50,0.268s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_AK""))",Chrome 73.0.3683.103,,2019-04-16 12:38:50,2019-04-16 12:38:50,0.234s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:38:50,2019-04-16 12:38:56,5.549s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:38:56,2019-04-16 12:38:56,0.111s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:38:56,2019-04-16 12:38:56,0.122s,PASSED
+"setText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""mumtazhassan"")",Chrome 73.0.3683.103,,2019-04-16 12:38:56,2019-04-16 12:38:56,0.247s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:38:56,2019-04-16 12:38:57,0.102s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:38:57,2019-04-16 12:38:57,0.146s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:38:57,2019-04-16 12:38:57,0.090s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_My Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:38:57,2019-04-16 12:38:59,2.437s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/th_Status""))",Chrome 73.0.3683.103,,2019-04-16 12:38:59,2019-04-16 12:39:15,15.684s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_Start Now""))",Chrome 73.0.3683.103,,2019-04-16 12:39:15,2019-04-16 12:39:15,0.175s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:39:15,2019-04-16 12:39:15,0.271s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:39:15,2019-04-16 12:39:23,8.000s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building""))",Chrome 73.0.3683.103,,2019-04-16 12:39:23,2019-04-16 12:39:24,0.936s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Verify""))",Chrome 73.0.3683.103,,2019-04-16 12:39:24,2019-04-16 12:39:26,1.813s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_POAs""))",Chrome 73.0.3683.103,,2019-04-16 12:39:26,2019-04-16 12:39:27,0.495s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_POAs_1""))",Chrome 73.0.3683.103,,2019-04-16 12:39:27,2019-04-16 12:39:27,0.308s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Verify""))",Chrome 73.0.3683.103,,2019-04-16 12:39:27,2019-04-16 12:39:27,0.391s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details""))",Chrome 73.0.3683.103,,2019-04-16 12:39:27,2019-04-16 12:39:28,0.908s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Verify""))",Chrome 73.0.3683.103,,2019-04-16 12:39:28,2019-04-16 12:39:29,0.498s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage""))",Chrome 73.0.3683.103,,2019-04-16 12:39:29,2019-04-16 12:39:29,0.431s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage_1""))",Chrome 73.0.3683.103,,2019-04-16 12:39:29,2019-04-16 12:39:30,0.597s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Verify""))",Chrome 73.0.3683.103,,2019-04-16 12:39:30,2019-04-16 12:39:30,0.394s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Rental""))",Chrome 73.0.3683.103,,2019-04-16 12:39:30,2019-04-16 12:39:31,0.482s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Verify""))",Chrome 73.0.3683.103,,2019-04-16 12:39:31,2019-04-16 12:39:31,0.291s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Check List""))",Chrome 73.0.3683.103,,2019-04-16 12:39:31,2019-04-16 12:39:32,0.722s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif""))",Chrome 73.0.3683.103,,2019-04-16 12:39:32,2019-04-16 12:39:34,2.684s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm""))",Chrome 73.0.3683.103,,2019-04-16 12:39:34,2019-04-16 12:39:35,0.260s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:39:35,2019-04-16 12:39:40,5.000s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_MH""))",Chrome 73.0.3683.103,,2019-04-16 12:39:40,2019-04-16 12:39:40,0.486s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:39:40,2019-04-16 12:39:47,7.000s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:39:47,2019-04-16 12:39:53,5.876s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:39:53,2019-04-16 12:39:53,0.028s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:39:53,2019-04-16 12:39:53,0.139s,PASSED
+"setText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:39:53,2019-04-16 12:39:53,0.190s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:39:53,2019-04-16 12:39:53,0.120s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:39:53,2019-04-16 12:39:54,0.152s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:39:54,2019-04-16 12:39:54,0.100s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:39:54,2019-04-16 12:39:56,2.425s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building""))",Chrome 73.0.3683.103,,2019-04-16 12:39:56,2019-04-16 12:40:03,6.675s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:40:03,2019-04-16 12:40:06,3.005s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/div_Check List""))",Chrome 73.0.3683.103,,2019-04-16 12:40:06,2019-04-16 12:40:07,0.837s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Approve""))",Chrome 73.0.3683.103,,2019-04-16 12:40:07,2019-04-16 12:40:07,0.265s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/snack-bar-container_Are you su_2""))",Chrome 73.0.3683.103,,2019-04-16 12:40:07,2019-04-16 12:40:07,0.099s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to _2""))",Chrome 73.0.3683.103,,2019-04-16 12:40:07,2019-04-16 12:40:07,0.267s,PASSED
+"click(findTestObject(""Object Repository/verification department/Page_Chiragh.com Admin/button_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:40:07,2019-04-16 12:40:08,0.236s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:40:08,2019-04-16 12:40:13,5.003s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 12:40:13,2019-04-16 12:40:13,0.787s,PASSED
+,,,,,,
+Test Cases/valuation department,Chrome 73.0.3683.103,,2019-04-16 12:40:13,2019-04-16 12:46:26,6m - 12.315s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:40:14,2019-04-16 12:40:16,2.442s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:40:16,2019-04-16 12:40:28,11.671s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:40:28,2019-04-16 12:40:29,1.119s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:29,0.010s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:29,0.085s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""haleemhanif"")",Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:29,0.181s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:29,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:29,0.143s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:40:29,2019-04-16 12:40:30,0.083s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:40:30,2019-04-16 12:40:37,7.582s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-16 12:40:37,2019-04-16 12:40:39,2.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_a day ago_fas fa-user-circle""))",Chrome 73.0.3683.103,,2019-04-16 12:40:39,2019-04-16 12:40:40,0.800s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza""))",Chrome 73.0.3683.103,,2019-04-16 12:40:40,2019-04-16 12:40:40,0.119s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_HH""))",Chrome 73.0.3683.103,,2019-04-16 12:40:40,2019-04-16 12:40:40,0.177s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:40:40,2019-04-16 12:40:45,5.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:40:45,2019-04-16 12:40:52,6.947s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:40:52,2019-04-16 12:40:52,0.028s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:40:52,2019-04-16 12:40:52,0.107s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""chrystaldsouza"")",Chrome 73.0.3683.103,,2019-04-16 12:40:52,2019-04-16 12:40:53,0.229s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:40:53,2019-04-16 12:40:53,0.141s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:40:53,2019-04-16 12:40:53,0.185s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:40:53,2019-04-16 12:40:53,0.095s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_My Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:40:53,2019-04-16 12:40:57,3.930s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/i_Schedule Appointment_fas fa-""))",Chrome 73.0.3683.103,,2019-04-16 12:40:57,2019-04-16 12:41:07,10.553s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:41:07,2019-04-16 12:41:10,3.003s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Schedule an Onsite Visit""), ""Onsite Visit"")",Chrome 73.0.3683.103,,2019-04-16 12:41:10,2019-04-16 12:41:11,0.802s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/span_Schedule an Onsite Visit_""))",Chrome 73.0.3683.103,,2019-04-16 12:41:11,2019-04-16 12:41:12,0.312s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Help_cdk-overlay-backdrop""))",Chrome 73.0.3683.103,,2019-04-16 12:41:12,2019-04-16 12:41:12,0.174s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/span_20""))",Chrome 73.0.3683.103,,2019-04-16 12:41:12,2019-04-16 12:41:12,0.178s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Sat_owl-dt-timer-input""), ""11"")",Chrome 73.0.3683.103,,2019-04-16 12:41:12,2019-04-16 12:41:12,0.413s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Hour_owl-dt-timer-input""), ""00"")",Chrome 73.0.3683.103,,2019-04-16 12:41:12,2019-04-16 12:41:13,0.283s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:41:13,2019-04-16 12:41:17,4.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/span_Set""))",Chrome 73.0.3683.103,,2019-04-16 12:41:17,2019-04-16 12:41:17,0.251s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/textarea_Schedule an Onsite Vi""), ""Onsite Visit "")",Chrome 73.0.3683.103,,2019-04-16 12:41:17,2019-04-16 12:41:18,0.688s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_SAVE""))",Chrome 73.0.3683.103,,2019-04-16 12:41:18,2019-04-16 12:41:18,0.134s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:41:18,2019-04-16 12:41:22,4.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/img1""))",Chrome 73.0.3683.103,,2019-04-16 12:41:22,2019-04-16 12:41:22,0.254s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:41:22,2019-04-16 12:41:25,3.005s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_CD""))",Chrome 73.0.3683.103,,2019-04-16 12:41:25,2019-04-16 12:41:25,0.530s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:41:25,2019-04-16 12:41:33,8.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:41:33,2019-04-16 12:41:41,7.302s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:41,0.028s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:41,0.170s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""fatimazaidi"")",Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:41,0.230s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:41,0.087s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:41,0.167s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:41:41,2019-04-16 12:41:42,0.094s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_December 30th 2019 1024 AM_f""))",Chrome 73.0.3683.103,,2019-04-16 12:41:42,2019-04-16 12:41:49,7.270s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Adnan Shafiq""))",Chrome 73.0.3683.103,,2019-04-16 12:41:49,2019-04-16 12:41:49,0.112s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:41:49,2019-04-16 12:41:49,0.180s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_FZ""))",Chrome 73.0.3683.103,,2019-04-16 12:41:49,2019-04-16 12:41:49,0.225s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:41:49,2019-04-16 12:41:56,7.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:41:56,2019-04-16 12:42:04,7.607s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:42:04,2019-04-16 12:42:04,0.022s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:42:04,2019-04-16 12:42:04,0.147s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""adnanshafiq"")",Chrome 73.0.3683.103,,2019-04-16 12:42:04,2019-04-16 12:42:04,0.192s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:42:04,2019-04-16 12:42:04,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:42:04,2019-04-16 12:42:05,0.131s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:42:05,2019-04-16 12:42:05,0.116s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_December 30th 2019 1000 AM_f_1""))",Chrome 73.0.3683.103,,2019-04-16 12:42:05,2019-04-16 12:42:19,14.575s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Confirm""))",Chrome 73.0.3683.103,,2019-04-16 12:42:19,2019-04-16 12:42:19,0.129s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel_fas fa-ba""))",Chrome 73.0.3683.103,,2019-04-16 12:42:19,2019-04-16 12:42:20,0.682s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:42:20,2019-04-16 12:42:23,3.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation""))",Chrome 73.0.3683.103,,2019-04-16 12:42:23,2019-04-16 12:42:23,0.414s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Valuation_file""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\pdf\valuation.pdf"")",Chrome 73.0.3683.103,,2019-04-16 12:42:23,2019-04-16 12:42:24,0.130s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-16 12:42:24,2019-04-16 12:42:34,10.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 12:42:34,2019-04-16 12:42:34,0.332s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:42:34,2019-04-16 12:42:39,5.004s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel""))",Chrome 73.0.3683.103,,2019-04-16 12:42:39,2019-04-16 12:42:39,0.495s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:42:39,2019-04-16 12:42:43,4.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List""))",Chrome 73.0.3683.103,,2019-04-16 12:42:43,2019-04-16 12:42:44,0.478s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:42:44,2019-04-16 12:42:48,4.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Confirm""))",Chrome 73.0.3683.103,,2019-04-16 12:42:48,2019-04-16 12:42:48,0.239s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:42:48,2019-04-16 12:42:51,3.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_AS""))",Chrome 73.0.3683.103,,2019-04-16 12:42:51,2019-04-16 12:42:52,0.466s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:42:52,2019-04-16 12:43:00,8.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:43:00,2019-04-16 12:43:07,7.641s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:43:07,2019-04-16 12:43:07,0.029s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:43:07,2019-04-16 12:43:07,0.110s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""fatimazaidi"")",Chrome 73.0.3683.103,,2019-04-16 12:43:07,2019-04-16 12:43:08,0.167s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:43:08,2019-04-16 12:43:08,0.129s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:43:08,2019-04-16 12:43:08,0.157s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:43:08,2019-04-16 12:43:08,0.092s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:43:08,2019-04-16 12:43:12,3.881s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel""))",Chrome 73.0.3683.103,,2019-04-16 12:43:12,2019-04-16 12:43:20,8.364s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:43:20,2019-04-16 12:43:24,4.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List""))",Chrome 73.0.3683.103,,2019-04-16 12:43:24,2019-04-16 12:43:25,0.511s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Approve""))",Chrome 73.0.3683.103,,2019-04-16 12:43:25,2019-04-16 12:43:25,0.251s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:43:25,2019-04-16 12:43:25,0.154s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:43:25,2019-04-16 12:43:28,3.004s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_FZ""))",Chrome 73.0.3683.103,,2019-04-16 12:43:28,2019-04-16 12:43:28,0.304s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:43:28,2019-04-16 12:43:36,8.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:43:36,2019-04-16 12:43:44,7.894s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:43:44,2019-04-16 12:43:44,0.028s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:43:44,2019-04-16 12:43:44,0.117s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""chrystaldsouza"")",Chrome 73.0.3683.103,,2019-04-16 12:43:44,2019-04-16 12:43:45,0.358s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:43:45,2019-04-16 12:43:45,0.118s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:43:45,2019-04-16 12:43:45,0.248s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:43:45,2019-04-16 12:43:45,0.131s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_My Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:43:45,2019-04-16 12:43:49,3.831s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel_fas fa-ba_1""))",Chrome 73.0.3683.103,,2019-04-16 12:43:49,2019-04-16 12:44:04,15.259s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:44:04,2019-04-16 12:44:09,5.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation_1""))",Chrome 73.0.3683.103,,2019-04-16 12:44:09,2019-04-16 12:44:10,0.297s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation_1""))",Chrome 73.0.3683.103,,2019-04-16 12:44:10,2019-04-16 12:44:10,0.288s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Chiragh Valuation Report""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\pdf\ChiraghValuation.pdf"")",Chrome 73.0.3683.103,,2019-04-16 12:44:10,2019-04-16 12:44:10,0.130s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:44:10,2019-04-16 12:44:15,5.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Market Analysis Report""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\pdf\MarketAnalysis.pdf"")",Chrome 73.0.3683.103,,2019-04-16 12:44:15,2019-04-16 12:44:15,0.139s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:44:15,2019-04-16 12:44:20,5.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Gallery/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag""))",Chrome 73.0.3683.103,,2019-04-16 12:44:20,2019-04-16 12:44:21,0.292s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:21,2019-04-16 12:44:24,3.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Gallery""))",Chrome 73.0.3683.103,,2019-04-16 12:44:24,2019-04-16 12:44:24,0.465s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Gallery""))",Chrome 73.0.3683.103,,2019-04-16 12:44:24,2019-04-16 12:44:24,0.184s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:44:24,2019-04-16 12:44:32,8.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\15.jpg"")",Chrome 73.0.3683.103,,2019-04-16 12:44:32,2019-04-16 12:44:32,0.193s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:32,2019-04-16 12:44:35,3.000s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Mark Main_upload-img-li""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\akoya-oxygen-1076-2052.jpg"")",Chrome 73.0.3683.103,,2019-04-16 12:44:35,2019-04-16 12:44:41,5.316s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:41,2019-04-16 12:44:44,3.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\arabian-ranches.png"")",Chrome 73.0.3683.103,,2019-04-16 12:44:44,2019-04-16 12:44:44,0.144s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:44,2019-04-16 12:44:47,3.002s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\119161567.jpg"")",Chrome 73.0.3683.103,,2019-04-16 12:44:47,2019-04-16 12:44:47,0.183s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:47,2019-04-16 12:44:50,3.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\41533282.jpeg"")",Chrome 73.0.3683.103,,2019-04-16 12:44:50,2019-04-16 12:44:50,0.183s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:50,2019-04-16 12:44:53,3.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\propertyImages\arabian-ranches.png"")",Chrome 73.0.3683.103,,2019-04-16 12:44:53,2019-04-16 12:44:53,0.151s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:53,2019-04-16 12:44:56,3.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 12:44:56,2019-04-16 12:44:57,0.269s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:44:57,2019-04-16 12:45:00,3.000s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel""))",Chrome 73.0.3683.103,,2019-04-16 12:45:00,2019-04-16 12:45:00,0.543s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:45:00,2019-04-16 12:45:04,4.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List_3""))",Chrome 73.0.3683.103,,2019-04-16 12:45:04,2019-04-16 12:45:05,0.511s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:45:05,2019-04-16 12:45:09,4.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Confirm on site meeting ca""))",Chrome 73.0.3683.103,,2019-04-16 12:45:09,2019-04-16 12:45:09,0.309s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_NOC (optional)_mat-checkbo""))",Chrome 73.0.3683.103,,2019-04-16 12:45:09,2019-04-16 12:45:09,0.250s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Keys collected_mat-checkbo""))",Chrome 73.0.3683.103,,2019-04-16 12:45:09,2019-04-16 12:45:10,0.280s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Call photographer to confi""))",Chrome 73.0.3683.103,,2019-04-16 12:45:10,2019-04-16 12:45:10,0.327s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Booked the camera through""))",Chrome 73.0.3683.103,,2019-04-16 12:45:10,2019-04-16 12:45:10,0.285s,PASSED
+"scrollToElement(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Valuation report is upload""), 3)",Chrome 73.0.3683.103,,2019-04-16 12:45:10,2019-04-16 12:45:10,0.040s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Valuation report is upload""))",Chrome 73.0.3683.103,,2019-04-16 12:45:10,2019-04-16 12:45:10,0.249s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Market analysis report upl""))",Chrome 73.0.3683.103,,2019-04-16 12:45:10,2019-04-16 12:45:11,0.255s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-16 12:45:11,2019-04-16 12:45:15,4.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Confirm""))",Chrome 73.0.3683.103,,2019-04-16 12:45:15,2019-04-16 12:45:15,0.239s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:45:15,2019-04-16 12:45:18,3.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_CD""))",Chrome 73.0.3683.103,,2019-04-16 12:45:18,2019-04-16 12:45:18,0.314s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:45:18,2019-04-16 12:45:26,8.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:45:26,2019-04-16 12:45:33,6.889s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:45:33,2019-04-16 12:45:33,0.027s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:45:33,2019-04-16 12:45:33,0.147s,PASSED
+"setText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""haleemhanif"")",Chrome 73.0.3683.103,,2019-04-16 12:45:33,2019-04-16 12:45:34,0.220s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:45:34,2019-04-16 12:45:34,0.095s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:45:34,2019-04-16 12:45:34,0.154s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:45:34,2019-04-16 12:45:34,0.106s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:45:34,2019-04-16 12:45:38,4.022s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process_2""))",Chrome 73.0.3683.103,,2019-04-16 12:45:38,2019-04-16 12:45:38,0.130s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel""))",Chrome 73.0.3683.103,,2019-04-16 12:45:38,2019-04-16 12:45:53,14.623s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:45:53,2019-04-16 12:45:58,5.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List_7""))",Chrome 73.0.3683.103,,2019-04-16 12:45:58,2019-04-16 12:45:58,0.477s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:45:58,2019-04-16 12:46:03,5.002s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Approve""))",Chrome 73.0.3683.103,,2019-04-16 12:46:03,2019-04-16 12:46:03,0.279s,PASSED
+"doubleClick(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes""))",Chrome 73.0.3683.103,,2019-04-16 12:46:03,2019-04-16 12:46:04,0.290s,PASSED
+delay(9),Chrome 73.0.3683.103,,2019-04-16 12:46:04,2019-04-16 12:46:13,9.001s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_HH""))",Chrome 73.0.3683.103,,2019-04-16 12:46:13,2019-04-16 12:46:13,0.352s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:46:13,2019-04-16 12:46:18,5.003s,PASSED
+"click(findTestObject(""Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:46:18,2019-04-16 12:46:25,6.744s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 12:46:25,2019-04-16 12:46:26,0.753s,PASSED
+,,,,,,
+Test Cases/brokerage department,Chrome 73.0.3683.103,,2019-04-16 12:46:26,2019-04-16 12:54:05,7m - 39.009s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:46:26,2019-04-16 12:46:28,2.403s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:46:28,2019-04-16 12:46:49,20.199s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:46:49,2019-04-16 12:46:50,1.178s,PASSED
+currentWindow = getWindowIndex(),Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:50,0.036s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:50,0.181s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""farhanm"")",Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:50,0.170s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:50,0.083s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:50,0.194s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:46:50,2019-04-16 12:46:51,0.085s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:46:51,2019-04-16 12:46:57,6.893s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ""))",Chrome 73.0.3683.103,,2019-04-16 12:46:57,2019-04-16 12:47:12,14.120s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_Abdullah M""))",Chrome 73.0.3683.103,,2019-04-16 12:47:12,2019-04-16 12:47:12,0.193s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:47:12,2019-04-16 12:47:17,5.003s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_FM""))",Chrome 73.0.3683.103,,2019-04-16 12:47:17,2019-04-16 12:47:17,0.331s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:47:17,2019-04-16 12:47:24,7.122s,PASSED
+waitForPageLoad(5),Chrome 73.0.3683.103,,2019-04-16 12:47:24,2019-04-16 12:47:24,0.032s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:47:24,2019-04-16 12:47:24,0.178s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""abdullah"")",Chrome 73.0.3683.103,,2019-04-16 12:47:24,2019-04-16 12:47:25,0.209s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:47:25,2019-04-16 12:47:25,0.096s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:47:25,2019-04-16 12:47:25,0.197s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:47:25,2019-04-16 12:47:25,0.106s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_My Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:47:25,2019-04-16 12:47:29,3.523s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_Reichel Trail 3 Floors Build""))",Chrome 73.0.3683.103,,2019-04-16 12:47:29,2019-04-16 12:47:53,24.118s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:47:53,2019-04-16 12:47:56,3.001s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Valuation""))",Chrome 73.0.3683.103,,2019-04-16 12:47:56,2019-04-16 12:47:56,0.325s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Valuation""))",Chrome 73.0.3683.103,,2019-04-16 12:47:56,2019-04-16 12:47:56,0.354s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag""))",Chrome 73.0.3683.103,,2019-04-16 12:47:56,2019-04-16 12:47:57,0.644s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-16 12:47:57,2019-04-16 12:47:59,2.001s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal""))",Chrome 73.0.3683.103,,2019-04-16 12:47:59,2019-04-16 12:48:00,0.521s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal""))",Chrome 73.0.3683.103,,2019-04-16 12:48:00,2019-04-16 12:48:00,0.302s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:48:00,2019-04-16 12:48:05,5.003s,PASSED
+"uploadFile(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/img_Form A_ng-star-inserted""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\pdf\MarketAnalysis.pdf"")",Chrome 73.0.3683.103,,2019-04-16 12:48:05,2019-04-16 12:48:05,0.188s,PASSED
+"uploadFile(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/img_Brokerage Report_ng-star-i""), ""C:\Users\HP\Katalon Studio\Chiragh(Admin)\Include\pdf\MarketAnalysis.pdf"")",Chrome 73.0.3683.103,,2019-04-16 12:48:05,2019-04-16 12:48:05,0.260s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:48:05,2019-04-16 12:48:10,5.002s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Open Price Range (AED)_o""), ""3000000"")",Chrome 73.0.3683.103,,2019-04-16 12:48:10,2019-04-16 12:48:13,2.440s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Open Price Range (AED)_o_7""), ""6000000"")",Chrome 73.0.3683.103,,2019-04-16 12:48:13,2019-04-16 12:48:14,1.763s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Reserve Price Range (AED""), ""7000000"")",Chrome 73.0.3683.103,,2019-04-16 12:48:14,2019-04-16 12:48:16,1.719s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Reserve Price Range (AED_7""), ""9000000"")",Chrome 73.0.3683.103,,2019-04-16 12:48:16,2019-04-16 12:48:18,1.823s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Submit for Approval""))",Chrome 73.0.3683.103,,2019-04-16 12:48:18,2019-04-16 12:48:18,0.203s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 12:48:18,2019-04-16 12:48:18,0.205s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:48:18,2019-04-16 12:48:23,5.002s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_AM""))",Chrome 73.0.3683.103,,2019-04-16 12:48:23,2019-04-16 12:48:24,0.446s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:48:24,2019-04-16 12:48:29,5.001s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:48:29,2019-04-16 12:48:36,7.144s,PASSED
+waitForPageLoad(5),Chrome 73.0.3683.103,,2019-04-16 12:48:36,2019-04-16 12:48:36,0.010s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:48:36,2019-04-16 12:48:36,0.110s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""farhanm"")",Chrome 73.0.3683.103,,2019-04-16 12:48:36,2019-04-16 12:48:36,0.177s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:48:36,2019-04-16 12:48:36,0.144s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:48:36,2019-04-16 12:48:37,0.164s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:48:37,2019-04-16 12:48:37,0.090s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:48:37,2019-04-16 12:48:41,3.827s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_June Light Hotel_fas fa-bars_1""))",Chrome 73.0.3683.103,,2019-04-16 12:48:41,2019-04-16 12:48:47,6.226s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:48:47,2019-04-16 12:48:50,3.003s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Activity Log""))",Chrome 73.0.3683.103,,2019-04-16 12:48:50,2019-04-16 12:48:50,0.716s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Activity Log""))",Chrome 73.0.3683.103,,2019-04-16 12:48:50,2019-04-16 12:48:51,0.505s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag""))",Chrome 73.0.3683.103,,2019-04-16 12:48:51,2019-04-16 12:48:51,0.416s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-16 12:48:51,2019-04-16 12:48:54,3.002s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_1""))",Chrome 73.0.3683.103,,2019-04-16 12:48:54,2019-04-16 12:48:55,0.630s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_1""))",Chrome 73.0.3683.103,,2019-04-16 12:48:55,2019-04-16 12:48:56,0.467s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:48:56,2019-04-16 12:49:04,8.004s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Approve""))",Chrome 73.0.3683.103,,2019-04-16 12:49:04,2019-04-16 12:49:20,16.025s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 12:49:20,2019-04-16 12:49:20,0.301s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:49:20,2019-04-16 12:49:25,5.003s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_FM""))",Chrome 73.0.3683.103,,2019-04-16 12:49:25,2019-04-16 12:49:25,0.586s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:49:25,2019-04-16 12:49:30,5.002s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout""))",Chrome 73.0.3683.103,,2019-04-16 12:49:30,2019-04-16 12:49:38,7.415s,PASSED
+waitForPageLoad(5),Chrome 73.0.3683.103,,2019-04-16 12:49:38,2019-04-16 12:49:38,0.020s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:49:38,2019-04-16 12:49:38,0.127s,PASSED
+"setText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""nayab"")",Chrome 73.0.3683.103,,2019-04-16 12:49:38,2019-04-16 12:49:38,0.199s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:49:38,2019-04-16 12:49:38,0.121s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:49:38,2019-04-16 12:49:39,0.229s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:49:39,2019-04-16 12:49:39,0.103s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_In Process_1""))",Chrome 73.0.3683.103,,2019-04-16 12:49:39,2019-04-16 12:49:42,3.831s,PASSED
+delay(250),Chrome 73.0.3683.103,,2019-04-16 12:49:42,2019-04-16 12:53:52,4m - 10.002s,PASSED
+"click(findTestObject(""Object Repository/brokerage department/Page_Chiragh.com Admin/a_June Light Hotel_fas fa-bars_2""))",Chrome 73.0.3683.103,,2019-04-16 12:53:52,2019-04-16 12:54:05,12.150s,FAILED
+,,,,,,
+Test Cases/listing department,Chrome 73.0.3683.103,,2019-04-16 12:54:05,2019-04-16 12:54:58,53.735s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:54:05,2019-04-16 12:54:08,2.946s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:54:08,2019-04-16 12:54:29,20.715s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:54:29,2019-04-16 12:54:30,1.173s,PASSED
+waitForPageLoad(5),Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:30,0.027s,PASSED
+"setText(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""sami"")",Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:30,0.197s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:30,0.088s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:30,0.176s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:30,0.104s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:54:30,2019-04-16 12:54:37,6.290s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/a_ 7 Days_fas fa-user-circle d""))",Chrome 73.0.3683.103,,2019-04-16 12:54:37,2019-04-16 12:54:41,4.211s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/a_Hamza Attiq""))",Chrome 73.0.3683.103,,2019-04-16 12:54:41,2019-04-16 12:54:41,0.132s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:54:41,2019-04-16 12:54:41,0.223s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:54:41,2019-04-16 12:54:46,5.002s,PASSED
+"click(findTestObject(""Object Repository/listing/Page_Chiragh.com Admin/button_S""))",Chrome 73.0.3683.103,,2019-04-16 12:54:46,2019-04-16 12:54:58,12.083s,FAILED
+,,,,,,
+Test Cases/verification hod/buyer/approved,Chrome 73.0.3683.103,,2019-04-16 12:54:58,2019-04-16 12:55:41,42.502s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:54:59,2019-04-16 12:55:02,3.022s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:55:02,2019-04-16 12:55:13,11.265s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:55:13,2019-04-16 12:55:14,1.148s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:55:14,2019-04-16 12:55:14,0.016s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:55:14,2019-04-16 12:55:14,0.139s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:55:14,2019-04-16 12:55:14,0.201s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:55:14,2019-04-16 12:55:15,0.173s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:55:15,2019-04-16 12:55:15,0.115s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:55:15,2019-04-16 12:55:20,5.026s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:55:20,2019-04-16 12:55:25,5.001s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:55:25,2019-04-16 12:55:25,0.299s,PASSED
+delay(15),Chrome 73.0.3683.103,,2019-04-16 12:55:25,2019-04-16 12:55:40,15.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved""), 4))",Chrome 73.0.3683.103,,2019-04-16 12:55:40,2019-04-16 12:55:41,0.806s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/archived,Chrome 73.0.3683.103,,2019-04-16 12:55:41,2019-04-16 12:56:20,39.487s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:55:41,2019-04-16 12:55:44,3.125s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:55:44,2019-04-16 12:56:01,16.840s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:56:01,2019-04-16 12:56:02,1.170s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:56:02,2019-04-16 12:56:02,0.015s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:56:02,2019-04-16 12:56:03,0.141s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:56:03,2019-04-16 12:56:03,0.210s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:56:03,2019-04-16 12:56:03,0.109s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:56:03,2019-04-16 12:56:03,0.163s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:56:03,2019-04-16 12:56:03,0.099s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:56:03,2019-04-16 12:56:09,6.239s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:56:09,2019-04-16 12:56:10,0.199s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-16 12:56:10,2019-04-16 12:56:20,10.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived""), 4))",Chrome 73.0.3683.103,,2019-04-16 12:56:20,2019-04-16 12:56:20,0.768s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/In process,Chrome 73.0.3683.103,,2019-04-16 12:56:20,2019-04-16 12:57:09,48.316s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:56:21,2019-04-16 12:56:23,2.506s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 12:56:23,2019-04-16 12:56:42,18.242s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:56:42,2019-04-16 12:56:43,1.173s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:43,0.043s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:43,0.237s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:43,0.092s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:43,0.220s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:43,0.124s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:56:43,2019-04-16 12:56:51,7.196s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:56:51,2019-04-16 12:56:56,5.004s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:56:56,2019-04-16 12:56:56,0.256s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-16 12:56:56,2019-04-16 12:57:06,10.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process""), 4))",Chrome 73.0.3683.103,,2019-04-16 12:57:06,2019-04-16 12:57:09,2.820s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/new leads tab,Chrome 73.0.3683.103,,2019-04-16 12:57:09,2019-04-16 12:57:50,41.702s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:57:09,2019-04-16 12:57:12,2.518s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 12:57:12,2019-04-16 12:57:25,13.039s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:57:25,2019-04-16 12:57:26,1.126s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:57:26,2019-04-16 12:57:26,0.012s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:57:26,2019-04-16 12:57:26,0.221s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 12:57:26,2019-04-16 12:57:26,0.110s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:57:26,2019-04-16 12:57:27,0.239s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:57:27,2019-04-16 12:57:27,0.116s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:57:27,2019-04-16 12:57:27,0.013s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:57:27,2019-04-16 12:57:33,6.530s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:57:33,2019-04-16 12:57:38,5.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 12:57:38,2019-04-16 12:57:38,0.171s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-16 12:57:38,2019-04-16 12:57:45,7.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To""), 4) || verifyElementPresent(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/h3_This collection is empty.."", 4))",Chrome 73.0.3683.103,,2019-04-16 12:57:45,2019-04-16 12:57:50,5.114s,FAILED
+,,,,,,
+Test Cases/verification hod/buyer/owner documents,Chrome 73.0.3683.103,,2019-04-16 12:57:50,2019-04-16 12:59:13,1m - 22.605s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:57:51,2019-04-16 12:57:54,3.302s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 12:57:54,2019-04-16 12:58:10,15.730s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:58:10,2019-04-16 12:58:11,1.170s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:58:11,2019-04-16 12:58:11,0.031s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 12:58:11,2019-04-16 12:58:11,0.100s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:58:11,2019-04-16 12:58:11,0.127s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:58:11,2019-04-16 12:58:11,0.189s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:58:11,2019-04-16 12:58:12,0.184s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:58:12,2019-04-16 12:58:12,0.116s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:58:12,2019-04-16 12:58:19,6.836s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:58:19,2019-04-16 12:58:19,0.114s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:58:19,2019-04-16 12:58:24,5.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:58:24,2019-04-16 12:58:24,0.187s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:58:24,2019-04-16 12:58:32,8.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0""))",Chrome 73.0.3683.103,,2019-04-16 12:58:32,2019-04-16 12:58:32,0.331s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:58:32,2019-04-16 12:58:40,8.001s,PASSED
+"click(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm""))",Chrome 73.0.3683.103,,2019-04-16 12:58:40,2019-04-16 12:59:13,32.815s,FAILED
+,,,,,,
+Test Cases/verification hod/buyer/poa documents,Chrome 73.0.3683.103,,2019-04-16 12:59:13,2019-04-16 13:00:01,47.755s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 12:59:13,2019-04-16 12:59:17,3.158s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 12:59:17,2019-04-16 12:59:29,12.429s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 12:59:29,2019-04-16 12:59:30,1.141s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 12:59:30,2019-04-16 12:59:30,0.013s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 12:59:30,2019-04-16 12:59:30,0.146s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 12:59:30,2019-04-16 12:59:31,0.386s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 12:59:31,2019-04-16 12:59:31,0.441s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 12:59:31,2019-04-16 12:59:31,0.190s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 12:59:31,2019-04-16 12:59:31,0.126s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 12:59:31,2019-04-16 12:59:37,5.424s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:59:37,2019-04-16 12:59:42,5.004s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 12:59:42,2019-04-16 12:59:42,0.187s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 12:59:42,2019-04-16 12:59:50,8.001s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0""))",Chrome 73.0.3683.103,,2019-04-16 12:59:50,2019-04-16 12:59:51,0.420s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 12:59:51,2019-04-16 12:59:56,5.003s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/div_POAs""))",Chrome 73.0.3683.103,,2019-04-16 12:59:56,2019-04-16 12:59:56,0.286s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status""), 4))",Chrome 73.0.3683.103,,2019-04-16 12:59:56,2019-04-16 13:00:01,5.023s,FAILED
+,,,,,,
+Test Cases/verification hod/buyer/request for change,Chrome 73.0.3683.103,,2019-04-16 13:00:01,2019-04-16 13:00:52,51.327s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:00:01,2019-04-16 13:00:05,3.248s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:00:05,2019-04-16 13:00:28,23.206s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:00:28,2019-04-16 13:00:29,1.175s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:00:29,2019-04-16 13:00:29,0.030s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:00:29,2019-04-16 13:00:29,0.167s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:00:29,2019-04-16 13:00:29,0.290s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 13:00:29,2019-04-16 13:00:30,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:00:30,2019-04-16 13:00:30,0.186s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:00:30,2019-04-16 13:00:30,0.103s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-16 13:00:30,2019-04-16 13:00:36,5.903s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 13:00:36,2019-04-16 13:00:41,5.004s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change""))",Chrome 73.0.3683.103,,2019-04-16 13:00:41,2019-04-16 13:00:41,0.205s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 13:00:41,2019-04-16 13:00:49,8.001s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0""))",Chrome 73.0.3683.103,,2019-04-16 13:00:49,2019-04-16 13:00:50,1.268s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:00:50,2019-04-16 13:00:51,1.069s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:00:51,2019-04-16 13:00:51,0.027s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 13:00:51,2019-04-16 13:00:51,0.112s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 13:00:51,2019-04-16 13:00:52,0.731s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/approved leads,Chrome 73.0.3683.103,,2019-04-16 13:00:52,2019-04-16 13:01:44,51.399s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:00:53,2019-04-16 13:00:55,2.506s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 13:00:55,2019-04-16 13:01:19,23.919s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:01:19,2019-04-16 13:01:20,1.161s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:01:20,2019-04-16 13:01:20,0.007s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:01:20,2019-04-16 13:01:20,0.157s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:01:20,2019-04-16 13:01:21,0.191s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:01:21,2019-04-16 13:01:21,0.173s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:01:21,2019-04-16 13:01:21,0.103s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads""))",Chrome 73.0.3683.103,,2019-04-16 13:01:21,2019-04-16 13:01:28,6.804s,PASSED
+delay(15),Chrome 73.0.3683.103,,2019-04-16 13:01:28,2019-04-16 13:01:43,15.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved""), 4))",Chrome 73.0.3683.103,,2019-04-16 13:01:43,2019-04-16 13:01:44,0.840s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/archived leads tab,Chrome 73.0.3683.103,,2019-04-16 13:01:44,2019-04-16 13:02:35,51.250s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:01:44,2019-04-16 13:01:47,2.612s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 13:01:47,2019-04-16 13:02:11,23.989s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:02:11,2019-04-16 13:02:12,1.178s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:02:12,2019-04-16 13:02:12,0.025s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:02:12,2019-04-16 13:02:12,0.150s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:02:12,2019-04-16 13:02:12,0.226s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 13:02:12,2019-04-16 13:02:12,0.104s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:02:12,2019-04-16 13:02:13,0.245s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:02:13,2019-04-16 13:02:13,0.124s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads""))",Chrome 73.0.3683.103,,2019-04-16 13:02:13,2019-04-16 13:02:21,7.850s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-16 13:02:21,2019-04-16 13:02:31,10.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived""), 4))",Chrome 73.0.3683.103,,2019-04-16 13:02:31,2019-04-16 13:02:35,4.222s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/In process tab,Chrome 73.0.3683.103,,2019-04-16 13:02:35,2019-04-16 13:03:08,33.315s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:02:35,2019-04-16 13:02:38,2.585s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-16 13:02:38,2019-04-16 13:02:49,10.785s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:02:49,2019-04-16 13:02:50,1.125s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:02:50,2019-04-16 13:02:50,0.009s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:02:50,2019-04-16 13:02:50,0.218s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 13:02:50,2019-04-16 13:02:50,0.107s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:02:50,2019-04-16 13:02:50,0.167s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:02:50,2019-04-16 13:02:51,0.109s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:02:51,2019-04-16 13:02:57,6.758s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-16 13:02:57,2019-04-16 13:03:07,10.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/span_in process""), 4))",Chrome 73.0.3683.103,,2019-04-16 13:03:07,2019-04-16 13:03:08,0.820s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/mortgage document,Chrome 73.0.3683.103,,2019-04-16 13:03:08,2019-04-16 13:04:08,1m - 0.010s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:03:09,2019-04-16 13:03:11,2.595s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:03:11,2019-04-16 13:03:34,23.195s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:03:34,2019-04-16 13:03:36,1.201s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.014s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.135s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.113s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.200s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.184s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:36,0.106s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:03:36,2019-04-16 13:03:44,7.282s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:03:44,2019-04-16 13:03:57,13.579s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 13:03:57,2019-04-16 13:04:02,5.003s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage""))",Chrome 73.0.3683.103,,2019-04-16 13:04:02,2019-04-16 13:04:03,0.939s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/mortgage documents/Page_Chiragh.com Admin/div_Mortgage StatusYes""), 4))",Chrome 73.0.3683.103,,2019-04-16 13:04:03,2019-04-16 13:04:08,5.107s,FAILED
+,,,,,,
+Test Cases/verification hod/seller/new leads tab,Chrome 73.0.3683.103,,2019-04-16 13:04:08,2019-04-16 13:04:48,39.858s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:04:08,2019-04-16 13:04:12,3.388s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:04:12,2019-04-16 13:04:35,23.113s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:04:35,2019-04-16 13:04:36,1.129s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:04:36,2019-04-16 13:04:36,0.021s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:04:36,2019-04-16 13:04:36,0.277s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 13:04:36,2019-04-16 13:04:37,0.097s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:04:37,2019-04-16 13:04:37,0.195s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:04:37,2019-04-16 13:04:37,0.145s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:04:37,2019-04-16 13:04:37,0.019s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-16 13:04:37,2019-04-16 13:04:43,6.565s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To""), 4) || verifyElementPresent(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/h3_This collection is empty.."", 4))",Chrome 73.0.3683.103,,2019-04-16 13:04:43,2019-04-16 13:04:48,4.579s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/owner documents,Chrome 73.0.3683.103,,2019-04-16 13:04:48,2019-04-16 13:05:43,54.744s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:04:48,2019-04-16 13:04:51,2.576s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:04:51,2019-04-16 13:05:06,15.135s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:05:06,2019-04-16 13:05:07,1.181s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:05:07,2019-04-16 13:05:07,0.026s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:05:07,2019-04-16 13:05:07,0.121s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:05:07,2019-04-16 13:05:08,0.108s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:05:08,2019-04-16 13:05:08,0.193s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:05:08,2019-04-16 13:05:08,0.141s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:05:08,2019-04-16 13:05:08,0.082s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:05:08,2019-04-16 13:05:14,5.697s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:05:14,2019-04-16 13:05:38,24.400s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin""))",Chrome 73.0.3683.103,,2019-04-16 13:05:38,2019-04-16 13:05:41,2.582s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name""))",Chrome 73.0.3683.103,,2019-04-16 13:05:41,2019-04-16 13:05:41,0.152s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners""))",Chrome 73.0.3683.103,,2019-04-16 13:05:41,2019-04-16 13:05:41,0.528s,PASSED
+"click(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm""))",Chrome 73.0.3683.103,,2019-04-16 13:05:41,2019-04-16 13:05:42,0.447s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport CopyScann""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:05:42,2019-04-16 13:05:42,0.206s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/div_Scanned Passport Copy""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:05:42,2019-04-16 13:05:42,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/img""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:05:42,2019-04-16 13:05:42,0.051s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 13:05:42,2019-04-16 13:05:43,0.691s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/poa documents,Chrome 73.0.3683.103,,2019-04-16 13:05:43,2019-04-16 13:06:36,53.435s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:05:43,2019-04-16 13:05:46,2.637s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:05:46,2019-04-16 13:06:10,23.865s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:06:10,2019-04-16 13:06:11,1.193s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:06:11,2019-04-16 13:06:11,0.009s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:06:11,2019-04-16 13:06:11,0.110s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:06:11,2019-04-16 13:06:11,0.116s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:06:11,2019-04-16 13:06:11,0.326s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:06:11,2019-04-16 13:06:12,0.186s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:06:12,2019-04-16 13:06:12,0.097s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:06:12,2019-04-16 13:06:17,5.632s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:06:17,2019-04-16 13:06:24,6.608s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 13:06:24,2019-04-16 13:06:29,5.004s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/poa documents/Page_Chiragh.com Admin/div_POAs""))",Chrome 73.0.3683.103,,2019-04-16 13:06:29,2019-04-16 13:06:30,1.310s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_POA Status""), 4) == true)",Chrome 73.0.3683.103,,2019-04-16 13:06:30,2019-04-16 13:06:36,5.885s,FAILED
+,,,,,,
+Test Cases/verification hod/seller/property detail present,Chrome 73.0.3683.103,,2019-04-16 13:06:36,2019-04-16 13:07:28,52.172s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:06:37,2019-04-16 13:06:40,3.366s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:06:40,2019-04-16 13:07:04,24.380s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:07:04,2019-04-16 13:07:06,1.193s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.011s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.103s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.102s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.207s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.163s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:06,0.119s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:07:06,2019-04-16 13:07:13,6.935s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:07:13,2019-04-16 13:07:19,5.746s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Edwin""))",Chrome 73.0.3683.103,,2019-04-16 13:07:19,2019-04-16 13:07:20,1.328s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Last Name""))",Chrome 73.0.3683.103,,2019-04-16 13:07:20,2019-04-16 13:07:20,0.129s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Owners""))",Chrome 73.0.3683.103,,2019-04-16 13:07:20,2019-04-16 13:07:21,0.599s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_POAs""))",Chrome 73.0.3683.103,,2019-04-16 13:07:21,2019-04-16 13:07:22,1.083s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Property Details""))",Chrome 73.0.3683.103,,2019-04-16 13:07:22,2019-04-16 13:07:24,1.779s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Project Name""))",Chrome 73.0.3683.103,,2019-04-16 13:07:24,2019-04-16 13:07:25,0.994s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/span_Murazik Manors""))",Chrome 73.0.3683.103,,2019-04-16 13:07:25,2019-04-16 13:07:25,0.187s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Mortgage""))",Chrome 73.0.3683.103,,2019-04-16 13:07:25,2019-04-16 13:07:26,1.222s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Rental""))",Chrome 73.0.3683.103,,2019-04-16 13:07:26,2019-04-16 13:07:28,1.371s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 13:07:28,2019-04-16 13:07:28,0.689s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/property documents,Chrome 73.0.3683.103,,2019-04-16 13:07:28,2019-04-16 13:08:32,1m - 3.266s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:07:29,2019-04-16 13:07:31,2.595s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:07:31,2019-04-16 13:07:55,23.925s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:07:55,2019-04-16 13:07:57,1.228s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.017s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.141s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.110s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.221s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.170s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:07:57,0.109s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:07:57,2019-04-16 13:08:04,6.419s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:08:04,2019-04-16 13:08:24,19.858s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 13:08:24,2019-04-16 13:08:29,5.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Property Details""))",Chrome 73.0.3683.103,,2019-04-16 13:08:29,2019-04-16 13:08:30,1.463s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property documents/Page_Chiragh.com Admin/a_Property Details_attachment-""))",Chrome 73.0.3683.103,,2019-04-16 13:08:30,2019-04-16 13:08:31,0.677s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_Scanned Title Deed""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:08:31,2019-04-16 13:08:31,0.036s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_(Not Uploaded)_document-bo""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:08:31,2019-04-16 13:08:31,0.051s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/property documents/Page_Chiragh.com Admin/div_SPA Document""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:08:31,2019-04-16 13:08:31,0.046s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 13:08:31,2019-04-16 13:08:32,0.789s,PASSED
+,,,,,,
+Test Cases/verification hod/seller/rental documents,Chrome 73.0.3683.103,,2019-04-16 13:08:32,2019-04-16 13:09:21,49.337s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:08:32,2019-04-16 13:08:35,2.553s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:08:35,2019-04-16 13:08:54,19.409s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:08:54,2019-04-16 13:08:55,1.121s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:08:55,2019-04-16 13:08:55,0.015s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-16 13:08:55,2019-04-16 13:08:55,0.117s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:08:55,2019-04-16 13:08:55,0.100s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:08:55,2019-04-16 13:08:56,0.198s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:08:56,2019-04-16 13:08:56,0.209s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:08:56,2019-04-16 13:08:56,0.132s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-16 13:08:56,2019-04-16 13:09:02,6.065s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_Murazik Manors 6 Beds Villa""))",Chrome 73.0.3683.103,,2019-04-16 13:09:02,2019-04-16 13:09:10,7.808s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-16 13:09:10,2019-04-16 13:09:15,5.001s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/div_Rental""))",Chrome 73.0.3683.103,,2019-04-16 13:09:15,2019-04-16 13:09:16,1.071s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/rental documents/Page_Chiragh.com Admin/span_Yes""), 4))",Chrome 73.0.3683.103,,2019-04-16 13:09:16,2019-04-16 13:09:21,5.138s,FAILED
+,,,,,,
+Test Cases/verification hod/seller/request for change tab,Chrome 73.0.3683.103,,2019-04-16 13:09:21,2019-04-16 13:10:04,43.446s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-16 13:09:21,2019-04-16 13:09:25,3.409s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-16 13:09:25,2019-04-16 13:09:44,19.695s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-16 13:09:44,2019-04-16 13:09:46,1.183s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:46,0.026s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:46,0.147s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:46,0.206s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:46,0.087s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:46,0.243s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-16 13:09:46,2019-04-16 13:09:47,0.130s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_Request for Change""))",Chrome 73.0.3683.103,,2019-04-16 13:09:47,2019-04-16 13:09:53,6.526s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-16 13:09:53,2019-04-16 13:10:01,8.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/a_FIVE STAR HOTEL 30 Bed Hotel""))",Chrome 73.0.3683.103,,2019-04-16 13:10:01,2019-04-16 13:10:02,0.958s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Your are in request for c""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:10:02,2019-04-16 13:10:04,1.569s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/span_Total Requests""), 4)",Chrome 73.0.3683.103,,2019-04-16 13:10:04,2019-04-16 13:10:04,0.032s,PASSED
+"click(findTestObject(""Object Repository/verification hod/request for change/Page_Chiragh.com Admin/img""))",Chrome 73.0.3683.103,,2019-04-16 13:10:04,2019-04-16 13:10:04,0.213s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-16 13:10:04,2019-04-16 13:10:04,0.641s,PASSED

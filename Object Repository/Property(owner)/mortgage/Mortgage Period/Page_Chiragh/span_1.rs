@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//mat-option[@id='mat-option-157']/span[count(. | //*[(text() = '1' or . = '1')]) = count(//*[(text() = '1' or . = '1')])]</value>
+         <value>//mat-option[@id='mat-option-157']/span[count(. | //span[(text() = '1' or . = '1')]) = count(//span[(text() = '1' or . = '1')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

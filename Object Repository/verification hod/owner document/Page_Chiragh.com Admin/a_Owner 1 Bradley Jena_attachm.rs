@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-tab-content-1-0&quot;]/div/app-owners/div/div[1]/div/div/div/a</value>
+         <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/app-owners/div/div[1]/div/div/div/a</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-tab-content-1-0&quot;]/div/app-owners/div/div[1]/div/div/div/a</value>
+      <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/app-owners/div/div[1]/div/div/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

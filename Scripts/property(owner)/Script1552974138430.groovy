@@ -394,7 +394,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/Page_Chiragh/span_Other'))
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/input_Other_typePropertyOther'), 
-    'Tower')
+    'villa')
 
 WebUI.delay(3)
 
@@ -446,7 +446,7 @@ WebUI.sendKeys(findTestObject('Property(owner)/property/country/Page_Chiragh/inp
 
 WebUI.click(findTestObject('Property(owner)/property/city/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Al Ain')
+WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Sharjah')
 
 WebUI.sendKeys(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), Keys.chord(Keys.ENTER))
 
@@ -596,9 +596,9 @@ WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chirag
 
 WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chiragh/span_3'))
 
-WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chiragh/mat-select_Month'))
+//WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chiragh/mat-select_Month'))
 
-WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chiragh/span_1'))
+//WebUI.click(findTestObject('Property(owner)/mortgage/Mortgage Period/Page_Chiragh/span_1'))
 
 def OutstandingAmount = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
@@ -659,7 +659,7 @@ def AnnualRentAmount = org.apache.commons.lang.RandomStringUtils.randomNumeric(7
 
 WebUI.setText(findTestObject('Property(owner)/rent/Page_Chiragh/input_Annual Rent Amount_renta'), AnnualRentAmount)
 
-WebUI.delay(3)
+WebUI.delay(7)
 
 WebUI.click(findTestObject('Property(owner)/rent/Payment Structure/Page_Chiragh/mat-select_Select One'))
 
@@ -690,6 +690,9 @@ WebUI.click(findTestObject('Object Repository/Property(owner)/rent/Lease End Dat
 WebUI.click(findTestObject('Object Repository/Property(owner)/rent/Lease End Date/Page_Chiragh/div_10'), FailureHandling.STOP_ON_FAILURE)
 
 //Scanned Tenancy Contract//
+
+WebUI.delay(7)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/rent/Scanned Tenancy Contract/Page_Chiragh/div_jpg png pdf accepted with'), 
     5)
 
@@ -713,7 +716,11 @@ WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/span_INDEPEND
 
 WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/h3_JLL'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/mat-select_Select Payment Mode'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/span_Wallet'))
 
@@ -737,5 +744,5 @@ WebUI.delay(5)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/div_Your property details have'), 
     5)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>01873b8b-508e-46ec-a457-18fa6cf265dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='logCallModal']/div/div/div/div/div/button/img</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;myModal2&quot;]/div/div/div/div/div[1]/button/img[count(. | //img[@src = 'assets/images/cross-circular-button-outline.svg']) = count(//img[@src = 'assets/images/cross-circular-button-outline.svg'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div/div/div/div/div/button/img[count(. | //img[@src = 'assets/images/cross-circular-button-outline.svg']) = count(//img[@src = 'assets/images/cross-circular-button-outline.svg'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='logCallModal']/div/div/div/div/div/button/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/div/div/div/button/img</value>
+      <value>//*[@id=&quot;myModal2&quot;]/div/div/div/div/div[1]/button/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

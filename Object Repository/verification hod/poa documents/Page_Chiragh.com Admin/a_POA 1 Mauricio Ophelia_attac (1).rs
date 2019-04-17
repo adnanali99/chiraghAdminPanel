@@ -6,11 +6,15 @@
    <elementGuidId>6d0527dd-4011-4d84-bc3a-8ab6ed93cf6c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/app-poas/div/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-0-1&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-poas[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container-fluid property-details-wrapper px-0 mt-4&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;details-header&quot;]/div[@class=&quot;detail-heading&quot;]/a[@class=&quot;attachment-link fas fa-paperclip&quot;]</value>
+      <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-poas/div/div[1]/div/div/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
