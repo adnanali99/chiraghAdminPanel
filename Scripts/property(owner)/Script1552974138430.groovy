@@ -394,7 +394,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/Page_Chiragh/span_Other'))
 
 WebUI.setText(findTestObject('Object Repository/Property(owner)/property/Type of Property/Page_Chiragh/input_Other_typePropertyOther'), 
-    'villa')
+    'Hotel')
 
 WebUI.delay(3)
 
@@ -446,7 +446,7 @@ WebUI.sendKeys(findTestObject('Property(owner)/property/country/Page_Chiragh/inp
 
 WebUI.click(findTestObject('Property(owner)/property/city/Page_Chiragh/span_Select'))
 
-WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Sharjah')
+WebUI.setText(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), 'Dubai')
 
 WebUI.sendKeys(findTestObject('Property(owner)/property/city/Page_Chiragh/input__select2-search__field'), Keys.chord(Keys.ENTER))
 

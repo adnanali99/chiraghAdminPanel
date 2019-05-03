@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 
 currentWindow = WebUI.getWindowIndex()
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username'))
+/*WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username'))
 
 WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName'),
 	'farhanm')
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5)*/
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username'))
 
@@ -132,7 +132,7 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 //WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/mat-tab-header_MessagesActivit'))
 
-WebUI.delay(3)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Activity Log'))
 
@@ -193,6 +193,8 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_2'))
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_2'))
+
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_Approve'))
 
@@ -373,6 +375,8 @@ WebUI.waitForPageLoad(5)
 		 WebUI.delay(5)
 		 
 		 WebUI.switchToWindowIndex(currentWindow)
+		 
+WebUI.delay(5)
 		 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_June Light Hotel'))
 		 

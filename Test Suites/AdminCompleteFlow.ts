@@ -4,7 +4,7 @@
    <name>AdminCompleteFlow</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>fatimazaidi1995@gmail.com;adnan@bestercapitalmedia.com;</mailRecipient>
+   <mailRecipient>fatimazaidi1995@gmail.com;adnan@bestercapitalmedia.com;mumtaz@bestercapitalmedia.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

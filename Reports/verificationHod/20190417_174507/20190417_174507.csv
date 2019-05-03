@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+verificationHod,Chrome 73.0.3683.103,,2019-04-17 17:45:15,2019-04-17 17:48:05,2m - 50.369s,FAILED
+,,,,,,
+Test Cases/verification hod/buyer/approved,Chrome 73.0.3683.103,,2019-04-17 17:45:15,2019-04-17 17:45:56,40.797s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 17:45:16,2019-04-17 17:45:20,4.748s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-17 17:45:20,2019-04-17 17:45:29,8.743s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-17 17:45:29,2019-04-17 17:45:30,1.190s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-17 17:45:30,2019-04-17 17:45:30,0.094s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-17 17:45:30,2019-04-17 17:45:30,0.152s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-17 17:45:30,2019-04-17 17:45:31,0.220s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-17 17:45:31,2019-04-17 17:45:31,0.309s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 17:45:31,2019-04-17 17:45:31,0.137s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-17 17:45:31,2019-04-17 17:45:35,3.590s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-17 17:45:35,2019-04-17 17:45:40,5.041s,PASSED
+"click(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/a_Approved Leads""))",Chrome 73.0.3683.103,,2019-04-17 17:45:40,2019-04-17 17:45:40,0.166s,PASSED
+delay(15),Chrome 73.0.3683.103,,2019-04-17 17:45:40,2019-04-17 17:45:55,15.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/approved leads tab/Page_Chiragh.com Admin/span_Approved""), 4))",Chrome 73.0.3683.103,,2019-04-17 17:45:55,2019-04-17 17:45:56,0.872s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/archived,Chrome 73.0.3683.103,,2019-04-17 17:45:56,2019-04-17 17:46:23,27.283s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 17:45:56,2019-04-17 17:45:59,2.615s,PASSED
+"navigateToUrl(""http://admin-chiragh.surge.sh/"")",Chrome 73.0.3683.103,,2019-04-17 17:45:59,2019-04-17 17:46:07,8.119s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-17 17:46:07,2019-04-17 17:46:08,1.162s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-17 17:46:08,2019-04-17 17:46:08,0.016s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-17 17:46:08,2019-04-17 17:46:08,0.112s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-17 17:46:08,2019-04-17 17:46:08,0.194s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-17 17:46:08,2019-04-17 17:46:08,0.084s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-17 17:46:08,2019-04-17 17:46:09,0.231s,PASSED
+"doubleClick(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_Login""))",Chrome 73.0.3683.103,,2019-04-17 17:46:09,2019-04-17 17:46:09,0.163s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-17 17:46:09,2019-04-17 17:46:12,3.301s,PASSED
+"click(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/a_Archived Leads""))",Chrome 73.0.3683.103,,2019-04-17 17:46:12,2019-04-17 17:46:12,0.201s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-17 17:46:12,2019-04-17 17:46:22,10.005s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/th_Assignee""), 4) && verifyElementPresent(findTestObject(""Object Repository/verification hod/archived leads tab/Page_Chiragh.com Admin/span_archived""), 4))",Chrome 73.0.3683.103,,2019-04-17 17:46:22,2019-04-17 17:46:23,0.806s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/new leads tab,Chrome 73.0.3683.103,,2019-04-17 17:46:23,2019-04-17 17:46:53,29.926s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 17:46:23,2019-04-17 17:46:26,2.467s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-17 17:46:26,2019-04-17 17:46:34,8.269s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-17 17:46:34,2019-04-17 17:46:35,1.189s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-17 17:46:35,2019-04-17 17:46:35,0.047s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-17 17:46:35,2019-04-17 17:46:36,0.242s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/div_Password""))",Chrome 73.0.3683.103,,2019-04-17 17:46:36,2019-04-17 17:46:36,0.090s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-17 17:46:36,2019-04-17 17:46:36,0.158s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 17:46:36,2019-04-17 17:46:36,0.101s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-17 17:46:36,2019-04-17 17:46:36,0.009s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-17 17:46:36,2019-04-17 17:46:40,3.666s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-17 17:46:40,2019-04-17 17:46:45,5.005s,PASSED
+"click(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/a_New Leads""))",Chrome 73.0.3683.103,,2019-04-17 17:46:45,2019-04-17 17:46:45,0.172s,PASSED
+delay(7),Chrome 73.0.3683.103,,2019-04-17 17:46:45,2019-04-17 17:46:52,7.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/th_Assign To""), 4) || verifyElementPresent(""Object Repository/verification hod/new leads tab/Page_Chiragh.com Admin/h3_This collection is empty.."", 4))",Chrome 73.0.3683.103,,2019-04-17 17:46:52,2019-04-17 17:46:53,1.212s,PASSED
+,,,,,,
+Test Cases/verification hod/buyer/owner documents,Chrome 73.0.3683.103,,2019-04-17 17:46:53,2019-04-17 17:48:04,1m - 11.086s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-17 17:46:53,2019-04-17 17:46:56,2.448s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,,2019-04-17 17:46:56,2019-04-17 17:47:05,8.723s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-17 17:47:05,2019-04-17 17:47:06,1.141s,PASSED
+waitForPageLoad(8),Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.015s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/form_Admin PanelUsernamePasswo""))",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.138s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/div_Username""))",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.113s,PASSED
+"setText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Admin Panel_userName""), ""arsalankhalid"")",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.203s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.159s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/button_Login""))",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:06,0.099s,PASSED
+"click(findTestObject(""Object Repository/verification hod/property details present/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-17 17:47:06,2019-04-17 17:47:10,3.578s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Buyer""))",Chrome 73.0.3683.103,,2019-04-17 17:47:10,2019-04-17 17:47:10,0.172s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-17 17:47:10,2019-04-17 17:47:15,5.003s,PASSED
+"click(findTestObject(""Object Repository/verification hod/in process tab/Page_Chiragh.com Admin/a_In Process""))",Chrome 73.0.3683.103,,2019-04-17 17:47:15,2019-04-17 17:47:15,0.217s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-17 17:47:15,2019-04-17 17:47:23,8.003s,PASSED
+"click(findTestObject(""Object Repository/verification hod/buyer/Page_Chiragh.com Admin/a_Project 51463 Most Desired 0""))",Chrome 73.0.3683.103,,2019-04-17 17:47:23,2019-04-17 17:47:24,0.266s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-17 17:47:24,2019-04-17 17:47:32,8.002s,PASSED
+"click(findTestObject(""Object Repository/verification hod/owner document/Page_Chiragh.com Admin/a_Owner 1 Bradley Jena_attachm""))",Chrome 73.0.3683.103,,2019-04-17 17:47:32,2019-04-17 17:48:04,32.516s,FAILED

@@ -4,7 +4,7 @@
    <name>verificationHod</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>adnan@bestercapitalmedia.com;fatimazaidi1995@gmail.com;</mailRecipient>
+   <mailRecipient>adnan@bestercapitalmedia.com;fatimazaidi1995@gmail.com;mumtaz@bestercapitalmedia.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.waitForPageLoad(8)
+
 WebUI.navigateToUrl('http://admin-chiragh.surge.sh/')
 
 WebUI.maximizeWindow()
