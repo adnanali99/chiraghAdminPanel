@@ -6,28 +6,36 @@
    <elementGuidId>c84c4913-ac1c-4c0d-928e-e863476b1370</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//owl-date-time-container[@id='owl-dt-picker-0']/div[2]/owl-date-time-calendar/div[2]/owl-date-time-month-view/table/tbody/tr[4]/td[4]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'owl-dt-calendar-cell-content owl-dt-calendar-cell-today owl-dt-calendar-cell-selected']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>owl-dt-calendar-cell-content</value>
+      <value>owl-dt-calendar-cell-content owl-dt-calendar-cell-today owl-dt-calendar-cell-selected</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

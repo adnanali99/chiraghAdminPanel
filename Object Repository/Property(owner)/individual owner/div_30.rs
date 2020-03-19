@@ -6,12 +6,12 @@
    <elementGuidId>f4ebb797-cb57-4975-8998-e4156a92929b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[4]/div</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'mat-calendar-body-cell-content mat-calendar-body-selected mat-calendar-body-today']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;mat-datepicker-1&quot;]/div/mat-month-view/table/tbody/tr[5]/td[7]/div</value>
+         <key>XPATH</key>
+         <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[4]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,11 +24,11 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-calendar-body-cell-content</value>
+      <value>mat-calendar-body-cell-content mat-calendar-body-selected mat-calendar-body-today</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <value>30</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

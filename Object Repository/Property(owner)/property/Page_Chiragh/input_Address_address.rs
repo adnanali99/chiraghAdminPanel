@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-property-details/div/div/div/div/div/div[1]/app-property-form/form/div[1]/div/div[1]/div[20]/input</value>
+         <value>/html/body/app-root/div/app-app-layout/div/app-property-details/div/div/div/div/div/div[1]/app-property-form/form/div[1]/div/div[1]/div[20]/input[count(. | //input[@name = 'address']) = count(//input[@name = 'address'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <value>form-control form-input ng-pristine ng-invalid ng-touched</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-property-details/div/div/div/div/div/div[1]/app-property-form/form/div[1]/div/div[1]/div[20]/input</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-property-details/div/div/div/div/div/div[1]/app-property-form/form/div[1]/div/div[1]/div[20]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

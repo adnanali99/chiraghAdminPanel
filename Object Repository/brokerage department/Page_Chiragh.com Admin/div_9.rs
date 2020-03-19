@@ -6,11 +6,19 @@
    <elementGuidId>ffaa5969-fb3a-41f3-8aa7-858fe986d3b8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[3]/td[3]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'mat-calendar-body-cell-content mat-calendar-body-today']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,14 +28,14 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-calendar-body-cell-content</value>
+      <value>mat-calendar-body-cell-content mat-calendar-body-today</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

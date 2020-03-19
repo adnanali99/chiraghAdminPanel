@@ -6,14 +6,18 @@
    <elementGuidId>1a784328-60f6-4e12-9537-c949f55b7432</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;bidslide&quot;]/div/div/div[1]/div/button/span[count(. | //*[(text() = '×' or . = '×')]) = count(//*[(text() = '×' or . = '×')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -48,11 +52,11 @@
       <value>×</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bidslide&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/div[@class=&quot;header-wrapper mt-1&quot;]/button[@class=&quot;close&quot;]</value>
+      <value>//*[@id=&quot;bidslide&quot;]/div/div/div[1]/div/button/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

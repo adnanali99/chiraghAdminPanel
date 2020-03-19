@@ -6,11 +6,15 @@
    <elementGuidId>b81dd977-b6ec-4485-b3fb-8e5eaa9279ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-datepicker-4&quot;]/mat-calendar-header/div/div/button[1][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,18 +52,18 @@
       <value>Choose month and year</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>JAN 2019</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-datepicker-14&quot;)/mat-calendar-header[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-calendar-header&quot;]/div[@class=&quot;mat-calendar-controls&quot;]/button[@class=&quot;mat-calendar-period-button mat-button&quot;]</value>
+      <value>//*[@id=&quot;mat-datepicker-4&quot;]/mat-calendar-header/div/div/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

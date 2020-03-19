@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.waitForPageLoad(8)
+WebUI.waitForPageLoad(20)
 
-WebUI.navigateToUrl('http://admin-chiragh.surge.sh/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/verification department/Page_Chi
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'),
-	'RigbBhfdqODKcAsiUrg+1Q==')
+	'c/4m4/rTvNs0iFiKg9IHPQ==')
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Login'))
 
@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('Object Repository/verification department/Page_Chi
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'),
-	'RigbBhfdqODKcAsiUrg+1Q==')
+	'c/4m4/rTvNs0iFiKg9IHPQ==')
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Login'))
 
@@ -81,25 +81,29 @@ WebUI.click(findTestObject('Object Repository/verification department/Page_Chira
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_POAs'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_POAs'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_POAs_1'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_POAs_1'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details'))
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage_1'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage_1'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Rental'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_mVerify'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Rental'))
+
+WebUI.delay(3)
+
+//WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_rVerify'))
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Check List'))
 
@@ -125,7 +129,7 @@ WebUI.setText(findTestObject('Object Repository/verification department/Page_Chi
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'),
-	'RigbBhfdqODKcAsiUrg+1Q==')
+	'c/4m4/rTvNs0iFiKg9IHPQ==')
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Login'))
 

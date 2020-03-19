@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://admin-chiragh.surge.sh/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
@@ -67,8 +67,6 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_a day ago_fas fa-user-circle'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza'))
-
-//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Haleem Hanif'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 
@@ -139,6 +137,26 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
+
+WebUI.waitForPageLoad(8)
+
+WebUI.setText(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/input_Admin Panel_userName'),
+	'abdullah')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/input_Username_password'),
+	'RigbBhfdqODKcAsiUrg+1Q==')
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_In Valuation'))
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_Chiragh  Knight Frank_fas fa'))
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_Confirm'))
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_AM'))
+
+WebUI.click(findTestObject('Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
 WebUI.waitForPageLoad(8)
 
@@ -302,7 +320,7 @@ WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chi
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Mark Main_upload-img-li'),
+WebUI.uploadFile(findTestObject('Object Repository/valuation department/Gallery/Page_Chiragh.com Admin/button_Regular_upload-img-link'),
 	'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\akoya-oxygen-1076-2052.jpg')
 
 WebUI.delay(3)

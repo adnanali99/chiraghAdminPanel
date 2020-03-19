@@ -6,11 +6,15 @@
    <elementGuidId>ed175c7d-7056-4fed-bd43-6c42cc025f59</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-brokerage-tab/div[1]/div[2]/div/form/div/section/div[2]/div/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,11 +59,11 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-1-5&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-brokerage-tab[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;documents-section px-0 container-fluid mt-4&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-md-12&quot;]/form[@class=&quot;sidenav-form ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-md-12 mt-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 mt-2&quot;]/mat-form-field[@class=&quot;datepicker-input form-input w-100 mat-form-field ng-tns-c3-12 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper&quot;]/div[@class=&quot;mat-form-field-flex&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c3-12 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-brokerage-tab/div[1]/div[2]/div/form/div/section/div[2]/div/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

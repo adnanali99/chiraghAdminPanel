@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Verify' or . = 'Verify')]</value>
+         <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[3]/div/app-property/div[1]/div[1]/div/div/button[count(. | //*[(text() = 'Verify' or . = 'Verify')]) = count(//*[(text() = 'Verify' or . = 'Verify')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -38,11 +38,11 @@
       <value>Verify</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-tab-content-0-0&quot;]/div/app-owners/div/div[1]/div/div/button</value>
+      <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[3]/div/app-property/div[1]/div[1]/div/div/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

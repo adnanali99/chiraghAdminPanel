@@ -6,11 +6,15 @@
    <elementGuidId>974bbc65-3ba4-49e3-9e9d-814f727bf449</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'NB' or . = 'NB')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='This collection is empty.. Keep checking.....'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/app-topnav[1]/mat-toolbar[@class=&quot;fix-nav mat-toolbar mat-toolbar-single-row&quot;]/button[@class=&quot;hidden-sm name-btn mat-icon-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>/html/body/app-root/app-layout/app-topnav/mat-toolbar/button[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

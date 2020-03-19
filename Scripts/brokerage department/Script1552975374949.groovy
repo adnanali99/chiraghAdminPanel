@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://admin-chiragh.surge.sh/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
@@ -176,7 +176,7 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_In Process_1'))
 
-WebUI.delay(250)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_June Light Hotel_fas fa-bars_2'))
 
@@ -189,6 +189,8 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag'))
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Brokerage Proposal_2'))
 
@@ -244,9 +246,11 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_Jul'))*/
 
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_18'))
+//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_18'))//////////
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_19'))
+WebUI.delay(5)
+
+/*WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_19'))
 
 WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Sat_owl-dt-timer-input'),
 	'12')
@@ -254,7 +258,7 @@ WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chirag
 WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Hour_owl-dt-timer-input'),
 	'00')
 
-WebUI.delay(5)
+WebUI.delay(5)*/
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_Set'))
 
@@ -285,10 +289,10 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Open Price (AED)_openPri'),
-	'7000000')
+	'5000000')
 
 WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Reserve Price (AED)_rese'),
-	'9000000')
+	'8000000')
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Select duration (in days)_'))
 
@@ -296,32 +300,25 @@ WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_Auction Start Date_mat-'))
 
-/*WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_MAR 2019'))
-
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_2019'))
-
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_JUL'))*/
-
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_4'))
-
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_9'))
-
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_13')
-
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_15'))
-
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_20'))
-
-//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_30'))
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Auction Start Date_mat-che'))
 
-WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/textarea_Open House_openHouseT'),
-	'9am - 11 am')
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/openhouse/Page_Chiragh.com Admin/button_ Add Schedule'))
+
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/openhouse/Page_Chiragh.com Admin/mat-form-field__datepicker-inp'))
+
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/openhouse/Page_Chiragh.com Admin/button__mat-icon-button'))
+
+WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_9'))
+
+WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/openhouse/Page_Chiragh.com Admin/input__form-control form-input'), '2 00PM' )
+
+WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/openhouse/Page_Chiragh.com Admin/Page_Chiragh.com Admin/input__form-control form-input'), '4 00PM')
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_Brokerage proposal has be'))
+//WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/span_Brokerage proposal has be'))
 
 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/img'))
 
@@ -332,9 +329,9 @@ WebUI.delay(3)
 
 //WebUI.delay(3)
 
-
 //WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Auction specifications fin'))
 	
+
 WebUI.delay(5)
 
 WebUI.executeJavaScript('window.open();', [])
@@ -371,6 +368,7 @@ WebUI.waitForPageLoad(5)
 		 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh/a_Listing Terms'))
 		 WebUI.delay(3)
 		 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh/button_Agree'))
+		 WebUI.delay(7)
 		 WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh/button_'))
 		 WebUI.delay(5)
 		 

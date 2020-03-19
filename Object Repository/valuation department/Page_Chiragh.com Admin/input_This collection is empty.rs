@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-myleads-sidebar-gallery/section/div/div/button[1]/span/input[count(. | //input[@name = 'file']) = count(//input[@name = 'file'])]</value>
+         <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-myleads-sidebar-gallery/section/div/div/div[1]/button/span/input[count(. | //input[@name = 'file']) = count(//input[@name = 'file'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-myleads-sidebar-gallery/section/div/div/button[1]/span/input</value>
+      <value>//*[@id=&quot;mat-tab-content-1-5&quot;]/div/app-myleads-sidebar-gallery/section/div/div/div[1]/button/span/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

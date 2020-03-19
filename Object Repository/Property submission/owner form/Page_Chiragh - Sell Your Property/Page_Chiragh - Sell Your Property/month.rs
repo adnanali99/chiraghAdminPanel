@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>month</name>
+   <tag></tag>
+   <elementGuidId>c0feae6c-379b-468e-be39-921eed9c073d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;owl-dt-picker-1&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-year-view/table/tbody/tr[1]/td[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;owl-dt-picker-1&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-year-view/table/tbody/tr[1]/td[2]/span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+</WebElementEntity>

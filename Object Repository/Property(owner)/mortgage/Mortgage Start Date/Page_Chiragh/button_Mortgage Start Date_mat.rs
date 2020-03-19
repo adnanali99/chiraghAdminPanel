@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-property-financials/div/div/div/div/div/div[1]/app-property-mortgage-form/form/div[1]/div[6]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button</value>
+         <value>/html/body/app-root/div/app-app-layout/div/app-property-financials/div/div/div/div/div/div[1]/app-property-mortgage-form/form/div[1]/div[6]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button/span/svg</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-property-financials/div/div/div/div/div/div[1]/app-property-mortgage-form/form/div[1]/div[6]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-property-financials/div/div/div/div/div/div[1]/app-property-mortgage-form/form/div[1]/div[6]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button/span/svg</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

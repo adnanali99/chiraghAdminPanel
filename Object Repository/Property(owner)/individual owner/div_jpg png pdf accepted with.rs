@@ -6,12 +6,12 @@
    <elementGuidId>57f4c799-f2bd-42b5-bedc-946fc1327a2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='jpg, png, pdf accepted with file size not exceeding 25MB'])[1]/following::div[4]</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/div/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='jpg, png, pdf accepted with file size not exceeding 25MB'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

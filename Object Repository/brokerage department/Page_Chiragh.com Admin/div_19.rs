@@ -6,12 +6,12 @@
    <elementGuidId>99f505f4-e297-4920-a813-30fba46e33ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[4]/td[3]/div</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;owl-dt-picker-0&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-month-view/table/tbody/tr[4]/td[1]/span[count(. | //*[(text() = '19' or . = '19')]) = count(//*[(text() = '19' or . = '19')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;owl-dt-picker-0&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-month-view/table/tbody/tr[3]/td[6]/span[count(. | //*[(text() = '19' or . = '19')]) = count(//*[(text() = '19' or . = '19')])]</value>
+         <key>XPATH</key>
+         <value>//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[4]/td[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;owl-dt-picker-0&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-month-view/table/tbody/tr[3]/td[6]/span</value>
+      <value>//*[@id=&quot;owl-dt-picker-0&quot;]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-month-view/table/tbody/tr[4]/td[1]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

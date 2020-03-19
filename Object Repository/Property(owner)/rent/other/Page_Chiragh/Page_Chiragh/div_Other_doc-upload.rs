@@ -6,12 +6,12 @@
    <elementGuidId>dba8fe5d-8671-4a3c-a428-fba5199ea7f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[2]</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/div/app-app-layout/div/app-property-rental/div/div/div/div/div/div[1]/app-property-rental-form/form/div[2]/div[3]/app-upload-document/div/div/div[3]/div/input[count(. | //*[@class = 'doc-upload']) = count(//*[@class = 'doc-upload'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-property-rental/div/div/div/div/div/div[1]/app-property-rental-form/form/div[2]/div[3]/app-upload-document/div/div/div[3]/div/input</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-property-rental/div/div/div/div/div/div[1]/app-property-rental-form/form/div[2]/div[3]/app-upload-document/div/div/div[3]/div/input</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-property-rental/div/div/div/div/div/div[1]/app-property-rental-form/form/div[2]/div[3]/app-upload-document/div/div/div[3]/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

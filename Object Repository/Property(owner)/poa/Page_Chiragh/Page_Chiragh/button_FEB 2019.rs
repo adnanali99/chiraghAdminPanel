@@ -6,12 +6,12 @@
    <elementGuidId>de699550-cd15-42d3-a92c-c994ffd9cab3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-datepicker-3&quot;]/mat-calendar-header/div/div/button[1]/span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;mat-datepicker-3&quot;]/mat-calendar-header/div/div/button[1]</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-datepicker-3&quot;]/mat-calendar-header/div/div/button[1]</value>
+      <value>//*[@id=&quot;mat-datepicker-3&quot;]/mat-calendar-header/div/div/button[1]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ID card expiry</name>
+   <tag></tag>
+   <elementGuidId>21bf01c7-5562-4e0f-a7f5-1534b4e006f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[1]/div/div[2]/div[4]/div/input[count(. | //input[@id = 'idExpiry']) = count(//input[@id = 'idExpiry'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[1]/div/div[2]/div[4]/div/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>idExpiry</value>
+   </webElementProperties>
+</WebElementEntity>

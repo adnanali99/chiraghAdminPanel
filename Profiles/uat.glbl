@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>uat</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://uat.chiragh.com'</initValue>
+      <name>Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'adnanshafiq1'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234567890'</initValue>
+      <name>passWord</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('property by name/Page_Chiragh/h2_Project 51468 Penthouse wit')</initValue>
+      <name>PropertyName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://uat-admin-chiragh.surge.sh'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

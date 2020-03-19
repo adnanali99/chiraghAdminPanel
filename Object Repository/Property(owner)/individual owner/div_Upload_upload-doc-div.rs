@@ -6,12 +6,12 @@
    <elementGuidId>fbb4ec77-9122-407d-8c53-1fcc1587d6d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::div[4]</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/div/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]/img[count(. | //*[@class = 'upload-doc-div']) = count(//*[@class = 'upload-doc-div'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[3]/div/input</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[3]/div/input</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-owner-details/div[1]/div/div/div/div/div[1]/app-owner-form/form/div[3]/div[2]/app-upload-document/div/div/div[1]/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

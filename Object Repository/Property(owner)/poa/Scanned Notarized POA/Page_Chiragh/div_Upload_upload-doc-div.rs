@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-app-layout/div/app-poa-details/div[1]/div/div/div/div/div[1]/app-poa-form/form/div[4]/div[4]/app-upload-document/div/div/div[1]</value>
+         <value>/html/body/app-root/div/app-app-layout/div/app-poa-details/div[1]/div/div/div/div/div[1]/app-poa-form/form/div[4]/div[4]/app-upload-document/div/div/div[3]/div/input</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-app-layout/div/app-poa-details/div[1]/div/div/div/div/div[1]/app-poa-form/form/div[4]/div[4]/app-upload-document/div/div/div[1]</value>
+      <value>/html/body/app-root/div/app-app-layout/div/app-poa-details/div[1]/div/div/div/div/div[1]/app-poa-form/form/div[4]/div[4]/app-upload-document/div/div/div[3]/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
