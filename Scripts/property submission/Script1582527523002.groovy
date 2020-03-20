@@ -136,11 +136,6 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Property for
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address'), 
     'United Arab Emirates')
 
-WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'), 
-    'United Arab Emirates')
-
-WebUI.sendKeys(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'), 
-    Keys.chord(Keys.ENTER))
 
 WebUI.delay(4)
 
@@ -153,8 +148,12 @@ WebUI.sendKeys(findTestObject('Object Repository/Property submission/Property fo
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer'), 
     'DEV')
 
+WebUI.delay(4)
+
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'), 
     'Residential')
+
+WebUI.delay(4)
 
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
@@ -167,6 +166,9 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Property for
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths'), 
     '4')
+
+WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'),
+	'2')
 
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Covered Parking'))
 
@@ -204,7 +206,7 @@ WebUI.delay(7)
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'), 
     'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
-WebUI.delay(7)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
