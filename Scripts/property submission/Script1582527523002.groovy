@@ -169,6 +169,8 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Property for
 
 //WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Covered Parking'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'), 
     '2')
 
