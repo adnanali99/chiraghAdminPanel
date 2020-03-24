@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Verify</name>
+   <name>button_ownerVerify</name>
    <tag></tag>
-   <elementGuidId>4db2a7d3-b9bd-4499-99a8-ee68cba5dec1</elementGuidId>
+   <elementGuidId>5f53ba70-7e38-4364-9183-a0076fd960b1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Verify' or . = 'Verify')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Verify</value>
+      <value> Verify </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[1]/div/app-owners/div/div[1]/div/div/button</value>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-owners[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container-fluid property-details-wrapper px-0 mt-4 ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;details-header&quot;]/button[@class=&quot;btn btn-sidenav-save ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +50,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner 1: Haylee Breanne'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner 1: Auto Chiragh'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

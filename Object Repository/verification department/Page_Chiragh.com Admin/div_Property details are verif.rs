@@ -6,11 +6,15 @@
    <elementGuidId>c45b73b1-80ad-4292-9784-7f5c7a5aa2de</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[6]/div/app-checklist/div/div[2]/div/div/ul/li[3]/mat-checkbox/label/div</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-80']/label/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-checkbox-80&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
+      <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[6]/div/app-checklist/div/div[2]/div/div/ul/li[3]/mat-checkbox/label/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//mat-checkbox[@id='mat-checkbox-80']/label/div</value>
+      <value>//mat-checkbox[@id='mat-checkbox-77']/label/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,24 +53,24 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='POA details are verified?'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal details are verified?'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made an acknowledgment call?'])[1]/preceding::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made an acknowledgment call?'])[1]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property ID'])[1]/preceding::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bashirian Crest, 6 Beds, Villa'])[4]/preceding::div[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[4]/mat-checkbox/label/div</value>
+      <value>//li[3]/mat-checkbox/label/div</value>
    </webElementXpaths>
 </WebElementEntity>

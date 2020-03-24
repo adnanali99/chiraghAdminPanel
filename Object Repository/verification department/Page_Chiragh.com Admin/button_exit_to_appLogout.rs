@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/button[3]</value>
+         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -52,18 +52,18 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>exit_to_appLogout</value>
+      <value>Logout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/button[3]</value>
+      <value>//*[@id=&quot;cdk-overlay-5&quot;]/div/div/button[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.waitForPageLoad(20)
+WebUI.waitForPageLoad(40)
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
@@ -79,7 +79,9 @@ WebUI.click(findTestObject('Object Repository/verification department/Page_Chira
 
 //WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Owners'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_ownerVerify'))
 
 //WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_POAs'))
 
@@ -89,7 +91,9 @@ WebUI.click(findTestObject('Object Repository/verification department/Page_Chira
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details'))
 
-WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Verify'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_propertyVerify'))
 
 //WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Mortgage'))
 
@@ -107,6 +111,10 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Check List'))
 
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif'), 9)
+
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif'))
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm'))
@@ -115,7 +123,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_MH'))
 
-WebUI.delay(7)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 

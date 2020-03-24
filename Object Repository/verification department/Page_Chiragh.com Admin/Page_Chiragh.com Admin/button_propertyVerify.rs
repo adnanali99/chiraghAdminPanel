@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Verify</name>
+   <name>button_propertyVerify</name>
    <tag></tag>
-   <elementGuidId>4db2a7d3-b9bd-4499-99a8-ee68cba5dec1</elementGuidId>
+   <elementGuidId>ee72a1ca-e7e5-42ff-96a2-d8f35cadf402</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Verify' or . = 'Verify')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/button</value>
+         <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/app-property/div/div/div/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,19 +38,19 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-layout/div/app-sellers/app-property-details/div[1]/div/div/div[2]/div[3]/div/div/mat-tab-group/div/mat-tab-body[1]/div/app-owners/div/div[1]/div/div/button</value>
+      <value>id(&quot;mat-tab-content-0-2&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-property[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container-fluid property-details-wrapper px-0 mt-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;details-header&quot;]/button[@class=&quot;btn btn-sidenav-save ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div/div/div/button</value>
+      <value>//mat-tab-body[@id='mat-tab-content-0-2']/div/app-property/div/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner 1: Haylee Breanne'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Details'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,18 +62,18 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Details:'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area Details:'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Status'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//app-owners/div/div/div/div/button</value>
+      <value>//app-property/div/div/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>
