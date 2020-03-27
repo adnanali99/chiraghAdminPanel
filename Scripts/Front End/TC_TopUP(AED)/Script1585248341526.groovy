@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
@@ -68,6 +70,8 @@ WebUI.delay(5)
 WebUI.scrollToElement(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox'), 5)
 
 WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST'))
 

@@ -7,10 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Receipt.'])[1]/following::div[5]</value>
+         <value>/html/body/app-root/app-layout/section/div/div[3]/app-wallet/div/div[2]/app-make-transaction/div[2]/app-top-up/form/div[6]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body > app-root > app-layout > section > div > div.profile-right > app-wallet > div > div.dashbord-content > app-make-transaction > div.make-transaction-inner > app-top-up > form > div.row.my-1 > div > div > label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = ' I agree with Chiragh Wallet T&amp;C Read More' or . = ' I agree with Chiragh Wallet T&amp;C Read More')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,18 +52,21 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Receipt.'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction ID *'])[1]/following::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[6]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
