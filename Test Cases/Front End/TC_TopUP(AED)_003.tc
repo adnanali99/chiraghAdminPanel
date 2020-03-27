@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_TopUP(AED)</name>
+   <name>TC_TopUP(AED)_003</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b7074ae8-9b2c-4b0c-8291-086785e16b85</testCaseGuid>

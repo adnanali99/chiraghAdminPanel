@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>currency_USD</name>
+   <tag></tag>
+   <elementGuidId>bf27ef66-45ab-408e-a3f1-187fc5ca6992</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-layout/section/div/div[3]/app-wallet/div/div[2]/app-make-transaction/div[2]/app-top-up/form/div[1]/div[2]/div/div[2]/div/select/option[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-layout/section/div/div[3]/app-wallet/div/div[2]/app-make-transaction/div[2]/app-top-up/form/div[1]/div[2]/div/div[2]/div/select/option[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -14,6 +14,6 @@
       <guid>59e7bef3-32e1-46a6-a471-0cea35c00c4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_PropertySubmissionForm_001</testCaseId>
+      <testCaseId>Test Cases/Front End/TC_PropertySubmissionForm_002</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
