@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This testcase will explore all the links on the chiragh website to ensure that all the links and buttons are working as intended.</description>
+   <name>TC_SmokeTests_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6be80b8d-1163-4106-af8a-4f845328b2aa</testCaseGuid>
+</TestCaseEntity>
