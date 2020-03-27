@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ChiraghBank</name>
+   <tag></tag>
+   <elementGuidId>a6e382de-282a-4d60-83c6-cec3e2455541</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-layout/section/div/div[3]/app-wallet/div/div[2]/app-make-transaction/div[2]/app-top-up/form/div[3]/div[1]/div/div[1]/select[count(. | //*[@name = 'chBank']) = count(//*[@name = 'chBank'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-layout/section/div/div[3]/app-wallet/div/div[2]/app-make-transaction/div[2]/app-top-up/form/div[3]/div[1]/div/div[1]/select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>chBank</value>
+   </webElementProperties>
+</WebElementEntity>

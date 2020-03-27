@@ -21,29 +21,29 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(8)
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Username'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/div_Username'))
 
-WebUI.setText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName'),
+WebUI.setText(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName'),
 	'farhanm')
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/div_Password'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/div_Password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/input_Username_password'),
+WebUI.setEncryptedText(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/input_Username_password'),
 	'RigbBhfdqODKcAsiUrg+1Q==')
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_Login'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_New Leads'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_New Leads'))
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_Abdullah M'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_Abdullah M'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_FM'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/button_FM'))
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
 WebUI.waitForPageLoad(5)
 

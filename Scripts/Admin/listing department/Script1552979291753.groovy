@@ -91,7 +91,7 @@ WebUI.click(findTestObject('Object Repository/listing/Page_Chiragh.com Admin/img
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/brokerage department/Page_Chiragh.com Admin/a_Golf Grove Townhouse 8 Beds'))
+WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_Golf Grove Townhouse 8 Beds'))
 
 WebUI.delay(3)
 

@@ -11,18 +11,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test_user'</initValue>
+      <initValue>'AUTOCHIRAGH'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'1234567890'</initValue>
       <name>passWord</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>findTestObject('property by name/Page_Chiragh/h2_Project 51468 Penthouse wit')</initValue>
-      <name>PropertyName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
