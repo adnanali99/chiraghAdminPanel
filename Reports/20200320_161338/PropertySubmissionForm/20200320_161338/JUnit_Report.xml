@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PropertySubmissionForm" time="187.874" tests="1" failures="0" errors="0">
+   <testsuite name="PropertySubmissionForm" tests="1" failures="0" errors="0" time="187.874" timestamp="2020-03-20 16:13:42" hostname="hp - Adnan" id="Test Suites/PropertySubmissionForm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200320_161338\\PropertySubmissionForm\\20200320_161338"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200320_161338\\PropertySubmissionForm\\20200320_161338\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200320_161338\\PropertySubmissionForm\\20200320_161338/videos\\test_1.avi"/>
+         <property name="hostName" value="hp - Adnan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="192.168.100.156"/>
+         <property name="sessionId" value="9a25f62cb17dcdf0f2a7b2cbe0e8cf55"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_PropertySubmissionForm_001" time="187.316" classname="Test Cases/TC_PropertySubmissionForm_001" status="PASSED">
+         <system-out><![CDATA[2020-03-20 16:13:43 - [TEST_CASE][PASSED] - Test Cases/TC_PropertySubmissionForm_001: Test Cases/TC_PropertySubmissionForm_001
+
+2020-03-20 16:13:44 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(): null
+
+2020-03-20 16:13:45 - [TEST_STEP][PASSED] - projectname = address().streetName(): null
+
+2020-03-20 16:13:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-20 16:13:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-20 16:13:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-20 16:13:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-20 16:13:54 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://test.chiragh.com' successfully
+
+2020-03-20 16:13:54 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2020-03-20 16:13:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2020-03-20 16:14:11 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com' successfully
+
+2020-03-20 16:14:11 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-03-20 16:14:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-20 16:14:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-20 16:14:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-20 16:14:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-20 16:14:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-20 16:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Property submission/owner/Page_Chiragh - Home/a_SELL")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Home/a_SELL' is clicked on
+
+2020-03-20 16:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Home/a_SELL' is clicked on
+
+2020-03-20 16:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un"), "AUTOCHIRAGH"): Text 'AUTOCHIRAGH' is set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'
+
+2020-03-20 16:14:21 - [MESSAGE][PASSED] - Text 'AUTOCHIRAGH' is set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'
+
+2020-03-20 16:14:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-03-20 16:14:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-03-20 16:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-03-20 16:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-03-20 16:14:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-03-20 16:14:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-03-20 16:14:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo"), "3294723889"): Text '3294723889' is set on object 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'
+
+2020-03-20 16:14:33 - [MESSAGE][PASSED] - Text '3294723889' is set on object 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'
+
+2020-03-20 16:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry' is clicked on
+
+2020-03-20 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry' is clicked on
+
+2020-03-20 16:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020' is clicked on
+
+2020-03-20 16:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020' is clicked on
+
+2020-03-20 16:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029' is clicked on
+
+2020-03-20 16:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029' is clicked on
+
+2020-03-20 16:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month' is clicked on
+
+2020-03-20 16:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month' is clicked on
+
+2020-03-20 16:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21' is clicked on
+
+2020-03-20 16:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21' is clicked on
+
+2020-03-20 16:14:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy"), 5): Scroll to object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy' successfully
+
+2020-03-20 16:14:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy' successfully
+
+2020-03-20 16:14:37 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:14:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:14:41 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Property submission/owner/Scanned Passport Copy"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner/Scanned Passport Copy'
+
+2020-03-20 16:14:42 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner/Scanned Passport Copy'
+
+2020-03-20 16:14:42 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-03-20 16:14:49 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-03-20 16:14:49 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:14:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:14:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'
+
+2020-03-20 16:14:53 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'
+
+2020-03-20 16:14:53 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-03-20 16:15:00 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-03-20 16:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:15:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes"), 4): Object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes' is present
+
+2020-03-20 16:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes' is present
+
+2020-03-20 16:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input")): Object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' is clicked on
+
+2020-03-20 16:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' is clicked on
+
+2020-03-20 16:15:06 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:15:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:15:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input"), "No"): Text 'No' is set on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:11 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:15:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:15:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:15:16 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:15:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input' is clicked on
+
+2020-03-20 16:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input' is clicked on
+
+2020-03-20 16:15:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input"), "Completed"): Text 'Completed' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'
+
+2020-03-20 16:15:21 - [MESSAGE][PASSED] - Text 'Completed' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'
+
+2020-03-20 16:15:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'
+
+2020-03-20 16:15:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'
+
+2020-03-20 16:15:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input_Title Deed Number_titleD"), "348236327"): Text '348236327' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input_Title Deed Number_titleD'
+
+2020-03-20 16:15:23 - [MESSAGE][PASSED] - Text '348236327' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input_Title Deed Number_titleD'
+
+2020-03-20 16:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input"), "Free Hold"): Text 'Free Hold' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:24 - [MESSAGE][PASSED] - Text 'Free Hold' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input"), "Villa"): Text 'Villa' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:25 - [MESSAGE][PASSED] - Text 'Villa' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Project Name/Page_Chiragh - Sell Your Property/input_Project Name_projectName"), projectname): Text 'Selina Parkways' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Project Name/Page_Chiragh - Sell Your Property/input_Project Name_projectName'
+
+2020-03-20 16:15:26 - [MESSAGE][PASSED] - Text 'Selina Parkways' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Project Name/Page_Chiragh - Sell Your Property/input_Project Name_projectName'
+
+2020-03-20 16:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Building name/Page_Chiragh - Sell Your Property/input_Building Name_bulidingNa"), "Ajman Tower"): Text 'Ajman Tower' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Building name/Page_Chiragh - Sell Your Property/input_Building Name_bulidingNa'
+
+2020-03-20 16:15:28 - [MESSAGE][PASSED] - Text 'Ajman Tower' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Building name/Page_Chiragh - Sell Your Property/input_Building Name_bulidingNa'
+
+2020-03-20 16:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Net Area_netArea"), "2100"): Text '2100' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Net Area_netArea'
+
+2020-03-20 16:15:28 - [MESSAGE][PASSED] - Text '2100' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Net Area_netArea'
+
+2020-03-20 16:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input"), "sqm"): Text 'sqm' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:29 - [MESSAGE][PASSED] - Text 'sqm' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea"), "2300"): Text '2300' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'
+
+2020-03-20 16:15:31 - [MESSAGE][PASSED] - Text '2300' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'
+
+2020-03-20 16:15:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address"), "United Arab Emirates"): Text 'United Arab Emirates' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address'
+
+2020-03-20 16:15:32 - [MESSAGE][PASSED] - Text 'United Arab Emirates' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address'
+
+2020-03-20 16:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input"), "United Arab Emirates"): Text 'United Arab Emirates' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:33 - [MESSAGE][PASSED] - Text 'United Arab Emirates' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:34 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:15:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input"), "Dubai"): Text 'Dubai' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:38 - [MESSAGE][PASSED] - Text 'Dubai' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer"), "DEV"): Text 'DEV' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer'
+
+2020-03-20 16:15:40 - [MESSAGE][PASSED] - Text 'DEV' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer'
+
+2020-03-20 16:15:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input"), "Residential"): Text 'Residential' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:40 - [MESSAGE][PASSED] - Text 'Residential' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:15:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Approx Age/Page_Chiragh - Sell Your Property/input_Property Approx. Age_pro"), "2 years"): Text '2 years' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Approx Age/Page_Chiragh - Sell Your Property/input_Property Approx. Age_pro'
+
+2020-03-20 16:15:42 - [MESSAGE][PASSED] - Text '2 years' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Approx Age/Page_Chiragh - Sell Your Property/input_Property Approx. Age_pro'
+
+2020-03-20 16:15:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Beds/Page_Chiragh - Sell Your Property/input_Bedrooms_noOfBedrooms"), "6"): Text '6' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Beds/Page_Chiragh - Sell Your Property/input_Bedrooms_noOfBedrooms'
+
+2020-03-20 16:15:42 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Beds/Page_Chiragh - Sell Your Property/input_Bedrooms_noOfBedrooms'
+
+2020-03-20 16:15:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths"), "4"): Text '4' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths'
+
+2020-03-20 16:15:43 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths'
+
+2020-03-20 16:15:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-20 16:15:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-20 16:15:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings"), "2"): Text '2' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'
+
+2020-03-20 16:15:46 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'
+
+2020-03-20 16:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room' is clicked on
+
+2020-03-20 16:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room' is clicked on
+
+2020-03-20 16:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen' is clicked on
+
+2020-03-20 16:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen' is clicked on
+
+2020-03-20 16:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished' is clicked on
+
+2020-03-20 16:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished' is clicked on
+
+2020-03-20 16:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access' is clicked on
+
+2020-03-20 16:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access' is clicked on
+
+2020-03-20 16:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility' is clicked on
+
+2020-03-20 16:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility' is clicked on
+
+2020-03-20 16:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance' is clicked on
+
+2020-03-20 16:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance' is clicked on
+
+2020-03-20 16:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques' is clicked on
+
+2020-03-20 16:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques' is clicked on
+
+2020-03-20 16:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools' is clicked on
+
+2020-03-20 16:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools' is clicked on
+
+2020-03-20 16:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls' is clicked on
+
+2020-03-20 16:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls' is clicked on
+
+2020-03-20 16:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/textarea_Description _property"), "Property for sale"): Text 'Property for sale' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/textarea_Description _property'
+
+2020-03-20 16:15:52 - [MESSAGE][PASSED] - Text 'Property for sale' is set on object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/textarea_Description _property'
+
+2020-03-20 16:15:52 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:15:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:15:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed"), 5): Scroll to object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed' successfully
+
+2020-03-20 16:15:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed' successfully
+
+2020-03-20 16:15:57 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'
+
+2020-03-20 16:15:57 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'
+
+2020-03-20 16:15:57 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-03-20 16:16:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-03-20 16:16:04 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'
+
+2020-03-20 16:16:05 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'
+
+2020-03-20 16:16:05 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-03-20 16:16:12 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-03-20 16:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input"), "No"): Text 'No' is set on object 'Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:15 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Mortgage/Next/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/Mortgage/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Mortgage/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-03-20 16:16:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-03-20 16:16:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), 5): Scroll to object 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input' successfully
+
+2020-03-20 16:16:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input' successfully
+
+2020-03-20 16:16:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-03-20 16:16:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-03-20 16:16:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), "No"): Text 'No' is set on object 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:32 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'
+
+2020-03-20 16:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-03-20 16:16:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-20 16:16:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-20 16:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT")): Object: 'Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT' is clicked on
+
+2020-03-20 16:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT' is clicked on
+
+2020-03-20 16:16:38 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-03-20 16:16:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-03-20 16:16:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Property submission/Done/Page_Chiragh - Sell Your Property/h3_Thank You"), 5): Object 'Object Repository/Property submission/Done/Page_Chiragh - Sell Your Property/h3_Thank You' is present
+
+2020-03-20 16:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Property submission/Done/Page_Chiragh - Sell Your Property/h3_Thank You' is present
+
+2020-03-20 16:16:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-20 16:16:48 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-20 16:16:50 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_PropertySubmissionForm_001' .
+
+2020-03-20 16:16:50 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_PropertySubmissionForm_001' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200320_161338\\PropertySubmissionForm\\20200320_161338/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-20 16:13:42 - [TEST_SUITE][PASSED] - PropertySubmissionForm: Test Cases/TC_PropertySubmissionForm_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

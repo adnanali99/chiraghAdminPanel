@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev.chiragh.com/'</initValue>
+      <initValue>'http://test.chiragh.com'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bcmuser'</initValue>
+      <initValue>'AUTOCHIRAGH'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('property by name/Page_Chiragh/h2_Project 51468 Penthouse wit')</initValue>
-      <name>PropertyName</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://admin-chiragh.surge.sh'</initValue>
+      <initValue>'http://test-admin-chiragh.surge.sh'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

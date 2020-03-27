@@ -1,0 +1,372 @@
+1
+00:00:00,905 --> 00:00:00,926
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:01,603 --> 00:00:01,610
+5. projectname = address().streetName()
+
+3
+00:00:01,646 --> 00:00:01,651
+9. openBrowser("")
+
+4
+00:00:10,295 --> 00:00:10,297
+13. navigateToUrl(Url)
+
+5
+00:00:27,786 --> 00:00:27,790
+17. waitForPageLoad(15)
+
+6
+00:00:28,051 --> 00:00:28,052
+21. maximizeWindow()
+
+7
+00:00:32,419 --> 00:00:32,422
+25. delay(3)
+
+8
+00:00:35,471 --> 00:00:35,473
+29. click(findTestObject("Property submission/owner/Page_Chiragh - Home/a_SELL"))
+
+9
+00:00:36,185 --> 00:00:36,186
+33. setText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un"), "AUTOCHIRAGH")
+
+10
+00:00:37,506 --> 00:00:37,507
+37. setEncryptedText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+11
+00:00:38,227 --> 00:00:38,229
+41. click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:38,840 --> 00:00:38,841
+45. delay(10)
+
+13
+00:00:48,846 --> 00:00:48,848
+49. setText(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo"), "3294723889")
+
+14
+00:00:49,610 --> 00:00:49,611
+53. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry"))
+
+15
+00:00:50,260 --> 00:00:50,261
+57. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020"))
+
+16
+00:00:50,939 --> 00:00:50,940
+61. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029"))
+
+17
+00:00:51,556 --> 00:00:51,558
+65. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month"))
+
+18
+00:00:52,135 --> 00:00:52,136
+69. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21"))
+
+19
+00:00:52,788 --> 00:00:52,789
+73. scrollToElement(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy"), 5)
+
+20
+00:00:53,823 --> 00:00:53,824
+77. delay(4)
+
+21
+00:00:57,830 --> 00:00:57,832
+81. uploadFile(findTestObject("Property submission/owner/Scanned Passport Copy"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+22
+00:00:58,396 --> 00:00:58,397
+85. delay(7)
+
+23
+00:01:05,401 --> 00:01:05,403
+89. delay(4)
+
+24
+00:01:09,411 --> 00:01:09,416
+93. uploadFile(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+25
+00:01:09,960 --> 00:01:09,961
+97. delay(7)
+
+26
+00:01:16,966 --> 00:01:16,966
+101. click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next"))
+
+27
+00:01:17,553 --> 00:01:17,554
+105. verifyElementPresent(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes"), 4)
+
+28
+00:01:21,986 --> 00:01:21,986
+109. click(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input"))
+
+29
+00:01:22,628 --> 00:01:22,629
+113. delay(4)
+
+30
+00:01:26,634 --> 00:01:26,636
+117. setText(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input"), "No")
+
+31
+00:01:27,384 --> 00:01:27,385
+121. sendKeys(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+32
+00:01:28,025 --> 00:01:28,028
+125. delay(4)
+
+33
+00:01:32,032 --> 00:01:32,034
+129. click(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/button_Next"))
+
+34
+00:01:32,719 --> 00:01:32,720
+133. delay(4)
+
+35
+00:01:36,725 --> 00:01:36,727
+137. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input"))
+
+36
+00:01:37,394 --> 00:01:37,395
+141. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input"), "Completed")
+
+37
+00:01:38,233 --> 00:01:38,234
+145. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input"), Keys.chord(ENTER))
+
+38
+00:01:38,618 --> 00:01:38,620
+149. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input_Title Deed Number_titleD"), "348236327")
+
+39
+00:01:39,491 --> 00:01:39,492
+153. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input"), "Free Hold")
+
+40
+00:01:40,403 --> 00:01:40,404
+157. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Type of area/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+41
+00:01:40,845 --> 00:01:40,846
+161. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input"), "Villa")
+
+42
+00:01:41,625 --> 00:01:41,625
+165. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property Type/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+43
+00:01:42,166 --> 00:01:42,167
+169. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Project Name/Page_Chiragh - Sell Your Property/input_Project Name_projectName"), projectname)
+
+44
+00:01:43,284 --> 00:01:43,286
+173. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Building name/Page_Chiragh - Sell Your Property/input_Building Name_bulidingNa"), "Ajman Tower")
+
+45
+00:01:44,541 --> 00:01:44,542
+177. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Net Area_netArea"), "2100")
+
+46
+00:01:45,197 --> 00:01:45,198
+181. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input"), "sqm")
+
+47
+00:01:46,152 --> 00:01:46,153
+185. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+48
+00:01:46,634 --> 00:01:46,635
+189. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea"), "2300")
+
+49
+00:01:47,448 --> 00:01:47,449
+193. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address"), "United Arab Emirates")
+
+50
+00:01:48,716 --> 00:01:48,717
+197. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input"), "United Arab Emirates")
+
+51
+00:01:50,097 --> 00:01:50,098
+201. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Country/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+52
+00:01:50,530 --> 00:01:50,532
+205. delay(4)
+
+53
+00:01:54,535 --> 00:01:54,536
+209. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input"), "Dubai")
+
+54
+00:01:55,169 --> 00:01:55,170
+213. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+55
+00:01:55,570 --> 00:01:55,572
+217. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer"), "DEV")
+
+56
+00:01:56,317 --> 00:01:56,318
+221. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input"), "Residential")
+
+57
+00:01:57,279 --> 00:01:57,280
+225. sendKeys(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Present Use/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+58
+00:01:57,851 --> 00:01:57,853
+229. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Approx Age/Page_Chiragh - Sell Your Property/input_Property Approx. Age_pro"), "2 years")
+
+59
+00:01:58,708 --> 00:01:58,709
+233. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Beds/Page_Chiragh - Sell Your Property/input_Bedrooms_noOfBedrooms"), "6")
+
+60
+00:01:59,283 --> 00:01:59,284
+237. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths"), "4")
+
+61
+00:01:59,903 --> 00:01:59,904
+241. delay(2)
+
+62
+00:02:01,911 --> 00:02:01,914
+245. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings"), "2")
+
+63
+00:02:02,581 --> 00:02:02,582
+249. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room"))
+
+64
+00:02:03,303 --> 00:02:03,308
+253. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen"))
+
+65
+00:02:03,901 --> 00:02:03,902
+257. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished"))
+
+66
+00:02:04,503 --> 00:02:04,504
+261. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access"))
+
+67
+00:02:05,074 --> 00:02:05,074
+265. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility"))
+
+68
+00:02:05,744 --> 00:02:05,746
+269. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance"))
+
+69
+00:02:06,470 --> 00:02:06,470
+273. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques"))
+
+70
+00:02:07,188 --> 00:02:07,190
+277. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools"))
+
+71
+00:02:07,803 --> 00:02:07,804
+281. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls"))
+
+72
+00:02:08,326 --> 00:02:08,327
+285. setText(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/textarea_Description _property"), "Property for sale")
+
+73
+00:02:09,209 --> 00:02:09,209
+289. delay(4)
+
+74
+00:02:13,214 --> 00:02:13,215
+293. scrollToElement(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed"), 5)
+
+75
+00:02:13,669 --> 00:02:13,671
+297. uploadFile(findTestObject("Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+76
+00:02:14,184 --> 00:02:14,185
+301. delay(7)
+
+77
+00:02:21,189 --> 00:02:21,190
+305. uploadFile(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+78
+00:02:21,623 --> 00:02:21,624
+309. delay(7)
+
+79
+00:02:28,629 --> 00:02:28,630
+313. click(findTestObject("Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next"))
+
+80
+00:02:29,319 --> 00:02:29,320
+317. setText(findTestObject("Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input"), "No")
+
+81
+00:02:31,679 --> 00:02:31,681
+321. sendKeys(findTestObject("Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+82
+00:02:32,342 --> 00:02:32,343
+325. click(findTestObject("Object Repository/Property submission/Mortgage/Next/Page_Chiragh - Sell Your Property/button_Next"))
+
+83
+00:02:33,052 --> 00:02:33,053
+329. delay(10)
+
+84
+00:02:43,056 --> 00:02:43,058
+333. scrollToElement(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), 5)
+
+85
+00:02:43,571 --> 00:02:43,572
+337. delay(4)
+
+86
+00:02:47,584 --> 00:02:47,586
+341. setText(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), "No")
+
+87
+00:02:48,383 --> 00:02:48,383
+345. sendKeys(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input"), Keys.chord(ENTER))
+
+88
+00:02:48,895 --> 00:02:48,896
+349. click(findTestObject("Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next"))
+
+89
+00:02:49,527 --> 00:02:49,528
+353. delay(5)
+
+90
+00:02:54,533 --> 00:02:54,546
+357. click(findTestObject("Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT"))
+
+91
+00:02:55,224 --> 00:02:55,224
+361. delay(8)
+
+92
+00:03:03,228 --> 00:03:03,230
+365. verifyElementPresent(findTestObject("Object Repository/Property submission/Done/Page_Chiragh - Sell Your Property/h3_Thank You"), 5)
+
+93
+00:03:03,666 --> 00:03:03,668
+369. closeBrowser()
+
