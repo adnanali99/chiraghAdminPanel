@@ -14,6 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 Faker faker = new Faker()
 
@@ -170,11 +172,10 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Property for
     '4')
 
 //WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Covered Parking'))
-
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'),
-	'2')
+WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'), 
+    '2')
 
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room'))
 
@@ -239,6 +240,9 @@ WebUI.sendKeys(findTestObject('Object Repository/Property submission/Rental/Page
 WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT'))
 

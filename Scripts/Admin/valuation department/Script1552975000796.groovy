@@ -19,7 +19,7 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForPageLoad(8)
+WebUI.waitForPageLoad(50)
 
 WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/div_Username'))
 
