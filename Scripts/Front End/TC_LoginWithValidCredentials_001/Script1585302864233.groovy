@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCr
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'), 
-    GlobalVariable.userName)
+    'mumtazhassan2')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'), 
     'RigbBhfdqOBDK95asqKeHw==')
@@ -44,11 +44,9 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh'))
 
 //String username = WebUI.getText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Dashborad Home/a_AUTOCHIRAGH'))
-
 WebUI.delay(10)
 
 WebUI.verifyTextPresent(GlobalVariable.userName, true)
 
 WebUI.closeBrowser()
-
 
