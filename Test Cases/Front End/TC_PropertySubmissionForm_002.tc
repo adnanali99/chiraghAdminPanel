@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a registered user, I should be able to login and submit my property details without POA, Mortgage and Rental Details.</description>
    <name>TC_PropertySubmissionForm_002</name>
    <tag></tag>
    <comment></comment>
