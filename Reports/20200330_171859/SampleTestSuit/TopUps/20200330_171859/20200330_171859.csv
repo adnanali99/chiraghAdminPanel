@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TopUps,Chrome 80.0.3987.149,,,2020-03-30 17:19:02,2020-03-30 17:20:56,1m - 54.745s,PASSED
+,,,,,,,
+Test Cases/Front End/TC_TopUP(AED)_003,Chrome 80.0.3987.149,"As a registered user, I should be able to login and to do Top Up my Chiragh AED Wallet with AED 1,000. My request should be successfully submitted.",,2020-03-30 17:19:02,2020-03-30 17:20:56,1m - 54.237s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.149,,,2020-03-30 17:19:03,2020-03-30 17:19:10,7.074s,PASSED
+navigateToUrl(Url),Chrome 80.0.3987.149,,,2020-03-30 17:19:10,2020-03-30 17:19:43,33.283s,PASSED
+waitForPageLoad(15),Chrome 80.0.3987.149,,,2020-03-30 17:19:43,2020-03-30 17:19:43,0.181s,PASSED
+maximizeWindow(),Chrome 80.0.3987.149,,,2020-03-30 17:19:43,2020-03-30 17:19:48,4.278s,PASSED
+delay(3),Chrome 80.0.3987.149,,,2020-03-30 17:19:48,2020-03-30 17:19:51,3.061s,PASSED
+"click(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink""))",Chrome 80.0.3987.149,,,2020-03-30 17:19:51,2020-03-30 17:19:51,0.582s,PASSED
+"click(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login""))",Chrome 80.0.3987.149,,,2020-03-30 17:19:51,2020-03-30 17:19:52,0.907s,PASSED
+"setText(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un""), userName)",Chrome 80.0.3987.149,,,2020-03-30 17:19:52,2020-03-30 17:19:53,0.650s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword""), ""RigbBhfdqOBDK95asqKeHw=="")",Chrome 80.0.3987.149,,,2020-03-30 17:19:53,2020-03-30 17:19:53,0.544s,PASSED
+"click(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In""))",Chrome 80.0.3987.149,,,2020-03-30 17:19:53,2020-03-30 17:19:54,0.423s,PASSED
+waitForPageLoad(15),Chrome 80.0.3987.149,,,2020-03-30 17:19:54,2020-03-30 17:19:54,0.052s,PASSED
+"click(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink""))",Chrome 80.0.3987.149,,,2020-03-30 17:19:54,2020-03-30 17:19:58,4.595s,PASSED
+delay(5),Chrome 80.0.3987.149,,,2020-03-30 17:19:58,2020-03-30 17:20:03,5.005s,PASSED
+"click(findTestObject(""Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:04,2020-03-30 17:20:04,0.567s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:04,2020-03-30 17:20:05,1.059s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:05,2020-03-30 17:20:08,2.509s,PASSED
+delay(3),Chrome 80.0.3987.149,,,2020-03-30 17:20:08,2020-03-30 17:20:11,3.004s,PASSED
+"setText(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount""), ""1000"")",Chrome 80.0.3987.149,,,2020-03-30 17:20:11,2020-03-30 17:20:11,0.437s,PASSED
+delay(5),Chrome 80.0.3987.149,,,2020-03-30 17:20:11,2020-03-30 17:20:16,5.006s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:16,2020-03-30 17:20:17,0.455s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:17,2020-03-30 17:20:17,0.486s,PASSED
+"setText(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact""), ""676767"")",Chrome 80.0.3987.149,,,2020-03-30 17:20:17,2020-03-30 17:20:43,26.249s,PASSED
+"uploadFile(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt""), ""C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"")",Chrome 80.0.3987.149,,,2020-03-30 17:20:43,2020-03-30 17:20:44,0.389s,PASSED
+delay(5),Chrome 80.0.3987.149,,,2020-03-30 17:20:44,2020-03-30 17:20:49,5.004s,PASSED
+"scrollToElement(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox""), 5)",Chrome 80.0.3987.149,,,2020-03-30 17:20:49,2020-03-30 17:20:49,0.357s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:49,2020-03-30 17:20:49,0.409s,PASSED
+delay(2),Chrome 80.0.3987.149,,,2020-03-30 17:20:49,2020-03-30 17:20:51,2.006s,PASSED
+"click(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST""))",Chrome 80.0.3987.149,,,2020-03-30 17:20:51,2020-03-30 17:20:52,0.413s,PASSED
+delay(1),Chrome 80.0.3987.149,,,2020-03-30 17:20:52,2020-03-30 17:20:53,1.003s,PASSED
+"verifyElementPresent(findTestObject(""Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S""), 3)",Chrome 80.0.3987.149,,,2020-03-30 17:20:53,2020-03-30 17:20:54,0.805s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,,,2020-03-30 17:20:54,2020-03-30 17:20:54,0.697s,PASSED
+Video,Chrome 80.0.3987.149,,,2020-03-30 17:20:56,2020-03-30 17:20:56,0.002s,PASSED

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify that SELL tab is available and clickable</description>
    <name>TC_VerifySellTab_009</name>
    <tag></tag>
    <comment></comment>

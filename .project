@@ -215,7 +215,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585553795799</id>
+=======
+			<id>1585554416472</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -224,7 +228,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585553795840</id>
+=======
+			<id>1585554416526</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -233,7 +241,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585631691835</id>
+=======
+			<id>1585567783039</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -242,7 +254,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585631691867</id>
+=======
+			<id>1585567783064</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -251,7 +267,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585633448569</id>
+=======
+			<id>1585588413727</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -260,6 +280,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1585633448621</id>
 			<name></name>
 			<type>6</type>
@@ -333,6 +354,9 @@
 		</filter>
 		<filter>
 			<id>1585746006301</id>
+=======
+			<id>1585588413744</id>
+>>>>>>> edbe0a04fd2d183ed0588e919358300d6adf7475
 			<name></name>
 			<type>6</type>
 			<matcher>

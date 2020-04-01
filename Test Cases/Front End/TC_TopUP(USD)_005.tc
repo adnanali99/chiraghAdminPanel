@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a registered user, I should be able to login and to do Top Up my Chiragh USD Wallet with USD 1,000. My request should be successfully submitted.</description>
    <name>TC_TopUP(USD)_005</name>
    <tag></tag>
    <comment></comment>

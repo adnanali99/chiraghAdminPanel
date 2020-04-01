@@ -20,7 +20,7 @@
       <guid>796dbb84-02b8-449d-8d51-43b83bd06584</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/verification department</testCaseId>
+      <testCaseId>Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ea797d24-dd69-493b-a1de-f859281436a6</guid>

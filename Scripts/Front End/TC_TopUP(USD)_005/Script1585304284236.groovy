@@ -27,11 +27,11 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCr
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'),
-	'AUTOCHIRAGH')
+WebUI.setText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'), 
+    GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'),
-	'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In'))
 
@@ -49,8 +49,8 @@ WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - User Acc
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'),
-	'1000')
+WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'), 
+    '1000')
 
 WebUI.delay(3)
 
@@ -64,8 +64,8 @@ WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transact
 
 WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1'))
 
-WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'),
-	'676767')
+WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'), 
+    '676767')
 
 WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
@@ -81,7 +81,8 @@ WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transact
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S'),
-	3)
+WebUI.verifyElementPresent(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S'), 
+    3)
 
 WebUI.closeBrowser()
+
