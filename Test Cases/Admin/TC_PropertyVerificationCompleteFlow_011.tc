@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that property details submitted from front end are verified by verification agent and approved by verification HOD</description>
+   <name>TC_PropertyVerificationCompleteFlow_011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a81e75-1cb0-47ac-b126-3b9c2affbbe3</testCaseGuid>
+</TestCaseEntity>

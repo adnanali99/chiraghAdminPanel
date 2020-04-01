@@ -1,0 +1,124 @@
+1
+00:00:00,389 --> 00:00:00,394
+1. openBrowser("")
+
+2
+00:00:07,000 --> 00:00:07,001
+5. navigateToUrl(Url)
+
+3
+00:00:40,033 --> 00:00:40,034
+9. waitForPageLoad(15)
+
+4
+00:00:40,181 --> 00:00:40,183
+13. maximizeWindow()
+
+5
+00:00:44,442 --> 00:00:44,443
+17. delay(3)
+
+6
+00:00:47,506 --> 00:00:47,522
+21. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:48,156 --> 00:00:48,157
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:49,323 --> 00:00:49,324
+29. setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:49,923 --> 00:00:49,924
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:50,488 --> 00:00:50,489
+37. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:50,921 --> 00:00:50,921
+41. waitForPageLoad(15)
+
+12
+00:00:50,974 --> 00:00:50,975
+45. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink"))
+
+13
+00:00:55,200 --> 00:00:55,201
+49. delay(5)
+
+14
+00:01:00,204 --> 00:01:00,206
+53. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:01:01,194 --> 00:01:01,197
+57. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet"))
+
+16
+00:01:02,205 --> 00:01:02,206
+61. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction"))
+
+17
+00:01:04,782 --> 00:01:04,783
+65. delay(3)
+
+18
+00:01:07,786 --> 00:01:07,787
+69. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount"), "1000")
+
+19
+00:01:08,241 --> 00:01:08,242
+73. delay(5)
+
+20
+00:01:13,246 --> 00:01:13,247
+77. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank"))
+
+21
+00:01:13,703 --> 00:01:13,704
+81. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1"))
+
+22
+00:01:14,137 --> 00:01:14,138
+85. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact"), "676767")
+
+23
+00:01:19,546 --> 00:01:19,547
+89. uploadFile(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+24
+00:01:19,939 --> 00:01:19,940
+93. delay(5)
+
+25
+00:01:24,946 --> 00:01:24,947
+97. scrollToElement(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox"), 5)
+
+26
+00:01:25,298 --> 00:01:25,299
+101. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle"))
+
+27
+00:01:25,714 --> 00:01:25,715
+105. delay(2)
+
+28
+00:01:27,718 --> 00:01:27,720
+109. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST"))
+
+29
+00:01:28,103 --> 00:01:28,104
+113. delay(1)
+
+30
+00:01:29,107 --> 00:01:29,109
+117. verifyElementPresent(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S"), 3)
+
+31
+00:01:29,440 --> 00:01:29,440
+121. closeBrowser()
+
