@@ -18,7 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.waitForPageLoad(15)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
@@ -40,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemo
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Open House/a_Watch List'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/svg_PROPERTY ID 38609_svg-inline--fa fa-tim_bd0bef'))
+WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/svg_PROPERTY ID 38916_svg-inline--fa fa-times fa-w-12'))
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/div_Property has been removed from your Watch List'))
 
