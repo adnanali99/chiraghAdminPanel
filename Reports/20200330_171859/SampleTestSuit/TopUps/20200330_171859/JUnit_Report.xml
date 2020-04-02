@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TopUps" time="115.304" tests="1" failures="0" errors="0">
+   <testsuite name="TopUps" tests="1" failures="0" errors="0" time="115.304" timestamp="2020-03-30 17:19:02" hostname="hp - Adnan" id="Test Suites/SampleTestSuit/TopUps">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200330_171859\\SampleTestSuit\\TopUps\\20200330_171859"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200330_171859\\SampleTestSuit\\TopUps\\20200330_171859\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200330_171859\\SampleTestSuit\\TopUps\\20200330_171859/videos\\test_1.mov"/>
+         <property name="hostName" value="hp - Adnan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.0.58"/>
+         <property name="sessionId" value="932cb83ccdf88c7e8384bfc8935ac86b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front End/TC_TopUP(AED)_003" time="114.237" classname="Test Cases/Front End/TC_TopUP(AED)_003" status="PASSED">
+         <system-out><![CDATA[2020-03-30 17:19:02 - [TEST_CASE][PASSED] - Test Cases/Front End/TC_TopUP(AED)_003: Test Cases/Front End/TC_TopUP(AED)_003
+
+2020-03-30 17:19:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-30 17:19:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-30 17:19:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-30 17:19:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-30 17:19:10 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-03-30 17:19:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2020-03-30 17:19:43 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-03-30 17:19:43 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-03-30 17:19:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-30 17:19:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-30 17:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-30 17:19:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-30 17:19:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-30 17:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-03-30 17:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-03-30 17:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-03-30 17:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-03-30 17:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName): Text 'adnanshafiq1' is set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'
+
+2020-03-30 17:19:53 - [MESSAGE][PASSED] - Text 'adnanshafiq1' is set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'
+
+2020-03-30 17:19:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-03-30 17:19:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-03-30 17:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-03-30 17:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-03-30 17:19:54 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-03-30 17:19:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-30 17:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink' is clicked on
+
+2020-03-30 17:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink' is clicked on
+
+2020-03-30 17:19:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-30 17:20:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-30 17:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-03-30 17:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-03-30 17:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet' is clicked on
+
+2020-03-30 17:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet' is clicked on
+
+2020-03-30 17:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction' is clicked on
+
+2020-03-30 17:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction' is clicked on
+
+2020-03-30 17:20:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-30 17:20:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-30 17:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount"), "1000"): Text '1000' is set on object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'
+
+2020-03-30 17:20:11 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'
+
+2020-03-30 17:20:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-30 17:20:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-30 17:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank' is clicked on
+
+2020-03-30 17:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank' is clicked on
+
+2020-03-30 17:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1' is clicked on
+
+2020-03-30 17:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1' is clicked on
+
+2020-03-30 17:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact"), "676767"): Text '676767' is set on object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'
+
+2020-03-30 17:20:43 - [MESSAGE][PASSED] - Text '676767' is set on object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'
+
+2020-03-30 17:20:43 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'
+
+2020-03-30 17:20:44 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'
+
+2020-03-30 17:20:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-30 17:20:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-30 17:20:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox"), 5): Scroll to object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox' successfully
+
+2020-03-30 17:20:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox' successfully
+
+2020-03-30 17:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle' is clicked on
+
+2020-03-30 17:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle' is clicked on
+
+2020-03-30 17:20:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-30 17:20:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-30 17:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST")): Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST' is clicked on
+
+2020-03-30 17:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST' is clicked on
+
+2020-03-30 17:20:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-03-30 17:20:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-30 17:20:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S"), 3): Object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S' is present
+
+2020-03-30 17:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S' is present
+
+2020-03-30 17:20:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-30 17:20:54 - [MESSAGE][PASSED] - Browser is closed
+
+2020-03-30 17:20:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_TopUP(AED)_003' .
+
+2020-03-30 17:20:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_TopUP(AED)_003' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200330_171859\\SampleTestSuit\\TopUps\\20200330_171859/videos\\test_1.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-30 17:19:02 - [TEST_SUITE][PASSED] - TopUps: Test Cases/Front End/TC_TopUP(AED)_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

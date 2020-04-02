@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCr
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'), 
-    'AUTOCHIRAGH')
+    GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'), 
     'RigbBhfdqOBDK95asqKeHw==')

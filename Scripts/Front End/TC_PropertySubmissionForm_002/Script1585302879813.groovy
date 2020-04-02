@@ -33,7 +33,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL'))
 
-WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), 'AUTOCHIRAGH')
+WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'), 
     'RigbBhfdqOBDK95asqKeHw==')
