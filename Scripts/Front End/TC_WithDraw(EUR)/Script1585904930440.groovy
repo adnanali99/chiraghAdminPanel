@@ -14,4 +14,88 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.waitForPageLoad(15)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Home/a_Login'))
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Login/input_Username_un'), 
+    GlobalVariable.userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Login/button_Log In'))
+
+WebUI.waitForPageLoad(15)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Home/a_HI ahsan1234'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Dashborad Home/b_Go to Wallet'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - User Account Summary/a_Make a Transaction'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Transaction Top Up/h6_Withdraw'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_Chiragh Wallet Account'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/select_USDAEDEUR'), 
+    'EUR', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/select_Select your bank Dubai Bank EUR'), 
+    '90', true)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_Amount'), 
+    3)
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/input_Amount _amount'), 
+    '1,200')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/button_SEND OTP'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/h3_OTP has been sent to your registered ema_cef8f6'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_SMS OTP'), 
+    3)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/div_SMS OTP'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_I agree with Chiragh Wallet TC Read More'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/input_SMS OTP _smsOtp'), 
+    '1233')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/input_EMAIL OTP _emailOtp'), 
+    '1234')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/button_SEND REQUEST'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/h3_Insufficient balance for this transactio_10bfb0'))
+
+WebUI.closeBrowser()
 
