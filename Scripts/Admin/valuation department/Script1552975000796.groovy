@@ -31,7 +31,11 @@ WebUI.setEncryptedText(findTestObject('Admin/brokerage department/Page_Chiragh.c
 
 WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/button_Login'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_New Leads'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ'))
 
@@ -63,7 +67,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_a day ago_fas fa-user-circle'))
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 
@@ -87,17 +91,21 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_My Leads'))
 
+WebUI.delay(8)
+
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/i_Schedule Appointment_fas fa-'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Schedule an Onsite Visit'), 
+WebUI.setText(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/input_Schedule an Onsite Visit_title'), 
     'Onsite Visit')
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Schedule an Onsite Visit_'))
+WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/textarea_Schedule an Onsite Vi'), 
+    'Onsite Visit ')
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Help_cdk-overlay-backdrop'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/i_Schedule an Onsite Visit_fas fa-calendar-alt'))
 
+//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Help_cdk-overlay-backdrop'))
 /*WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Mar 2019'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_2019'))
@@ -105,22 +113,18 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Dec'))
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_30'))*/
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_20'))
+//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_20'))
+//WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Sat_owl-dt-timer-input'), 
+//    '11')
+//WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Hour_owl-dt-timer-input'), 
+//    '00')
+WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Sat_owl-dt-timer-input'), 
-    '11')
-
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Hour_owl-dt-timer-input'), 
-    '00')
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/span_Set'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Set'))
-
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/textarea_Schedule an Onsite Vi'), 
-    'Onsite Visit ')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_SAVE'))
+WebUI.doubleClick(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_SAVE'))
 
 WebUI.delay(4)
 
@@ -128,7 +132,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_CD'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_H'))
 
 WebUI.delay(8)
 
@@ -156,121 +160,10 @@ WebUI.click(findTestObject('Object Repository/valuation department/brokerage val
 
 WebUI.waitForPageLoad(8)
 
-/*WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Username'))
-
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName'), 
-    'fatimazaidi')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password'), 
-    'c/4m4/rTvNs0iFiKg9IHPQ==')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_December 30th 2019 1024 AM_f'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Adnan Shafiq'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_FZ'))
-
-WebUI.delay(7)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
-
-WebUI.waitForPageLoad(8)
-
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Username'))
 
 WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName'), 
-    'adnanshafiq')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password'), 
-    'c/4m4/rTvNs0iFiKg9IHPQ==')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_December 30th 2019 1000 AM_f_1'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Confirm'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel_fas fa-ba'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation'))
-
-WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Valuation_file'), 'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\pdf\\valuation.pdf')
-
-WebUI.delay(10)
-
-//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/span_Third party valuation rep'))
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/img'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Confirm'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_AS'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
-
-WebUI.waitForPageLoad(8)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Username'))
-
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName'), 
-    'fatimazaidi')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password'), 
-    'c/4m4/rTvNs0iFiKg9IHPQ==')
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Approve'))
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_FZ'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
-
-WebUI.waitForPageLoad(8)*/
-
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Username'))
-
-WebUI.setText(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName'), 
-    'chrystaldsouza')
+    'Hassan')
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Password'))
 
@@ -290,12 +183,12 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation_1'))
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Chiragh Valuation Report'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\pdf\\ChiraghValuation.pdf')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(5)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/div_Market Analysis Report'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\pdf\\MarketAnalysis.pdf')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(5)
 
@@ -310,38 +203,46 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 WebUI.delay(8)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\15.jpg')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Gallery/Page_Chiragh.com Admin/button_Regular_upload-img-link'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\akoya-oxygen-1076-2052.jpg')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\arabian-ranches.png')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\119161567.jpg')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\41533282.jpeg')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty'), 
-    'C:\\Users\\HP\\Katalon Studio\\Chiragh(Admin)\\Include\\propertyImages\\arabian-ranches.png')
+    'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/img'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/img'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel'))
 
@@ -367,7 +268,8 @@ WebUI.scrollToElement(findTestObject('Object Repository/valuation department/Che
 WebUI.click(findTestObject('Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Valuation report is upload'))
 
 //WebUI.scrollToElement(findTestObject('Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Market analysis report upl'),3)
-WebUI.click(findTestObject('Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Market analysis report upl'))
+//WebUI.click(findTestObject('Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Market analysis report upl'))
+WebUI.click(findTestObject('Object Repository/valuation department/Checklist/Page_Chiraghcom Admin/div_Property images are uploaded and verified (min 5)'))
 
 WebUI.delay(4)
 
@@ -375,7 +277,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_CD'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_H'))
 
 WebUI.delay(8)
 
@@ -415,9 +317,9 @@ WebUI.delay(9)
 
 WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
 WebUI.closeBrowser()
 

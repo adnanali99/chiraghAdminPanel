@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Schedule an Onsite Visit_fas fa-calendar-alt</name>
+   <tag></tag>
+   <elementGuidId>1d972478-5595-49b0-8f4b-9da2f4c87388</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='logCallModal']/div/div/div/div/div[2]/div[2]/form/section/div[3]/div/div/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-calendar-alt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logCallModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row header-wrapper&quot;]/div[@class=&quot;col-md-11 mt-5&quot;]/div[@class=&quot;sidenav-form&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/section[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row my-4&quot;]/div[@class=&quot;col-md-6 form-label-group&quot;]/div[@class=&quot;owl-datetimepicker-wrap&quot;]/span[@class=&quot;trigger&quot;]/i[@class=&quot;fas fa-calendar-alt&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='logCallModal']/div/div/div/div/div[2]/div[2]/form/section/div[3]/div/div/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+1
+00:00:00,286 --> 00:00:00,287
+1. openBrowser("")
+
+2
+00:00:06,275 --> 00:00:06,275
+5. navigateToUrl(Url)
+
+3
+00:00:18,491 --> 00:00:18,492
+9. waitForPageLoad(15)
+
+4
+00:00:18,514 --> 00:00:18,515
+13. maximizeWindow()
+
+5
+00:00:22,655 --> 00:00:22,656
+17. delay(3)
+
+6
+00:00:25,659 --> 00:00:25,660
+21. doubleClick(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL"))
+

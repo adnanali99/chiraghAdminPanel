@@ -6,11 +6,15 @@
    <elementGuidId>3c0d53d3-bfe0-45d3-9e7a-40b374a3215d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[6]/div[2]/div/owl-date-time-container/div[2]/div/button[2]/span[count(. | //span[(text() = 'Set' or . = 'Set')]) = count(//span[(text() = 'Set' or . = 'Set')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//owl-date-time-container[@id='owl-dt-picker-0']/div[2]/div/button[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,34 +45,38 @@
       <value>Set</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;owl-dt-picker-0&quot;)/div[@class=&quot;owl-dt-container-inner ng-trigger ng-trigger-fadeInPicker&quot;]/div[@class=&quot;owl-dt-container-buttons owl-dt-container-row ng-tns-c50-8 ng-star-inserted&quot;]/button[@class=&quot;owl-dt-control owl-dt-control-button owl-dt-container-control-button&quot;]/span[@class=&quot;owl-dt-control-content owl-dt-control-button-content&quot;]</value>
+      <value>/html/body/div[6]/div[2]/div/owl-date-time-container/div[2]/div/button[2]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//owl-date-time-container[@id='owl-dt-picker-0']/div[2]/div/button[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minute'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[2]/div/button[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>
