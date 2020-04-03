@@ -30,6 +30,8 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Pa
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Home/a_Login'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/input_Username_un'), 
     GlobalVariable.userName)
 
@@ -37,8 +39,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/WithD
     'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/button_Log In'))
-
-WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
