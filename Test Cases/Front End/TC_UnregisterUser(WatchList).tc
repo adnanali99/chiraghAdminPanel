@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As an unregistered, when I try to add property to WatchList,  I should be redirected to Sign In page .</description>
+   <name>TC_UnregisterUser(WatchList)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c76d2017-00d4-4f79-8a2e-fdeff20a823f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,132 @@
+1
+00:00:00,207 --> 00:00:00,208
+1. openBrowser("")
+
+2
+00:00:05,452 --> 00:00:05,453
+5. navigateToUrl(Url)
+
+3
+00:01:45,905 --> 00:01:45,906
+9. waitForPageLoad(15)
+
+4
+00:01:45,923 --> 00:01:45,923
+13. maximizeWindow()
+
+5
+00:01:50,141 --> 00:01:50,142
+17. delay(3)
+
+6
+00:01:53,144 --> 00:01:53,149
+21. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:01:53,595 --> 00:01:53,598
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+8
+00:01:54,521 --> 00:01:54,522
+29. setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:01:55,181 --> 00:01:55,183
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:01:55,587 --> 00:01:55,588
+37. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In"))
+
+11
+00:01:55,947 --> 00:01:55,948
+41. waitForPageLoad(15)
+
+12
+00:01:55,970 --> 00:01:55,971
+45. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink"))
+
+13
+00:02:01,656 --> 00:02:01,657
+49. delay(5)
+
+14
+00:02:06,663 --> 00:02:06,666
+53. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:02:07,434 --> 00:02:07,435
+57. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet"))
+
+16
+00:02:08,667 --> 00:02:08,668
+61. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction"))
+
+17
+00:02:12,208 --> 00:02:12,208
+65. delay(3)
+
+18
+00:02:15,210 --> 00:02:15,211
+69. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount"), "1000")
+
+19
+00:02:15,621 --> 00:02:15,622
+73. click(findTestObject("Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_USD AED EUR"))
+
+20
+00:02:16,056 --> 00:02:16,057
+77. click(findTestObject("Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/currency_EUR"))
+
+21
+00:02:16,440 --> 00:02:16,440
+81. delay(5)
+
+22
+00:02:21,443 --> 00:02:21,444
+85. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank"))
+
+23
+00:02:21,855 --> 00:02:21,856
+89. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1"))
+
+24
+00:02:22,224 --> 00:02:22,225
+93. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact"), "676767")
+
+25
+00:02:24,625 --> 00:02:24,626
+97. uploadFile(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+26
+00:02:24,960 --> 00:02:24,962
+101. delay(5)
+
+27
+00:02:29,967 --> 00:02:29,968
+105. scrollToElement(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox"), 5)
+
+28
+00:02:30,268 --> 00:02:30,269
+109. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle"))
+
+29
+00:02:30,621 --> 00:02:30,622
+113. delay(2)
+
+30
+00:02:32,627 --> 00:02:32,629
+117. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST"))
+
+31
+00:02:32,967 --> 00:02:32,968
+121. delay(1)
+
+32
+00:02:33,972 --> 00:02:33,973
+125. verifyElementPresent(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S"), 3)
+
+33
+00:02:34,413 --> 00:02:34,414
+129. closeBrowser()
+

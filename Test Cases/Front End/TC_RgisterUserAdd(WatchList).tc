@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a register user I should be able to add properties to my WatchList. I should be able to get success message and property should be added to my WatchList tab</description>
+   <name>TC_RgisterUserAdd(WatchList)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7573059-e5dd-43f1-8d64-d0d1bc8fd7ad</testCaseGuid>
+</TestCaseEntity>

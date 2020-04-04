@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a register user I should be able to remove properties to my WatchList. I should be able to get success message and property should be removed from my WatchList tab</description>
+   <name>TC_RegisterUserRemove(WatchList)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e405d5d4-b272-44fe-85d5-881145663dd0</testCaseGuid>
+</TestCaseEntity>
