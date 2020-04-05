@@ -24,4 +24,9 @@
       <initValue>'http://test-admin-chiragh.surge.sh'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456789'</initValue>
+      <name>changePassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
