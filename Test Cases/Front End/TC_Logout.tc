@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should logout from his account on clicking Logout button.</description>
+   <name>TC_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e59b501d-3ce6-4ac4-a1b7-36828c4a2eb0</testCaseGuid>
+</TestCaseEntity>
