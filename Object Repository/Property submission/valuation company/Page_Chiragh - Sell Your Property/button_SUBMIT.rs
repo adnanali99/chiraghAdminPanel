@@ -7,18 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'submit' and (text() = ' SUBMIT ' or . = ' SUBMIT ')]</value>
+         <value>//button[@type = 'button' and (text() = ' SUBMIT ' or . = ' SUBMIT ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button</value>
+      <value>/html/body/app-root/app-layout/div/app-valuation/app-agent/app-seller/app-myleads/app-logcall-sidebar/div/div/div/div/div/div[2]/div[2]/form/section/div[2]/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

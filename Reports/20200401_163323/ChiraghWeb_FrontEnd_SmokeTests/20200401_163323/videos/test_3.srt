@@ -1,0 +1,24 @@
+1
+00:00:00,313 --> 00:00:00,313
+1. openBrowser("")
+
+2
+00:00:06,348 --> 00:00:06,348
+5. navigateToUrl(Url)
+
+3
+00:00:18,552 --> 00:00:18,554
+9. waitForPageLoad(15)
+
+4
+00:00:18,590 --> 00:00:18,595
+13. maximizeWindow()
+
+5
+00:00:22,726 --> 00:00:22,727
+17. delay(3)
+
+6
+00:00:25,730 --> 00:00:25,731
+21. click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Home/a_BUY"))
+

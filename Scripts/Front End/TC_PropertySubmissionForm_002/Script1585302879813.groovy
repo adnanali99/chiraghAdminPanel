@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -35,8 +36,8 @@ WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL
 
 WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'), 
-    'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'), 
+    GlobalVariable.passWord)
 
 WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In'))
 
@@ -241,10 +242,9 @@ WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Ch
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT'), 
-    5)
+WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 
-WebUI.click(findTestObject('Object Repository/Property submission/valuation company/Page_Chiragh - Sell Your Property/button_SUBMIT'))
+WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
 
 WebUI.delay(8)
 
