@@ -1,0 +1,36 @@
+1
+00:00:00,244 --> 00:00:00,245
+1. openBrowser("")
+
+2
+00:00:05,578 --> 00:00:05,578
+5. navigateToUrl(Url)
+
+3
+00:00:32,921 --> 00:00:32,922
+9. waitForPageLoad(15)
+
+4
+00:00:32,936 --> 00:00:32,937
+13. maximizeWindow()
+
+5
+00:00:37,133 --> 00:00:37,133
+17. delay(3)
+
+6
+00:00:40,137 --> 00:00:40,137
+21. click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Home/a_BUY"))
+
+7
+00:00:40,686 --> 00:00:40,687
+25. delay(3)
+
+8
+00:00:43,689 --> 00:00:43,690
+29. verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Buy Property/div_AllPropertiesOnBuyTab"), 6)
+
+9
+00:00:44,523 --> 00:00:44,524
+33. closeBrowser()
+
