@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Profile image successfully updated</name>
    <tag></tag>
-   <elementGuidId>1c659da3-72a6-4c67-9b7d-35efb24c3e15</elementGuidId>
+   <elementGuidId>d18039f9-497c-4098-af1b-1faae13482d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
