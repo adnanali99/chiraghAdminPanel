@@ -63,7 +63,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/My
     '1', true)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle'), 
-    'Platinum')
+    'Sharjah Platinum')
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_IBAN_accIbanNumber'), 
     '647489347389')
@@ -74,13 +74,13 @@ WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/div_Account Name'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle'), 
-    'NeeoPal')
+    'Emirati Bank')
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Acct Holder Address_address'), 
     'Dubai Town')
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Name_bankName'), 
-    'Platinum')
+    'Emirati Platinum')
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Branch Address_branchName'), 
     'Dubai Town')
@@ -116,10 +116,10 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Cr
 WebUI.doubleClick(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_SMS OTP_smsOtp'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_SMS OTP_smsOtp'), 
-     GlobalVariable.otpNo)
+    GlobalVariable.otpNo)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_EMAIL OTP_emailOtp'), 
-     GlobalVariable.otpNo)
+    GlobalVariable.otpNo)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/button_Proceed'))
 
