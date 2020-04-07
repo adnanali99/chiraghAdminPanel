@@ -105,7 +105,7 @@ currentWindow = WebUI.getWindowIndex()
 //Go in to new tab
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('myaccounts', '1')
+CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('myaccounts', '1', GlobalVariable.otpNo)
 
 WebUI.switchToWindowIndex(currentWindow)
 
@@ -116,10 +116,10 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Cr
 WebUI.doubleClick(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_SMS OTP_smsOtp'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_SMS OTP_smsOtp'), 
-    '1234')
+     GlobalVariable.otpNo)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_EMAIL OTP_emailOtp'), 
-    '1234')
+     GlobalVariable.otpNo)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/button_Proceed'))
 

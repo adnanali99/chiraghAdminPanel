@@ -26,9 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456789'</initValue>
-      <name>changePassword</name>
       <initValue>'http://test.chiragh.com/test-login'</initValue>
       <name>CreateOTPURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>otpNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -76,7 +76,7 @@ currentWindow = WebUI.getWindowIndex()
 //Go in to new tab
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('withdrawal', '2')
+CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('withdrawal', '2',  GlobalVariable.otpNo)
 
 WebUI.switchToWindowIndex(currentWindow)
 
