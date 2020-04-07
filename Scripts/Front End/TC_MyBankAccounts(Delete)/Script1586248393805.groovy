@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccountDel
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - Home/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - Login/input_Username_un'), 
-    'ahsan1234')
+    GlobalVariable.userName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - Login/input_Password_userPassword'), 
     'RigbBhfdqOBDK95asqKeHw==')
@@ -52,12 +52,12 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccountDel
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - My Bank Accounts/th_AccountAddress'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - My Bank Accounts/th_AccountAddress'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - My Bank Accounts/span_ Delete'))
 
 WebUI.delay(1)
-
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccountDelete/Page_Chiragh - My Bank Accounts/b_Sure you want to delete this bank account_906be4'))
 
