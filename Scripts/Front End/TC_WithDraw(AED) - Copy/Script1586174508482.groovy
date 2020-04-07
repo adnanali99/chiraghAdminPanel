@@ -69,7 +69,18 @@ WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/button_SEND OTP'))
 
-WebUI.callTestCase(findTestCase('Front End/TC_CreateOTP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+//Go in to new tab
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('withdrawal', '2')
+
+WebUI.switchToWindowIndex(currentWindow)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/label_I agree with Chiragh Wallet TC Read More'))
 
