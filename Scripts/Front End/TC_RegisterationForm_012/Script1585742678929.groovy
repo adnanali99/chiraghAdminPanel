@@ -60,7 +60,7 @@ WebUI.delay(2)
 
 String number = faker.number.randomNumber()
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm11' + number) + '@gmail.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm11+' + number) + '@gmail.com')
 
 WebUI.delay(2)
 
