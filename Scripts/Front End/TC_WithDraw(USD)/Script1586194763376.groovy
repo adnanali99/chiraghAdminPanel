@@ -59,10 +59,10 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_Chiragh Wallet Account'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/select_USDAEDEUR'), 
-    'EUR', true)
+    'USD', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/select_Select your bank Dubai Bank EUR'), 
-    '128', true)
+    '127', true)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/WithDraw(EUR)/Page_Chiragh - Withdraw Your Money/label_Amount'), 
     3)
@@ -96,7 +96,7 @@ WebUI.delay(6)
 
 WebUI.setText(findTestObject('OTP_Creation/Page_/input_Transaction Type_un'), 'withdrawal')
 
-WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), '3')
+WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), '1')
 
 WebUI.setText(findTestObject('OTP_Creation/Page_/input_OTP_Create'), '1234')
 

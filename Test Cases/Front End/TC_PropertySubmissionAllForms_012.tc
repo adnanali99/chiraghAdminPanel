@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a registered Chiragh user, I should be able to submit my property details with all the available forms.</description>
    <name>TC_PropertySubmissionAllForms_012</name>
    <tag></tag>
    <comment></comment>

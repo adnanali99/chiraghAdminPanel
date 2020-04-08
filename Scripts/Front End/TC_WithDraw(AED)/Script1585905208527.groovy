@@ -79,7 +79,7 @@ currentWindow = WebUI.getWindowIndex()
 //Go in to new tab
 WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.navigateToUrl(GlobalVariable.CreateOTPURL)
+WebUI.navigateToUrl('http://test.chiragh.com/test-login')
 
 WebUI.waitForPageLoad(10)
 

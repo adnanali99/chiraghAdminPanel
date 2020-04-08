@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a visitor on Chiragh website, I should be able to subscribe to Chiragh Newsletter.</description>
    <name>TC_Subscribe_010</name>
    <tag></tag>
    <comment></comment>
