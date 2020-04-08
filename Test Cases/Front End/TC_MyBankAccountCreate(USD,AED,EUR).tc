@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MyBankAccountCreate(USD,AED,EUR)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd1cc23a-8ca6-467a-9be9-cda2cffd3d96</testCaseGuid>
+</TestCaseEntity>

@@ -42,12 +42,11 @@ public class ChiraghOTP {
 		WebUI.delay(6)
 
 		WebUI.setText(findTestObject('OTP_Creation/Page_/input_Transaction Type_un'), transactionType)
-		
+
 		if(transactionType !='registration'){
-			
+
 			print('\n now i check condition '+ cuurencyId +' '+ ' transactionType '+ transactionType + ' otp'+ otpNumber);
 			WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), cuurencyId)
-			
 		}
 		WebUI.setText(findTestObject('OTP_Creation/Page_/input_OTP_Create'), otpNumber)
 
