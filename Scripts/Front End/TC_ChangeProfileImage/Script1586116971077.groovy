@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChan
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/input_Username_un'), 
-    'chiragh1234')
+    GlobalVariable.userName)
 
 WebUI.delay(2)
 
