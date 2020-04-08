@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton" time="297.324" tests="2" failures="1" errors="0">
+   <testsuite name="ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton" tests="2" failures="1" errors="0" time="297.324" timestamp="2020-04-03 06:00:50" hostname="hp - Adnan.mshome.net" id="Test Suites/ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759\\1585875780239.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759/videos\\test_1.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759/videos\\test_2.mov"/>
+         <property name="hostName" value="hp - Adnan.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="7ff461e8665795f8ce7528bc47ac307e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front End/TC_PropertySubmissionForm_002" time="132.074" classname="Test Cases/Front End/TC_PropertySubmissionForm_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front End/TC_PropertySubmissionForm_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-03 06:00:50 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_PropertySubmissionForm_002: Test Cases/Front End/TC_PropertySubmissionForm_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-03 06:00:51 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(): null
+
+2020-04-03 06:00:51 - [TEST_STEP][PASSED] - projectname = address().streetName(): null
+
+2020-04-03 06:00:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 06:00:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 06:00:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-03 06:00:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 06:00:58 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 06:00:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2020-04-03 06:01:27 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 06:01:27 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 06:01:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 06:01:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 06:01:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 06:01:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:01:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Property submission/owner/Page_Chiragh - Home/a_SELL")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Home/a_SELL' is clicked on
+
+2020-04-03 06:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Home/a_SELL' is clicked on
+
+2020-04-03 06:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un"), userName): Text 'adnanshafiq1' is set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'
+
+2020-04-03 06:01:36 - [MESSAGE][PASSED] - Text 'adnanshafiq1' is set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'
+
+2020-04-03 06:01:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-03 06:01:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-03 06:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-03 06:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-03 06:01:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-03 06:01:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-04-03 06:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo"), "3294723889"): Text '3294723889' is set on object 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'
+
+2020-04-03 06:01:48 - [MESSAGE][PASSED] - Text '3294723889' is set on object 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'
+
+2020-04-03 06:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry' is clicked on
+
+2020-04-03 06:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry' is clicked on
+
+2020-04-03 06:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020' is clicked on
+
+2020-04-03 06:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020' is clicked on
+
+2020-04-03 06:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029' is clicked on
+
+2020-04-03 06:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029' is clicked on
+
+2020-04-03 06:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month' is clicked on
+
+2020-04-03 06:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month' is clicked on
+
+2020-04-03 06:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21")): Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21' is clicked on
+
+2020-04-03 06:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21' is clicked on
+
+2020-04-03 06:01:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy"), 5): Scroll to object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy' successfully
+
+2020-04-03 06:01:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy' successfully
+
+2020-04-03 06:01:51 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-04-03 06:01:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-04-03 06:01:55 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Property submission/owner/Scanned Passport Copy"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner/Scanned Passport Copy'
+
+2020-04-03 06:01:56 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner/Scanned Passport Copy'
+
+2020-04-03 06:01:56 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-04-03 06:02:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-04-03 06:02:03 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-04-03 06:02:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-04-03 06:02:07 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png"): File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'
+
+2020-04-03 06:02:07 - [MESSAGE][PASSED] - File 'C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png' sent to object: 'Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'
+
+2020-04-03 06:02:07 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-04-03 06:02:14 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-04-03 06:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next")): Object: 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-04-03 06:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next' is clicked on
+
+2020-04-03 06:02:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes"), 4): Object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes' is present
+
+2020-04-03 06:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes' is present
+
+2020-04-03 06:02:15 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input")): Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1585302879813.run(Script1585302879813.groovy:81)
+	... 13 more
+)
+
+2020-04-03 06:03:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-03 06:03:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1585302879813.run(Script1585302879813.groovy:81)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759\\1585875780239.png]]
+
+2020-04-03 06:03:02 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_PropertySubmissionForm_002' .
+
+2020-04-03 06:03:02 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_PropertySubmissionForm_002' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759/videos\\test_1.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-03 06:00:50 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_PropertySubmissionForm_002: Test Cases/Front End/TC_PropertySubmissionForm_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011" time="155.489" classname="Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011" status="PASSED">
+         <system-out><![CDATA[2020-04-03 06:03:02 - [TEST_CASE][PASSED] - Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011: Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011
+
+2020-04-03 06:03:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 06:03:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-03 06:03:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 06:03:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 06:03:09 - [TEST_STEP][PASSED] - waitForPageLoad(40): Wait for page load successfully
+
+2020-04-03 06:03:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 06:03:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://uat-admin-chiragh.surge.sh' successfully
+
+2020-04-03 06:03:15 - [MESSAGE][PASSED] - Navigate to 'http://uat-admin-chiragh.surge.sh' successfully
+
+2020-04-03 06:03:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 06:03:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 06:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:03:20 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:03:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ=="): Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:03:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_New Leads")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2020-04-03 06:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_New Leads' is clicked on
+
+2020-04-03 06:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ' is clicked on
+
+2020-04-03 06:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ' is clicked on
+
+2020-04-03 06:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)' is clicked on
+
+2020-04-03 06:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)' is clicked on
+
+2020-04-03 06:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_AK")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_AK' is clicked on
+
+2020-04-03 06:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_AK' is clicked on
+
+2020-04-03 06:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout' is clicked on
+
+2020-04-03 06:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout' is clicked on
+
+2020-04-03 06:03:46 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2020-04-03 06:03:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 06:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:03:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "mumtazhassan"): Text 'mumtazhassan' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:03:47 - [MESSAGE][PASSED] - Text 'mumtazhassan' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:03:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ=="): Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:03:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_My Leads")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_My Leads' is clicked on
+
+2020-04-03 06:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_My Leads' is clicked on
+
+2020-04-03 06:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/th_Status")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/th_Status' is clicked on
+
+2020-04-03 06:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/th_Status' is clicked on
+
+2020-04-03 06:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Start Now")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Start Now' is clicked on
+
+2020-04-03 06:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Start Now' is clicked on
+
+2020-04-03 06:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:04:01 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-04-03 06:04:09 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-04-03 06:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building' is clicked on
+
+2020-04-03 06:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building' is clicked on
+
+2020-04-03 06:04:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:04:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_ownerVerify")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_ownerVerify' is clicked on
+
+2020-04-03 06:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_ownerVerify' is clicked on
+
+2020-04-03 06:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2020-04-03 06:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details' is clicked on
+
+2020-04-03 06:04:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:04:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_propertyVerify")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_propertyVerify' is clicked on
+
+2020-04-03 06:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_propertyVerify' is clicked on
+
+2020-04-03 06:04:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:04:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:04:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Check List")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Check List' is clicked on
+
+2020-04-03 06:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Check List' is clicked on
+
+2020-04-03 06:04:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:04:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:04:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif"), 9): Scroll to object 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif' successfully
+
+2020-04-03 06:04:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif' successfully
+
+2020-04-03 06:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif' is clicked on
+
+2020-04-03 06:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif' is clicked on
+
+2020-04-03 06:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm' is clicked on
+
+2020-04-03 06:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm' is clicked on
+
+2020-04-03 06:04:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-04-03 06:04:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-04-03 06:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_MH")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_MH' is clicked on
+
+2020-04-03 06:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_MH' is clicked on
+
+2020-04-03 06:04:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-03 06:05:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-04-03 06:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout' is clicked on
+
+2020-04-03 06:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout' is clicked on
+
+2020-04-03 06:05:11 - [TEST_STEP][PASSED] - waitForPageLoad(8): Wait for page load successfully
+
+2020-04-03 06:05:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 06:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Username' is clicked on
+
+2020-04-03 06:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid"): Text 'arsalankhalid' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:05:12 - [MESSAGE][PASSED] - Text 'arsalankhalid' is set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName'
+
+2020-04-03 06:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Password' is clicked on
+
+2020-04-03 06:05:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ=="): Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:05:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password'
+
+2020-04-03 06:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Login' is clicked on
+
+2020-04-03 06:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_In Process")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2020-04-03 06:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_In Process' is clicked on
+
+2020-04-03 06:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building' is clicked on
+
+2020-04-03 06:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building' is clicked on
+
+2020-04-03 06:05:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 06:05:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 06:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Check List")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Check List' is clicked on
+
+2020-04-03 06:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/div_Check List' is clicked on
+
+2020-04-03 06:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Approve")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Approve' is clicked on
+
+2020-04-03 06:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Approve' is clicked on
+
+2020-04-03 06:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/snack-bar-container_Are you su_2")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/snack-bar-container_Are you su_2' is clicked on
+
+2020-04-03 06:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/snack-bar-container_Are you su_2' is clicked on
+
+2020-04-03 06:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to _2")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to _2' is clicked on
+
+2020-04-03 06:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to _2' is clicked on
+
+2020-04-03 06:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes")): Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/verification department/Page_Chiragh.com Admin/button_Yes' is clicked on
+
+2020-04-03 06:05:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-04-03 06:05:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-04-03 06:05:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-03 06:05:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-03 06:05:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011' .
+
+2020-04-03 06:05:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton\\20200403_054759/videos\\test_2.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-03 06:00:50 - [TEST_SUITE][FAILED] - ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton: Test Cases/Front End/TC_PropertySubmissionForm_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-04-03 06:00:50 - [TEST_SUITE][FAILED] - ChiraghWeb_FrontEnd_PropertySubmissionAndVerificaiton: Test Cases/Front End/TC_PropertySubmissionForm_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_PropertySubmissionForm_002.run(TC_PropertySubmissionForm_002:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874879299.run(TempTestSuite1585874879299.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/div_POA Status_ng-input' located by 'By.xpath: //ng-select[@id='poaStatus']/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

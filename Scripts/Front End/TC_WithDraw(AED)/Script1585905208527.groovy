@@ -35,8 +35,8 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/input_Username_un'), 
     GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/input_Password_userPassword'), 
-    'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/input_Password_userPassword'), 
+    GlobalVariable.passWord)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Login/button_Log In'))
 
@@ -69,22 +69,55 @@ WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/button_SEND OTP'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/h3_OTP has been sent to your registered ema_cef8f6'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/label_I agree with Chiragh Wallet TC Read More'))
+//WebUI.switchToWindowUrl(GlobalVariable.CreateOTPURL)
+WebUI.executeJavaScript('window.open();', [])
 
-WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/label_SMS OTP'), 
-    3)
+currentWindow = WebUI.getWindowIndex()
+
+//Go in to new tab
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+WebUI.navigateToUrl(GlobalVariable.CreateOTPURL)
+
+WebUI.waitForPageLoad(10)
+
+WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Username_un'), GlobalVariable.userName)
+
+WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), GlobalVariable.passWord)
+
+WebUI.click(findTestObject('Object Repository/CreateOTPLoginPage/Page_/button_Log In'))
+
+WebUI.delay(6)
+
+WebUI.setText(findTestObject('OTP_Creation/Page_/input_Transaction Type_un'), 'withdrawal')
+
+WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), '2')
+
+WebUI.setText(findTestObject('OTP_Creation/Page_/input_OTP_Create'), '1234')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/input_SMS OTP _smsOtp'), 
+WebUI.click(findTestObject('Object Repository/CreateOTPLoginPage/Page_/button_Proceed'))
+
+WebUI.delay(3)
+
+//Comming back
+WebUI.switchToWindowIndex(currentWindow)
+
+WebUI.click(findTestObject('Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/label_I agree with Chiragh Wallet TC Read More'))
+
+//WebUI.switchToDefaultContent()
+WebUI.setText(findTestObject('Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/input_SMS OTP _smsOtp'), 
     '1234')
 
-WebUI.setText(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/input_EMAIL OTP _emailOtp'), 
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/input_EMAIL OTP _emailOtp'), 
     '1234')
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/button_SEND REQUEST'))
+WebUI.click(findTestObject('Front End Objects/WithDraw(AED)/Page_Chiragh - Withdraw Your Money/button_SEND REQUEST'))
 
 WebUI.delay(2)
 

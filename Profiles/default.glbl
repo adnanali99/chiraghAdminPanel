@@ -24,4 +24,14 @@
       <initValue>'http://test-admin-chiragh.surge.sh'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://test.chiragh.com/test-login'</initValue>
+      <name>CreateOTPURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>otpNo</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

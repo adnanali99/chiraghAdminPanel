@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This testcase will create an OTP for any testcase where OTP is required.</description>
+   <name>TC_CreateOTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9cb364f-7e5b-4f05-a94a-01df66da7774</testCaseGuid>
+</TestCaseEntity>

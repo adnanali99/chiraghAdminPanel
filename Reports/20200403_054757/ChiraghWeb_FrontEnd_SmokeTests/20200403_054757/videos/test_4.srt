@@ -1,0 +1,32 @@
+1
+00:00:00,324 --> 00:00:00,327
+1. openBrowser("")
+
+2
+00:00:05,584 --> 00:00:05,584
+5. navigateToUrl(Url)
+
+3
+00:00:30,739 --> 00:00:30,740
+9. waitForPageLoad(15)
+
+4
+00:00:30,757 --> 00:00:30,758
+13. maximizeWindow()
+
+5
+00:00:34,974 --> 00:00:34,976
+17. delay(3)
+
+6
+00:00:37,980 --> 00:00:37,981
+21. click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Home/a_RENT"))
+
+7
+00:00:38,465 --> 00:00:38,466
+25. delay(10)
+
+8
+00:00:48,468 --> 00:00:48,470
+29. switchToWindowUrl("http://test.chiragh.com/rent")
+

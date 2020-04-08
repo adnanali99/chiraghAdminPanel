@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to Update exisiting bank Accounts from wallet</description>
+   <name>TC_MyBankAccounts(Delete)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ff33ddd-79e6-448b-9bba-b97a64af8a38</testCaseGuid>
+</TestCaseEntity>

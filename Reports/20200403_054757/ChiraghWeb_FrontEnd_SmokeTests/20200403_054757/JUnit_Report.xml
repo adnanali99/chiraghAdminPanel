@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ChiraghWeb_FrontEnd_SmokeTests" time="464.615" tests="5" failures="2" errors="1">
+   <testsuite name="ChiraghWeb_FrontEnd_SmokeTests" tests="5" failures="2" errors="1" time="464.615" timestamp="2020-04-03 05:48:17" hostname="hp - Adnan.mshome.net" id="Test Suites/ChiraghWeb_FrontEnd_SmokeTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585874962969.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_1.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_2.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_3.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585875289028.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585875289358.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_4.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_5.mov"/>
+         <property name="hostName" value="hp - Adnan.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="1bccc8c51368779e56498706eb5cfb35"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front End/TC_LoginWithValidCredentials_001" time="67.831" classname="Test Cases/Front End/TC_LoginWithValidCredentials_001" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front End/TC_LoginWithValidCredentials_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-03 05:48:17 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_LoginWithValidCredentials_001: Test Cases/Front End/TC_LoginWithValidCredentials_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-03 05:48:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 05:48:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 05:48:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-03 05:48:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 05:48:26 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:48:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' does not exist
+
+2020-04-03 05:48:53 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:48:53 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:48:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:48:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 05:48:57 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 05:48:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:49:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:49:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-03 05:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-03 05:49:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-03 05:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-03 05:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName): Text 'adnanshafiq1' is set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'
+
+2020-04-03 05:49:02 - [MESSAGE][PASSED] - Text 'adnanshafiq1' is set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'
+
+2020-04-03 05:49:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-03 05:49:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-03 05:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-03 05:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-03 05:49:03 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:49:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink' is clicked on
+
+2020-04-03 05:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink' is clicked on
+
+2020-04-03 05:49:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-04-03 05:49:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-04-03 05:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-04-03 05:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-04-03 05:49:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-03 05:49:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-04-03 05:49:22 - [TEST_STEP][FAILED] - verifyTextPresent(userName, true): Unable to verify text 'adnanshafiq1' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-03 05:49:22 - [MESSAGE][FAILED] - Text 'adnanshafiq1' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+)
+
+2020-04-03 05:49:23 - [MESSAGE][FAILED] - Unable to verify text 'adnanshafiq1' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585874962969.png]]
+
+2020-04-03 05:49:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_LoginWithValidCredentials_001' .
+
+2020-04-03 05:49:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_LoginWithValidCredentials_001' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_1.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-03 05:48:17 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_LoginWithValidCredentials_001: Test Cases/Front End/TC_LoginWithValidCredentials_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front End/TC_SmokeTests_006" time="178.567" classname="Test Cases/Front End/TC_SmokeTests_006" status="PASSED">
+         <system-out><![CDATA[2020-04-03 05:49:25 - [TEST_CASE][PASSED] - Test Cases/Front End/TC_SmokeTests_006: Test Cases/Front End/TC_SmokeTests_006
+
+2020-04-03 05:49:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 05:49:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-03 05:49:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 05:49:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 05:49:32 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:49:58 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:49:58 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:49:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:49:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 05:50:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 05:50:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:50:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:50:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SmokeTests/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction"), "Dubai's Leading Online Real Estate Auction"): Actual text and expected text of test object 'Object Repository/SmokeTests/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction' are matched.
+
+2020-04-03 05:50:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SmokeTests/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction' are matched.
+
+2020-04-03 05:50:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Chiragh - Home/h2_Current Auctions"), "Current Auctions"): Actual text and expected text of test object 'Object Repository/Page_Chiragh - Home/h2_Current Auctions' are matched.
+
+2020-04-03 05:50:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Chiragh - Home/h2_Current Auctions' are matched.
+
+2020-04-03 05:50:06 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'http://uat.chiragh.com/' are accessible
+
+2020-04-03 05:50:10 - [MESSAGE][PASSED] - Found 80 unique links on the page http://uat.chiragh.com/
+
+2020-04-03 05:50:13 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\0.har
+
+2020-04-03 05:50:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:14 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\1.har
+
+2020-04-03 05:50:14 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:14 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\2.har
+
+2020-04-03 05:50:14 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:15 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\3.har
+
+2020-04-03 05:50:15 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:16 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\4.har
+
+2020-04-03 05:50:16 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:17 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\5.har
+
+2020-04-03 05:50:17 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:18 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\6.har
+
+2020-04-03 05:50:18 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:18 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\7.har
+
+2020-04-03 05:50:18 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:19 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\8.har
+
+2020-04-03 05:50:19 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:19 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\9.har
+
+2020-04-03 05:50:19 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:20 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\10.har
+
+2020-04-03 05:50:20 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:21 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\11.har
+
+2020-04-03 05:50:21 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:22 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\12.har
+
+2020-04-03 05:50:22 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:22 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\13.har
+
+2020-04-03 05:50:22 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:23 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\14.har
+
+2020-04-03 05:50:23 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:23 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\15.har
+
+2020-04-03 05:50:23 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:24 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\16.har
+
+2020-04-03 05:50:24 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:24 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\17.har
+
+2020-04-03 05:50:24 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:25 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\18.har
+
+2020-04-03 05:50:25 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:25 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\19.har
+
+2020-04-03 05:50:25 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:26 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\20.har
+
+2020-04-03 05:50:26 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:27 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\21.har
+
+2020-04-03 05:50:27 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:27 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\22.har
+
+2020-04-03 05:50:27 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:28 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\23.har
+
+2020-04-03 05:50:28 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:28 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\24.har
+
+2020-04-03 05:50:28 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:29 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\25.har
+
+2020-04-03 05:50:29 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:29 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\26.har
+
+2020-04-03 05:50:29 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:30 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\27.har
+
+2020-04-03 05:50:30 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:30 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\28.har
+
+2020-04-03 05:50:30 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:31 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\29.har
+
+2020-04-03 05:50:31 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:31 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\30.har
+
+2020-04-03 05:50:31 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:32 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\31.har
+
+2020-04-03 05:50:32 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:33 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\32.har
+
+2020-04-03 05:50:33 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:34 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\33.har
+
+2020-04-03 05:50:34 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:34 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\34.har
+
+2020-04-03 05:50:34 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:35 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\35.har
+
+2020-04-03 05:50:35 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:36 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\36.har
+
+2020-04-03 05:50:36 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:36 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\37.har
+
+2020-04-03 05:50:36 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:38 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\38.har
+
+2020-04-03 05:50:38 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:39 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\39.har
+
+2020-04-03 05:50:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:40 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\40.har
+
+2020-04-03 05:50:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:40 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\41.har
+
+2020-04-03 05:50:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:43 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\42.har
+
+2020-04-03 05:50:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:43 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\43.har
+
+2020-04-03 05:50:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:44 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\44.har
+
+2020-04-03 05:50:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:44 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\45.har
+
+2020-04-03 05:50:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:46 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\46.har
+
+2020-04-03 05:50:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:48 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\47.har
+
+2020-04-03 05:50:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:50:49 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\48.har
+
+2020-04-03 05:50:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:02 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\49.har
+
+2020-04-03 05:51:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:02 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\50.har
+
+2020-04-03 05:51:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:03 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\51.har
+
+2020-04-03 05:51:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:03 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\52.har
+
+2020-04-03 05:51:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:04 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\53.har
+
+2020-04-03 05:51:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:04 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\54.har
+
+2020-04-03 05:51:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:05 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\55.har
+
+2020-04-03 05:51:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:06 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\56.har
+
+2020-04-03 05:51:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:06 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\57.har
+
+2020-04-03 05:51:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:07 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\58.har
+
+2020-04-03 05:51:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:07 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\59.har
+
+2020-04-03 05:51:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:08 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\60.har
+
+2020-04-03 05:51:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:08 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\61.har
+
+2020-04-03 05:51:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:09 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\62.har
+
+2020-04-03 05:51:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:09 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\63.har
+
+2020-04-03 05:51:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:10 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\64.har
+
+2020-04-03 05:51:10 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:10 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\65.har
+
+2020-04-03 05:51:10 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:11 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\66.har
+
+2020-04-03 05:51:11 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:11 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\67.har
+
+2020-04-03 05:51:11 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:12 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\68.har
+
+2020-04-03 05:51:12 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:13 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\69.har
+
+2020-04-03 05:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:13 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\70.har
+
+2020-04-03 05:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:14 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\71.har
+
+2020-04-03 05:51:14 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:15 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\72.har
+
+2020-04-03 05:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:15 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\73.har
+
+2020-04-03 05:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:16 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\74.har
+
+2020-04-03 05:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:16 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\75.har
+
+2020-04-03 05:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:17 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\76.har
+
+2020-04-03 05:51:17 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:18 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\77.har
+
+2020-04-03 05:51:18 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:23 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\78.har
+
+2020-04-03 05:51:23 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:30 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\79.har
+
+2020-04-03 05:51:30 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:30 - [MESSAGE][PASSED] - All links are accessible
+
+2020-04-03 05:51:30 - [MESSAGE][PASSED] - All links on the page 'http://uat.chiragh.com/' are accessible
+
+2020-04-03 05:51:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-03 05:51:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-03 05:51:31 - [TEST_STEP][PASSED] - navigateToUrl("http://test.chiragh.com/auctions"): Navigate to 'http://test.chiragh.com/auctions' successfully
+
+2020-04-03 05:51:41 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com/auctions' successfully
+
+2020-04-03 05:51:41 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'http://test.chiragh.com/auctions' are accessible
+
+2020-04-03 05:51:43 - [MESSAGE][PASSED] - Found 50 unique links on the page http://test.chiragh.com/auctions
+
+2020-04-03 05:51:43 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\80.har
+
+2020-04-03 05:51:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:44 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\81.har
+
+2020-04-03 05:51:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:44 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\82.har
+
+2020-04-03 05:51:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:45 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\83.har
+
+2020-04-03 05:51:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:46 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\84.har
+
+2020-04-03 05:51:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:47 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\85.har
+
+2020-04-03 05:51:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:48 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\86.har
+
+2020-04-03 05:51:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:48 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\87.har
+
+2020-04-03 05:51:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:49 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\88.har
+
+2020-04-03 05:51:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:49 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\89.har
+
+2020-04-03 05:51:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:50 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\90.har
+
+2020-04-03 05:51:50 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:51 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\91.har
+
+2020-04-03 05:51:51 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:51 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\92.har
+
+2020-04-03 05:51:51 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:52 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\93.har
+
+2020-04-03 05:51:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:52 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\94.har
+
+2020-04-03 05:51:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:53 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\95.har
+
+2020-04-03 05:51:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:53 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\96.har
+
+2020-04-03 05:51:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:54 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\97.har
+
+2020-04-03 05:51:54 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:55 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\98.har
+
+2020-04-03 05:51:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:55 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\99.har
+
+2020-04-03 05:51:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:56 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\100.har
+
+2020-04-03 05:51:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:56 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\101.har
+
+2020-04-03 05:51:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:57 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\102.har
+
+2020-04-03 05:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:57 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\103.har
+
+2020-04-03 05:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:58 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\104.har
+
+2020-04-03 05:51:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:58 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\105.har
+
+2020-04-03 05:51:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:59 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\106.har
+
+2020-04-03 05:51:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:51:59 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\107.har
+
+2020-04-03 05:51:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:00 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\108.har
+
+2020-04-03 05:52:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:00 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\109.har
+
+2020-04-03 05:52:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:01 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\110.har
+
+2020-04-03 05:52:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:01 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\111.har
+
+2020-04-03 05:52:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:02 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\112.har
+
+2020-04-03 05:52:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:02 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\113.har
+
+2020-04-03 05:52:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:03 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\114.har
+
+2020-04-03 05:52:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:03 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\115.har
+
+2020-04-03 05:52:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:04 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\116.har
+
+2020-04-03 05:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:04 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\117.har
+
+2020-04-03 05:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:05 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\118.har
+
+2020-04-03 05:52:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:06 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\119.har
+
+2020-04-03 05:52:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:06 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\120.har
+
+2020-04-03 05:52:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:07 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\121.har
+
+2020-04-03 05:52:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:07 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\122.har
+
+2020-04-03 05:52:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:08 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\123.har
+
+2020-04-03 05:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:08 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\124.har
+
+2020-04-03 05:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:09 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\125.har
+
+2020-04-03 05:52:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:09 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\126.har
+
+2020-04-03 05:52:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:10 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\127.har
+
+2020-04-03 05:52:10 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:14 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\128.har
+
+2020-04-03 05:52:14 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:21 - [MESSAGE][INFO] - HAR: C:\Users\hp\git\chiraghAdminPanel\Reports\20200403_054757\ChiraghWeb_FrontEnd_SmokeTests\20200403_054757\requests\main\129.har
+
+2020-04-03 05:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-03 05:52:21 - [MESSAGE][PASSED] - All links are accessible
+
+2020-04-03 05:52:21 - [MESSAGE][PASSED] - All links on the page 'http://test.chiragh.com/auctions' are accessible
+
+2020-04-03 05:52:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-03 05:52:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-03 05:52:23 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_SmokeTests_006' .
+
+2020-04-03 05:52:23 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_SmokeTests_006' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_2.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008" time="47.288" classname="Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008" status="PASSED">
+         <system-out><![CDATA[2020-04-03 05:52:23 - [TEST_CASE][PASSED] - Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008: Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008
+
+2020-04-03 05:52:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 05:52:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 05:52:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 05:52:29 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:52:56 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:52:56 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:52:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:52:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 05:53:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 05:53:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:53:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Home/a_BUY")): Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Home/a_BUY' is clicked on
+
+2020-04-03 05:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Home/a_BUY' is clicked on
+
+2020-04-03 05:53:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:53:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:53:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Buy Property/div_AllPropertiesOnBuyTab"), 6): Object 'Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Buy Property/div_AllPropertiesOnBuyTab' is present
+
+2020-04-03 05:53:08 - [MESSAGE][PASSED] - Object 'Object Repository/Front End Objects/Smoke Tests/Header/Buy Tab/Page_Chiragh - Buy Property/div_AllPropertiesOnBuyTab' is present
+
+2020-04-03 05:53:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-03 05:53:09 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-03 05:53:11 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008' .
+
+2020-04-03 05:53:11 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_3.mov]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010" time="100.353" classname="Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-03 05:53:11 - [TEST_CASE][FAILED] - Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010: Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-03 05:53:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 05:53:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 05:53:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 05:53:16 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:53:42 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:53:42 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:53:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:53:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 05:53:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 05:53:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:53:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Home/a_RENT")): Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Home/a_RENT' is clicked on
+
+2020-04-03 05:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Home/a_RENT' is clicked on
+
+2020-04-03 05:53:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-03 05:53:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-04-03 05:53:59 - [TEST_STEP][FAILED] - switchToWindowUrl("http://test.chiragh.com/rent"): Unable to switch to window with url: 'http://test.chiragh.com/rent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-03 05:54:49 - [MESSAGE][FAILED] - Cannot find window with url: 'http://test.chiragh.com/rent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585875289028.png]]
+
+2020-04-03 05:54:49 - [MESSAGE][FAILED] - Unable to switch to window with url: 'http://test.chiragh.com/rent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757\\1585875289358.png]]
+
+2020-04-03 05:54:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010' .
+
+2020-04-03 05:54:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_4.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-03 05:53:11 - [TEST_CASE][FAILED] - Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010: Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1833)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$11.call(Unknown Source)
+	at TC_VerifyRentTab_010.run(TC_VerifyRentTab_010:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'http://test.chiragh.com/rent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009" time="59.315" classname="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009" status="ERROR">
+         <error type="ERROR" message="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+"/>
+         <system-out><![CDATA[2020-04-03 05:54:51 - [TEST_CASE][ERROR] - Test Cases/Smoke Tests/Header/TC_VerifySellTab_009: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+
+
+2020-04-03 05:54:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-03 05:54:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-03 05:54:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-03 05:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-03 05:54:57 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:55:20 - [MESSAGE][PASSED] - Navigate to 'http://uat.chiragh.com' successfully
+
+2020-04-03 05:55:20 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-03 05:55:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-03 05:55:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-03 05:55:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-03 05:55:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-03 05:55:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-03 05:55:27 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL")): Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL' is double clicked on
+
+2020-04-03 05:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL' is double clicked on
+
+2020-04-03 05:55:28 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-04-03 05:55:48 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-04-03 05:55:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In")): null
+
+2020-04-03 05:55:50 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifySellTab_009' .
+
+2020-04-03 05:55:50 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifySellTab_009' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200403_054757\\ChiraghWeb_FrontEnd_SmokeTests\\20200403_054757/videos\\test_5.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-03 05:54:51 - [TEST_CASE][ERROR] - Test Cases/Smoke Tests/Header/TC_VerifySellTab_009: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-03 05:48:17 - [TEST_SUITE][FAILED] - ChiraghWeb_FrontEnd_SmokeTests: Test Cases/Front End/TC_LoginWithValidCredentials_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-04-03 05:48:17 - [TEST_SUITE][FAILED] - ChiraghWeb_FrontEnd_SmokeTests: Test Cases/Front End/TC_LoginWithValidCredentials_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'adnanshafiq1' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_LoginWithValidCredentials_001.run(TC_LoginWithValidCredentials_001:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585874877939.run(TempTestSuite1585874877939.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'adnanshafiq1' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
