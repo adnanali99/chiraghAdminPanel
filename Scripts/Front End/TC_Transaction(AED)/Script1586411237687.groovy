@@ -44,13 +44,13 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)
 
 ///////
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 String AED = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_111069888000'))
 
 CustomKeywords.'com.chiragh.com.ChiraghOTP.checkBalance'(AED)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 ///
 
@@ -60,7 +60,7 @@ String USD = WebUI.getText(findTestObject('Object Repository/Front End Objects/T
 
 CustomKeywords.'com.chiragh.com.ChiraghOTP.checkBalance'(USD)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 ///
 
@@ -84,7 +84,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/Tr
     '2', true)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transfer Your Money/input_Transferred Amount _amount'), 
-    '10000')
+    GlobalVariable.transferAmount)
 
 WebUI.delay(1)
 
@@ -137,15 +137,56 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transfer Your Money/a_Transaction Details'))
 
+//WebUI.delay(1)
+
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transaction Detail Summary/td_250958 approved'))
+
+///////
+
+WebUI.delay(2)
+
+String tdAmount = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transaction Detail Summary/td_250958 approved'))
+
+CustomKeywords.'com.chiragh.com.ChiraghOTP.verifyTransferAmount'(GlobalVariable.transferAmount , tdAmount)
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transaction Detail Summary/td_250958 approved'))
+//WebUI.verifyEqual(GlobalVariable.transferAmount, tdAmount)
+
+WebUI.delay(1)
+
+///
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transaction Detail Summary/a_Account Summary'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_111059891000'))
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_111059891000'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_134141594000'))
+///////
+
+WebUI.delay(1)
+
+String AEDAfter = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_111059891000'))
+
+CustomKeywords.'com.chiragh.com.ChiraghOTP.checkBalance'(AEDAfter)
+
+WebUI.delay(1)
+
+///
+
+
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_134141594000'))
+
+///////
+
+WebUI.delay(1)
+
+String USDAfter = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_134141594000'))
+
+CustomKeywords.'com.chiragh.com.ChiraghOTP.checkBalance'(USDAfter)
+
+WebUI.delay(2)
+
+///
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/a'))
 
