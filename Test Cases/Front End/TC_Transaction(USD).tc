@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Chiragh user I should be able to submit  transfer request from my USD  wallet. If there is no amount in my wallet then I should be getting a proper message and my request shall not be submitted.</description>
+   <name>TC_Transaction(USD)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6362ab8d-693a-46c4-b305-8e597dfdb3b7</testCaseGuid>
+</TestCaseEntity>
