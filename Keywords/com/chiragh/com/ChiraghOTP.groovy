@@ -56,4 +56,9 @@ public class ChiraghOTP {
 
 		WebUI.delay(3)
 	}
+	
+	@Keyword
+	def checkBalance(amount){
+			print('\n  now check the amount '+ amount + ' \n');
+	}
 }
