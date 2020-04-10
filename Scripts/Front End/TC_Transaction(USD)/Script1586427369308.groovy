@@ -37,6 +37,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
+WebUI.waitForPageLoad(10)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Home/a_Login'))
