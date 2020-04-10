@@ -198,5 +198,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/a'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/a_Logout'))
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/a_Logout'))
 
+WebUI.closeBrowser()
