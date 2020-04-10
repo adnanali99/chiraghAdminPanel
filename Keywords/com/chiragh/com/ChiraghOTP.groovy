@@ -61,8 +61,8 @@ public class ChiraghOTP {
 	def checkBalance(amount){
 		print('\n  now check the amount '+ amount + ' \n');
 	}
-	
-	
+
+
 	@Keyword
 	def verifyTransferAmount(String  amount, String tdAmount ){
 		print('\n  now check the amount '+ amount + 'NOW Check the TD Amount '+ tdAmount +'\n' );
@@ -75,5 +75,4 @@ public class ChiraghOTP {
 			return false;
 		}
 	}
-	
 }
