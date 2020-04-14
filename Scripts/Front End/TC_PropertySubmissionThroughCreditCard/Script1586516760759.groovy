@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-CustomKeywords.'com.chiragh.com.PropertySubmit.submitForm'(GlobalVariable.propertySubmissionCredit)
+CustomKeywords.'com.chiragh.com.PropertySubmit.submitForm'(GlobalVariable.propertySubmissionCredit , GlobalVariable.userName)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/PropertySubmissionCreditCard/Page_Chiragh - Sell Your Property/h5_Property Valuation'))
 

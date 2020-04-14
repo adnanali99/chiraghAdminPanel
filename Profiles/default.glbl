@@ -44,4 +44,9 @@
       <initValue>'no'</initValue>
       <name>propertySubmissionCredit</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'chiraghcom'</initValue>
+      <name>emptyWalletUser</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
