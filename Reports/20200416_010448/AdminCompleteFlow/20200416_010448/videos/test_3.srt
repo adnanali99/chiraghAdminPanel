@@ -1,0 +1,536 @@
+1
+00:00:00,647 --> 00:00:00,647
+1. openBrowser("")
+
+2
+00:00:06,252 --> 00:00:06,254
+5. navigateToUrl(url)
+
+3
+00:00:19,773 --> 00:00:19,773
+9. maximizeWindow()
+
+4
+00:00:23,924 --> 00:00:23,925
+13. waitForPageLoad(50)
+
+5
+00:00:23,959 --> 00:00:23,960
+17. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/div_Username"))
+
+6
+00:00:24,429 --> 00:00:24,429
+21. setText(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "farhanm")
+
+7
+00:00:24,980 --> 00:00:24,984
+25. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/div_Password"))
+
+8
+00:00:25,434 --> 00:00:25,434
+29. setEncryptedText(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+9
+00:00:25,913 --> 00:00:25,914
+33. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/button_Login"))
+
+10
+00:00:26,342 --> 00:00:26,342
+37. delay(10)
+
+11
+00:00:36,346 --> 00:00:36,349
+41. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/a_New Leads"))
+
+12
+00:00:36,910 --> 00:00:36,911
+45. delay(10)
+
+13
+00:00:46,919 --> 00:00:46,920
+49. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ"))
+
+14
+00:00:47,708 --> 00:00:47,710
+53. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/a_Abdullah M"))
+
+15
+00:00:48,350 --> 00:00:48,351
+57. delay(5)
+
+16
+00:00:53,354 --> 00:00:53,385
+61. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/button_FM"))
+
+17
+00:00:53,973 --> 00:00:53,974
+65. click(findTestObject("Admin/brokerage department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+18
+00:01:03,238 --> 00:01:03,239
+69. waitForPageLoad(5)
+
+19
+00:01:03,272 --> 00:01:03,272
+73. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Username"))
+
+20
+00:01:03,699 --> 00:01:03,700
+77. setText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "haleemhanif")
+
+21
+00:01:04,229 --> 00:01:04,230
+81. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Password"))
+
+22
+00:01:04,668 --> 00:01:04,668
+85. setEncryptedText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+23
+00:01:05,150 --> 00:01:05,151
+89. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Login"))
+
+24
+00:01:05,572 --> 00:01:05,573
+93. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_New Leads"))
+
+25
+00:01:11,900 --> 00:01:11,901
+97. delay(2)
+
+26
+00:01:13,905 --> 00:01:13,907
+101. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_a day ago_fas fa-user-circle"))
+
+27
+00:01:15,731 --> 00:01:15,732
+105. click(findTestObject("valuation department/Page_Chiragh.com Admin/a_Chrystal Dsouza"))
+
+28
+00:01:16,351 --> 00:01:16,351
+109. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_HH"))
+
+29
+00:01:20,881 --> 00:01:20,881
+113. delay(5)
+
+30
+00:01:25,884 --> 00:01:25,885
+117. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+31
+00:01:37,059 --> 00:01:37,060
+121. waitForPageLoad(8)
+
+32
+00:01:37,083 --> 00:01:37,084
+125. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Username"))
+
+33
+00:01:37,533 --> 00:01:37,534
+129. setText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "Hassan")
+
+34
+00:01:38,063 --> 00:01:38,064
+133. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Password"))
+
+35
+00:01:38,493 --> 00:01:38,495
+137. setEncryptedText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+36
+00:01:38,998 --> 00:01:38,999
+141. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Login"))
+
+37
+00:01:39,443 --> 00:01:39,444
+145. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_My Leads"))
+
+38
+00:01:48,646 --> 00:01:48,647
+149. delay(8)
+
+39
+00:01:56,652 --> 00:01:56,653
+153. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/i_Schedule Appointment_fas fa-"))
+
+40
+00:01:57,293 --> 00:01:57,293
+157. delay(3)
+
+41
+00:02:00,297 --> 00:02:00,301
+161. setText(findTestObject("valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/input_Schedule an Onsite Visit_title"), "Onsite Visit")
+
+42
+00:02:01,435 --> 00:02:01,435
+165. setText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/textarea_Schedule an Onsite Vi"), "Onsite Visit ")
+
+43
+00:02:03,043 --> 00:02:03,043
+169. click(findTestObject("valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/i_Schedule an Onsite Visit_fas fa-calendar-alt"))
+
+44
+00:02:03,788 --> 00:02:03,789
+173. delay(4)
+
+45
+00:02:07,791 --> 00:02:07,792
+177. click(findTestObject("valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/span_Set"))
+
+46
+00:02:08,325 --> 00:02:08,326
+181. delay(4)
+
+47
+00:02:12,330 --> 00:02:12,331
+185. doubleClick(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_SAVE"))
+
+48
+00:02:13,001 --> 00:02:13,001
+189. delay(4)
+
+49
+00:02:17,005 --> 00:02:17,006
+193. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/img1"))
+
+50
+00:02:21,827 --> 00:02:21,828
+197. delay(3)
+
+51
+00:02:24,832 --> 00:02:24,834
+201. click(findTestObject("valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_HR"))
+
+52
+00:02:25,431 --> 00:02:25,432
+205. delay(8)
+
+53
+00:02:33,435 --> 00:02:33,436
+209. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+54
+00:02:43,080 --> 00:02:43,081
+213. waitForPageLoad(8)
+
+55
+00:02:43,102 --> 00:02:43,103
+217. setText(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/input_Admin Panel_userName"), "abdullah")
+
+56
+00:02:43,632 --> 00:02:43,632
+221. setEncryptedText(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+57
+00:02:44,161 --> 00:02:44,161
+225. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_Login"))
+
+58
+00:02:44,610 --> 00:02:44,611
+229. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_In Valuation"))
+
+59
+00:02:55,118 --> 00:02:55,119
+233. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_Chiragh  Knight Frank_fas fa"))
+
+60
+00:02:59,128 --> 00:02:59,128
+237. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/a_Confirm"))
+
+61
+00:02:59,696 --> 00:02:59,697
+241. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_AM"))
+
+62
+00:03:05,665 --> 00:03:05,666
+245. click(findTestObject("Object Repository/valuation department/brokerage valuation meeting/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+63
+00:03:15,092 --> 00:03:15,093
+249. waitForPageLoad(8)
+
+64
+00:03:15,126 --> 00:03:15,127
+253. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Username"))
+
+65
+00:03:15,574 --> 00:03:15,575
+257. setText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "Hassan")
+
+66
+00:03:16,086 --> 00:03:16,087
+261. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Password"))
+
+67
+00:03:16,525 --> 00:03:16,525
+265. setEncryptedText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+68
+00:03:17,007 --> 00:03:17,008
+269. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Login"))
+
+69
+00:03:17,408 --> 00:03:17,410
+273. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_My Leads"))
+
+70
+00:03:25,356 --> 00:03:25,358
+277. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel_fas fa-ba_1"))
+
+71
+00:03:30,769 --> 00:03:30,770
+281. delay(5)
+
+72
+00:03:35,773 --> 00:03:35,774
+285. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation_1"))
+
+73
+00:03:36,291 --> 00:03:36,291
+289. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Valuation_1"))
+
+74
+00:03:36,886 --> 00:03:36,887
+293. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Chiragh Valuation Report"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+75
+00:03:38,610 --> 00:03:38,611
+297. delay(5)
+
+76
+00:03:43,616 --> 00:03:43,617
+301. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Market Analysis Report"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+77
+00:03:47,707 --> 00:03:47,708
+305. delay(5)
+
+78
+00:03:52,711 --> 00:03:52,713
+309. click(findTestObject("Object Repository/valuation department/Gallery/Page_Chiragh.com Admin/div_Gallery_mat-tab-header-pag"))
+
+79
+00:03:53,798 --> 00:03:53,799
+313. delay(3)
+
+80
+00:03:56,801 --> 00:03:56,802
+317. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Gallery"))
+
+81
+00:03:57,478 --> 00:03:57,479
+321. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Gallery"))
+
+82
+00:03:58,937 --> 00:03:58,937
+325. delay(8)
+
+83
+00:04:06,941 --> 00:04:06,943
+329. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+84
+00:04:07,386 --> 00:04:07,387
+333. delay(3)
+
+85
+00:04:10,392 --> 00:04:10,393
+337. uploadFile(findTestObject("Object Repository/valuation department/Gallery/Page_Chiragh.com Admin/button_Regular_upload-img-link"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+86
+00:04:10,888 --> 00:04:10,889
+341. delay(3)
+
+87
+00:04:13,893 --> 00:04:13,895
+345. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+88
+00:04:14,326 --> 00:04:14,326
+349. delay(3)
+
+89
+00:04:17,330 --> 00:04:17,331
+353. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+90
+00:04:17,740 --> 00:04:17,741
+357. delay(3)
+
+91
+00:04:20,746 --> 00:04:20,747
+361. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+92
+00:04:24,594 --> 00:04:24,595
+365. delay(3)
+
+93
+00:04:27,598 --> 00:04:27,599
+369. uploadFile(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_This collection is empty"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+94
+00:04:28,043 --> 00:04:28,044
+373. delay(3)
+
+95
+00:04:31,047 --> 00:04:31,048
+377. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/img"))
+
+96
+00:04:31,568 --> 00:04:31,568
+381. delay(3)
+
+97
+00:04:34,571 --> 00:04:34,572
+385. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel"))
+
+98
+00:04:35,501 --> 00:04:35,502
+389. delay(4)
+
+99
+00:04:39,506 --> 00:04:39,507
+393. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/img"))
+
+100
+00:04:40,078 --> 00:04:40,079
+397. delay(4)
+
+101
+00:04:44,084 --> 00:04:44,085
+401. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel"))
+
+102
+00:04:44,595 --> 00:04:44,596
+405. delay(4)
+
+103
+00:04:48,600 --> 00:04:48,606
+409. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List_3"))
+
+104
+00:04:49,390 --> 00:04:49,390
+413. delay(4)
+
+105
+00:04:53,393 --> 00:04:53,395
+417. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Confirm on site meeting ca"))
+
+106
+00:04:54,064 --> 00:04:54,066
+421. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_NOC (optional)_mat-checkbo"))
+
+107
+00:04:54,712 --> 00:04:54,713
+425. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Keys collected_mat-checkbo"))
+
+108
+00:04:55,396 --> 00:04:55,396
+429. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Call photographer to confi"))
+
+109
+00:04:56,054 --> 00:04:56,054
+433. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Booked the camera through"))
+
+110
+00:04:56,685 --> 00:04:56,686
+437. scrollToElement(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Valuation report is upload"), 3)
+
+111
+00:04:57,053 --> 00:04:57,054
+441. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiragh.com Admin/div_Valuation report is upload"))
+
+112
+00:04:58,062 --> 00:04:58,062
+445. click(findTestObject("Object Repository/valuation department/Checklist/Page_Chiraghcom Admin/div_Property images are uploaded and verified (min 5)"))
+
+113
+00:04:58,609 --> 00:04:58,610
+449. delay(4)
+
+114
+00:05:02,614 --> 00:05:02,615
+453. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Confirm"))
+
+115
+00:05:03,178 --> 00:05:03,179
+457. delay(3)
+
+116
+00:05:06,184 --> 00:05:06,187
+461. click(findTestObject("valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_HR"))
+
+117
+00:05:09,674 --> 00:05:09,675
+465. delay(8)
+
+118
+00:05:17,679 --> 00:05:17,680
+469. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+119
+00:05:26,857 --> 00:05:26,858
+473. waitForPageLoad(8)
+
+120
+00:05:26,889 --> 00:05:26,890
+477. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Username"))
+
+121
+00:05:27,339 --> 00:05:27,340
+481. setText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "haleemhanif")
+
+122
+00:05:27,884 --> 00:05:27,885
+485. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Password"))
+
+123
+00:05:28,303 --> 00:05:28,303
+489. setEncryptedText(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+124
+00:05:28,792 --> 00:05:28,792
+493. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Login"))
+
+125
+00:05:29,236 --> 00:05:29,237
+497. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_New Leads"))
+
+126
+00:05:32,885 --> 00:05:32,886
+501. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_In Process_2"))
+
+127
+00:05:35,990 --> 00:05:35,991
+505. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/a_Birdie Fords Hotel"))
+
+128
+00:05:44,105 --> 00:05:44,106
+509. delay(5)
+
+129
+00:05:49,110 --> 00:05:49,111
+513. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/div_Check List_7"))
+
+130
+00:05:50,228 --> 00:05:50,229
+517. delay(5)
+
+131
+00:05:55,233 --> 00:05:55,234
+521. click(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Approve"))
+
+132
+00:05:55,893 --> 00:05:55,893
+525. doubleClick(findTestObject("Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes"))
+
+133
+00:05:56,764 --> 00:05:56,765
+529. delay(20)
+
+134
+00:06:16,769 --> 00:06:16,771
+533. closeBrowser()
+

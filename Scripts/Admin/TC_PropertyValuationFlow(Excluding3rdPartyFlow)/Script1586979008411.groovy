@@ -132,7 +132,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_H'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_HR'))
 
 WebUI.delay(8)
 
@@ -277,7 +277,7 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_H'))
+WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/Page_Chiraghcom Admin/button_HR'))
 
 WebUI.delay(8)
 
@@ -313,13 +313,10 @@ WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.
 
 WebUI.doubleClick(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_Yes'))
 
-WebUI.delay(9)
+WebUI.delay(20)
 
-WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
+//WebUI.click(findTestObject('Object Repository/valuation department/Page_Chiragh.com Admin/button_HH'))
 
-WebUI.delay(7)
-
-WebUI.click(findTestObject('valuation department/Page_Chiragh.com Admin/button_exit_to_appLogout'))
 
 WebUI.closeBrowser()
 
