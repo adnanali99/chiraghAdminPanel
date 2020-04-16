@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.chiragh.com.PropertySubmit.submitForm'('no' , GlobalVariable.emptyWalletUser )
+CustomKeywords.'com.chiragh.com.PropertySubmit.submitForm'('no' , 'chiraghcom' )
 
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/Page_Chiragh - Sell Your Property/label_INDEPENDENT REAL ESTATE VALUATOR (FEE_558d3e'))

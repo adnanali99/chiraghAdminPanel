@@ -65,38 +65,37 @@ public class ChiraghOTP {
 	def checkBalance(amount){
 		//		String value = amount.replaceAll(",", "");
 		cuurentBalance = amount.replaceAll(",", "");
-		
+
 		String cuurentBalanceNumber = cuurentBalance.substring(0 , cuurentBalance.length() - 3);
 		print('\n  urlNumber '+ cuurentBalanceNumber + '\n');
-		
-		
+
+
 	}
 
 
 	@Keyword
 	def verifyTransferAmount( beforeAmount  ,  afterAmount ){
-		
+
 		print('\n beforeAmount '+  beforeAmount + ' afterAmount ' + afterAmount + '\n');
-		
+
 		String commaRemoveBeforeAmount = beforeAmount.replaceAll(",", "");
 		String commaRemoveAfterAmount  = afterAmount.replaceAll(",", "");
-		
+
 		print('\n commaRemoveBeforeAmount '+  commaRemoveBeforeAmount + ' commaRemoveAfterAmount ' + commaRemoveAfterAmount + '\n');
-		
+
 		String dotRemoveBeforeAmount = commaRemoveBeforeAmount.substring(0 , commaRemoveBeforeAmount.length() - 3)
 		String dotRemoveAfterAmount  = commaRemoveAfterAmount.substring(0 , commaRemoveAfterAmount.length() - 3)
-		
+
 		print('\n dotRemoveBeforeAmount '+  dotRemoveBeforeAmount + ' dotRemoveAfterAmount ' + dotRemoveAfterAmount + '\n');
-		
+
 		Number convertIntoNumberBeforeAmount = Integer.parseInt(dotRemoveBeforeAmount);
 		Number convertIntoNumberAfterAmount  = Integer.parseInt(dotRemoveAfterAmount);
-		
+
 		print('\n convertIntoNumberBeforeAmount '+  convertIntoNumberBeforeAmount + ' convertIntoNumberAfterAmount ' + convertIntoNumberAfterAmount + '\n');
-		
+
 		Number subtraction = convertIntoNumberAfterAmount - convertIntoNumberBeforeAmount;
-		
-		
+
+
 		print('\n Subtraction '+  subtraction  + '\n');
-		
 	}
 }
