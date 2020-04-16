@@ -31,13 +31,13 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLat
 
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/ObjectCreated/Page_Chiragh - Sell Your Property/div_Select CurrencyUSD'))
-//
-//WebUI.delay(1)
-//
-//WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/Page_Chiragh - Sell Your Property/span_USD'))
-//
-//WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/ObjectCreated/Page_Chiragh - Sell Your Property/div_Select CurrencyUSD'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/Page_Chiragh - Sell Your Property/span_USD'))
+
+WebUI.delay(1)
 
 
 WebUI.check(findTestObject('Object Repository/Front End Objects/SaveAndSubmitLater/ObjectCreated/Page_Chiragh - Sell Your Property/div_I agree with Chiragh wallet terms and conditions  (Read More)'))
