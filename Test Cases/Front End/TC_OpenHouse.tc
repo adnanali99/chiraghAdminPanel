@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to submit openhouse for on any property on which openhouse option is available.</description>
+   <name>TC_OpenHouse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>167c9f33-ecfe-4be1-9bf4-80d64e9c231f</testCaseGuid>
+</TestCaseEntity>

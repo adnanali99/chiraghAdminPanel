@@ -51,7 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'chiraghcom'</initValue>
       <name>emptyWalletUser</name>
+=======
+      <initValue>'1234567890'</initValue>
+      <name>changePassword</name>
+>>>>>>> 092a0602d7d9afaa87ae7b7fa0267ed3f9c56412
    </GlobalVariableEntity>
 </GlobalVariableEntities>
