@@ -41,8 +41,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'no'</initValue>
-      <name>propertySubmissionCredit</name>
+      <initValue>'BuyerTest'</initValue>
+      <name>Buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BuyerTest123@@'</initValue>
+      <name>BuyerPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

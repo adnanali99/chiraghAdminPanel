@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_BiddingFlowWithValidOtp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f360dea3-53e4-491d-82e8-ae20848225aa</testCaseGuid>
+</TestCaseEntity>

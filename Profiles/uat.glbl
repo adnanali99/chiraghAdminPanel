@@ -29,4 +29,14 @@
       <initValue>'http://uat-admin-chiragh.surge.sh'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BuyerUat'</initValue>
+      <name>Buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BuyerUat123@@'</initValue>
+      <name>BuyerPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
