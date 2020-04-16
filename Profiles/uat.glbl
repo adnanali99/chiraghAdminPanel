@@ -39,4 +39,14 @@
       <initValue>'BuyerUat123@@'</initValue>
       <name>BuyerPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234567890'</initValue>
+      <name>changePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>transferAmount</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

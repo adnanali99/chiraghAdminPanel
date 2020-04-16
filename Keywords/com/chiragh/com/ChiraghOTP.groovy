@@ -6,6 +6,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import org.junit.After
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -21,6 +23,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class ChiraghOTP {
+
+	public String cuurentBalance;
 
 	@Keyword
 	def generateOtp(String transactionType , String cuurencyId , String otpNumber ){
@@ -59,20 +63,39 @@ public class ChiraghOTP {
 
 	@Keyword
 	def checkBalance(amount){
-		print('\n  now check the amount '+ amount + ' \n');
+		//		String value = amount.replaceAll(",", "");
+		cuurentBalance = amount.replaceAll(",", "");
+
+		String cuurentBalanceNumber = cuurentBalance.substring(0 , cuurentBalance.length() - 3);
+		print('\n  urlNumber '+ cuurentBalanceNumber + '\n');
+
+
 	}
 
 
 	@Keyword
-	def verifyTransferAmount(String  amount, String tdAmount ){
-		print('\n  now check the amount '+ amount + 'NOW Check the TD Amount '+ tdAmount +'\n' );
-		if(amount == tdAmount){
-			print('\n true \n');
-			return true;
-		}
-		else{
-			print('\n false \n');
-			return false;
-		}
+	def verifyTransferAmount( beforeAmount  ,  afterAmount ){
+
+		print('\n beforeAmount '+  beforeAmount + ' afterAmount ' + afterAmount + '\n');
+
+		String commaRemoveBeforeAmount = beforeAmount.replaceAll(",", "");
+		String commaRemoveAfterAmount  = afterAmount.replaceAll(",", "");
+
+		print('\n commaRemoveBeforeAmount '+  commaRemoveBeforeAmount + ' commaRemoveAfterAmount ' + commaRemoveAfterAmount + '\n');
+
+		String dotRemoveBeforeAmount = commaRemoveBeforeAmount.substring(0 , commaRemoveBeforeAmount.length() - 3)
+		String dotRemoveAfterAmount  = commaRemoveAfterAmount.substring(0 , commaRemoveAfterAmount.length() - 3)
+
+		print('\n dotRemoveBeforeAmount '+  dotRemoveBeforeAmount + ' dotRemoveAfterAmount ' + dotRemoveAfterAmount + '\n');
+
+		Number convertIntoNumberBeforeAmount = Integer.parseInt(dotRemoveBeforeAmount);
+		Number convertIntoNumberAfterAmount  = Integer.parseInt(dotRemoveAfterAmount);
+
+		print('\n convertIntoNumberBeforeAmount '+  convertIntoNumberBeforeAmount + ' convertIntoNumberAfterAmount ' + convertIntoNumberAfterAmount + '\n');
+
+		Number subtraction = convertIntoNumberAfterAmount - convertIntoNumberBeforeAmount;
+
+
+		print('\n Subtraction '+  subtraction  + '\n');
 	}
 }

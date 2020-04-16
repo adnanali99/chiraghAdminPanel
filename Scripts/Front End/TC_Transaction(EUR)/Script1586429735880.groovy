@@ -155,8 +155,6 @@ WebUI.delay(2)
 
 String tdAmount = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - Transaction Detail Summary/td_250958 approved'))
 
-CustomKeywords.'com.chiragh.com.ChiraghOTP.verifyTransferAmount'(GlobalVariable.transferAmount , tdAmount)
-
 WebUI.delay(1)
 
 //WebUI.verifyEqual(GlobalVariable.transferAmount, tdAmount)
@@ -178,7 +176,7 @@ WebUI.delay(1)
 
 String EURAfter = WebUI.getText(findTestObject('Object Repository/Front End Objects/Transaction(AED)/Page_Chiragh - User Account Summary/span_343006'))
 
-CustomKeywords.'com.chiragh.com.ChiraghOTP.checkBalance'(EURAfter)
+CustomKeywords.'com.chiragh.com.ChiraghOTP.verifyTransferAmount'(EUR, EURAfter)
 
 WebUI.delay(1)
 
