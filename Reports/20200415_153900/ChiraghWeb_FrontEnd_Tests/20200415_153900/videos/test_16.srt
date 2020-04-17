@@ -1,0 +1,100 @@
+1
+00:00:00,204 --> 00:00:00,204
+1. openBrowser("")
+
+2
+00:00:03,948 --> 00:00:03,948
+5. navigateToUrl(Url)
+
+3
+00:00:05,471 --> 00:00:05,472
+9. waitForPageLoad(15)
+
+4
+00:00:05,577 --> 00:00:05,577
+13. maximizeWindow()
+
+5
+00:00:05,585 --> 00:00:05,585
+17. delay(3)
+
+6
+00:00:08,588 --> 00:00:08,588
+21. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:09,407 --> 00:00:09,408
+25. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:10,452 --> 00:00:10,452
+29. setText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:10,993 --> 00:00:10,993
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:11,498 --> 00:00:11,498
+37. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:12,306 --> 00:00:12,306
+41. waitForPageLoad(15)
+
+12
+00:00:12,348 --> 00:00:12,348
+45. scrollToElement(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/h6_Active auctions in process"), 4)
+
+13
+00:00:14,191 --> 00:00:14,192
+49. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/img"))
+
+14
+00:00:14,734 --> 00:00:14,735
+53. click(findTestObject("Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List"))
+
+15
+00:00:15,476 --> 00:00:15,476
+57. successMessage = getText(findTestObject("Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List"))
+
+16
+00:00:16,191 --> 00:00:16,191
+61. verifyEqual(successMessage, "Property has been added to your Watch List.")
+
+17
+00:00:16,196 --> 00:00:16,196
+65. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List"))
+
+18
+00:00:16,739 --> 00:00:16,739
+69. delay(3)
+
+19
+00:00:19,741 --> 00:00:19,741
+73. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+20
+00:00:20,439 --> 00:00:20,439
+77. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/b_HI"))
+
+21
+00:00:21,625 --> 00:00:21,625
+81. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Dashborad Home/b_Manage Activity"))
+
+22
+00:00:23,314 --> 00:00:23,314
+85. delay(3)
+
+23
+00:00:26,316 --> 00:00:26,316
+89. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Open House/a_Watch List"))
+
+24
+00:00:26,891 --> 00:00:26,892
+93. delay(4)
+
+25
+00:00:30,892 --> 00:00:30,892
+97. closeBrowser()
+

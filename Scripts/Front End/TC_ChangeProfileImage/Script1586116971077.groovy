@@ -48,10 +48,9 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChan
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
-
+WebUI.uploadFile(findTestObject('Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file'), GlobalVariable.fileUpload)
+WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated'))
-
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated'))
 
 WebUI.delay(3)

@@ -1,0 +1,64 @@
+1
+00:00:00,212 --> 00:00:00,212
+1. openBrowser("")
+
+2
+00:00:04,321 --> 00:00:04,321
+5. navigateToUrl(Url)
+
+3
+00:00:06,631 --> 00:00:06,631
+9. waitForPageLoad(20)
+
+4
+00:00:06,648 --> 00:00:06,649
+13. maximizeWindow()
+
+5
+00:00:06,659 --> 00:00:06,660
+17. scrollToElement(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Home/a_-Contact Us"), 8)
+
+6
+00:00:07,230 --> 00:00:07,230
+21. click(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Home/a_-Contact Us"))
+
+7
+00:00:08,120 --> 00:00:08,121
+25. delay(10)
+
+8
+00:00:18,123 --> 00:00:18,123
+29. scrollToElement(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/input_Personal Details _firstName"), 5)
+
+9
+00:00:18,393 --> 00:00:18,393
+33. setText(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/input_Personal Details _firstName"), "fatima")
+
+10
+00:00:19,135 --> 00:00:19,136
+37. setText(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/input_Personal Details _middleName"), "tul")
+
+11
+00:00:19,842 --> 00:00:19,842
+41. setText(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/input_Personal Details _lastName"), "kubra")
+
+12
+00:00:20,753 --> 00:00:20,753
+45. setText(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/input_Personal Details _email"), "test@gmail.com")
+
+13
+00:00:21,680 --> 00:00:21,681
+49. setText(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/textarea_Your Message _message"), "test msg")
+
+14
+00:00:22,595 --> 00:00:22,596
+53. doubleClick(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/button_Send"))
+
+15
+00:00:23,221 --> 00:00:23,223
+57. verifyElementPresent(findTestObject("Object Repository/Front End Objects/Contact Us/Page_Chiragh - Contact Us/div_Message delivered"), 10)
+
+16
+00:00:24,709 --> 00:00:24,711
+61. closeBrowser()
+

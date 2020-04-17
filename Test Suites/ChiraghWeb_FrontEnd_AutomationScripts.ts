@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/ChiraghWeb_FrontEnd_SmokeTests</testSuiteEntity>
+         <testSuiteEntity>Test Suites/ChiraghWeb_FrontEnd_Tests</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
