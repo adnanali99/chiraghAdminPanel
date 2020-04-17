@@ -1,0 +1,197 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.waitForPageLoad(10)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h6_Active auctions in process'),2)
+
+//WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h2_Upcoming Auction'),2)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h5_Check your mortgage eligibility'),2)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Check Eligibility'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h1_Pre Qualification Check'), 2)
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Residency Status_exampleRadios'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Date of Birth _date_Birth'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_Apr 2020'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/svg'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_2000'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_Feb'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_1'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input'),'Salaried')
+
+WebUI.sendKeys(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input'),
+	Keys.chord(Keys.ENTER))
+
+
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Salaried'))
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Monthly Fixed Income _monthlyFix'), 
+    '6899')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Additional Income - Monthly_additionalIncome'), 
+    '688')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Next'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Auto Finance _auto_Finance'), 
+    '1268')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Personal Finance _personal_Finance'), 
+    '886')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Home Finance _home_Finance'), 
+    '568899')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Other Installments_others'))
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Other Installments_others'), 
+    '68')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Credit Card Limit _credit_CardLimit'), 
+    '8900')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Next'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input'),'I want to Buy')
+
+WebUI.sendKeys(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input'),
+	Keys.chord(Keys.ENTER))
+
+
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_Full Name_full'), 
+    'Amjad Ali')
+
+//WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_(93)'), '92')
+//
+//WebUI.sendKeys(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_(93)'),
+//	Keys.chord(Keys.ENTER))
+
+
+//WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage Calculator/Page_Chiragh - Home/span_(92)'))
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_(93)_mobile'), 
+    '338089966')
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/input_E-mail Address_emailAddress'), 
+    'Amjad@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/ng-select_Select Banks'))
+
+//WebUI.setText(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/ng-select_Select Banks'), 'Commercial Bank of Dubai')
+//
+//WebUI.sendKeys(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/ng-select_Select Banks'),
+//	Keys.chord(Keys.ENTER))
+
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_Commercial Bank of Dubai'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_reCAPTCHA_recaptcha-checkbox-border'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7_1'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Verify'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_parking meters_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_parking meters_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_parking meters_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Verify'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_bridges_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_bridges_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_bridges_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_bridges_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Verify'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_r_1e3bc3'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_r_1e3bc3'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/img_Click verify once there are none left_r_1e3bc3'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7_1_2'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/div_Click verify once there are none left_r_f144f7_1_2'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Verify'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/article_Congratulations'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h5_AED 223530000'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h5_600 months'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h5_AED 223530000'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/h5_600 months'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/article_Congratulations'))
+
+WebUI.closeBrowser()
+
