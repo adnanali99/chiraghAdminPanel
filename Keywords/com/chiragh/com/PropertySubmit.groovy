@@ -302,12 +302,12 @@ public class PropertySubmit {
 				5)
 
 		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'),
-		GlobalVariable.fileUpload)
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'),
-		GlobalVariable.fileUpload)
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -495,7 +495,7 @@ public class PropertySubmit {
 		WebUI.delay(4)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
-		GlobalVariable.fileUpload)
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -631,12 +631,12 @@ public class PropertySubmit {
 				5)
 
 		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'),
-		GlobalVariable.fileUpload)
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'),
-		GlobalVariable.fileUpload)
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
