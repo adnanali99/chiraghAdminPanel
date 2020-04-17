@@ -24,7 +24,7 @@ import org.openqa.selenium.Keys as Keys
 public class PropertySubmit {
 
 	@Keyword
-	def withAllForm(){
+	def withAllForm(String username){
 
 		Faker faker = new Faker()
 
@@ -48,7 +48,7 @@ public class PropertySubmit {
 
 		WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL'))
 
-		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), username)
 
 		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'),
 				GlobalVariable.passWord)
@@ -442,7 +442,7 @@ public class PropertySubmit {
 
 
 	@Keyword
-	def withoutPoaRentalMortageForm(){
+	def withoutPoaRentalMortageForm(String username){
 
 		Faker faker = new Faker()
 
@@ -460,7 +460,7 @@ public class PropertySubmit {
 
 		WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL'))
 
-		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), username)
 
 		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'),
 				GlobalVariable.passWord)
@@ -684,16 +684,16 @@ public class PropertySubmit {
 
 
 	@Keyword
-	def submitForm(String param){
+	def submitForm(String param , String username){
 
 		if(param == 'yes'){
 
-			print('\n check true yes '+ param + '\n');
-			withAllForm()
+			print('\n check true yes '+ param +' '+ username + '\n');
+			withAllForm(username)
 		}else if(param == 'no'){
 
-			print('\n check true no ' + param + '\n');
-			withoutPoaRentalMortageForm()
+			print('\n check true no ' + param + ' '+ username + '\n');
+			withoutPoaRentalMortageForm(username)
 		}
 	}
 }

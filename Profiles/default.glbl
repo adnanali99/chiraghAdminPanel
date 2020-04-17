@@ -3,7 +3,7 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://test.chiragh.com'</initValue>
@@ -26,21 +26,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://test.chiragh.com/test-login'</initValue>
-      <name>CreateOTPURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'1234'</initValue>
-      <name>otpNo</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'10,000.00'</initValue>
-      <name>transferAmount</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'BuyerTest'</initValue>
       <name>Buyer</name>
    </GlobalVariableEntity>
@@ -48,6 +33,21 @@
       <description></description>
       <initValue>'BuyerTest123@@'</initValue>
       <name>BuyerPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234567890'</initValue>
+      <name>changePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>transferAmount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>otpNo</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Where we need to upload a file, this variable will be used</description>
