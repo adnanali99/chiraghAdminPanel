@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transact
 WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'), 
     '676767')
 
-WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 

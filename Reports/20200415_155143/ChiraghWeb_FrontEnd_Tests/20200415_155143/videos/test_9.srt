@@ -1,0 +1,60 @@
+1
+00:00:00,198 --> 00:00:00,198
+1. openBrowser("")
+
+2
+00:00:03,940 --> 00:00:03,940
+5. navigateToUrl(Url)
+
+3
+00:00:05,461 --> 00:00:05,461
+9. waitForPageLoad(15)
+
+4
+00:00:05,577 --> 00:00:05,578
+13. maximizeWindow()
+
+5
+00:00:05,588 --> 00:00:05,588
+17. delay(3)
+
+6
+00:00:08,592 --> 00:00:08,592
+21. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:09,408 --> 00:00:09,409
+25. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:09,955 --> 00:00:09,956
+29. setText(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/input_Username_un"), "AUTOCHIRAGH")
+
+9
+00:00:10,469 --> 00:00:10,469
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:10,964 --> 00:00:10,964
+37. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:11,789 --> 00:00:11,789
+41. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+12
+00:00:13,829 --> 00:00:13,829
+45. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+13
+00:00:14,528 --> 00:00:14,528
+49. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Dashborad Home/b_Manage Activity"))
+
+14
+00:00:16,377 --> 00:00:16,378
+53. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Open House/a_Watch List"))
+
+15
+00:00:17,142 --> 00:00:17,142
+57. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/svg_PROPERTY ID 38916_svg-inline--fa fa-times fa-w-12"))
+

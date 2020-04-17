@@ -1,0 +1,84 @@
+1
+00:00:00,252 --> 00:00:00,252
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:00,515 --> 00:00:00,520
+5. projectname = address().streetName()
+
+3
+00:00:00,521 --> 00:00:00,521
+9. openBrowser("")
+
+4
+00:00:03,425 --> 00:00:03,425
+13. navigateToUrl(Url)
+
+5
+00:00:04,926 --> 00:00:04,926
+17. waitForPageLoad(15)
+
+6
+00:00:05,042 --> 00:00:05,042
+21. maximizeWindow()
+
+7
+00:00:05,050 --> 00:00:05,051
+25. delay(3)
+
+8
+00:00:08,052 --> 00:00:08,052
+29. click(findTestObject("Property submission/owner/Page_Chiragh - Home/a_SELL"))
+
+9
+00:00:08,782 --> 00:00:08,782
+33. setText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un"), userName)
+
+10
+00:00:09,399 --> 00:00:09,399
+37. setText(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword"), passWord)
+
+11
+00:00:10,109 --> 00:00:10,109
+41. click(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:10,993 --> 00:00:10,993
+45. delay(10)
+
+13
+00:00:20,994 --> 00:00:20,994
+49. setText(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo"), "3294723889")
+
+14
+00:00:21,803 --> 00:00:21,803
+53. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry"))
+
+15
+00:00:22,553 --> 00:00:22,553
+57. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020"))
+
+16
+00:00:23,112 --> 00:00:23,112
+61. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029"))
+
+17
+00:00:23,639 --> 00:00:23,640
+65. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month"))
+
+18
+00:00:24,198 --> 00:00:24,198
+69. click(findTestObject("Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21"))
+
+19
+00:00:24,749 --> 00:00:24,751
+73. scrollToElement(findTestObject("Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy"), 5)
+
+20
+00:00:25,421 --> 00:00:25,421
+77. delay(4)
+
+21
+00:00:29,422 --> 00:00:29,422
+81. uploadFile(findTestObject("Property submission/owner/Scanned Passport Copy"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+

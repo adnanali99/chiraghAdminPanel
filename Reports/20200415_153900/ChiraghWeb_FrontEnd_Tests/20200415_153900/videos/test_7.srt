@@ -1,0 +1,76 @@
+1
+00:00:00,245 --> 00:00:00,245
+1. openBrowser("")
+
+2
+00:00:04,345 --> 00:00:04,346
+5. navigateToUrl(Url)
+
+3
+00:00:06,255 --> 00:00:06,256
+9. waitForPageLoad(10)
+
+4
+00:00:06,282 --> 00:00:06,283
+13. maximizeWindow()
+
+5
+00:00:06,293 --> 00:00:06,293
+17. delay(3)
+
+6
+00:00:09,296 --> 00:00:09,296
+21. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:09,822 --> 00:00:09,822
+25. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:10,372 --> 00:00:10,372
+29. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:10,903 --> 00:00:10,903
+33. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Password_userPassword"), passWord)
+
+10
+00:00:11,624 --> 00:00:11,624
+37. delay(2)
+
+11
+00:00:13,626 --> 00:00:13,626
+41. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:14,215 --> 00:00:14,216
+45. waitForPageLoad(10)
+
+13
+00:00:14,237 --> 00:00:14,237
+49. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+14
+00:00:16,244 --> 00:00:16,246
+53. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:00:16,874 --> 00:00:16,874
+57. delay(2)
+
+16
+00:00:18,876 --> 00:00:18,876
+61. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Dashborad Home/a_Profile"))
+
+17
+00:00:19,482 --> 00:00:19,483
+65. delay(2)
+
+18
+00:00:21,485 --> 00:00:21,485
+69. scrollToElement(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/p_Contact Info"), 6)
+
+19
+00:00:21,791 --> 00:00:21,792
+73. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/svg_Sharjah UAE_svg-inline--fa fa-eye fa-w-18"))
+

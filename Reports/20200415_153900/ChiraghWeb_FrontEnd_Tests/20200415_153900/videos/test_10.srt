@@ -1,0 +1,132 @@
+1
+00:00:00,261 --> 00:00:00,261
+1. openBrowser("")
+
+2
+00:00:03,154 --> 00:00:03,154
+5. navigateToUrl(Url)
+
+3
+00:00:04,690 --> 00:00:04,690
+9. waitForPageLoad(10)
+
+4
+00:00:04,804 --> 00:00:04,805
+13. maximizeWindow()
+
+5
+00:00:04,814 --> 00:00:04,814
+17. delay(3)
+
+6
+00:00:07,817 --> 00:00:07,818
+21. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:08,334 --> 00:00:08,334
+25. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:09,183 --> 00:00:09,184
+29. setText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Login/input_Username_un"), "chiragh1234")
+
+9
+00:00:09,700 --> 00:00:09,701
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Login/input_Password_userPassword"), "H/aFGQTy4lw=")
+
+10
+00:00:10,192 --> 00:00:10,192
+37. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Login/a_Forgot Password"))
+
+11
+00:00:10,917 --> 00:00:10,917
+41. setText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Forget Password/input_Follow instructions mentioned in the _98cc19"), "chiragh@getnada.com")
+
+12
+00:00:11,638 --> 00:00:11,640
+45. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Forget Password/button_Submit"))
+
+13
+00:00:12,330 --> 00:00:12,331
+49. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Chiragh - Forget Password/div_EMAIL SENT SUCCESSFULLY"))
+
+14
+00:00:13,931 --> 00:00:13,931
+53. navigateToUrl("https://getnada.com/")
+
+15
+00:00:15,385 --> 00:00:15,385
+57. delay(3)
+
+16
+00:00:18,388 --> 00:00:18,388
+61. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/nav_Temp InboxeslelukgetnadacomAdd Inbox"))
+
+17
+00:00:18,702 --> 00:00:18,703
+65. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/span_Add Inbox"))
+
+18
+00:00:19,178 --> 00:00:19,180
+69. doubleClick(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name"))
+
+19
+00:00:19,568 --> 00:00:19,568
+73. setText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name"), "chiragh")
+
+20
+00:00:20,066 --> 00:00:20,068
+77. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/a_Accept"))
+
+21
+00:00:20,554 --> 00:00:20,554
+81. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/div_Chiragh Reset Password At Mon Apr 06 07_2f7f77"))
+
+22
+00:00:21,199 --> 00:00:21,200
+85. switchToWindowTitle("Nada - temp mail - fast and free")
+
+23
+00:00:21,223 --> 00:00:21,223
+89. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/a_Reset Password"))
+
+24
+00:00:22,307 --> 00:00:22,308
+93. delay(1)
+
+25
+00:00:23,311 --> 00:00:23,311
+97. switchToWindowIndex(1)
+
+26
+00:00:23,356 --> 00:00:23,356
+101. delay(2)
+
+27
+00:00:25,359 --> 00:00:25,359
+105. setText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_/input_Enter New Password_userPassword"), passWord)
+
+28
+00:00:26,129 --> 00:00:26,129
+109. setText(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_/input_Confirm New Password_userconfirmPassword"), passWord)
+
+29
+00:00:27,059 --> 00:00:27,060
+113. delay(2)
+
+30
+00:00:29,062 --> 00:00:29,062
+117. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_/button_Reset Password"))
+
+31
+00:00:29,573 --> 00:00:29,573
+121. click(findTestObject("Object Repository/Front End Objects/ForgetPassword/Page_/h4_Password Reset Successfully"))
+
+32
+00:00:30,202 --> 00:00:30,202
+125. delay(2)
+
+33
+00:00:32,203 --> 00:00:32,203
+129. closeBrowser()
+
