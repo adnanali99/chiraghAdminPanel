@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Select Banks  Any  Commercial Bank of _03ef37</name>
+   <tag></tag>
+   <elementGuidId>de510d8f-6235-44d6-bf2a-f62c680d9e94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='msform']/div/div[2]/div/div[5]/div/ngx-dropdown-list/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngx-select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Select Banks  Any  Commercial Bank of Dubai    Credit Agricole Corporate And Investment   Ajman Bank  Al Ahli Bank of Kuwait  Al Hilal Bank  Al Khaliji (France) S. A  Al Masraf  Arab African International Bank  Arab Bank PLC  Arab Emirates Investment Bank  Bank Meli Iran  Bank of Baroda  Bank of Sharjah  Bank Saderat Iran  Barclays  Blom Bank France  BNP Paribas  Citibank  Commercial Bank International  Commercial Bank of Dubai  Credit Agricole - Corporate and Investment Bank  Doha Bank  Dubai Bank  Dubai Islamic Bank  El Nilein Bank  Emirates Bank International  Emirates Islamic Bank  Emirates NBD Bank  First Gulf Bank  Habib Bank Ltd.  HSBC Bank Middle East  Invest Bank  Janata Bank  Lloyds TSB Bank  Mashreq Bank  National Bank of Abu Dhabi  National Bank of Bahrain  National Bank of Fujairah  National Bank of Kuwait.  National Bank of Oman  National Bank of Ras Al Khaimah (RAKBank)  National Bank of Sharjah  National Bank of Umm Al Quwain  Noor Islamic Bank  Rafidain Bank  RAKBANK  Royal Bank of Scotland (RBS) (formerly ABN Amro)  Sharjah Islamic Bank  Standard Chartered Bank  The Royal Bank of Scotland N.V.  Union National Bank  United Arab Bank  HSBC Bank Middle East Limited  Habib Bank Limited (HBL)  Abu Dhabi RAKBANK  Citibank N.A., United Arab Emirates  Swissquote MEA Ltd.  Bank Melli Iran  Abu Dhabi RAKBANK   Al Khaliji France  Dubai First  Noor Bank   National Bank Of Umm Al Qaiwain (Psc)   Kotak Mahindra Bank Limited   Abu Dhabi Commercial Bank (ADB)   Arab Emirates Investment Bank PJSC   Bank Saderat Iran </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;msform&quot;)/div[@class=&quot;qulification-form&quot;]/div[@class=&quot;form-qulification-main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-group&quot;]/ngx-dropdown-list[@class=&quot;form-control c-ng-select  employmentTpe partnerbanking&quot;]/span[@class=&quot;ngx-select&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='msform']/div/div[2]/div/div[5]/div/ngx-dropdown-list/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banking Partner*'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-mail Address*'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-dropdown-list/span</value>
+   </webElementXpaths>
+</WebElementEntity>

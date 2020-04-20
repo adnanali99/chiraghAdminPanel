@@ -21,34 +21,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MortageCalculator {
-	
+
 	@Keyword
 	def incomes(String salary, String otherIncome){
-			
+
 		String sum = salary + otherIncome;
 		String percentage50 = sum / 2 ;
-		
-		print(percentage50);
-		
 
-		
+		print(percentage50);
 	}
-	
+
 	@Keyword
 	def installments(String mortage , String auto , String personal ,String credits ,  String other){
-			
+		
+		String creditsCard3Percentage = credits * 3%
+		
+		print('check the credit card percentage', creditsCard3Percentage);
+
 		String sumInstallment = mortage + auto  + personal + credits + other;
 		
-		
-		
-	}
-	
-	@Keyword
-	def calculate(){
-			
-			
-		
+		print('check the su of innstallments', sumInstallment);
 	}
 
-	
+	@Keyword
+	def calculate(){
+	}
 }
