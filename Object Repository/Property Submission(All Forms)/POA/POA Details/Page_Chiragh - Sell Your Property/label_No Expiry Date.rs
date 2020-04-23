@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='POA Expiry Date'])[1]/following::label[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[3]/div/div/div[2]/div/div/label[count(. | //*[(text() = ' No Expiry Date ' or . = ' No Expiry Date ')]) = count(//*[(text() = ' No Expiry Date ' or . = ' No Expiry Date ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,11 +45,11 @@
       <value> No Expiry Date </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;modal-main-open&quot;]/app-root[1]/app-core[1]/app-sell[1]/div[@class=&quot;sell-owner-info&quot;]/div[@class=&quot;company-type&quot;]/app-pao-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;owner-main&quot;]/app-owner-base-form[1]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;owner-personal-info ng-star-inserted&quot;]/div[@class=&quot;container-fluid  wow fadeInUp&quot;]/div[@class=&quot;row  wow fadeInUp&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;custom-control custom-checkbox my-1&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[3]/div/div/div[2]/div/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
