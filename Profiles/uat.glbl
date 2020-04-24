@@ -49,4 +49,9 @@
       <initValue>'1000'</initValue>
       <name>transferAmount</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>otpNo</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
