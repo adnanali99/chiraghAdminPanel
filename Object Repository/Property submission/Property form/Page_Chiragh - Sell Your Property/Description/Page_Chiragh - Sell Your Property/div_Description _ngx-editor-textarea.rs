@@ -1,89 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Country Code_ng-star-inserted</name>
+   <name>div_Description _ngx-editor-textarea</name>
    <tag></tag>
-   <elementGuidId>37e49f30-e58c-4efc-8806-77a4da2a682f</elementGuidId>
+   <elementGuidId>2ab269c9-10a7-4902-84e7-02f2a866b86a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[10]</value>
+         <value>//div[@id='ngxEditor']/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>combobox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>af5f1ef85445</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-star-inserted</value>
+      <value>ngx-editor-textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>yes</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
+      <value>id(&quot;ngxEditor&quot;)/div[@class=&quot;ngx-wrapper show-placeholder&quot;]/div[@class=&quot;ngx-editor-textarea&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='text'])[10]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='mobileCode']/div/div/div[2]/input</value>
+      <value>//div[@id='ngxEditor']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/ng-select/div/div/div[2]/input</value>
+      <value>//app-ngx-editor/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

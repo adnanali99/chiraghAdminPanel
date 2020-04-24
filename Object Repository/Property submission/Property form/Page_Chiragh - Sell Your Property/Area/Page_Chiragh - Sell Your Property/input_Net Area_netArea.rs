@@ -6,6 +6,10 @@
    <elementGuidId>a835874b-741e-4fcb-8893-4ec5409aad3a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-property-detail/form/div[1]/div/div[5]/div[1]/div/input[count(. | //input[@id = 'netArea' and @name = 'netArea' and @placeholder = 'Net Area']) = count(//input[@id = 'netArea' and @name = 'netArea' and @placeholder = 'Net Area'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='netArea']</value>
       </entry>
@@ -13,7 +17,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -36,6 +40,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>mask</name>
+      <type>Main</type>
+      <value>separator.2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>min</name>
       <type>Main</type>
       <value>1</value>
@@ -48,13 +59,6 @@
       <value>netArea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
-      <type>Main</type>
-      <value>return (event.charCode >= 48 &amp;&amp; event.charCode &lt;= 57)</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
@@ -62,11 +66,18 @@
       <value>Net Area</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>thousandseparator</name>
+      <type>Main</type>
+      <value>,</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,36 +90,14 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//input[@id='netArea']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Net Area'])[1]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat/Office Number'])[1]/following::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit'])[1]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit'])[2]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[5]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
