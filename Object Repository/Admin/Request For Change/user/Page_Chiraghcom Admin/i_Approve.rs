@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Approve</name>
+   <tag></tag>
+   <elementGuidId>8e13ab5a-fac1-4f8f-9d5b-814442e8cc92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div[2]/div/div/div/div[2]/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-check-circle text-success ml-3 ng-star-inserted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Approve</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/app-owners[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container-fluid property-details-wrapper px-0 mt-4 ng-star-inserted&quot;]/div[@class=&quot;scroll-wrap ng-star-inserted&quot;]/div[@class=&quot;row mt-4&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 details-list-item ng-star-inserted&quot;]/span[@class=&quot;input-given&quot;]/i[@class=&quot;fas fa-check-circle text-success ml-3 ng-star-inserted&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/app-owners/div/div[2]/div/div/div/div[2]/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

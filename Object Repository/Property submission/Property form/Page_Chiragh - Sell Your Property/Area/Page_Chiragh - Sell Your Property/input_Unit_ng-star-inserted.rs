@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Country Code_ng-star-inserted</name>
+   <name>input_Unit_ng-star-inserted</name>
    <tag></tag>
-   <elementGuidId>37e49f30-e58c-4efc-8806-77a4da2a682f</elementGuidId>
+   <elementGuidId>829f3b35-13c7-4b64-a874-8e076050f878</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[10]</value>
+         <value>(//input[@type='text'])[15]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +27,7 @@
       <value>combobox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -42,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>af5f1ef85445</value>
+      <value>a7978b779409</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,31 +55,24 @@
       <value>ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;modal-main-open&quot;]/app-root[1]/app-core[1]/app-sell[1]/div[@class=&quot;sell-owner-info&quot;]/div[@class=&quot;company-type&quot;]/app-property-detail[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;owner-personal-info&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;form-group&quot;]/ng-select[@class=&quot;c-ng-select ng-select ng-select-single ng-select-searchable ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input ng-star-inserted&quot;]/input[@class=&quot;ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[10]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//ng-select[@id='mobileCode']/div/div/div[2]/input</value>
+      <value>(//input[@type='text'])[15]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/ng-select/div/div/div[2]/input</value>
+      <value>//div[2]/div/ng-select/div/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Country Code_ng-star-inserted</name>
+   <name>button_Ok</name>
    <tag></tag>
-   <elementGuidId>37e49f30-e58c-4efc-8806-77a4da2a682f</elementGuidId>
+   <elementGuidId>e19f74f2-ab33-4361-a23e-d21f71b0f00c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[17]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[10]</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Ok' or . = 'Ok')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,69 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>combobox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>af5f1ef85445</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-star-inserted</value>
+      <value>mat-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close dialog</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ok</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[2]/div/div[1]/div[1]/div/ng-select/div/div/div[2]/input</value>
+      <value>/html/body/div[8]/div[2]/div/mat-dialog-container/request-for-change-dialog/div[1]/div/div/mat-checkbox/label/span/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[10]</value>
+      <value>(//button[@type='button'])[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='mobileCode']/div/div/div[2]/input</value>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/request-for-change-dialog/div[2]/button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Label : First Name'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/ng-select/div/div/div[2]/input</value>
+      <value>//request-for-change-dialog/div[2]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

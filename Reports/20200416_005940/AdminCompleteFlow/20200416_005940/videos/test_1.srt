@@ -1,0 +1,12 @@
+1
+00:00:01,458 --> 00:00:01,468
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:02,800 --> 00:00:02,807
+5. projectname = address().streetName()
+
+3
+00:00:02,858 --> 00:00:02,870
+9. openBrowser("")
+

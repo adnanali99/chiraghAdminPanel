@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>valuation department</name>
+   <name>TC_PropertyValuationFlow(Excluding3rdPartyFlow)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f57526ce-ccd8-429b-ae59-0d5027cf4166</testCaseGuid>

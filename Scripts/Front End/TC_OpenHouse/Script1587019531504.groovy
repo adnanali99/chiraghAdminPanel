@@ -18,8 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.waitForPageLoad(10)

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_No Expiry Date</name>
+   <name>div_Label  Garden_mat-checkbox-inner-container</name>
    <tag></tag>
-   <elementGuidId>c64032aa-1de2-4f30-b8a7-dc96c234cecd</elementGuidId>
+   <elementGuidId>56335f19-01c7-4c71-b56d-98b94c364871</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='POA Expiry Date'])[1]/following::label[1]</value>
+         <value>//mat-checkbox[@id='mat-checkbox-79']/label/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[3]/div/div/div[2]/div/div/label[count(. | //*[(text() = ' No Expiry Date ' or . = ' No Expiry Date ')]) = count(//*[(text() = ' No Expiry Date ' or . = ' No Expiry Date ')])]</value>
+         <value>/html/body/div[8]/div[2]/div/mat-dialog-container/request-for-change-dialog/div[1]/div/div/mat-checkbox/label/span/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,76 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-control-label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>customControlInline</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> No Expiry Date </value>
+      <value>mat-checkbox-inner-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-core/app-sell/div/div/app-pao-detail/div/app-owner-base-form/form/div[3]/div/div/div[2]/div/div/label</value>
+      <value>/html/body/div[8]/div[2]/div/mat-dialog-container/request-for-change-dialog/div[1]/div/div/mat-checkbox/label/span/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='POA Expiry Date'])[1]/following::label[1]</value>
+      <value>//mat-checkbox[@id='mat-checkbox-79']/label/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='POA Number'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Label : Garden'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specific Property'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BESbswy'])[1]/following::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specific Property'])[2]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Garden'])[2]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='No Expiry Date']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div[2]/div/div/label</value>
+      <value>//request-for-change-dialog/div/div/div/mat-checkbox/label/div</value>
    </webElementXpaths>
 </WebElementEntity>

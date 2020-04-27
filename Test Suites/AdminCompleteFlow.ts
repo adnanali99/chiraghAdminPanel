@@ -14,7 +14,7 @@
       <guid>8559b0c6-517a-43ae-bddd-aca8faa33001</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/property(owner)</testCaseId>
+      <testCaseId>Test Cases/Front End/TC_PropertySubmissionForm_002</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>796dbb84-02b8-449d-8d51-43b83bd06584</guid>
@@ -26,18 +26,18 @@
       <guid>ea797d24-dd69-493b-a1de-f859281436a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/valuation department</testCaseId>
+      <testCaseId>Test Cases/Admin/TC_PropertyValuationFlow(Excluding3rdPartyFlow)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>45901626-7c34-4fd4-a200-87450b82949d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin/brokerage department</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>04ff9799-317e-441c-b20f-6e9a774792f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin/listing department</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
