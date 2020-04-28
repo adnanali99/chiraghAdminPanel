@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User should be able to submit TopUp in AED currency. Confirm success msg.  
+2. User should be able to submit TopUp in USD currency. Confirm success msg.  
+3. User should be able to submit TopUp in EUR currency. Confirm success msg.</description>
+   <name>TC_TopUp_Criteria</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72516c47-b880-4464-9840-ea7fb5678b70</testCaseGuid>
+</TestCaseEntity>

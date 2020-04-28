@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User should be able to view account summary.
+2. View all transactions
+3. View Bank Account
+4. View Chiragh Bank accounts
+5. View make a transaction tab</description>
+   <name>TC_Wallet_Criteria</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3903be0-1165-40af-9aee-b992e7d0eaba</testCaseGuid>
+</TestCaseEntity>
