@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User should move to home on clicking Exit Profile.</description>
+   <name>TC_Exits_Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4defab67-44e8-4921-9acd-b58a96a2500c</testCaseGuid>
+</TestCaseEntity>
