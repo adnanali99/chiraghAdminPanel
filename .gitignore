@@ -4,3 +4,4 @@
 /.classpath
 .svn/
 .project
+ settings/internal/com.kms.katalon.composer.testcase.properties

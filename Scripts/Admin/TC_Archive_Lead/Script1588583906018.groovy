@@ -91,7 +91,7 @@ WebUI.click(findTestObject('Object Repository/Admin/TC_ArchivedVerficationLeads/
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Admin/TC_ArchivedVerficationLeads/button/Page_Chiraghcom Admin/button_Move to Archive'))
+WebUI.click(findTestObject('Admin/TC_ArchivedVerficationLeads/button/Page_Chiraghcom Admin/button_Move to Archive'), FailureHandling.OPTIONAL)
 
 WebUI.closeBrowser()
 
