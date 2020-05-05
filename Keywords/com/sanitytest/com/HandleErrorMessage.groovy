@@ -20,33 +20,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class Validation {
-
+public class HandleErrorMessage {
+	
 	@Keyword
-	def isAlpha(String name) {
-
-		print('\n name '+ name + ' '+ name.matches("[a-zA-Z]+")  +'\n');
-		return name.matches("[a-zA-Z]+");
-	}
-
-	@Keyword
-	def isNumeric(String num) {
-
-		print('\n num '+ num + ' '+ num.matches("[0-9]+")  +'\n');
-		return num.matches("[0-9]+");
-	}
-
-	@Keyword
-	def isNumericAndDecimal(String num) {
-
-		print('\n num '+ num + ' '+ num.matches("[0-9.]*")  +'\n');
-		return num.matches("[0-9.]*");
-	}
-
-	@Keyword
-	def isEmail(String email) {
-
-		print('\n email '+ email + ' '+ email.matches(".+@.+\\.[a-z]+")  +'\n');
-		return email.matches(".+@.+\\.[a-z]+");
+	def verifyErrorMessage(String error , String msg ) {
+		
+		print('\n --- error --  '+ error +  '  -- msg --- '+ msg  +'\n');
+		print('\n --- verifyEqual --  '+  WebUI.verifyEqual(error , msg ) +'\n');
+		
+		WebUI.verifyEqual(error , msg );
+		
 	}
 }
