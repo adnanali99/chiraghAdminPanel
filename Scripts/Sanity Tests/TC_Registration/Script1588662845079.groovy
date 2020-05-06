@@ -61,6 +61,16 @@ CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorU
 
 WebUI.delay(2)
 
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), 'ahsan1234')
+
+WebUI.delay(2)
+
+String errorUsernameSecond = WebUI.getText(findTestObject('Sanity Test/registration/object/Page_Chiragh - Register/div_Username already Exist'))
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorUsernameSecond, 'Username already Exist!')
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/input_Email _userEmail'), 
     '556666666.com')
 
@@ -115,6 +125,89 @@ WebUI.setText(findTestObject('Page_Chiragh - Register/input_Confirm Password_use
 
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Page_Chiragh - Register/button_Next'))
+WebUI.click(findTestObject('Page_Chiragh - Register/button_Next'))
+
+WebUI.waitForPageLoad(4)
+
+WebUI.click(findTestObject('Sanity Test/registration/Date/Page_Chiragh - Register/input_Date of Birth_dob'))
+
+WebUI.click(findTestObject('Sanity Test/registration/birth/Page_Chiragh - Register/span_May 2020'))
+
+WebUI.click(findTestObject('Sanity Test/registration/Date/Page_Chiragh - Register/span_2016'))
+
+WebUI.click(findTestObject('Sanity Test/registration/Date/Page_Chiragh - Register/span_May'))
+
+WebUI.click(findTestObject('Sanity Test/registration/Date/Page_Chiragh - Register/span_4'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/Nationality'), 'Pakis')
+
+WebUI.click(findTestObject('Page_Chiragh - Register/ng-dropdown-panel_Pakistani'))
+
+String Useraddress = faker.address.fullAddress()
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Complete address _address'), Useraddress)
+
+WebUI.delay(2)
+
+String PObox = faker.address.zipCode()
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_POBox_poBox'), PObox)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/Country'), 'Pakis')
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_Pakistan'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/City'), 'Lahor')
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_Lahore'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Identification Type_ng-star-inserted'), 'National')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_National ID'))
+
+String IdCardNumber = faker.number().digits(10)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_ID Number_idCardNo'), IdCardNumber)
+
+WebUI.click(findTestObject('Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate'))
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_Apr 2020'))
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_2021'))
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_Jan'))
+
+WebUI.click(findTestObject('Page_Chiragh - Register/Jan1'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Country Code_ng-star-inserted'), 'Pakis')
+
+WebUI.click(findTestObject('Page_Chiragh - Register/span_(92) Pakistan'))
+
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Mobile Number _mobileNo'), '03451200042')
+
+WebUI.click(findTestObject('Page_Chiragh - Register/input_Phone Number_terms'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Chiragh - Register/button_Register'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Chiragh - Register/button_Proceed'))
+
+WebUI.delay(5)
+
+//WebUI.verifyElementText(findTestObject('Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh'), 
+//    'Thank You')
 WebUI.closeBrowser()
 
