@@ -17,9 +17,26 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 
+Faker faker = new Faker()
+
+String projectname = faker.address().streetName()
+
+//poa
+String poafirst = faker.name().firstName()
+
+String poamiddle = faker.name().firstName()
+
+String poalast = faker.name().firstName()
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.waitForPageLoad(15)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
@@ -115,5 +132,53 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_Mobile Number_mobileNo'), 
     '55555')
 
-WebUI.closeBrowser()
+
+//OWNER//
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_First Name_firstName'),
+	'Auto')
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_Middle Name_middleName'),
+	'Auto')
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_Last Name_lastName'),
+	'Chiragh')
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_Passport Number_passportNo'),
+	'3333333')
+
+WebUI.setText(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'),
+	'3294723889')
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry'))
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029'))
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month'))
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Scanned Passport Copy'),
+	5)
+
+WebUI.delay(4)
+
+WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
+
+WebUI.delay(7)
+
+WebUI.delay(4)
+
+WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
+	GlobalVariable.fileUpload)
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'))
+
+
+//WebUI.closeBrowser()
 
