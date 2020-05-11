@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 import com.github.javafaker.Faker as Faker
 
 Faker faker = new Faker()
@@ -44,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chir
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un'), 'ahsan1234')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un'), 'chiraghcom')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Password_userPassword'),
 	'RigbBhfdqOBDK95asqKeHw==')
@@ -598,9 +599,6 @@ WebUI.click(findTestObject('Sanity Test/SellProperty/leaser Date/Page_Chiragh - 
 
 WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/input_Lease End Date_leaseExpiryDate'))
 
-//WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
-//WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_2030'))
-//WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_Nov'))
 WebUI.click(findTestObject('Sanity Test/SellProperty/expire 2/Page_Chiragh - Sell Your Property/span_23'))
 
 WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), 5)
@@ -613,42 +611,59 @@ WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Ch
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/label_INDEPENDENT REAL ESTATE VALUATOR (FEE_558d3e'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Sell Your Property/label_INDEPENDENT REAL ESTATE VALUATOR (FEE_558d3e'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/h3_Savills'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Sell Your Property/h3_Knight Frank'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/h3_Knight Frank'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Sell Your Property/button_Pay Now'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/button_Pay Now'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/label_I agree with Chiragh wallet terms and_4a56ad'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/button_Submit'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/PropertyValuation/Page_Chiragh - Sell Your Property/h3_Thank You'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Sell Your Property/p_Balance not sufficient'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Sell Your Property/p_Top Up Wallet'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_Chiragh - Home/a_HI ahsan1234'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/label_Select Payment Mode'))
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'), 
+    '1,000')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/select_Select Chiragh bankArab African Inte_8bf805'), 
+    '1', true)
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/input_Transaction ID _transactionId'), 
+    'yuioop')
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/div_Only numeric and alphanumeric values ar_f1eae8'))
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/input_Transaction ID _transactionId'), 
+    'AGGHW45')
+
+WebUI.delay(5)
+
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_Chiragh - Dashborad Home/b_Manage Activity'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/label_I agree with Chiragh Wallet TC Read More'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_Chiragh - Open House/p_Activity'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/button_SEND REQUEST'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_Chiragh - Open House/a_Sell'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/h3_TOP UP REQUEST SUBMITTED SUCCESSFULLY'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/p_Activity'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/a_Sell'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_/a_Pending'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh -Sell In Process/h4_Project Name 3 899'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh -Sell In Process/article_PROPERTY ID 39604'))
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_/h4_Bogisich Lock 6 Bed'), 1)
+WebUI.closeBrowser()
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/New Folder/Page_/article_PROPERTY ID 39598'))
-
-WebUI.delay(5)
