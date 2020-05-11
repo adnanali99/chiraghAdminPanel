@@ -491,23 +491,15 @@ WebUI.setText(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chira
 WebUI.setText(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/input_Mortgage Number_mortgageNo'), 
     '3211111111')
 
-WebUI.click(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/input_Mortgage Start Date_mortgageStartDate'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/object/Page_Chiragh - Sell Your Property/input_Mortgage Start Date_mortgageStartDate'))
 
-//WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
-//
-//WebUI.click(findTestObject('Sanity Test/SellProperty/object/Page_Chiragh - Sell Your Property/span_2016'))
-//
-//WebUI.click(findTestObject('Sanity Test/SellProperty/object/Page_Chiragh - Sell Your Property/span_May'))
-//
-//WebUI.click(findTestObject('Sanity Test/SellProperty/object/Page_Chiragh - Sell Your Property/span_4'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/calender/Page_Chiragh - Sell Your Property/span__owl-dt-control-button-arrow'))
 
-WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/calender/Page_Chiragh - Sell Your Property/span_2018'))
 
-WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/calender/Page_Chiragh - Sell Your Property/span_Apr'))
 
-WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month'))
-
-WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/calender/Page_Chiragh - Sell Your Property/span_8'))
 
 WebUI.setText(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/input_Year_ng-star-inserted'), 
     '3')
@@ -598,21 +590,18 @@ WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - S
 
 WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
 
-WebUI.click(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/span_2016'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/leaser Date/Page_Chiragh - Sell Your Property/span_2018'))
 
-WebUI.click(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/span_Dec'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/leaser Date/Page_Chiragh - Sell Your Property/span_Jun'))
 
-WebUI.click(findTestObject('Property Submission(All Forms)/Mortgage/Page_Chiragh - Sell Your Property/span_18'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/leaser Date/Page_Chiragh - Sell Your Property/span_8'))
 
 WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/input_Lease End Date_leaseExpiryDate'))
 
-WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
-
-WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_2030'))
-
-WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_Nov'))
-
-WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_24'))
+//WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
+//WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_2030'))
+//WebUI.click(findTestObject('Property Submission(All Forms)/Rent/Page_Chiragh - Sell Your Property/span_Nov'))
+WebUI.click(findTestObject('Sanity Test/SellProperty/expire 2/Page_Chiragh - Sell Your Property/span_23'))
 
 WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), 5)
 
