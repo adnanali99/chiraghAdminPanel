@@ -125,6 +125,8 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/input_Mobile Number_mobileNo'), 
     '55555')
 
+WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'))
+
 //OWNER//
 WebUI.delay(10)
 
@@ -172,6 +174,10 @@ WebUI.delay(7)
 WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'))
 
 //************************POA**************************//
+WebUI.click(findTestObject('Property Submission(All Forms)/POA/POA Details/Page_Chiragh - Sell Your Property/button_Next'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'), 
     'Yes')
 
@@ -321,6 +327,13 @@ WebUI.click(findTestObject('Property Submission(All Forms)/POA/POA Details/Page_
 WebUI.click(findTestObject('Property Submission(All Forms)/POA/POA Details/Page_Chiragh - Sell Your Property/button_Next'))
 
 //PROPERTY//
+WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Sanity Test/SellProperty/New Folder1/Page_Chiragh - Sell Your Property/h5_Area Details'), 
+    5)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'))
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input'), 
@@ -479,6 +492,10 @@ WebUI.delay(7)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //MORTGAGE//
+WebUI.click(findTestObject('Object Repository/Property submission/Mortgage/Next/Page_Chiragh - Sell Your Property/button_Next'))
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     'Yes')
 
