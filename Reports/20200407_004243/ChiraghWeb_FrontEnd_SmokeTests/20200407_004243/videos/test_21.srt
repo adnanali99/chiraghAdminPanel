@@ -1,0 +1,44 @@
+1
+00:00:00,186 --> 00:00:00,186
+1. openBrowser("")
+
+2
+00:00:05,330 --> 00:00:05,330
+5. navigateToUrl(Url)
+
+3
+00:00:41,873 --> 00:00:41,874
+9. maximizeWindow()
+
+4
+00:00:46,083 --> 00:00:46,083
+13. delay(3)
+
+5
+00:00:49,086 --> 00:00:49,087
+17. waitForPageLoad(15)
+
+6
+00:00:49,133 --> 00:00:49,133
+21. scrollToElement(findTestObject("Object Repository/Front End Objects/UnregisterUser(WatchList)/Page_Chiragh - Home/h6_Active auctions in process"), 3)
+
+7
+00:00:49,455 --> 00:00:49,455
+25. delay(5)
+
+8
+00:00:54,457 --> 00:00:54,460
+29. click(findTestObject("Object Repository/Front End Objects/UnregisterUser(WatchList)/Page_Chiragh - Home/img"))
+
+9
+00:00:55,131 --> 00:00:55,131
+33. click(findTestObject("Object Repository/Front End Objects/UnregisterUser(WatchList)/Page_Chiragh - Login/h1_Log In"))
+
+10
+00:00:55,634 --> 00:00:55,635
+37. delay(2)
+
+11
+00:00:57,637 --> 00:00:57,638
+41. closeBrowser()
+

@@ -1,0 +1,68 @@
+1
+00:00:00,449 --> 00:00:00,456
+1. openBrowser("")
+
+2
+00:00:07,699 --> 00:00:07,699
+5. navigateToUrl(Url)
+
+3
+00:00:50,187 --> 00:00:50,191
+9. waitForPageLoad(15)
+
+4
+00:00:50,426 --> 00:00:50,427
+13. maximizeWindow()
+
+5
+00:00:54,756 --> 00:00:54,758
+17. delay(3)
+
+6
+00:00:57,823 --> 00:00:57,831
+21. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:58,979 --> 00:00:58,981
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+8
+00:01:00,233 --> 00:01:00,236
+29. setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:01:01,155 --> 00:01:01,156
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:01:02,000 --> 00:01:02,004
+37. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In"))
+
+11
+00:01:02,642 --> 00:01:02,645
+41. waitForPageLoad(15)
+
+12
+00:01:02,716 --> 00:01:02,717
+45. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink"))
+
+13
+00:01:11,007 --> 00:01:11,009
+49. delay(5)
+
+14
+00:01:16,014 --> 00:01:16,015
+53. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:01:16,931 --> 00:01:16,932
+57. delay(10)
+
+16
+00:01:26,938 --> 00:01:26,940
+61. verifyTextPresent(userName, true)
+
+17
+00:01:27,388 --> 00:01:27,389
+65. closeBrowser()
+

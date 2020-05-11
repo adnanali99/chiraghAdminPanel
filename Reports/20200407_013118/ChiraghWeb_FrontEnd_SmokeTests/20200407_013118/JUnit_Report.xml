@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ChiraghWeb_FrontEnd_SmokeTests" time="470.926" tests="4" failures="2" errors="2">
+   <testsuite name="ChiraghWeb_FrontEnd_SmokeTests" tests="4" failures="2" errors="2" time="470.926" timestamp="2020-04-07 01:31:25" hostname="hp - Adnan.mshome.net" id="Test Suites/ChiraghWeb_FrontEnd_SmokeTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_1.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_2.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118\\1586205390619.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_3.mov, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118\\1586205544032.png, C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_4.mov"/>
+         <property name="hostName" value="hp - Adnan.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="1de844861a3e4fa85264a2d38cf934bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009" time="88.798" classname="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009" status="ERROR">
+         <error type="ERROR" message="Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+"/>
+         <system-out><![CDATA[2020-04-07 01:31:26 - [TEST_CASE][ERROR] - Test Cases/Smoke Tests/Header/TC_VerifySellTab_009: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+
+
+2020-04-07 01:31:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-07 01:31:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-07 01:31:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-07 01:31:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-07 01:31:33 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:32:24 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:32:24 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-07 01:32:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:32:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-07 01:32:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-07 01:32:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-07 01:32:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-07 01:32:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL")): Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL' is double clicked on
+
+2020-04-07 01:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL' is double clicked on
+
+2020-04-07 01:32:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2020-04-07 01:32:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-04-07 01:32:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In")): null
+
+2020-04-07 01:32:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifySellTab_009' .
+
+2020-04-07 01:32:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Tests/Header/TC_VerifySellTab_009' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_1.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-07 01:31:26 - [TEST_CASE][ERROR] - Test Cases/Smoke Tests/Header/TC_VerifySellTab_009: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front End/TC_ChangePassword" time="81.658" classname="Test Cases/Front End/TC_ChangePassword" status="ERROR">
+         <error type="ERROR" message="Test Cases/Front End/TC_ChangePassword FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: changePassword for class: internal.GlobalVariable
+	at TC_ChangePassword.run(TC_ChangePassword:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+"/>
+         <system-out><![CDATA[2020-04-07 01:32:55 - [TEST_CASE][ERROR] - Test Cases/Front End/TC_ChangePassword: Test Cases/Front End/TC_ChangePassword FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: changePassword for class: internal.GlobalVariable
+	at TC_ChangePassword.run(TC_ChangePassword:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+
+
+2020-04-07 01:32:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-07 01:32:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-07 01:32:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-07 01:33:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-07 01:33:01 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:33:42 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:33:42 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-04-07 01:33:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:33:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-07 01:33:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-07 01:33:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-07 01:33:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-07 01:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_Login")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Username_un"), userName): Text 'AUTOCHIRAGH' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Username_un'
+
+2020-04-07 01:33:51 - [MESSAGE][PASSED] - Text 'AUTOCHIRAGH' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Username_un'
+
+2020-04-07 01:33:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Password_userPassword"), passWord): Text '1234567890' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-07 01:33:51 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-07 01:33:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:33:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-07 01:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-07 01:33:54 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-04-07 01:33:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_HI AutoChiragh")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-04-07 01:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_HI AutoChiragh' is clicked on
+
+2020-04-07 01:34:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:34:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Dashborad Home/a_Profile")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Dashborad Home/a_Profile' is clicked on
+
+2020-04-07 01:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Dashborad Home/a_Profile' is clicked on
+
+2020-04-07 01:34:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:34:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:34:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/p_Contact Info"), 6): Scroll to object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/p_Contact Info' successfully
+
+2020-04-07 01:34:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/p_Contact Info' successfully
+
+2020-04-07 01:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/svg_Sharjah UAE_svg-inline--fa fa-eye fa-w-18")): Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/svg_Sharjah UAE_svg-inline--fa fa-eye fa-w-18' is clicked on
+
+2020-04-07 01:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/svg_Sharjah UAE_svg-inline--fa fa-eye fa-w-18' is clicked on
+
+2020-04-07 01:34:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:34:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:34:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_currentPassword"), passWord): Text '1234567890' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_currentPassword'
+
+2020-04-07 01:34:12 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_currentPassword'
+
+2020-04-07 01:34:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:34:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_userPassword"), changePassword): null
+
+2020-04-07 01:34:16 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_ChangePassword' .
+
+2020-04-07 01:34:16 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_ChangePassword' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_2.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-07 01:32:55 - [TEST_CASE][ERROR] - Test Cases/Front End/TC_ChangePassword: Test Cases/Front End/TC_ChangePassword FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: changePassword for class: internal.GlobalVariable
+	at TC_ChangePassword.run(TC_ChangePassword:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front End/TC_RegisterationForm_012" time="136.17" classname="Test Cases/Front End/TC_RegisterationForm_012" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front End/TC_RegisterationForm_012 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RegisterationForm_012.run(TC_RegisterationForm_012:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' located by 'By.xpath: //input[@name='dob']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-07 01:34:16 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_RegisterationForm_012: Test Cases/Front End/TC_RegisterationForm_012 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RegisterationForm_012.run(TC_RegisterationForm_012:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' located by 'By.xpath: //input[@name='dob']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-07 01:34:17 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(): null
+
+2020-04-07 01:34:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-07 01:34:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-07 01:34:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-07 01:34:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-07 01:34:23 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:35:10 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:35:10 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-07 01:35:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:35:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-07 01:35:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-07 01:35:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-07 01:35:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-07 01:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login")): Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:35:18 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/Page_Chiragh - Login/a_Register")): Object: 'Object Repository/RegisterPage/Page_Chiragh - Login/a_Register' is clicked on
+
+2020-04-07 01:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/Page_Chiragh - Login/a_Register' is clicked on
+
+2020-04-07 01:35:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Chiragh - Register/h1_Register"), "Register"): Actual text and expected text of test object 'Object Repository/Page_Chiragh - Register/h1_Register' are matched.
+
+2020-04-07 01:35:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Chiragh - Register/h1_Register' are matched.
+
+2020-04-07 01:35:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:23 - [TEST_STEP][PASSED] - fName = name().firstName(): null
+
+2020-04-07 01:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_First Name_userFirstName"), fName): Text 'Columbus' is set on object 'Object Repository/Page_Chiragh - Register/input_First Name_userFirstName'
+
+2020-04-07 01:35:24 - [MESSAGE][PASSED] - Text 'Columbus' is set on object 'Object Repository/Page_Chiragh - Register/input_First Name_userFirstName'
+
+2020-04-07 01:35:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:26 - [TEST_STEP][PASSED] - lName = name().lastName(): null
+
+2020-04-07 01:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_Last Name_userlastName"), lName): Text 'Schimmel' is set on object 'Object Repository/Page_Chiragh - Register/input_Last Name_userlastName'
+
+2020-04-07 01:35:26 - [MESSAGE][PASSED] - Text 'Schimmel' is set on object 'Object Repository/Page_Chiragh - Register/input_Last Name_userlastName'
+
+2020-04-07 01:35:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:28 - [TEST_STEP][PASSED] - userName = name().firstName(): null
+
+2020-04-07 01:35:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_Username_0bdtue"), userName): Text 'Geo' is set on object 'Object Repository/Page_Chiragh - Register/input_Username_0bdtue'
+
+2020-04-07 01:35:29 - [MESSAGE][PASSED] - Text 'Geo' is set on object 'Object Repository/Page_Chiragh - Register/input_Username_0bdtue'
+
+2020-04-07 01:35:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:31 - [TEST_STEP][PASSED] - number = number.randomNumber(): null
+
+2020-04-07 01:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_Email _userEmail"), "testbcm11" + number + "@gmail.com"): Text 'testbcm1144811517@gmail.com' is set on object 'Object Repository/Page_Chiragh - Register/input_Email _userEmail'
+
+2020-04-07 01:35:31 - [MESSAGE][PASSED] - Text 'testbcm1144811517@gmail.com' is set on object 'Object Repository/Page_Chiragh - Register/input_Email _userEmail'
+
+2020-04-07 01:35:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_Password_userPassword"), "A123456s@"): Text 'A123456s@' is set on object 'Object Repository/Page_Chiragh - Register/input_Password_userPassword'
+
+2020-04-07 01:35:34 - [MESSAGE][PASSED] - Text 'A123456s@' is set on object 'Object Repository/Page_Chiragh - Register/input_Password_userPassword'
+
+2020-04-07 01:35:34 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-04-07 01:35:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-04-07 01:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Chiragh - Register/input_Confirm Password_userConfirmPassword"), "A123456s@"): Text 'A123456s@' is set on object 'Object Repository/Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'
+
+2020-04-07 01:35:41 - [MESSAGE][PASSED] - Text 'A123456s@' is set on object 'Object Repository/Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'
+
+2020-04-07 01:35:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-07 01:35:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-07 01:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh - Register/button_Next")): Object: 'Object Repository/Page_Chiragh - Register/button_Next' is clicked on
+
+2020-04-07 01:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh - Register/button_Next' is clicked on
+
+2020-04-07 01:35:44 - [TEST_STEP][PASSED] - waitForPageLoad(4): Wait for page load successfully
+
+2020-04-07 01:35:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:35:44 - [TEST_STEP][FAILED] - click(findTestObject("Page_Chiragh - Register/input_Date of Birth_dob")): Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RegisterationForm_012.run(TC_RegisterationForm_012:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' located by 'By.xpath: //input[@name='dob']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1585742678929.run(Script1585742678929.groovy:79)
+	... 13 more
+)
+
+2020-04-07 01:36:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='dob']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-07 01:36:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RegisterationForm_012.run(TC_RegisterationForm_012:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' located by 'By.xpath: //input[@name='dob']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1585742678929.run(Script1585742678929.groovy:79)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118\\1586205390619.png]]
+
+2020-04-07 01:36:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_RegisterationForm_012' .
+
+2020-04-07 01:36:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_RegisterationForm_012' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_3.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-07 01:34:16 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_RegisterationForm_012: Test Cases/Front End/TC_RegisterationForm_012 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RegisterationForm_012.run(TC_RegisterationForm_012:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Chiragh - Register/input_Date of Birth_dob' located by 'By.xpath: //input[@name='dob']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front End/TC_RgisterUserAdd(WatchList)" time="153.87" classname="Test Cases/Front End/TC_RgisterUserAdd(WatchList)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front End/TC_RgisterUserAdd(WatchList) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RgisterUserAdd(WatchList).run(TC_RgisterUserAdd(WatchList):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Conditions'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-07 01:36:32 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_RgisterUserAdd(WatchList): Test Cases/Front End/TC_RgisterUserAdd(WatchList) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RgisterUserAdd(WatchList).run(TC_RgisterUserAdd(WatchList):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms & Conditions'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-07 01:36:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-07 01:36:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-07 01:36:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-07 01:36:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-07 01:36:39 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:37:39 - [MESSAGE][PASSED] - Navigate to 'http://test.chiragh.com' successfully
+
+2020-04-07 01:37:39 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-07 01:37:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:37:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-07 01:37:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-07 01:37:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-07 01:37:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-07 01:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink")): Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink' is clicked on
+
+2020-04-07 01:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_Login")): Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_Login' is clicked on
+
+2020-04-07 01:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Username_un"), userName): Text 'AUTOCHIRAGH' is set on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Username_un'
+
+2020-04-07 01:37:48 - [MESSAGE][PASSED] - Text 'AUTOCHIRAGH' is set on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Username_un'
+
+2020-04-07 01:37:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw=="): Text ****** has been set on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-07 01:37:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Password_userPassword'
+
+2020-04-07 01:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/button_Log In")): Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-07 01:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/button_Log In' is clicked on
+
+2020-04-07 01:37:49 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2020-04-07 01:37:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-07 01:37:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/h6_Active auctions in process"), 4): Scroll to object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/h6_Active auctions in process' successfully
+
+2020-04-07 01:38:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/h6_Active auctions in process' successfully
+
+2020-04-07 01:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/img")): Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/img' is clicked on
+
+2020-04-07 01:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/img' is clicked on
+
+2020-04-07 01:38:04 - [TEST_STEP][FAILED] - click(findTestObject("Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List")): Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RgisterUserAdd(WatchList).run(TC_RgisterUserAdd(WatchList):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms & Conditions'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1585818448014.run(Script1585818448014.groovy:49)
+	... 13 more
+)
+
+2020-04-07 01:39:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms & Conditions'])[1]/following::div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-07 01:39:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RgisterUserAdd(WatchList).run(TC_RgisterUserAdd(WatchList):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms & Conditions'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1585818448014.run(Script1585818448014.groovy:49)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118\\1586205544032.png]]
+
+2020-04-07 01:39:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Front End/TC_RgisterUserAdd(WatchList)' .
+
+2020-04-07 01:39:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Front End/TC_RgisterUserAdd(WatchList)' .
+[[ATTACHMENT|C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200407_013118\\ChiraghWeb_FrontEnd_SmokeTests\\20200407_013118/videos\\test_4.mov]]]]></system-out>
+         <system-err><![CDATA[2020-04-07 01:36:32 - [TEST_CASE][FAILED] - Test Cases/Front End/TC_RgisterUserAdd(WatchList): Test Cases/Front End/TC_RgisterUserAdd(WatchList) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_RgisterUserAdd(WatchList).run(TC_RgisterUserAdd(WatchList):49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/div_Property has been added to your Watch List' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Terms & Conditions'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-07 01:31:25 - [TEST_SUITE][ERROR] - ChiraghWeb_FrontEnd_SmokeTests: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-04-07 01:31:25 - [TEST_SUITE][ERROR] - ChiraghWeb_FrontEnd_SmokeTests: Test Cases/Smoke Tests/Header/TC_VerifySellTab_009 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at TC_VerifySellTab_009.run(TC_VerifySellTab_009:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586205078185.run(TempTestSuite1586205078185.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

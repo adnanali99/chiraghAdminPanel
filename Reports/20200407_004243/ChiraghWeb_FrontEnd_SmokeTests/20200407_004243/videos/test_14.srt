@@ -1,0 +1,284 @@
+1
+00:00:00,251 --> 00:00:00,252
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:00,354 --> 00:00:00,355
+5. openBrowser("")
+
+3
+00:00:05,585 --> 00:00:05,586
+9. navigateToUrl(Url)
+
+4
+00:00:37,754 --> 00:00:37,755
+13. waitForPageLoad(15)
+
+5
+00:00:37,771 --> 00:00:37,771
+17. maximizeWindow()
+
+6
+00:00:41,952 --> 00:00:41,953
+21. delay(3)
+
+7
+00:00:44,956 --> 00:00:44,957
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+8
+00:00:45,761 --> 00:00:45,761
+29. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+9
+00:00:46,803 --> 00:00:46,804
+33. click(findTestObject("RegisterPage/Page_Chiragh - Login/a_Register"))
+
+10
+00:00:47,445 --> 00:00:47,445
+37. delay(2)
+
+11
+00:00:49,448 --> 00:00:49,450
+41. verifyElementText(findTestObject("Page_Chiragh - Register/h1_Register"), "Register")
+
+12
+00:00:49,789 --> 00:00:49,789
+45. delay(2)
+
+13
+00:00:51,791 --> 00:00:51,793
+49. fName = name().firstName()
+
+14
+00:00:51,809 --> 00:00:51,810
+53. setText(findTestObject("Page_Chiragh - Register/input_First Name_userFirstName"), fName)
+
+15
+00:00:52,248 --> 00:00:52,248
+57. delay(2)
+
+16
+00:00:54,251 --> 00:00:54,253
+61. lName = name().lastName()
+
+17
+00:00:54,257 --> 00:00:54,259
+65. setText(findTestObject("Page_Chiragh - Register/input_Last Name_userlastName"), lName)
+
+18
+00:00:54,685 --> 00:00:54,686
+69. delay(2)
+
+19
+00:00:56,688 --> 00:00:56,689
+73. userName = name().firstName()
+
+20
+00:00:56,691 --> 00:00:56,692
+77. setText(findTestObject("Page_Chiragh - Register/input_Username_0bdtue"), userName)
+
+21
+00:00:57,108 --> 00:00:57,108
+81. delay(2)
+
+22
+00:00:59,110 --> 00:00:59,113
+85. number = number.randomNumber()
+
+23
+00:00:59,132 --> 00:00:59,133
+89. setText(findTestObject("Page_Chiragh - Register/input_Email _userEmail"), "testbcm11" + number + "@gmail.com")
+
+24
+00:00:59,628 --> 00:00:59,628
+93. delay(2)
+
+25
+00:01:01,631 --> 00:01:01,662
+97. setText(findTestObject("Page_Chiragh - Register/input_Password_userPassword"), "A123456s@")
+
+26
+00:01:02,103 --> 00:01:02,103
+101. delay(7)
+
+27
+00:01:09,105 --> 00:01:09,106
+105. setText(findTestObject("Page_Chiragh - Register/input_Confirm Password_userConfirmPassword"), "A123456s@")
+
+28
+00:01:09,548 --> 00:01:09,549
+109. delay(2)
+
+29
+00:01:11,551 --> 00:01:11,552
+113. click(findTestObject("Page_Chiragh - Register/button_Next"))
+
+30
+00:01:11,983 --> 00:01:11,984
+117. waitForPageLoad(4)
+
+31
+00:01:11,996 --> 00:01:11,996
+121. click(findTestObject("Page_Chiragh - Register/input_Date of Birth_dob"))
+
+32
+00:01:12,543 --> 00:01:12,544
+125. click(findTestObject("Page_Chiragh - Register/span_Mar 2020"))
+
+33
+00:01:13,084 --> 00:01:13,084
+129. click(findTestObject("Page_Chiragh - Register/svg"))
+
+34
+00:01:13,672 --> 00:01:13,672
+133. click(findTestObject("Page_Chiragh - Register/span_1996"))
+
+35
+00:01:14,236 --> 00:01:14,237
+137. click(findTestObject("Page_Chiragh - Register/span_Feb"))
+
+36
+00:01:14,761 --> 00:01:14,762
+141. click(findTestObject("Page_Chiragh - Register/span_8"))
+
+37
+00:01:15,356 --> 00:01:15,356
+145. delay(2)
+
+38
+00:01:17,358 --> 00:01:17,359
+149. setText(findTestObject("Page_Chiragh - Register/Nationality"), "Pakis")
+
+39
+00:01:17,759 --> 00:01:17,759
+153. click(findTestObject("Page_Chiragh - Register/ng-dropdown-panel_Pakistani"))
+
+40
+00:01:18,358 --> 00:01:18,359
+157. Useraddress = address.fullAddress()
+
+41
+00:01:18,360 --> 00:01:18,361
+161. setText(findTestObject("Page_Chiragh - Register/input_Complete address _address"), Useraddress)
+
+42
+00:01:19,252 --> 00:01:19,252
+165. delay(2)
+
+43
+00:01:21,255 --> 00:01:21,256
+169. PObox = address.zipCode()
+
+44
+00:01:21,260 --> 00:01:21,262
+173. setText(findTestObject("Page_Chiragh - Register/input_POBox_poBox"), PObox)
+
+45
+00:01:21,690 --> 00:01:21,691
+177. setText(findTestObject("Page_Chiragh - Register/Country"), "Pakis")
+
+46
+00:01:22,292 --> 00:01:22,293
+181. click(findTestObject("Page_Chiragh - Register/span_Pakistan"))
+
+47
+00:01:22,789 --> 00:01:22,789
+185. delay(5)
+
+48
+00:01:27,791 --> 00:01:27,792
+189. setText(findTestObject("Page_Chiragh - Register/City"), "Lahor")
+
+49
+00:01:28,356 --> 00:01:28,356
+193. click(findTestObject("Page_Chiragh - Register/span_Lahore"))
+
+50
+00:01:28,923 --> 00:01:28,924
+197. delay(2)
+
+51
+00:01:30,926 --> 00:01:30,929
+201. setText(findTestObject("Page_Chiragh - Register/input_Identification Type_ng-star-inserted"), "National")
+
+52
+00:01:31,354 --> 00:01:31,354
+205. delay(1)
+
+53
+00:01:32,356 --> 00:01:32,359
+209. click(findTestObject("Page_Chiragh - Register/span_National ID"))
+
+54
+00:01:32,718 --> 00:01:32,719
+213. IdCardNumber = number().digits(10)
+
+55
+00:01:32,721 --> 00:01:32,722
+217. setText(findTestObject("Page_Chiragh - Register/input_ID Number_idCardNo"), IdCardNumber)
+
+56
+00:01:33,381 --> 00:01:33,382
+221. click(findTestObject("Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate"))
+
+57
+00:01:33,879 --> 00:01:33,879
+225. click(findTestObject("Page_Chiragh - Register/span_Apr 2020"))
+
+58
+00:01:34,376 --> 00:01:34,376
+229. click(findTestObject("Page_Chiragh - Register/span_2021"))
+
+59
+00:01:34,976 --> 00:01:34,976
+233. click(findTestObject("Page_Chiragh - Register/span_Jan"))
+
+60
+00:01:35,500 --> 00:01:35,500
+237. click(findTestObject("Page_Chiragh - Register/Jan1"))
+
+61
+00:01:35,988 --> 00:01:35,989
+241. delay(2)
+
+62
+00:01:37,991 --> 00:01:37,992
+245. setText(findTestObject("Page_Chiragh - Register/input_Country Code_ng-star-inserted"), "Pakis")
+
+63
+00:01:38,443 --> 00:01:38,444
+249. click(findTestObject("Page_Chiragh - Register/span_(92) Pakistan"))
+
+64
+00:01:38,930 --> 00:01:38,931
+253. setText(findTestObject("Page_Chiragh - Register/input_Mobile Number _mobileNo"), "03451200042")
+
+65
+00:01:39,520 --> 00:01:39,520
+257. click(findTestObject("Page_Chiragh - Register/input_Phone Number_terms"))
+
+66
+00:01:40,090 --> 00:01:40,090
+261. delay(2)
+
+67
+00:01:42,092 --> 00:01:42,094
+265. click(findTestObject("Page_Chiragh - Register/button_Register"))
+
+68
+00:01:42,524 --> 00:01:42,524
+269. delay(2)
+
+69
+00:01:44,527 --> 00:01:44,529
+273. click(findTestObject("Page_Chiragh - Register/button_Proceed"))
+
+70
+00:01:44,932 --> 00:01:44,933
+277. delay(5)
+
+71
+00:01:49,934 --> 00:01:49,935
+281. verifyElementText(findTestObject("Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh"), "Thank You")
+

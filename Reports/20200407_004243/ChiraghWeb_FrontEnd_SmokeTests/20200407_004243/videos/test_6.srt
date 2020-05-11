@@ -1,0 +1,56 @@
+1
+00:00:00,220 --> 00:00:00,221
+1. openBrowser("")
+
+2
+00:00:06,054 --> 00:00:06,054
+5. navigateToUrl(Url)
+
+3
+00:00:59,589 --> 00:00:59,590
+9. waitForPageLoad(15)
+
+4
+00:00:59,611 --> 00:00:59,611
+13. maximizeWindow()
+
+5
+00:01:03,841 --> 00:01:03,842
+17. delay(3)
+
+6
+00:01:06,845 --> 00:01:06,849
+21. click(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:01:07,413 --> 00:01:07,413
+25. click(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Home/a_Login"))
+
+8
+00:01:07,964 --> 00:01:07,965
+29. setText(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Login/input_Username_un"), "AUTOCHIRAGH")
+
+9
+00:01:08,576 --> 00:01:08,577
+33. setText(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Login/input_Password_userPassword"), "rtyu")
+
+10
+00:01:08,965 --> 00:01:08,966
+37. click(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Login/button_Log In"))
+
+11
+00:01:09,344 --> 00:01:09,344
+41. waitForPageLoad(15)
+
+12
+00:01:09,375 --> 00:01:09,375
+45. errorMessage = getText(findTestObject("Object Repository/Front End Objects/NotLoginWithInvalidCredential/Page_Chiragh - Login/div_Invalid username or password"))
+
+13
+00:01:10,871 --> 00:01:10,872
+49. verifyEqual(errorMessage, "Invalid username or password")
+
+14
+00:01:10,883 --> 00:01:10,883
+53. closeBrowser()
+

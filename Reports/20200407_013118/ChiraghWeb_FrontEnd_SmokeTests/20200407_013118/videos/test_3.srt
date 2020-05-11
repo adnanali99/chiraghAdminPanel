@@ -1,0 +1,124 @@
+1
+00:00:00,271 --> 00:00:00,273
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:00,569 --> 00:00:00,571
+5. openBrowser("")
+
+3
+00:00:06,559 --> 00:00:06,560
+9. navigateToUrl(Url)
+
+4
+00:00:53,632 --> 00:00:53,633
+13. waitForPageLoad(15)
+
+5
+00:00:53,661 --> 00:00:53,662
+17. maximizeWindow()
+
+6
+00:00:57,851 --> 00:00:57,851
+21. delay(3)
+
+7
+00:01:00,858 --> 00:01:00,860
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+8
+00:01:01,356 --> 00:01:01,357
+29. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+9
+00:01:01,993 --> 00:01:01,994
+33. click(findTestObject("RegisterPage/Page_Chiragh - Login/a_Register"))
+
+10
+00:01:02,643 --> 00:01:02,643
+37. delay(2)
+
+11
+00:01:04,648 --> 00:01:04,649
+41. verifyElementText(findTestObject("Page_Chiragh - Register/h1_Register"), "Register")
+
+12
+00:01:05,132 --> 00:01:05,132
+45. delay(2)
+
+13
+00:01:07,136 --> 00:01:07,137
+49. fName = name().firstName()
+
+14
+00:01:07,144 --> 00:01:07,145
+53. setText(findTestObject("Page_Chiragh - Register/input_First Name_userFirstName"), fName)
+
+15
+00:01:07,585 --> 00:01:07,587
+57. delay(2)
+
+16
+00:01:09,591 --> 00:01:09,593
+61. lName = name().lastName()
+
+17
+00:01:09,595 --> 00:01:09,596
+65. setText(findTestObject("Page_Chiragh - Register/input_Last Name_userlastName"), lName)
+
+18
+00:01:10,056 --> 00:01:10,057
+69. delay(2)
+
+19
+00:01:12,060 --> 00:01:12,061
+73. userName = name().firstName()
+
+20
+00:01:12,062 --> 00:01:12,064
+77. setText(findTestObject("Page_Chiragh - Register/input_Username_0bdtue"), userName)
+
+21
+00:01:12,451 --> 00:01:12,451
+81. delay(2)
+
+22
+00:01:14,454 --> 00:01:14,456
+85. number = number.randomNumber()
+
+23
+00:01:14,467 --> 00:01:14,468
+89. setText(findTestObject("Page_Chiragh - Register/input_Email _userEmail"), "testbcm11" + number + "@gmail.com")
+
+24
+00:01:15,008 --> 00:01:15,008
+93. delay(2)
+
+25
+00:01:17,010 --> 00:01:17,012
+97. setText(findTestObject("Page_Chiragh - Register/input_Password_userPassword"), "A123456s@")
+
+26
+00:01:17,462 --> 00:01:17,463
+101. delay(7)
+
+27
+00:01:24,467 --> 00:01:24,469
+105. setText(findTestObject("Page_Chiragh - Register/input_Confirm Password_userConfirmPassword"), "A123456s@")
+
+28
+00:01:24,959 --> 00:01:24,959
+109. delay(2)
+
+29
+00:01:26,961 --> 00:01:26,961
+113. click(findTestObject("Page_Chiragh - Register/button_Next"))
+
+30
+00:01:27,326 --> 00:01:27,327
+117. waitForPageLoad(4)
+
+31
+00:01:27,342 --> 00:01:27,343
+121. click(findTestObject("Page_Chiragh - Register/input_Date of Birth_dob"))
+

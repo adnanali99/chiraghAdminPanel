@@ -691,12 +691,10 @@ public class PropertySubmit {
 
 			print('\n check true yes '+ param + '\n');
 			withAllForm()
-			
 		}else if(param == 'no'){
 
 			print('\n check true no ' + param + '\n');
 			withoutPoaRentalMortageForm()
-			
 		}
 	}
 }

@@ -1,0 +1,72 @@
+1
+00:00:00,210 --> 00:00:00,210
+1. openBrowser("")
+
+2
+00:00:06,110 --> 00:00:06,111
+5. navigateToUrl(Url)
+
+3
+00:00:39,040 --> 00:00:39,040
+9. waitForPageLoad(15)
+
+4
+00:00:39,059 --> 00:00:39,059
+13. maximizeWindow()
+
+5
+00:00:43,241 --> 00:00:43,242
+17. delay(3)
+
+6
+00:00:46,246 --> 00:00:46,248
+21. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:46,915 --> 00:00:46,915
+25. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:47,955 --> 00:00:47,956
+29. setText(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/input_Username_un"), "AUTOCHIRAGH")
+
+9
+00:00:48,636 --> 00:00:48,636
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:49,055 --> 00:00:49,055
+37. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:49,421 --> 00:00:49,421
+41. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+12
+00:00:57,868 --> 00:00:57,868
+45. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+13
+00:00:58,270 --> 00:00:58,270
+49. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Dashborad Home/b_Manage Activity"))
+
+14
+00:00:59,799 --> 00:00:59,800
+53. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Open House/a_Watch List"))
+
+15
+00:01:03,629 --> 00:01:03,629
+57. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/svg_PROPERTY ID 38916_svg-inline--fa fa-times fa-w-12"))
+
+16
+00:01:05,723 --> 00:01:05,723
+61. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/div_Property has been removed from your Watch List"))
+
+17
+00:01:07,001 --> 00:01:07,002
+65. click(findTestObject("Object Repository/Front End Objects/RegisterUserRemove(WatchList)/Page_Chiragh - Watch List/div_Ok"))
+
+18
+00:01:07,350 --> 00:01:07,350
+69. closeBrowser()
+

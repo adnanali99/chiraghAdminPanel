@@ -1,0 +1,236 @@
+1
+00:00:00,200 --> 00:00:00,201
+1. openBrowser("")
+
+2
+00:00:05,400 --> 00:00:05,400
+5. waitForPageLoad(40)
+
+3
+00:00:05,415 --> 00:00:05,416
+9. navigateToUrl(url)
+
+4
+00:00:17,119 --> 00:00:17,120
+13. maximizeWindow()
+
+5
+00:00:21,278 --> 00:00:21,278
+17. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username"))
+
+6
+00:00:21,676 --> 00:00:21,677
+21. setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid")
+
+7
+00:00:22,127 --> 00:00:22,127
+25. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password"))
+
+8
+00:00:22,505 --> 00:00:22,505
+29. setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+9
+00:00:22,917 --> 00:00:22,918
+33. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login"))
+
+10
+00:00:23,319 --> 00:00:23,320
+37. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_New Leads"))
+
+11
+00:00:28,520 --> 00:00:28,520
+41. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/a_an hour ago_fas fa-user-circ"))
+
+12
+00:00:34,741 --> 00:00:34,742
+45. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Mumtaz Hassan (30)"))
+
+13
+00:00:35,360 --> 00:00:35,360
+49. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes"))
+
+14
+00:00:36,273 --> 00:00:36,274
+53. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_AK"))
+
+15
+00:00:43,491 --> 00:00:43,492
+57. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+16
+00:00:48,654 --> 00:00:48,655
+61. waitForPageLoad(8)
+
+17
+00:00:48,676 --> 00:00:48,676
+65. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username"))
+
+18
+00:00:49,047 --> 00:00:49,048
+69. setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "mumtazhassan")
+
+19
+00:00:49,504 --> 00:00:49,504
+73. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password"))
+
+20
+00:00:49,852 --> 00:00:49,852
+77. setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+21
+00:00:50,227 --> 00:00:50,227
+81. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login"))
+
+22
+00:00:50,581 --> 00:00:50,581
+85. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_My Leads"))
+
+23
+00:00:56,474 --> 00:00:56,474
+89. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/th_Status"))
+
+24
+00:01:03,868 --> 00:01:03,869
+93. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Start Now"))
+
+25
+00:01:04,308 --> 00:01:04,309
+97. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes"))
+
+26
+00:01:04,996 --> 00:01:04,997
+101. delay(8)
+
+27
+00:01:12,999 --> 00:01:12,999
+105. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building"))
+
+28
+00:01:26,745 --> 00:01:26,746
+109. delay(3)
+
+29
+00:01:29,747 --> 00:01:29,749
+113. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_ownerVerify"))
+
+30
+00:01:30,178 --> 00:01:30,179
+117. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property Details"))
+
+31
+00:01:36,187 --> 00:01:36,187
+121. delay(3)
+
+32
+00:01:39,191 --> 00:01:39,192
+125. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/Page_Chiragh.com Admin/button_propertyVerify"))
+
+33
+00:01:39,685 --> 00:01:39,685
+129. delay(3)
+
+34
+00:01:42,687 --> 00:01:42,687
+133. delay(3)
+
+35
+00:01:45,691 --> 00:01:45,691
+137. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Check List"))
+
+36
+00:01:46,360 --> 00:01:46,362
+141. delay(3)
+
+37
+00:01:49,365 --> 00:01:49,367
+145. scrollToElement(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif"), 9)
+
+38
+00:01:49,708 --> 00:01:49,708
+149. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Property details are verif"))
+
+39
+00:01:50,252 --> 00:01:50,253
+153. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Confirm"))
+
+40
+00:01:50,875 --> 00:01:50,875
+157. delay(5)
+
+41
+00:01:55,877 --> 00:01:55,878
+161. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_MH"))
+
+42
+00:01:56,616 --> 00:01:56,617
+165. delay(10)
+
+43
+00:02:06,619 --> 00:02:06,621
+169. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_exit_to_appLogout"))
+
+44
+00:02:11,472 --> 00:02:11,473
+173. waitForPageLoad(8)
+
+45
+00:02:11,497 --> 00:02:11,497
+177. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Username"))
+
+46
+00:02:11,850 --> 00:02:11,850
+181. setText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Admin Panel_userName"), "arsalankhalid")
+
+47
+00:02:12,285 --> 00:02:12,286
+185. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Password"))
+
+48
+00:02:12,636 --> 00:02:12,637
+189. setEncryptedText(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/input_Username_password"), "c/4m4/rTvNs0iFiKg9IHPQ==")
+
+49
+00:02:12,996 --> 00:02:12,996
+193. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Login"))
+
+50
+00:02:13,323 --> 00:02:13,324
+197. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_In Process"))
+
+51
+00:02:16,856 --> 00:02:16,856
+201. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/a_Wyman Dale 3 Floors Building"))
+
+52
+00:02:23,889 --> 00:02:23,890
+205. delay(3)
+
+53
+00:02:26,893 --> 00:02:26,894
+209. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/div_Check List"))
+
+54
+00:02:27,732 --> 00:02:27,733
+213. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Approve"))
+
+55
+00:02:29,633 --> 00:02:29,633
+217. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/snack-bar-container_Are you su_2"))
+
+56
+00:02:30,230 --> 00:02:30,230
+221. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/span_Are you sure you want to _2"))
+
+57
+00:02:30,562 --> 00:02:30,563
+225. click(findTestObject("Object Repository/verification department/Page_Chiragh.com Admin/button_Yes"))
+
+58
+00:02:30,983 --> 00:02:30,984
+229. delay(5)
+
+59
+00:02:35,986 --> 00:02:35,986
+233. closeBrowser()
+

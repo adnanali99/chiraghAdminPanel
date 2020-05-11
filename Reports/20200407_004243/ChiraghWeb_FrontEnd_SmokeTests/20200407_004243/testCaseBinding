@@ -1,0 +1,26 @@
+{"testCaseName":"Test Cases/Front End/TC_LoginWithValidCredentials_001","testCaseId":"Test Cases/Front End/TC_LoginWithValidCredentials_001"}
+{"testCaseName":"Test Cases/Front End/TC_SmokeTests_006","testCaseId":"Test Cases/Front End/TC_SmokeTests_006"}
+{"testCaseName":"Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008","testCaseId":"Test Cases/Smoke Tests/Header/TC_VerifyBuyTab_008"}
+{"testCaseName":"Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010","testCaseId":"Test Cases/Smoke Tests/Header/TC_VerifyRentTab_010"}
+{"testCaseName":"Test Cases/Smoke Tests/Header/TC_VerifySellTab_009","testCaseId":"Test Cases/Smoke Tests/Header/TC_VerifySellTab_009"}
+{"testCaseName":"Test Cases/Front End/NotLoginWithInvalidCredentials","testCaseId":"Test Cases/Front End/NotLoginWithInvalidCredentials"}
+{"testCaseName":"Test Cases/Front End/TC_ChangePassword","testCaseId":"Test Cases/Front End/TC_ChangePassword"}
+{"testCaseName":"Test Cases/Front End/TC_ChangeProfileImage","testCaseId":"Test Cases/Front End/TC_ChangeProfileImage"}
+{"testCaseName":"Test Cases/Front End/TC_ContactUs_011","testCaseId":"Test Cases/Front End/TC_ContactUs_011"}
+{"testCaseName":"Test Cases/Front End/TC_ForgetPassword","testCaseId":"Test Cases/Front End/TC_ForgetPassword"}
+{"testCaseName":"Test Cases/Front End/TC_Logout","testCaseId":"Test Cases/Front End/TC_Logout"}
+{"testCaseName":"Test Cases/Front End/TC_PropertySubmissionForm_002","testCaseId":"Test Cases/Front End/TC_PropertySubmissionForm_002"}
+{"testCaseName":"Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011","testCaseId":"Test Cases/Admin/TC_PropertyVerificationCompleteFlow_011"}
+{"testCaseName":"Test Cases/Front End/TC_RegisterationForm_012","testCaseId":"Test Cases/Front End/TC_RegisterationForm_012"}
+{"testCaseName":"Test Cases/Front End/TC_RegisterUserRemove(WatchList)","testCaseId":"Test Cases/Front End/TC_RegisterUserRemove(WatchList)"}
+{"testCaseName":"Test Cases/Front End/TC_RgisterUserAdd(WatchList)","testCaseId":"Test Cases/Front End/TC_RgisterUserAdd(WatchList)"}
+{"testCaseName":"Test Cases/Front End/TC_Subscribe_010","testCaseId":"Test Cases/Front End/TC_Subscribe_010"}
+{"testCaseName":"Test Cases/Front End/TC_TopUP(AED)_003","testCaseId":"Test Cases/Front End/TC_TopUP(AED)_003"}
+{"testCaseName":"Test Cases/Front End/TC_TopUP(EUR)_004","testCaseId":"Test Cases/Front End/TC_TopUP(EUR)_004"}
+{"testCaseName":"Test Cases/Front End/TC_TopUP(USD)_005","testCaseId":"Test Cases/Front End/TC_TopUP(USD)_005"}
+{"testCaseName":"Test Cases/Front End/TC_UnregisterUser(WatchList)","testCaseId":"Test Cases/Front End/TC_UnregisterUser(WatchList)"}
+{"testCaseName":"Test Cases/Front End/TC_VerifyAllLinks_007","testCaseId":"Test Cases/Front End/TC_VerifyAllLinks_007"}
+{"testCaseName":"Test Cases/Front End/TC_WithDraw(AED)","testCaseId":"Test Cases/Front End/TC_WithDraw(AED)"}
+{"testCaseName":"Test Cases/Front End/TC_WithDraw(EUR)","testCaseId":"Test Cases/Front End/TC_WithDraw(EUR)"}
+{"testCaseName":"Test Cases/Front End/TC_WithDraw(USD)","testCaseId":"Test Cases/Front End/TC_WithDraw(USD)"}
+{"testCaseName":"Test Cases/Front End/TC_PropertySubmissionAllForms_012","testCaseId":"Test Cases/Front End/TC_PropertySubmissionAllForms_012"}

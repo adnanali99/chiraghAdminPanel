@@ -1,0 +1,80 @@
+1
+00:00:00,248 --> 00:00:00,248
+1. openBrowser("")
+
+2
+00:00:06,175 --> 00:00:06,175
+5. navigateToUrl(Url)
+
+3
+00:00:42,932 --> 00:00:42,934
+9. waitForPageLoad(10)
+
+4
+00:00:42,955 --> 00:00:42,955
+13. maximizeWindow()
+
+5
+00:00:47,195 --> 00:00:47,195
+17. delay(3)
+
+6
+00:00:50,201 --> 00:00:50,203
+21. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:50,681 --> 00:00:50,682
+25. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:51,275 --> 00:00:51,276
+29. setText(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/input_Username_un"), "chiragh1234")
+
+9
+00:00:51,949 --> 00:00:51,950
+33. delay(2)
+
+10
+00:00:53,953 --> 00:00:53,954
+37. setEncryptedText(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+11
+00:00:54,395 --> 00:00:54,396
+41. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:54,824 --> 00:00:54,825
+45. delay(2)
+
+13
+00:00:56,826 --> 00:00:56,827
+49. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+14
+00:00:58,174 --> 00:00:58,175
+53. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_HI chiragh1234"))
+
+15
+00:00:58,574 --> 00:00:58,575
+57. delay(2)
+
+16
+00:01:00,578 --> 00:01:00,578
+61. uploadFile(findTestObject("Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+17
+00:01:00,959 --> 00:01:00,960
+65. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated"))
+
+18
+00:01:04,848 --> 00:01:04,849
+69. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated"))
+
+19
+00:01:05,171 --> 00:01:05,171
+73. delay(3)
+
+20
+00:01:08,173 --> 00:01:08,175
+77. closeBrowser()
+

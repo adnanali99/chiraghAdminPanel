@@ -1,0 +1,92 @@
+1
+00:00:00,353 --> 00:00:00,353
+1. openBrowser("")
+
+2
+00:00:05,538 --> 00:00:05,539
+5. navigateToUrl(Url)
+
+3
+00:01:08,876 --> 00:01:08,880
+9. waitForPageLoad(10)
+
+4
+00:01:08,902 --> 00:01:08,902
+13. maximizeWindow()
+
+5
+00:01:13,103 --> 00:01:13,103
+17. delay(3)
+
+6
+00:01:16,106 --> 00:01:16,108
+21. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:01:16,775 --> 00:01:16,776
+25. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_Login"))
+
+8
+00:01:17,324 --> 00:01:17,324
+29. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:01:18,004 --> 00:01:18,005
+33. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/input_Password_userPassword"), passWord)
+
+10
+00:01:18,444 --> 00:01:18,445
+37. delay(2)
+
+11
+00:01:20,448 --> 00:01:20,450
+41. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Login/button_Log In"))
+
+12
+00:01:20,825 --> 00:01:20,826
+45. waitForPageLoad(10)
+
+13
+00:01:20,840 --> 00:01:20,840
+49. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+14
+00:01:29,166 --> 00:01:29,167
+53. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:01:29,833 --> 00:01:29,834
+57. delay(2)
+
+16
+00:01:31,837 --> 00:01:31,838
+61. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - Dashborad Home/a_Profile"))
+
+17
+00:01:35,281 --> 00:01:35,281
+65. delay(2)
+
+18
+00:01:37,284 --> 00:01:37,285
+69. scrollToElement(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/p_Contact Info"), 6)
+
+19
+00:01:37,649 --> 00:01:37,650
+73. click(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/svg_Sharjah UAE_svg-inline--fa fa-eye fa-w-18"))
+
+20
+00:01:38,019 --> 00:01:38,019
+77. delay(2)
+
+21
+00:01:40,022 --> 00:01:40,024
+81. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_currentPassword"), passWord)
+
+22
+00:01:40,471 --> 00:01:40,472
+85. delay(2)
+
+23
+00:01:42,474 --> 00:01:42,476
+89. setText(findTestObject("Object Repository/Front End Objects/ChangePasswordObject/Page_Chiragh - User Profile/input_Sharjah UAE_userPassword"), changePassword)
+

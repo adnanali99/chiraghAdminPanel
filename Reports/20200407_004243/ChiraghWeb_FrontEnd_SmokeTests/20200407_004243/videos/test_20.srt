@@ -1,0 +1,136 @@
+1
+00:00:00,177 --> 00:00:00,177
+1. openBrowser("")
+
+2
+00:00:05,404 --> 00:00:05,405
+5. navigateToUrl(Url)
+
+3
+00:00:34,948 --> 00:00:34,948
+9. waitForPageLoad(15)
+
+4
+00:00:34,966 --> 00:00:34,967
+13. maximizeWindow()
+
+5
+00:00:39,169 --> 00:00:39,171
+17. delay(3)
+
+6
+00:00:42,173 --> 00:00:42,174
+21. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:42,866 --> 00:00:42,867
+25. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:43,445 --> 00:00:43,446
+29. setText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:44,116 --> 00:00:44,117
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:44,521 --> 00:00:44,521
+37. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:44,863 --> 00:00:44,863
+41. waitForPageLoad(15)
+
+12
+00:00:44,876 --> 00:00:44,876
+45. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_a month ago_dropdownMenuLink"))
+
+13
+00:00:52,825 --> 00:00:52,826
+49. delay(5)
+
+14
+00:00:57,828 --> 00:00:57,829
+53. click(findTestObject("Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:00:58,227 --> 00:00:58,227
+57. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Dashborad Home/a_My Wallet"))
+
+16
+00:00:59,401 --> 00:00:59,401
+61. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - User Account Summary/a_Make a Transaction"))
+
+17
+00:01:08,471 --> 00:01:08,471
+65. delay(3)
+
+18
+00:01:11,474 --> 00:01:11,474
+69. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount"), "1000")
+
+19
+00:01:11,893 --> 00:01:11,893
+73. delay(3)
+
+20
+00:01:14,895 --> 00:01:14,896
+77. click(findTestObject("Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_USD AED EUR"))
+
+21
+00:01:15,328 --> 00:01:15,329
+81. click(findTestObject("Object Repository/Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/currency_USD"))
+
+22
+00:01:15,703 --> 00:01:15,704
+85. delay(5)
+
+23
+00:01:20,706 --> 00:01:20,707
+89. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/select_ChiraghBank"))
+
+24
+00:01:21,090 --> 00:01:21,091
+93. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/BankOption1"))
+
+25
+00:01:21,523 --> 00:01:21,523
+97. setText(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact"), "676767")
+
+26
+00:01:23,368 --> 00:01:23,369
+101. uploadFile(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+
+27
+00:01:23,696 --> 00:01:23,696
+105. delay(5)
+
+28
+00:01:28,700 --> 00:01:28,700
+109. scrollToElement(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/checkbox"), 5)
+
+29
+00:01:29,012 --> 00:01:29,012
+113. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_I agree with Chiragh Walle"))
+
+30
+00:01:29,375 --> 00:01:29,376
+117. delay(2)
+
+31
+00:01:31,380 --> 00:01:31,381
+121. click(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/button_SEND REQUEST"))
+
+32
+00:01:31,737 --> 00:01:31,738
+125. delay(1)
+
+33
+00:01:32,740 --> 00:01:32,740
+129. verifyElementPresent(findTestObject("Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/div_TOP UP REQUEST SUBMITTED S"), 3)
+
+34
+00:01:33,089 --> 00:01:33,089
+133. closeBrowser()
+

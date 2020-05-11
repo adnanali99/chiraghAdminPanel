@@ -1,0 +1,48 @@
+1
+00:00:00,282 --> 00:00:00,284
+1. openBrowser("")
+
+2
+00:00:06,528 --> 00:00:06,529
+5. navigateToUrl(Url)
+
+3
+00:01:16,658 --> 00:01:16,660
+9. waitForPageLoad(15)
+
+4
+00:01:16,681 --> 00:01:16,681
+13. maximizeWindow()
+
+5
+00:01:20,878 --> 00:01:20,879
+17. delay(3)
+
+6
+00:01:23,886 --> 00:01:23,889
+21. verifyElementText(findTestObject("SmokeTests/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction"), "Dubai's Leading Online Real Estate Auction")
+
+7
+00:01:24,538 --> 00:01:24,539
+25. verifyElementText(findTestObject("Page_Chiragh - Home/h2_Current Auctions"), "Current Auctions")
+
+8
+00:01:24,929 --> 00:01:24,930
+29. verifyAllLinksOnCurrentPageAccessible(false, [])
+
+9
+00:03:15,442 --> 00:03:15,442
+33. delay(1)
+
+10
+00:03:16,447 --> 00:03:16,448
+37. navigateToUrl("http://test.chiragh.com/auctions")
+
+11
+00:03:19,223 --> 00:03:19,223
+41. verifyAllLinksOnCurrentPageAccessible(false, [])
+
+12
+00:04:31,774 --> 00:04:31,774
+45. closeBrowser()
+
