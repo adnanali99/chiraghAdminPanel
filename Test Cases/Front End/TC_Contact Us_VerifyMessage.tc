@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User Should not be able to submit empty form.
+2. Contact form should be submitted with complete details</description>
+   <name>TC_Contact Us_VerifyMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f61141de-7eca-46ac-b942-8e491fb8b721</testCaseGuid>
+</TestCaseEntity>

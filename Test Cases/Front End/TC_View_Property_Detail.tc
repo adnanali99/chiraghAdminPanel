@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User should be able to view property detail page by clicking on name.
+2. User should be able to view property detail page by clicking on view icon.</description>
+   <name>TC_View_Property_Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5432a844-848d-4ae9-8c1e-53545506c6c4</testCaseGuid>
+</TestCaseEntity>

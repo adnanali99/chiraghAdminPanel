@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>ead98e57-ad3a-40a5-8e33-99313d2a6644</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424
+                                C1.807,72.998,0,77.279,0,82.228c0,4.948,1.807,9.229,5.424,12.847l127.907,127.907c3.621,3.617,7.902,5.428,12.85,5.428
+                                s9.233-1.811,12.847-5.428L286.935,95.074c3.613-3.617,5.427-7.898,5.427-12.847C292.362,77.279,290.548,72.998,286.935,69.377z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;owl-dt-picker-0&quot;)/div[@class=&quot;owl-dt-container-inner ng-trigger ng-trigger-fadeInPicker&quot;]/owl-date-time-calendar[@class=&quot;owl-dt-container-row ng-tns-c24-0 owl-dt-calendar ng-star-inserted&quot;]/div[@class=&quot;owl-dt-calendar-control&quot;]/div[@class=&quot;owl-dt-calendar-control-content&quot;]/button[@class=&quot;owl-dt-control owl-dt-control-button owl-dt-control-period-button&quot;]/span[@class=&quot;owl-dt-control-content owl-dt-control-button-content&quot;]/span[@class=&quot;owl-dt-control-button-arrow&quot;]/svg[1]/g[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

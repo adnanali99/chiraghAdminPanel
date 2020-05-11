@@ -39,4 +39,24 @@
       <initValue>'BuyerUat123@@'</initValue>
       <name>BuyerPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234567890'</initValue>
+      <name>changePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>transferAmount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>otpNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Where we need to upload a file, this variable will be used</description>
+      <initValue>System.getProperty(&quot;user.home&quot;)+'\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
+      <name>fileUpload</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

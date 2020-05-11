@@ -1,0 +1,32 @@
+1
+00:00:00,199 --> 00:00:00,199
+1. openBrowser("")
+
+2
+00:00:03,094 --> 00:00:03,094
+5. navigateToUrl(Url)
+
+3
+00:00:04,951 --> 00:00:04,951
+9. waitForPageLoad(15)
+
+4
+00:00:04,964 --> 00:00:04,965
+13. maximizeWindow()
+
+5
+00:00:04,972 --> 00:00:04,973
+17. delay(3)
+
+6
+00:00:07,974 --> 00:00:07,974
+21. doubleClick(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Home/a_SELL"))
+
+7
+00:00:08,648 --> 00:00:08,649
+25. delay(20)
+
+8
+00:00:28,650 --> 00:00:28,650
+29. verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Sell Tab/Page_Chiragh - Login/h1_Log In"))
+

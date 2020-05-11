@@ -1,0 +1,64 @@
+1
+00:00:00,272 --> 00:00:00,272
+1. openBrowser("")
+
+2
+00:00:04,366 --> 00:00:04,366
+5. navigateToUrl(Url)
+
+3
+00:00:05,889 --> 00:00:05,890
+9. waitForPageLoad(10)
+
+4
+00:00:06,005 --> 00:00:06,006
+13. maximizeWindow()
+
+5
+00:00:06,015 --> 00:00:06,015
+17. delay(3)
+
+6
+00:00:09,017 --> 00:00:09,017
+21. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:09,543 --> 00:00:09,544
+25. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:10,092 --> 00:00:10,093
+29. setText(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:10,611 --> 00:00:10,612
+33. delay(2)
+
+10
+00:00:12,613 --> 00:00:12,613
+37. setEncryptedText(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+11
+00:00:12,959 --> 00:00:12,960
+41. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:13,784 --> 00:00:13,786
+45. delay(2)
+
+13
+00:00:15,787 --> 00:00:15,787
+49. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+14
+00:00:16,302 --> 00:00:16,302
+53. click(findTestObject("Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_HI chiragh1234"))
+
+15
+00:00:17,395 --> 00:00:17,395
+57. delay(2)
+
+16
+00:00:19,397 --> 00:00:19,397
+61. uploadFile(findTestObject("Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file"), "C:\Users\HP\git\chiraghAdminPanel\Include\PropertyImages\1584693242612-Scanned_Passport_Copy.png")
+

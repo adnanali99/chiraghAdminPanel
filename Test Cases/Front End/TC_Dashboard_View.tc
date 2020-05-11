@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. User should be able to view Home Page
+2. User should be able to view Profile
+3. User should be able to view Activity tab.
+4. User should be buy tab
+5. User should be able to view sell
+6. User should be able to view wallet</description>
+   <name>TC_Dashboard_View</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af078fa1-fd7a-4fca-b471-e7dec1f2114e</testCaseGuid>
+</TestCaseEntity>

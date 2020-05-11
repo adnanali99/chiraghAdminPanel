@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Any visitor/User should be able to subcribe.
+ Emails already subcribed to chiragh newsletter should not be allowed to subcribe again.</description>
+   <name>TC_Subscribed_verifyMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e00856e5-d658-447a-a40d-dae67f475a33</testCaseGuid>
+</TestCaseEntity>

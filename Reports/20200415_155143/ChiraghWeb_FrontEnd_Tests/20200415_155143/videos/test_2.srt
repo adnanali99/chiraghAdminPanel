@@ -1,0 +1,40 @@
+1
+00:00:00,236 --> 00:00:00,236
+1. openBrowser("")
+
+2
+00:00:03,146 --> 00:00:03,146
+5. navigateToUrl(Url)
+
+3
+00:00:04,772 --> 00:00:04,772
+9. waitForPageLoad(15)
+
+4
+00:00:04,784 --> 00:00:04,785
+13. maximizeWindow()
+
+5
+00:00:04,792 --> 00:00:04,793
+17. delay(3)
+
+6
+00:00:07,796 --> 00:00:07,797
+21. click(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Home/a_RENT"))
+
+7
+00:00:08,238 --> 00:00:08,239
+25. delay(10)
+
+8
+00:00:18,241 --> 00:00:18,241
+29. switchToWindowUrl("http://test.chiragh.com/rent")
+
+9
+00:00:18,293 --> 00:00:18,293
+33. verifyElementPresent(findTestObject("Object Repository/Front End Objects/Smoke Tests/Header/Rent Tab/Page_Chiragh - Rent/ComingSoonImage"), 7)
+
+10
+00:00:18,584 --> 00:00:18,585
+37. closeBrowser()
+

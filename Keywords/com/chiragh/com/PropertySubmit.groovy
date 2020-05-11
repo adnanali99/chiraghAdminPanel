@@ -24,7 +24,7 @@ import org.openqa.selenium.Keys as Keys
 public class PropertySubmit {
 
 	@Keyword
-	def withAllForm(){
+	def withAllForm(String username){
 
 		Faker faker = new Faker()
 
@@ -48,7 +48,7 @@ public class PropertySubmit {
 
 		WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL'))
 
-		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), username)
 
 		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'),
 				GlobalVariable.passWord)
@@ -76,14 +76,13 @@ public class PropertySubmit {
 
 		WebUI.delay(4)
 
-		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.delay(4)
 
-		WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'), GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -177,15 +176,15 @@ public class PropertySubmit {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 		WebUI.delay(8)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), GlobalVariable.fileUpload)
 
 		WebUI.delay(8)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), GlobalVariable.fileUpload)
 
 		WebUI.delay(8)
 
@@ -303,12 +302,12 @@ public class PropertySubmit {
 				5)
 
 		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -366,7 +365,7 @@ public class PropertySubmit {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), GlobalVariable.fileUpload)
 
 		WebUI.delay(10)
 
@@ -420,7 +419,7 @@ public class PropertySubmit {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), GlobalVariable.fileUpload)
 
 		WebUI.delay(8)
 
@@ -443,7 +442,7 @@ public class PropertySubmit {
 
 
 	@Keyword
-	def withoutPoaRentalMortageForm(){
+	def withoutPoaRentalMortageForm(String username){
 
 		Faker faker = new Faker()
 
@@ -461,7 +460,7 @@ public class PropertySubmit {
 
 		WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Home/a_SELL'))
 
-		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), username)
 
 		WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Password_userPassword'),
 				GlobalVariable.passWord)
@@ -489,14 +488,14 @@ public class PropertySubmit {
 
 		WebUI.delay(4)
 
-		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), 'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.delay(4)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -632,12 +631,12 @@ public class PropertySubmit {
 				5)
 
 		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'),
-				'C:\\Users\\HP\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png')
+				GlobalVariable.fileUpload)
 
 		WebUI.delay(7)
 
@@ -685,16 +684,16 @@ public class PropertySubmit {
 
 
 	@Keyword
-	def submitForm(String param){
+	def submitForm(String param , String username){
 
 		if(param == 'yes'){
 
-			print('\n check true yes '+ param + '\n');
-			withAllForm()
+			print('\n check true yes '+ param +' '+ username + '\n');
+			withAllForm(username)
 		}else if(param == 'no'){
 
-			print('\n check true no ' + param + '\n');
-			withoutPoaRentalMortageForm()
+			print('\n check true no ' + param + ' '+ username + '\n');
+			withoutPoaRentalMortageForm(username)
 		}
 	}
 }
