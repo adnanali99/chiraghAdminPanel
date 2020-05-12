@@ -625,6 +625,10 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughS
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/label_Select Payment Mode'))
 
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/button_SEND REQUEST'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/input_Chiragh Wallet _amount'), 
     '1,000')
 
@@ -648,6 +652,8 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/label_I agree with Chiragh Wallet TC Read More'))
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/button_SEND REQUEST'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertySubmitThroughSaveTopUp/Page_Chiragh - Transaction Top Up/h3_TOP UP REQUEST SUBMITTED SUCCESSFULLY'))
 
