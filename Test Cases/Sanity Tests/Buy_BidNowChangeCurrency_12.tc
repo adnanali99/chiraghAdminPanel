@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>System give you option to change currency from AED to Euro and USD, Click on side currency drop down and system will give approx amount for Open Bid in selected currency, Same Amount change will happen for Bid suggestion Amount. test if system is working for all currencies and giving the converted values</description>
-   <name>Buy_Bid Now_ChangeCurrency_12</name>
+   <name>Buy_BidNowChangeCurrency_12</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1fd122d7-1782-4e3c-bb45-0b637d3ec385</testCaseGuid>
+   <testCaseGuid>b37e186c-c112-4969-b119-0adb6c78097f</testCaseGuid>
 </TestCaseEntity>
