@@ -79,11 +79,11 @@ String errorEmail = WebUI.getText(findTestObject('Object Repository/Sanity Test/
 //CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorEmail, 'Enter valid email address e.g \n example@email.com')
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Password_userPassword'), 'A123456s@')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Password_userPassword'), '6666333')
 
 WebUI.delay(7)
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'), 'A123456s@')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'), '92828333')
 
 WebUI.delay(6)
 
@@ -111,7 +111,7 @@ WebUI.delay(2)
 
 String number = faker.number.randomNumber()
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm11+' + number) + '@gmail.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
 
 CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
 
@@ -128,6 +128,15 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Page_Chiragh - Register/button_Next'))
 
 WebUI.waitForPageLoad(4)
+
+WebUI.click(findTestObject('Page_Chiragh - Register/button_Register'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Sanity Test/registration/object3/Page_Chiragh - Register/h1_Welcome yuere iyeyrie'), 
+    2)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Sanity Test/registration/Date/Page_Chiragh - Register/input_Date of Birth_dob'))
 
