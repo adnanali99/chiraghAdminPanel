@@ -863,14 +863,14 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyT
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_Valuation company updated successfully'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_Valuation company updated successfully'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_Ok'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_Ok'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_sandbrobox 12200 sqft Land  39617 Owner_56657a'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_sandbrobox 12200 sqft Land  39617 Owner_56657a'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_sandbrobox 12200 sqft Land  39617 Owner_56657a'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/div_sandbrobox 12200 sqft Land  39617 Owner_56657a'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/span_'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/propertyThirdPartyUpdate/Page_/span_'), FailureHandling.OPTIONAL)
 
 WebUI.closeBrowser()
