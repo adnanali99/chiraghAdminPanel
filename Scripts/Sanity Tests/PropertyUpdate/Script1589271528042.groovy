@@ -53,5 +53,7 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/propertyUpdate/Page_/h
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertyUpdate/Page_/span_'))
 
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 
