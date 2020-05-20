@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valid Username / Password to Register/Buy property on Chiragh (Test user will not be able to Submit Bid on Property) Each Bid Option Section have &quot;Register Now&quot; Button for New user to force him for register first.</description>
+   <name>Buy_PropertyBiddingNotAllowedNewUser_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0d99e10-6e7e-4284-b8ff-f3c324f0d7bc</testCaseGuid>
+</TestCaseEntity>
