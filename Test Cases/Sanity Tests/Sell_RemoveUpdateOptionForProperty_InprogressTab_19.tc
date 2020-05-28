@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System will remove the update option from all the Property Tab from Owner till Valuation, which is indication that System is locked for Client to that specific lead. test the System for lead in later stage then Verification.</description>
+   <name>Sell_RemoveUpdateOptionForProperty_InprogressTab_19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>869f79b2-7df5-40e8-a1da-338bd23027ec</testCaseGuid>
+</TestCaseEntity>
