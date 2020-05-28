@@ -21,14 +21,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class HandleErrorMessage {
-	
+
 	@Keyword
 	def verifyErrorMessage(String error , String msg ) {
-		
+
 		print('\n --- error --  '+ error +  '  -- msg --- '+ msg  +'\n');
 		print('\n --- verifyEqual --  '+  WebUI.verifyEqual(error , msg ) +'\n');
-		
+
 		WebUI.verifyEqual(error , msg );
-		
 	}
 }
