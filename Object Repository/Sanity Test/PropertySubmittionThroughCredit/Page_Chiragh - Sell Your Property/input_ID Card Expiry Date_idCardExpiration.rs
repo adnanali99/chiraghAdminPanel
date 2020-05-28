@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Gross Area_grossArea</name>
+   <name>input_ID Card Expiry Date_idCardExpiration</name>
    <tag></tag>
-   <elementGuidId>b197748d-4f9a-4e6e-b51e-36d71a620ceb</elementGuidId>
+   <elementGuidId>6f17f44e-776d-43d2-b8b2-614c1bdf88e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-property-detail/form/div[1]/div/div[5]/div[3]/div/input[count(. | //input[@id = 'grossArea' and @name = 'grossArea' and @placeholder = 'Gross Area']) = count(//input[@id = 'grossArea' and @name = 'grossArea' and @placeholder = 'Gross Area'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[5]/div[3]/div/input</value>
+         <value>//input[@id='idExpiry']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +24,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control c-input ng-untouched ng-pristine ng-invalid</value>
+      <value>form-control c-date ng-untouched ng-pristine ng-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>grossArea</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>mask</name>
-      <type>Main</type>
-      <value>separator.2</value>
+      <value>idExpiry</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>grossArea</value>
+      <value>idCardExpiration</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Gross Area</value>
+      <value>ID Card Expiry Date</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>thousandseparator</name>
+      <name>readonly</name>
       <type>Main</type>
-      <value>,</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>aria-haspopup</name>
       <type>Main</type>
-      <value>text</value>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2020-05-28T19:00:00.775Z</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grossArea&quot;)</value>
+      <value>id(&quot;idExpiry&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='grossArea']</value>
+      <value>//input[@id='idExpiry']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div[3]/div/input</value>
+      <value>//div[4]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

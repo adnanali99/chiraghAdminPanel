@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Gross Area_grossArea</name>
+   <name>input_Building Name_bulidingName</name>
    <tag></tag>
-   <elementGuidId>b197748d-4f9a-4e6e-b51e-36d71a620ceb</elementGuidId>
+   <elementGuidId>7ca37c09-a095-4092-b76b-34ad64d09140</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-property-detail/form/div[1]/div/div[5]/div[3]/div/input[count(. | //input[@id = 'grossArea' and @name = 'grossArea' and @placeholder = 'Gross Area']) = count(//input[@id = 'grossArea' and @name = 'grossArea' and @placeholder = 'Gross Area'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[5]/div[3]/div/input</value>
+         <value>//input[@id='bulidingName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,35 +31,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>grossArea</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>mask</name>
-      <type>Main</type>
-      <value>separator.2</value>
+      <value>bulidingName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>grossArea</value>
+      <value>bulidingName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Gross Area</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>thousandseparator</name>
-      <type>Main</type>
-      <value>,</value>
+      <value>Building Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,20 +59,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grossArea&quot;)</value>
+      <value>id(&quot;bulidingName&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='grossArea']</value>
+      <value>//input[@id='bulidingName']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div[3]/div/input</value>
+      <value>//div[4]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
