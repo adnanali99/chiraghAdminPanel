@@ -33,13 +33,13 @@ public class MortageCalculator {
 
 	@Keyword
 	def installments(String mortage , String auto , String personal ,String credits ,  String other){
-		
+
 		String creditsCard3Percentage = credits * 3%
-		
-		print('check the credit card percentage', creditsCard3Percentage);
+
+				print('check the credit card percentage', creditsCard3Percentage);
 
 		String sumInstallment = mortage + auto  + personal + credits + other;
-		
+
 		print('check the su of innstallments', sumInstallment);
 	}
 
