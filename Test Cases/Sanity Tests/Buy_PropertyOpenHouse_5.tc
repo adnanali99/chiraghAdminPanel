@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Open House Button on Top Left Corner of Image and Verify its working &amp; Opening the Open House Panel for registration.</description>
+   <name>Buy_PropertyOpenHouse_5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>018d9ef7-3200-4565-8418-719e596135b9</testCaseGuid>
+</TestCaseEntity>
