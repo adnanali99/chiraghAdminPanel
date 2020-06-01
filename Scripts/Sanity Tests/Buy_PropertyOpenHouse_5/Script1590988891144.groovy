@@ -14,4 +14,48 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.waitForPageLoad(15)
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/a_Login'))
+
+WebUI.setText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Username_un'), 
+    'ahsan1234')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/button_Log In'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/h2_Current Auctions'), 
+    3)
+
+//WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/h6_Active auctions in process'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/button_Bid Now'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Property Detail/a'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Property Detail/h1_OPEN HOUSE'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Property Detail/a_BACK'), FailureHandling.OPTIONAL)
+
+WebUI.closeBrowser()
 
