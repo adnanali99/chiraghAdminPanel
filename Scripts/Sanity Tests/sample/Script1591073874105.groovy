@@ -32,18 +32,17 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chir
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un'))
 
-WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un'),
-	GlobalVariable.userName)
+WebUI.setText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un'), 'ahsan1234')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Password_userPassword'),
-	'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/button_Log In'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h2_Current Auctions'),
-	2)
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h2_Current Auctions'), 
+    2)
 
 WebUI.delay(2)
 
@@ -56,8 +55,8 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_C
 
 WebUI.delay(3)
 
-String openHouseFirst = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'),
-	FailureHandling.OPTIONAL)
+String openHouseFirst = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.OpenHouse.verifyOpenHousePopup'(openHouseFirst)
 
@@ -66,8 +65,8 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.delay(7)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_Active auctions in process'),
-	2)
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_Active auctions in process'), 
+    2)
 
 WebUI.delay(2)
 
@@ -80,8 +79,8 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_C
 
 WebUI.delay(3)
 
-String openHouseSecond = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'),
-	FailureHandling.OPTIONAL)
+String openHouseSecond = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.OpenHouse.verifyOpenHousePopup'(openHouseSecond)
 
@@ -90,8 +89,8 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.delay(7)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_PROPERTY ID 39651'),
-	1)
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_PROPERTY ID 39651'), 
+    1)
 
 WebUI.delay(3)
 
@@ -104,8 +103,8 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_C
 
 WebUI.delay(3)
 
-String openHouseThird = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'),
-	FailureHandling.OPTIONAL)
+String openHouseThird = WebUI.getText(findTestObject('Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.OpenHouse.verifyOpenHousePopup'(openHouseThird)
 
@@ -116,6 +115,4 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 WebUI.delay(8)
 
 WebUI.closeBrowser()
-
-
 

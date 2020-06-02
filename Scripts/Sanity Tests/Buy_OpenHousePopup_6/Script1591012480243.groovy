@@ -29,18 +29,18 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHou
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Username_un'),
-	'ahsan1234')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Username_un'), 
+    'ahsan1234')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Password_userPassword'),
-	'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/button_Log In'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/h2_Current Auctions'),
-	3)
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/h2_Current Auctions'), 
+    3)
 
 WebUI.delay(3)
 
@@ -54,8 +54,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Mon'))
 
-String mon = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String mon = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(mon)
 
@@ -63,8 +63,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Tue'))
 
-String tue = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String tue = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL).substring(0, 9)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(tue)
 
@@ -72,8 +72,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Wed'))
 
-String wed = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String wed = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(wed)
 
@@ -83,8 +83,8 @@ WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion
 
 WebUI.delay(1)
 
-String thur = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String thur = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(thur)
 
@@ -94,8 +94,8 @@ WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion
 
 WebUI.delay(1)
 
-String fri = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String fri = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(fri)
 
@@ -105,8 +105,8 @@ WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion
 
 WebUI.delay(1)
 
-String satur = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL)
+String satur = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(satur)
 
@@ -114,16 +114,22 @@ WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion
 
 WebUI.delay(1)
 
-String sund = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
-	FailureHandling.OPTIONAL).substring(0,9)
+String sund = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
+    FailureHandling.OPTIONAL).substring(0, 9)
 
 CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(sund)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Sanity Test/PropertyOpenHouseBiddingExample/time/Page_Chiragh - Property Detail/input_Jun 2 2020_scheduleTime'),
-	sund)
+WebUI.setText(findTestObject('Sanity Test/PropertyBiddingOpenHouse/inputtime/Page_Chiragh - Property Detail/input_Select date_scheduleTime'), 
+    sund)
+
+WebUI.delay(2)
+
+//WebUI.setText(findTestObject('Sanity Test/PropertyBiddingOpenHouse/inputtime/Page_Chiragh - Property Detail/input_Select date_scheduleTime'),
+//	sund)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/a_Proceed'))
 
 WebUI.delay(4)
+
