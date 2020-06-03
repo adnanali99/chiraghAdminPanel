@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_ACTIVE AUCTIONS IN PROCESS_wow zoomIn</name>
+   <tag></tag>
+   <elementGuidId>5f53ce2e-2aeb-42f8-a84b-63b4b91b5400</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt='#'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Image Not Found</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wow zoomIn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-wow-duration</name>
+      <type>Main</type>
+      <value>0.1s</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://s3.us-east-2.amazonaws.com/chiragh-asset/1585771460298-1584693242612-Scanned_Passport_Copy.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;modal-main-open&quot;]/app-root[1]/app-core[1]/app-buy[1]/section[2]/div[@class=&quot;upcomming-auction-outer upcomming-buy&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;upcomming-auction&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;upcomming-properties&quot;]/div[@class=&quot;upcoming-pro-img&quot;]/span[@class=&quot;upcomming-main&quot;]/img[@class=&quot;wow zoomIn&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='#'])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/span/img</value>
+   </webElementXpaths>
+</WebElementEntity>

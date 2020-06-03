@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img'),5)
 

@@ -20,41 +20,42 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.waitForPageLoad(15)
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Home/a_BUY'))
 
-WebUI.maximizeWindow()
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h1_We Build Trust'),5)
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/p_hundreds of registered users have placed _b9b8bc'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h2_Current Auctions'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Home/p_Connecting Global Investment Community'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h6_ACTIVE AUCTIONS IN PROCESS'),5)
 
-WebUI.delay(3)
+WebUI.scrollToElement(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h5_Our Partners'),1)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Home/a_BUY'))
 
-WebUI.waitForPageLoad(15)
+//WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/p_Email Us'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/p_hundreds of registered users have placed _b9b8bc'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_About Us'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/h1_We Build Trust'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Our mission is to provide a user-friend_97e858'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Quick Links'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/h2_Current Auctions'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Newsletter'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Dont miss a chance to get a best deal S_65e1a0'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/h6_ACTIVE AUCTIONS IN PROCESS'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Contact'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/article_PROPERTY ID 39474'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_109-110 Building  6 Emaar Gold  Diamond_c60f27'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_971 4338 8823 Sunday to Thursday 900 am_906058'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/BuyTab/Page_Chiragh - Buy Property/h5_Our Partners'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h2_Current Auctions'))
 
-WebUI.delay(6)
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/img_ACTIVE AUCTIONS IN PROCESS_wow zoomIn'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Property Detail/b_230000 sqm'))
 
 WebUI.closeBrowser()
 
