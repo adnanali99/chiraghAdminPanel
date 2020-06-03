@@ -58,28 +58,46 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Cr
 WebUI.scrollToElement(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/label_Currency'),
 	3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/select_Select CurrencyUSDAEDEUR'),
-	'1', true)
-
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle'),
 	'@@@@@@@@')
+
+String accountName = WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account Name is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(accountName)
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(accountName, 'Account Name is not valid!')
 
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_IBAN_accIbanNumber'),
 	'@@@@@@@0989')
 
+String IbanNo = WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_IBAN is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(IbanNo)
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(IbanNo, 'IBAN is not valid!')
+
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account No_accountNumber'),
 	'8855@@@@@')
 
-WebUI.delay(2)
+String accountNo = WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account No is not valid'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/div_Account Name'))
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(accountNo)
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(accountNo, 'Account No is not valid!')
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle'),
 	'8855@@@@@')
+
+String title= WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account Name is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(title)
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(title, 'Account Name is not valid!')
 
 WebUI.delay(2)
 
@@ -91,15 +109,32 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Name_bankName'),
 	'8855@@@@@')
 
+String bankName = WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Bank name is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(bankName)
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(bankName, 'Bank name is not valid!')
+
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Branch Address_branchName'),
 	'@@@@@@@@$')
 
+String bankaddress = WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Bank Branch Address is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(bankaddress)
+
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(bankaddress, 'Bank Branch Address is not valid!')
+
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Swift Code_accSwiftCode'),
 	'###%%@@@9889U')
+
+String swiftCode =  WebUI.getText(findTestObject('Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Swift code is not valid'))
+
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(swiftCode)
+CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(swiftCode, 'Swift code is not valid!')
 
 WebUI.delay(2)
 

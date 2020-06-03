@@ -30,7 +30,7 @@ public class HandleErrorMessage {
 
 		WebUI.verifyEqual(error , msg );
 	}
-	
+
 	@Keyword
 	def getText(String texts ) {
 		print('\n --- text '+ texts + ' \n ');
