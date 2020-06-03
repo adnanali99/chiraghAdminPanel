@@ -16,58 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl(GlobalVariable.Url)
-//
-//WebUI.waitForPageLoad(15)
-//
-//WebUI.maximizeWindow()
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h2_Current Auctions'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h6_Active auctions in process'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h6_PROPERTY ID 39474'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/button_View More (1)'), FailureHandling.OPTIONAL)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h6_PROPERTY ID 38609'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h2_Upcoming Auction'))
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h6_No upcoming auctions are available at th_0ef46d'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/html_pac-containerbackground-colorfffpositi_2539dd'))
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h4_When its time to sell you are in control_bf89f4'))
-//
-//WebUI.delay(3)
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/mainLandingPage/Page_Chiragh - Home/h5_Check your mortgage eligibility'))
-//
-//WebUI.delay(3)
-//
-//WebUI.closeBrowser()
-
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://test.chiragh.com/')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img'),5)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG'))
 
@@ -90,37 +43,37 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Pag
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h3_Advance Search'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h3_Advance Search'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Area'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Area'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Property'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Property'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Status'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Status'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_City'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_City'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(min)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(min)'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(max)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(max)'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(min)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(min)'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(max)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(max)'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Kitchen'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Kitchen'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Car Parking'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Car Parking'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Rent Status'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Rent Status'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Furnished'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Furnished'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Currency'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Currency'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(min)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(min)'),5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(max)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(max)'),5)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_'))
 
