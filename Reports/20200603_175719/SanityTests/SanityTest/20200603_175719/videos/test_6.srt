@@ -1,0 +1,268 @@
+1
+00:00:00,447 --> 00:00:00,447
+1. openBrowser("")
+
+2
+00:00:06,280 --> 00:00:06,280
+5. navigateToUrl(Url)
+
+3
+00:00:21,741 --> 00:00:21,742
+9. waitForPageLoad(15)
+
+4
+00:00:21,774 --> 00:00:21,774
+13. maximizeWindow()
+
+5
+00:00:21,798 --> 00:00:21,799
+17. delay(3)
+
+6
+00:00:24,816 --> 00:00:24,817
+21. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:25,829 --> 00:00:25,830
+25. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:26,876 --> 00:00:26,876
+29. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:27,622 --> 00:00:27,623
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:28,184 --> 00:00:28,185
+37. delay(2)
+
+11
+00:00:30,195 --> 00:00:30,196
+41. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:30,806 --> 00:00:30,806
+45. delay(1)
+
+13
+00:00:31,822 --> 00:00:31,823
+49. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+14
+00:00:34,746 --> 00:00:34,747
+53. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_HI AutoChiragh"))
+
+15
+00:00:35,757 --> 00:00:35,758
+57. delay(3)
+
+16
+00:00:38,769 --> 00:00:38,769
+61. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Dashborad Home/b_Go to Wallet"))
+
+17
+00:00:39,368 --> 00:00:39,370
+65. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - User Account Summary/a_My Bank Accounts"))
+
+18
+00:00:43,608 --> 00:00:43,608
+69. delay(1)
+
+19
+00:00:44,620 --> 00:00:44,621
+73. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/svg_My Bank Accounts_svg-inline--fa fa-plus_86c403"))
+
+20
+00:00:45,282 --> 00:00:45,282
+77. scrollToElement(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/label_Currency"), 3)
+
+21
+00:00:45,722 --> 00:00:45,722
+81. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle"), "@@@@@@@@")
+
+22
+00:00:46,661 --> 00:00:46,662
+85. accountName = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account Name is not valid"))
+
+23
+00:00:47,179 --> 00:00:47,180
+89. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(accountName, "Account Name is not valid!")
+
+24
+00:00:47,184 --> 00:00:47,185
+93. delay(2)
+
+25
+00:00:49,192 --> 00:00:49,193
+97. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_IBAN_accIbanNumber"), "@@@@@@@0989")
+
+26
+00:00:50,139 --> 00:00:50,139
+101. IbanNo = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_IBAN is not valid"))
+
+27
+00:00:50,541 --> 00:00:50,541
+105. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(IbanNo, "IBAN is not valid!")
+
+28
+00:00:50,547 --> 00:00:50,547
+109. delay(2)
+
+29
+00:00:52,561 --> 00:00:52,562
+113. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account No_accountNumber"), "8855@@@@@")
+
+30
+00:00:53,528 --> 00:00:53,528
+117. accountNo = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account No is not valid"))
+
+31
+00:00:54,021 --> 00:00:54,022
+121. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(accountNo, "Account No is not valid!")
+
+32
+00:00:54,027 --> 00:00:54,027
+125. delay(2)
+
+33
+00:00:56,031 --> 00:00:56,032
+129. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle"), "8855@@@@@")
+
+34
+00:00:56,728 --> 00:00:56,728
+133. title = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Account Name is not valid"))
+
+35
+00:00:57,222 --> 00:00:57,223
+137. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(title, "Account Name is not valid!")
+
+36
+00:00:57,227 --> 00:00:57,228
+141. delay(2)
+
+37
+00:00:59,231 --> 00:00:59,232
+145. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Acct Holder Address_address"), "@@889557766HHGHGGGHG")
+
+38
+00:01:00,190 --> 00:01:00,191
+149. delay(2)
+
+39
+00:01:02,194 --> 00:01:02,196
+153. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Name_bankName"), "8855@@@@@")
+
+40
+00:01:03,271 --> 00:01:03,272
+157. bankName = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Bank name is not valid"))
+
+41
+00:01:03,799 --> 00:01:03,800
+161. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(bankName, "Bank name is not valid!")
+
+42
+00:01:03,806 --> 00:01:03,806
+165. delay(2)
+
+43
+00:01:05,815 --> 00:01:05,816
+169. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Branch Address_branchName"), "@@@@@@@@$")
+
+44
+00:01:06,757 --> 00:01:06,757
+173. bankaddress = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Bank Branch Address is not valid"))
+
+45
+00:01:07,210 --> 00:01:07,210
+177. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(bankaddress, "Bank Branch Address is not valid!")
+
+46
+00:01:07,216 --> 00:01:07,216
+181. delay(2)
+
+47
+00:01:09,230 --> 00:01:09,231
+185. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Swift Code_accSwiftCode"), "###%%@@@9889U")
+
+48
+00:01:09,967 --> 00:01:09,968
+189. swiftCode = getText(findTestObject("Sanity Test/MybankAccount/Page_Chiragh - My Bank Accounts/div_Swift code is not valid"))
+
+49
+00:01:10,449 --> 00:01:10,450
+193. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(swiftCode, "Swift code is not valid!")
+
+50
+00:01:10,457 --> 00:01:10,458
+197. delay(2)
+
+51
+00:01:12,474 --> 00:01:12,474
+201. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Correspondent Bank Name_corresponding_bf0020"), "###%%@@@9889U")
+
+52
+00:01:13,136 --> 00:01:13,137
+205. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Correspondent Bank Swift Code_corresp_eefb27"), "###%%@@@9889U")
+
+53
+00:01:13,958 --> 00:01:13,959
+209. delay(6)
+
+54
+00:01:19,972 --> 00:01:19,973
+213. selectOptionByValue(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/select_Select CurrencyUSDAEDEUR"), "1", true)
+
+55
+00:01:21,598 --> 00:01:21,599
+217. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle"), "Sharjah Platinum")
+
+56
+00:01:22,417 --> 00:01:22,418
+221. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_IBAN_accIbanNumber"), "647489347389")
+
+57
+00:01:23,144 --> 00:01:23,145
+225. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account No_accountNumber"), "6376376373")
+
+58
+00:01:23,987 --> 00:01:23,987
+229. click(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/div_Account Name"))
+
+59
+00:01:24,727 --> 00:01:24,727
+233. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Account Name_accountTitle"), "Emirati Bank")
+
+60
+00:01:25,428 --> 00:01:25,429
+237. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Acct Holder Address_address"), "Dubai Town")
+
+61
+00:01:26,126 --> 00:01:26,127
+241. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Name_bankName"), "Emirati Platinum")
+
+62
+00:01:26,926 --> 00:01:26,927
+245. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Bank Branch Address_branchName"), "Dubai Town")
+
+63
+00:01:27,646 --> 00:01:27,646
+249. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Swift Code_accSwiftCode"), "64637634")
+
+64
+00:01:28,463 --> 00:01:28,463
+253. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Correspondent Bank Name_corresponding_bf0020"), "Dubai CB")
+
+65
+00:01:29,294 --> 00:01:29,295
+257. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - My Bank Accounts/input_Correspondent Bank Swift Code_corresp_eefb27"), "53635")
+
+66
+00:01:29,972 --> 00:01:29,972
+261. delay(3)
+
+67
+00:01:32,989 --> 00:01:32,990
+265. closeBrowser()
+

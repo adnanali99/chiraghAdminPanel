@@ -1,0 +1,172 @@
+1
+00:00:00,379 --> 00:00:00,380
+1. openBrowser("")
+
+2
+00:00:07,177 --> 00:00:07,178
+5. navigateToUrl(Url)
+
+3
+00:00:19,360 --> 00:00:19,361
+9. waitForPageLoad(15)
+
+4
+00:00:19,388 --> 00:00:19,389
+13. maximizeWindow()
+
+5
+00:00:19,416 --> 00:00:19,417
+17. delay(3)
+
+6
+00:00:22,433 --> 00:00:22,434
+21. click(findTestObject("Object Repository/Sanity Test/SellProperty/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:23,363 --> 00:00:23,364
+25. click(findTestObject("Object Repository/Sanity Test/SellProperty/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:24,462 --> 00:00:24,463
+29. click(findTestObject("Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Username_un"))
+
+9
+00:00:25,068 --> 00:00:25,068
+33. setText(findTestObject("Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un"), userName)
+
+10
+00:00:25,777 --> 00:00:25,778
+37. setEncryptedText(findTestObject("Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+11
+00:00:26,318 --> 00:00:26,319
+41. click(findTestObject("Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:27,047 --> 00:00:27,048
+45. delay(3)
+
+13
+00:00:30,065 --> 00:00:30,066
+49. scrollToElement(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h2_Current Auctions"), 2)
+
+14
+00:00:30,494 --> 00:00:30,495
+53. delay(2)
+
+15
+00:00:32,502 --> 00:00:32,503
+57. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h3_Hayley Ridges 6 Beds Villa"))
+
+16
+00:00:33,649 --> 00:00:33,649
+61. delay(3)
+
+17
+00:00:36,665 --> 00:00:36,665
+65. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/a"), OPTIONAL)
+
+18
+00:01:10,927 --> 00:01:10,927
+69. delay(3)
+
+19
+00:01:13,939 --> 00:01:13,940
+73. openHouseFirst = getText(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE"), OPTIONAL)
+
+20
+00:01:44,228 --> 00:01:44,229
+77. com.sanitytest.com.OpenHouse.verifyOpenHousePopup(openHouseFirst)
+
+21
+00:01:44,256 --> 00:01:44,257
+81. navigateToUrl(Url)
+
+22
+00:01:46,595 --> 00:01:46,595
+85. delay(7)
+
+23
+00:01:53,605 --> 00:01:53,606
+89. scrollToElement(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_Active auctions in process"), 2)
+
+24
+00:01:54,176 --> 00:01:54,177
+93. delay(2)
+
+25
+00:01:56,195 --> 00:01:56,196
+97. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/button_Bid Now"))
+
+26
+00:01:57,608 --> 00:01:57,609
+101. delay(3)
+
+27
+00:02:00,620 --> 00:02:00,621
+105. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/a"), OPTIONAL)
+
+28
+00:02:39,036 --> 00:02:39,036
+109. delay(3)
+
+29
+00:02:42,044 --> 00:02:42,045
+113. openHouseSecond = getText(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE"), OPTIONAL)
+
+30
+00:03:12,288 --> 00:03:12,288
+117. com.sanitytest.com.OpenHouse.verifyOpenHousePopup(openHouseSecond)
+
+31
+00:03:12,289 --> 00:03:12,290
+121. navigateToUrl(Url)
+
+32
+00:03:14,916 --> 00:03:14,916
+125. delay(7)
+
+33
+00:03:21,925 --> 00:03:21,926
+129. scrollToElement(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h6_PROPERTY ID 39651"), 1)
+
+34
+00:03:22,364 --> 00:03:22,364
+133. delay(3)
+
+35
+00:03:25,378 --> 00:03:25,379
+137. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Home/h3_Bergnaum Square"))
+
+36
+00:03:26,654 --> 00:03:26,655
+141. delay(3)
+
+37
+00:03:29,671 --> 00:03:29,672
+145. click(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/a"), OPTIONAL)
+
+38
+00:04:02,040 --> 00:04:02,041
+149. delay(3)
+
+39
+00:04:05,053 --> 00:04:05,053
+153. openHouseThird = getText(findTestObject("Object Repository/Sanity Test/openHouseSample/Page_Chiragh - Property Detail/h1_OPEN HOUSE"), OPTIONAL)
+
+40
+00:04:35,284 --> 00:04:35,285
+157. com.sanitytest.com.OpenHouse.verifyOpenHousePopup(openHouseThird)
+
+41
+00:04:35,286 --> 00:04:35,287
+161. navigateToUrl(Url)
+
+42
+00:04:37,628 --> 00:04:37,629
+165. delay(8)
+
+43
+00:04:45,640 --> 00:04:45,642
+169. closeBrowser()
+

@@ -1,0 +1,72 @@
+1
+00:00:00,423 --> 00:00:00,423
+1. openBrowser("")
+
+2
+00:00:06,246 --> 00:00:06,246
+5. navigateToUrl(Url)
+
+3
+00:00:18,466 --> 00:00:18,466
+9. waitForPageLoad(15)
+
+4
+00:00:18,500 --> 00:00:18,501
+13. maximizeWindow()
+
+5
+00:00:18,516 --> 00:00:18,516
+17. delay(3)
+
+6
+00:00:21,524 --> 00:00:21,525
+21. click(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:22,341 --> 00:00:22,341
+25. click(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:23,456 --> 00:00:23,457
+29. setText(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Username_un"), "ahsan1234")
+
+9
+00:00:24,199 --> 00:00:24,199
+33. setEncryptedText(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:24,903 --> 00:00:24,904
+37. click(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:25,628 --> 00:00:25,629
+41. delay(3)
+
+12
+00:00:28,642 --> 00:00:28,643
+45. scrollToElement(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/h2_Current Auctions"), 3)
+
+13
+00:00:29,040 --> 00:00:29,041
+49. delay(3)
+
+14
+00:00:32,046 --> 00:00:32,047
+53. click(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Home/button_Bid Now"))
+
+15
+00:00:33,025 --> 00:00:33,026
+57. delay(10)
+
+16
+00:00:43,033 --> 00:00:43,034
+61. click(findTestObject("Object Repository/Sanity Test/PropertyBiddingOpenHouse/Page_Chiragh - Property Detail/a"), OPTIONAL)
+
+17
+00:01:13,586 --> 00:01:13,586
+65. delay(3)
+
+18
+00:01:16,602 --> 00:01:16,604
+69. click(findTestObject("Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Mon"))
+
