@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculat
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_2000'))
 
-WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_Feb'))
+WebUI.click(findTestObject('Object Repository/Fron+t End Objects/Mortage_calculators/Page_Chiragh - Home/span_Feb'))
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Mortage_calculators/Page_Chiragh - Home/span_1'))
 
