@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/propertyUpdate/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
