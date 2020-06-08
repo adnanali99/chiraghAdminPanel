@@ -54,4 +54,9 @@
       <initValue>System.getProperty(&quot;user.home&quot;)+'\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
       <name>fileUpload</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://test.chiragh.com/sell/owner'</initValue>
+      <name>SellerPropertyUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
