@@ -21,57 +21,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class OpenHouse {
-	
+
 	@Keyword
 	def verifyOpenHousePopup(String mesg){
-		
+
 		if(mesg){
 
 			WebUI.delay(3)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Mon'))
-			
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Tue'))
-			
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Wed'))
-			
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Thu'))
-			
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Fri'))
-		
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Sat'))
-			
+
 			WebUI.delay(1)
-			
+
 			WebUI.click(findTestObject('Sanity Test/PropertyBiddingOpenHouse/timeConverstion/Page_Chiragh - Property Detail/a_Sun'))
-			
+
 			WebUI.delay(1)
-			
-			String sund = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'), 
-			    FailureHandling.OPTIONAL).substring(0, 9)
-			
+
+			String sund = WebUI.getText(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/b_0100 PM - 0500 PM'),
+					FailureHandling.OPTIONAL).substring(0, 9)
+
 			WebUI.delay(2)
-			
-			WebUI.setText(findTestObject('Sanity Test/PropertyBiddingOpenHouse/inputtime/Page_Chiragh - Property Detail/input_Select date_scheduleTime'), 
-			    sund)
-			
+
+			WebUI.setText(findTestObject('Sanity Test/PropertyBiddingOpenHouse/inputtime/Page_Chiragh - Property Detail/input_Select date_scheduleTime'),
+					sund)
+
 			WebUI.delay(2)
-			
-			
+
+
 			WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyOpenHouseBiddingExample/Page_Chiragh - Property Detail/a_Proceed'))
-			
+
 			WebUI.closeBrowser()
 		}
-		
 	}
 }

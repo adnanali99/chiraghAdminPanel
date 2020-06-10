@@ -16,21 +16,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl('http://test.chiragh.com/')
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Home/a_Login'))
-//
-//WebUI.setText(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Login/input_Username_un'), 
-//    'ahsan1234')
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Login/input_Password_userPassword'), 
-//    'RigbBhfdqOBDK95asqKeHw==')
-//
-//WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Login/button_Log In'))
+// implement the property submit valuation
+CustomKeywords.'com.sanitytest.com.PropertyReportValuation.propertySubmitFlow'()
+
+// implement the flow of verification department 
+CustomKeywords.'com.sanitytest.com.PropertyReportValuation.verificationDepartmentFlow'()
+
+// implement the flow of brokerage department 
+CustomKeywords.'com.sanitytest.com.PropertyReportValuation.brokerageDepartmentFlow'()
+
+// now check the property report visiabilty
 
 WebUI.openBrowser('')
 
@@ -46,11 +41,11 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Cr
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un'),
-	GlobalVariable.userName)
+WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un'), 
+    GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Password_userPassword'),
-	'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Password_userPassword'), 
+    'RigbBhfdqOBDK95asqKeHw==')
 
 WebUI.delay(2)
 
@@ -58,19 +53,17 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Cr
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Home/a_HI ahsan1234'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Home/a_HI ahsan1234'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Dashborad Home/p_Activity'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Dashborad Home/p_Activity'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Dashborad Home/a_Sell'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Dashborad Home/a_Buy'))
+WebUI.mouseOver(findTestObject('Sanity Test/propertyUpdate/mouseOver/Page_/img'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Open House/a_History_bid-bottom-menu'))
+WebUI.click(findTestObject('Sanity Test/propertyReportValuation/Page_/a_Property images are coming soon_bid-bottom-menu'))
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Open House/a_Valuation Reports'))
 
