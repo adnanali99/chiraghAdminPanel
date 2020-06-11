@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Write testcase that will add a new currency wallet in user's dashboard. 
+
+Verify that wallet is visible with 0 Current and Available balance
+
+Verify that there is an entry of 0 balance in recent transactions. 
+
+Verify that the newly added wallet has now started appearing under 'Make Transaction>>Top up/Withdraw/Transfer' Dropdowns.</description>
+   <name>Add_NewCurrency_Wallet_291</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a72b652-fe68-4cee-b113-f98d08abfe26</testCaseGuid>
+</TestCaseEntity>

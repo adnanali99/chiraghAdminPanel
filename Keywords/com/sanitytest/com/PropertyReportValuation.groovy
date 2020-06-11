@@ -938,53 +938,53 @@ public class PropertyReportValuation {
 		WebUI.openBrowser('')
 
 		WebUI.navigateToUrl(GlobalVariable.Url)
-		
+
 		WebUI.waitForPageLoad(15)
-		
+
 		WebUI.maximizeWindow()
-		
+
 		WebUI.delay(3)
-		
+
 		WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Home/a_Login'))
-		
-		WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un'), 
-		    GlobalVariable.userName)
-		
-		WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Password_userPassword'), 
-		    'RigbBhfdqOBDK95asqKeHw==')
-		
+
+		WebUI.setText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Username_un'),
+				GlobalVariable.userName)
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/input_Password_userPassword'),
+				'RigbBhfdqOBDK95asqKeHw==')
+
 		WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Object Repository/Front End Objects/MyBankAccount(Create)/Page_Chiragh - Login/button_Log In'))
-		
+
 		WebUI.delay(5)
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Home/a_HI ahsan1234'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Dashborad Home/p_Activity'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/propertyReportValuation/Page_Chiragh - Dashborad Home/a_Sell'))
-		
+
 		WebUI.mouseOver(findTestObject('Sanity Test/propertyUpdate/mouseOver/Page_/img'))
-		
+
 		WebUI.click(findTestObject('Sanity Test/propertyReportValuation/Page_/a_Property images are coming soon_bid-bottom-menu'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_Chiragh - Open House/a_Valuation Reports'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_SideBar  Valuation/label_Chiragh Valuation Report'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_SideBar  Valuation/label_3rd Party Valuation Report'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_SideBar  Valuation/img'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Sanity Test/valuationPropertyReportView/Page_SideBar  Valuation/span_'))
-		
+
 		WebUI.delay(3)
-		
+
 		WebUI.closeBrowser()
 	}
 }
