@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Top your account with some amount
+
+Verify that Top up request is created successfully by verify the success message 
+
+Verify that the transaction is gone to Admin panel in New Transactions (finance user)
+
+Verify that finance user is able to assign that Top Lead to himself/herself.  
+
+Verify that Finance user and HOD can approve this transaction.
+
+Verify that the Top up amount now showing into users wallet.</description>
+   <name>MultiCurrencyTopUpWithNewCurrency_292</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>165272cb-7b63-4cc4-964c-52e1b259096b</testCaseGuid>
+</TestCaseEntity>
