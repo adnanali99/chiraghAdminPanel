@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='dropdownMenuButton']/img</value>
+         <value>//button/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

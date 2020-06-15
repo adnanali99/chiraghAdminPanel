@@ -18,18 +18,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+WebUI.waitForPageLoad(15)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Home/a_Login'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Login/input_Username_un'), 'ahsan1234')
+WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Login/input_Password_userPassword'), 
+WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+
+WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_Login'))
+
+WebUI.setText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Username_un'), 
+    GlobalVariable.userName)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/input_Password_userPassword'), 
     'RigbBhfdqOBDK95asqKeHw==')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Login/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Login/button_Log In'))
+
+WebUI.waitForPageLoad(15)
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
@@ -37,38 +46,50 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Ch
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Dashborad Home/b_Go to Wallet'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/img_Auction Deposit_w-100'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/a_PKR'))
+//WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/img_Auction Deposit_w-100'))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/img_Auction Deposit_w-100'))) {
+	
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/img_Auction Deposit_w-100'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/div_(PKR) currency wallet has been added to_aafb00'))
+    WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/a_Make a Transaction'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/a_PKR'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transaction Top Up/p_Amount'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/div_(PKR) currency wallet has been added to_aafb00'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Withdraw Your Money/h6_Transfer'))
+    WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/select_Select Currency USD AED EUR SAR INR _8c80d4'), 
-    '6', true)
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/a_Make a Transaction'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/div_Hi Ahsan Kalim Welcome to your Chiragh _919967'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transaction Top Up/p_Amount'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/a_Account Summary'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Withdraw Your Money/h6_Transfer'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h6_PKR'))
+    WebUI.selectOptionByValue(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/select_Select Currency USD AED EUR SAR INR _8c80d4'), 
+        '6', true)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h4_Current Balance'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/div_Hi Ahsan Kalim Welcome to your Chiragh _919967'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h5_000'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - Transfer Your Money/a_Account Summary'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/em_Available Balance'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h6_PKR'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/span_000'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h4_Current Balance'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/em_Available Balance'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h5_000'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h5_000'))
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/em_Available Balance'))
 
-WebUI.closeBrowser()
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/span_000'))
+
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/em_Available Balance'))
+
+    WebUI.click(findTestObject('Object Repository/Sanity Test/addNewCurrency/Page_Chiragh - User Account Summary/h5_000'))
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.closeBrowser()
+}
 
