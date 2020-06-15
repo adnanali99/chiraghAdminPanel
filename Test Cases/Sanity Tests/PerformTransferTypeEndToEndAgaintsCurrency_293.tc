@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Run the CD-292: Wallet>>Multi currency>>Perform an end to end Top Up type transactions for Newly added Currency walletNEW first to make sure there is enough balance. 
+
+Once there is enough balance, perform a transfer type transaction of some amount
+
+Verify that transfer request is successfully submitted and success message is visible
+
+Verify that transfer type request is created for admin user (Finance user)
+
+Check that if that if the amount to be transferred has converted value of less then AED 100k or above. 
+
+If amount is less then AED 100k then it will straight away move to user AED Wallet. 
+
+Verify that user's AED wallet is successfully credited and the selected currency wallet is successfully debited (meaning both From and To accounts have their transactions)
+
+# If amount is greater then AED 100k then it will move Finance HOD and then MD for approval. After these approvals the amount will get transferred. 
+
+Verify that user's AED wallet is successfully credited and the selected currency wallet is successfully debited (meaning both From and To accounts have their transactions)</description>
+   <name>PerformTransferTypeEndToEndAgaintsCurrency_293</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0cb0fc7-af1f-4762-a094-4642695ceaad</testCaseGuid>
+</TestCaseEntity>
