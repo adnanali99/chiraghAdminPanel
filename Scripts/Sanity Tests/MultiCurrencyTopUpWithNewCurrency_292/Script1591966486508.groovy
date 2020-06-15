@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transa
     '1000')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/TopUpCriteria/Page_Chiragh - Transaction Top Up/select_USD AED EUR'),
-	'PKR', true)
+	'USD', true)
 
 WebUI.delay(5)
 

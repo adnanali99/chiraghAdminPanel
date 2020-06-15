@@ -88,4 +88,46 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Front End/TC_Logout</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9d6b623c-3a42-4f00-b772-f35445249502</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_BusinessChiragh</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c810a811-b414-4304-a810-c6b5980f7fd3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_SmokeTests_006</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44ffd33d-e3ef-4a28-ad31-16a4b7e4ab5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_RgisterUserAdd(WatchList)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1b261f7-22b4-416b-b132-806995170e9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_TopUP(AED)_003</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8bcf455d-c46e-409a-a65d-4185b7f660ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_TopUP(EUR)_004</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3354f7fe-ec73-41ca-b3fa-fc2dd11a50d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_TopUP(USD)_005</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>963e04ee-9457-458c-bd38-5eb8e936f7ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_VerifyAllLinks_007</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
