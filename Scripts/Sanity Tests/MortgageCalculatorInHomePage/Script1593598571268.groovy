@@ -16,35 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'com.chiragh.com.MortageCalculator.mortgageCalculatorFunctionality'()
 
-WebUI.navigateToUrl('http://test.chiragh.com/')
-
-//WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
-
-//WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Home/nav_BUY SELLRENTPROJECTHELP CENTER ENG  ARA_693f70'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Home/h2_Current Auctions'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Home/h6_Active auctions in process'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Home/h3_Business Central Towers 20 Floors Building'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/h3_AED  14000000'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/a_Finance Options'))
+WebUI.click(findTestObject('Sanity Test/MortgageCalculatorEnhancement/homePageButton/Page_Chiragh - Home/input_Loan Term_loanYear'))
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'),'Principle')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), 
+    'Principle')
 
-WebUI.sendKeys(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), Keys.chord(
-	Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
 //WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/span_Principle  Interest'))
-
 WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Down Payment_downPayment'), 
     '75,000')
 
@@ -52,18 +38,17 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnha
 
 WebUI.delay(2)
 
-//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1'), 
+//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1'),
 //    '10,000.00')
 //
-//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2'), 
+//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2'),
 //    '000.00')
 //
-//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2_3'), 
+//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2_3'),
 //    '3,000.00')
 //
-//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2_3_4'), 
+//WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2_3_4'),
 //    '37,000.00')
-
 WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input_Purchase Price_purchasedPrice_1_2_3_4_5'), 
     '375,000.00')
 
@@ -101,13 +86,13 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnha
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'),'Interest Only')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), 
+    'Interest Only')
 
-WebUI.sendKeys(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), Keys.chord(
-	Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/input'), 
+    Keys.chord(Keys.ENTER))
 
 //WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/div_Interest Only'))
-
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/p_Monthly Payment (during interest-only)'))
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/h6_AED 68750'))
@@ -119,11 +104,9 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/h6_AED 142411'))
 
 //WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/h5_AED 30000000'))
-
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/a_Amortization Schedule'))
 
 //WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/td_30000000'))
-
 WebUI.click(findTestObject('Object Repository/Sanity Test/MortgageCalculatorEnhancement/Page_Chiragh - Property Detail/a_Summary'))
 
 WebUI.delay(5)
