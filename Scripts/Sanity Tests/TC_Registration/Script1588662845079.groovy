@@ -21,7 +21,9 @@ Faker faker = new Faker()
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+//WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.navigateToUrl('https://chiragh:AeBcm%231t@test.chiragh.com')
 
 WebUI.waitForPageLoad(15)
 

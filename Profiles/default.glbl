@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1234567890'</initValue>
+      <initValue>'1234@@Password'</initValue>
       <name>changePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
