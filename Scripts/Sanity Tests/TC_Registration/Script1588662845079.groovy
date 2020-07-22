@@ -110,7 +110,7 @@ WebUI.delay(2)
 String number = faker.number.randomNumber()
 
 //WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim487' + '@getnada.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim47' + '@getnada.com')
 
 //CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
 WebUI.delay(2)
@@ -215,7 +215,7 @@ WebUI.click(findTestObject('Page_Chiragh - Register/button_Proceed'))
 WebUI.delay(5)
 
 //implement the regisration 
-CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim487')
+CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim47')
 
 WebUI.delay(1)
 ////

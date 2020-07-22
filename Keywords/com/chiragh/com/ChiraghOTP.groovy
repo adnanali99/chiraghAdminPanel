@@ -43,7 +43,7 @@ public class ChiraghOTP {
 
 		WebUI.click(findTestObject('Object Repository/CreateOTPLoginPage/Page_/button_Log In'))
 
-		WebUI.delay(6)
+		WebUI.delay(15)
 
 		WebUI.setText(findTestObject('OTP_Creation/Page_/input_Transaction Type_un'), transactionType)
 
