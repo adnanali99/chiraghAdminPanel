@@ -110,7 +110,7 @@ WebUI.delay(2)
 String number = faker.number.randomNumber()
 
 //WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim47' + '@getnada.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim17' + '@getnada.com')
 
 //CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
 WebUI.delay(2)
@@ -215,7 +215,7 @@ WebUI.click(findTestObject('Page_Chiragh - Register/button_Proceed'))
 WebUI.delay(5)
 
 //implement the regisration 
-CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim47')
+CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim17')
 
 WebUI.delay(1)
 ////
@@ -232,11 +232,28 @@ CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('registration', '0' ,Glo
 
 WebUI.switchToWindowIndex(currentWindow)
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 
 ////
 
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1'),
+	'HeCM15nHKBI=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2'),
+	'YC0926CP/9Y=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'),
+	'XtPiXH0+76g=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'),
+	'abkeNdhXnEA=')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/button_Done'))
+
+WebUI.delay(5)
 
 //WebUI.verifyElementText(findTestObject('Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh'), 
 //    'Thank You')

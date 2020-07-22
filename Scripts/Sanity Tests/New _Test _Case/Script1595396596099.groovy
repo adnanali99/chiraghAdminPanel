@@ -20,144 +20,131 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://test.chiragh.com/')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Home/a_Register'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Home/a_Register'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_First Name_userFirstName'), 
-    'ahdjkadsjd')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_First Name_userFirstName'), 
+    'ahsan')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Last Name_userlastName'))
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Last Name_userlastName'), 
+    'kalim')
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_First Name_userFirstName'), 
-    'hasankalim')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Email _userEmail'), 
+    'ahsanali1@getnada.com')
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Last Name_userlastName'), 
-    'yahooo')
-
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Email _userEmail'), 
-    'hasanyahoo@')
-
-WebUI.switchToWindowTitle('Chiragh - Register')
-
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Email _userEmail'), 
-    'hasanyahoo@')
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_Add Inbox'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'))
-
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'), 
-    'ahsanyahoo')
-
-WebUI.doubleClick(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'))
-
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'), 
-    'ahsanyahoo')
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_Accept'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_ahsanyahoogetnadacom'))
-
-WebUI.switchToWindowTitle('Chiragh - Register')
-
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Email _userEmail'), 
-    'ahsanyahoo@getnada.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Password_userPassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Password_userPassword'), 
     'v2N3KuMMU6jMOH53M/J9Eg==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Confirm Password_userConfirmPassword'), 
     'v2N3KuMMU6jMOH53M/J9Eg==')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/button_Next'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Date of Birth_dob'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Date of Birth_dob'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/span_9'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/span_8'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_Afghani'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/div_Afghani'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Complete address _address'), 
-    'ewrererff')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Complete address _address'), 
+    '12323')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Complete address _address'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Complete address _address'), 
-    'ewrererff')
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_Afghanistan'))
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Complete address _address'), 
+    '12323')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/span_Afghanistan'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_Sharan'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/div_Sharan'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_National ID'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_ID Number_idCardNo'), 
-    '54654')
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/div_National ID'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Complete address _address'))
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_ID Number_idCardNo'), 
+    '13133233')
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_ID Number_idCardNo'), 
-    '546545656')
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/span_25'))
 
-WebUI.rightClick(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_Refresh_cdk-overlay-backdrop cdk-overla_ff3373'))
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input'), 'pa')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/span_1'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/span_(92) Pakistan'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate'))
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Mobile Number _mobileNo'), 
+    '3374840966')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_Refresh_cdk-overlay-backdrop cdk-overla_ff3373'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/input_Phone Number_terms'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/button_Register'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/div_(93) Afghanistan'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Register/button_Proceed'))
 
-WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Mobile Number _mobileNo'), 
-    '908547875')
+WebUI.switchToWindowTitle('getnada - Google Search')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/input_Phone Number_terms'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_getnada - Google Search/h3_Nada - temp mail - fast and free'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/button_Register'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/span_Add Inbox'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Register/button_Proceed'))
+WebUI.doubleClick(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'))
 
-WebUI.switchToWindowTitle('Nada - temp mail - fast and free')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/input_Add Inbox_user_name'), 
+    'ahsanali1')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_ahsanyahoogetnadacom'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/a_Accept'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_ahsanyahoogetnadacom'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_ahsanyahoogetnadacom'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_jibuggetnadacom'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/span_ahsanyahoogetnadacom'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/div_Activate Your Chiragh Account'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccount06768942e6aac26f6c5a2df859a8d9294732'))
-
-WebUI.switchToWindowTitle('Chiragh - Login')
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Login/h1_Activate your Chiragh Account'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Chiragh - Login/p_Please enter One Time Password (OTP) sent_2d220d'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/div_Activate Your Chiragh Account'))
 
 WebUI.switchToWindowTitle('Nada - temp mail - fast and free')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccount06768942e6aac26f6c5a2df859a8d9294732'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccountc6bce80b87606df216dcf5fe67fdfba53480'))
 
-WebUI.switchToWindowTitle('Nada - temp mail - fast and free')
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1'), 
+    'HeCM15nHKBI=')
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccount06768942e6aac26f6c5a2df859a8d9294732'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2'), 
+    'YC0926CP/9Y=')
 
-WebUI.closeBrowser()
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'), 
+    'XtPiXH0+76g=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'), 
+    'abkeNdhXnEA=')
+
+
+
+
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1'), 
+    '0mP41y2AN8w=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2'), 
+    'FkW8c3ilUpA=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'), 
+    'EZJce3R/zYw=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'), 
+    '9NLz+4tGZcQ=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'), 
+    '4zGPQDZ5VqE=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'), 
+    'EZJce3R/zYw=')
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/button_Done'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/div_Your account has been successfully acti_88eb80'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/div_Your account has been successfully acti_88eb80'))
 
