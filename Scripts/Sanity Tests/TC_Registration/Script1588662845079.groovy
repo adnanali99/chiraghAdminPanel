@@ -256,7 +256,7 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject2/Pa
 
 WebUI.delay(5)
 
-//WebUI.verifyElementText(findTestObject('Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh'), 
-//    'Thank You')
+WebUI.verifyElementText(findTestObject('Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh'), 
+    'Thank You')
 WebUI.closeBrowser()
 
