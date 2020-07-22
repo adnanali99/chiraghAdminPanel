@@ -37,7 +37,7 @@ public class ChiraghOTP {
 
 		WebUI.waitForPageLoad(10)
 
-		WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Username_un'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Username_un'), 'testbcm11%2bac@gmail.com')
 
 		WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), GlobalVariable.passWord)
 
@@ -46,12 +46,14 @@ public class ChiraghOTP {
 		WebUI.delay(15)
 
 		WebUI.setText(findTestObject('OTP_Creation/Page_/input_Transaction Type_un'), transactionType)
-
-		if(transactionType !='registration'){
-
-			print('\n now i check condition '+ cuurencyId +' '+ ' transactionType '+ transactionType + ' otp'+ otpNumber);
-			WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), cuurencyId)
-		}
+			
+		WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), cuurencyId)
+		
+//		if(transactionType !='registration'){
+//
+//			print('\n now i check condition '+ cuurencyId +' '+ ' transactionType '+ transactionType + ' otp'+ otpNumber);
+//			WebUI.setText(findTestObject('Object Repository/CreateOTPLoginPage/Page_/input_Password_userPassword'), cuurencyId)
+//		}
 		WebUI.setText(findTestObject('OTP_Creation/Page_/input_OTP_Create'), otpNumber)
 
 		WebUI.delay(2)
