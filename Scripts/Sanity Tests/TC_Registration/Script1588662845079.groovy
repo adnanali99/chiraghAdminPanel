@@ -21,10 +21,9 @@ Faker faker = new Faker()
 
 WebUI.openBrowser('')
 
-//WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.navigateToUrl('https://chiragh:AeBcm%231t@test.chiragh.com')
-
+//WebUI.navigateToUrl('https://chiragh:AeBcm%231t@test.chiragh.com')
 WebUI.waitForPageLoad(15)
 
 WebUI.maximizeWindow()
@@ -55,29 +54,27 @@ CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorL
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), '3330-9')
-
-String errorUsername = WebUI.getText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_Space and special character not Allowed'))
-
-CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorUsername, 'Space and special character not Allowed!')
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), 'ahsan1234')
-
-WebUI.delay(2)
-
-String errorUsernameSecond = WebUI.getText(findTestObject('Sanity Test/registration/object/Page_Chiragh - Register/div_Username already Exist'))
-
-CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorUsernameSecond, 'Username already Exist!')
-
+//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), '3330-9')
+//
+//String errorUsername = WebUI.getText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_Space and special character not Allowed'))
+//
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorUsername, 'Space and special character not Allowed!')
+//
+//WebUI.delay(2)
+//
+//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), 'ahsan1234')
+//
+//WebUI.delay(2)
+//
+//String errorUsernameSecond = WebUI.getText(findTestObject('Sanity Test/registration/object/Page_Chiragh - Register/div_Username already Exist'))
+//
+//CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorUsernameSecond, 'Username already Exist!')
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/input_Email _userEmail'), 
     '556666666.com')
 
-String errorEmail = WebUI.getText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_Enter valid email address eg exampleemailcom'))
-
+//String errorEmail = WebUI.getText(findTestObject('Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_Enter valid email address eg exampleemailcom'))
 //CustomKeywords.'com.sanitytest.com.HandleErrorMessage.verifyErrorMessage'(errorEmail, 'Enter valid email address e.g \n example@email.com')
 WebUI.delay(2)
 
@@ -105,18 +102,17 @@ CustomKeywords.'com.sanitytest.com.Validation.isAlpha'(lName)
 
 WebUI.delay(2)
 
-String userName = faker.name().firstName()
-
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), userName)
-
-WebUI.delay(2)
-
+//String userName = faker.name().firstName()
+//
+//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Username_0bdtue'), userName)
+//
+//WebUI.delay(2)
 String number = faker.number.randomNumber()
 
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
+//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim487' + '@getnada.com')
 
-CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
-
+//CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_Chiragh - Register/input_Password_userPassword'), 'A123456s@')
@@ -217,6 +213,30 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Page_Chiragh - Register/button_Proceed'))
 
 WebUI.delay(5)
+
+//implement the regisration 
+CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim487')
+
+WebUI.delay(1)
+////
+
+
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+//Go in to new tab
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+CustomKeywords.'com.chiragh.com.ChiraghOTP.generateOtp'('registration', 'null',  GlobalVariable.otpNo)
+
+WebUI.switchToWindowIndex(currentWindow)
+
+WebUI.delay(1)
+
+
+////
+
 
 //WebUI.verifyElementText(findTestObject('Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh'), 
 //    'Thank You')
