@@ -109,8 +109,8 @@ WebUI.delay(2)
 //WebUI.delay(2)
 String number = faker.number.randomNumber()
 
-//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112+' + number) + '@gmail.com')
-WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKalim17' + '@getnada.com')
+WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), ('testbcm112' + number) + '@getnada.com')
+//WebUI.setText(findTestObject('Page_Chiragh - Register/input_Email _userEmail'), 'ahsanKali97' + '@getnada.com')
 
 //CustomKeywords.'com.sanitytest.com.Validation.isEmail'(('testbcm11+' + number) + '@gmail.com')
 WebUI.delay(2)
@@ -215,7 +215,8 @@ WebUI.click(findTestObject('Page_Chiragh - Register/button_Proceed'))
 WebUI.delay(5)
 
 //implement the regisration 
-CustomKeywords.'com.sanitytest.com.registration.accountActivation'('ahsanKalim17')
+String emailAccount = 'testbcm112' + number;
+CustomKeywords.'com.sanitytest.com.registration.accountActivation'(emailAccount)
 
 WebUI.delay(1)
 ////
@@ -237,17 +238,17 @@ WebUI.delay(5)
 
 ////
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1'),
-	'HeCM15nHKBI=')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1'),
+	'1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2'),
-	'YC0926CP/9Y=')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2'),
+	'2')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'),
-	'XtPiXH0+76g=')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3'),
+	'3')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'),
-	'abkeNdhXnEA=')
+WebUI.setText(findTestObject('Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4'),
+	'4')
 
 WebUI.delay(2)
 
