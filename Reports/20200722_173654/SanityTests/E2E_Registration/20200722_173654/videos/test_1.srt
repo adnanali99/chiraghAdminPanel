@@ -1,0 +1,28 @@
+1
+00:00:00,524 --> 00:00:00,526
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:01,023 --> 00:00:01,023
+5. openBrowser("")
+
+3
+00:00:08,589 --> 00:00:08,589
+9. navigateToUrl(Url)
+
+4
+00:00:09,804 --> 00:00:09,804
+13. waitForPageLoad(15)
+
+5
+00:00:10,005 --> 00:00:10,005
+17. maximizeWindow()
+
+6
+00:00:12,175 --> 00:00:12,175
+21. delay(3)
+
+7
+00:00:15,208 --> 00:00:15,208
+25. click(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
