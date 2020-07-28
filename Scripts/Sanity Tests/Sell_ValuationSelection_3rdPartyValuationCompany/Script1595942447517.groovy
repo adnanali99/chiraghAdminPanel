@@ -707,13 +707,13 @@ String transaction = WebUI.getText(findTestObject('Object Repository/Sanity Test
 
 //CustomKeywords.'com.sanitytest.com.HandleErrorMessage.getText'(transaction)
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - User Account Summary/h5_111060864000'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - User Account Summary/a_View All'))
-
-WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - Transaction Detail Summary/th_Property ID'))
-
-WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - User Account Summary/h5_111060864000'))
+//
+//WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - User Account Summary/a_View All'))
+//
+//WebUI.click(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - Transaction Detail Summary/th_Property ID'))
+//
+//WebUI.delay(5)
 
 //String propertyId = WebUI.getText(findTestObject('Object Repository/Sanity Test/walletVerification/Page_Chiragh - Transaction Detail Summary/td_39642'))
 
