@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select only Chiragh Option as Valuation Company and Submit the Property (Test: No blockage or Deduction of any amount or restriction from Wallet Top up or Empty Balance Notifications)</description>
+   <name>Sell_Valuation Selection _Chiragh Only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9fd70e2-eea3-476c-9306-fa55f3fd98bd</testCaseGuid>
+</TestCaseEntity>

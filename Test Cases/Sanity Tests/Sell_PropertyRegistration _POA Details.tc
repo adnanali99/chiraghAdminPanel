@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill up the form and verify all mandatory &amp; non mandatory field are working as per behaviour</description>
+   <name>Sell_PropertyRegistration _POA Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea7b2646-e8fa-4855-be23-c845d7acc4ce</testCaseGuid>
+</TestCaseEntity>
