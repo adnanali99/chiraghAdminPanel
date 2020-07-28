@@ -47,10 +47,22 @@
       <testCaseId>Test Cases/Sanity Tests/Sell_PropertyRegistration_Rental Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>47fc66cc-a1ae-4f6a-a195-675944c76c20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity Tests/ClickSelland06StagePropertyRegistrationportalwillOpen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>704aa7e6-c025-4cb1-8506-a634e28ca1d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity Tests/Sell_Valuation Selection _Chiragh Only</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e041025-5ac7-49a4-b539-50fe17790029</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity Tests/Sell_ValuationSelection_3rdPartyValuationCompany</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3172cd5b-1a90-49ab-9d1e-ca77d123b27f</guid>
@@ -59,15 +71,27 @@
       <testCaseId>Test Cases/Sanity Tests/Buy_Property_Bidding_Login_RegisterwithChiraghasClient</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>102a1187-bc14-4e24-b1b2-e8814260e2fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity Tests/Buy_Property_Click</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8699080b-af79-4b82-a5bf-5b4f95af065d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity Tests/Buy_propertyBidding_MainLandingPageCurrent Auction</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>102a1187-bc14-4e24-b1b2-e8814260e2fd</guid>
+      <guid>77ab7376-d6f4-459f-8fe0-040981808882</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity Tests/Buy_Property_Click</testCaseId>
+      <testCaseId>Test Cases/Sanity Tests/Buy_PropertyOpenHouse_5</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55876d57-de79-4acc-bdf2-d06e7a00a31b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity Tests/Buy_PropertyBidding_MainLandingPageBuy</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
