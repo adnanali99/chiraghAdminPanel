@@ -12,12 +12,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.waitForPageLoad(15)
+WebUI.waitForPageLoad(60)
 
 WebUI.maximizeWindow()
 
@@ -43,10 +45,15 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Home/a_HI AutoChiragh'))
 
+def getText = WebUI.getText(findTestObject('Page_Chiragh - Home/a_Hi Usman Khan'))
+println(getText);
+
+WebUI.verifyMatch(getText, 'Auto Chiragh', true, FailureHandling.STOP_ON_FAILURE)
+//WebUI.acceptAlert()
+
 //String username = WebUI.getText(findTestObject('Object Repository/Front End Objects/LoginWithValidCredentials/Page_Chiragh - Dashborad Home/a_AUTOCHIRAGH'))
 WebUI.delay(10)
 
-WebUI.verifyTextPresent(GlobalVariable.userName, true)
-
+//WebUI.verifyTextPresent(GlobalVariable.userName, true)
 WebUI.closeBrowser()
 

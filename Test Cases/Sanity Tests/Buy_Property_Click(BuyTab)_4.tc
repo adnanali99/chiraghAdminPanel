@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click on Property thumbnail in Buy Tab, Property Display window on Main Page and Property Detail window will Appear for Client to have detailed Property View.</description>
+   <name>Buy_Property_Click(BuyTab)_4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3251ae07-7ee4-4dab-a9b7-3d247b3dc8cf</testCaseGuid>
+</TestCaseEntity>

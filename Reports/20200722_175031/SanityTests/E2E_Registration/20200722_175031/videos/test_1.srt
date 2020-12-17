@@ -1,0 +1,404 @@
+1
+00:00:00,588 --> 00:00:00,590
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:01,156 --> 00:00:01,156
+5. openBrowser("")
+
+3
+00:00:06,644 --> 00:00:06,645
+9. navigateToUrl(Url)
+
+4
+00:00:07,755 --> 00:00:07,755
+13. waitForPageLoad(15)
+
+5
+00:00:09,590 --> 00:00:09,590
+17. maximizeWindow()
+
+6
+00:00:11,745 --> 00:00:11,745
+21. delay(3)
+
+7
+00:00:14,775 --> 00:00:14,776
+25. click(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+8
+00:00:41,363 --> 00:00:41,363
+29. click(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Home/a_Login"))
+
+9
+00:00:42,404 --> 00:00:42,404
+33. click(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Login/a_Register"))
+
+10
+00:00:43,066 --> 00:00:43,066
+37. setText(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Register/input_First Name_userFirstName"), "22222")
+
+11
+00:00:45,571 --> 00:00:45,571
+41. errorMessage = getText(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_First Name is not valid"))
+
+12
+00:00:46,013 --> 00:00:46,013
+45. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(errorMessage, "First Name is not valid!")
+
+13
+00:00:46,042 --> 00:00:46,042
+49. delay(2)
+
+14
+00:00:48,046 --> 00:00:48,046
+53. setText(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Register/input_Last Name_userlastName"), "333333")
+
+15
+00:00:48,721 --> 00:00:48,721
+57. errorLastName = getText(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Register/div_Last Name is not valid"))
+
+16
+00:00:49,231 --> 00:00:49,232
+61. com.sanitytest.com.HandleErrorMessage.verifyErrorMessage(errorLastName, "Last Name is not valid!")
+
+17
+00:00:49,238 --> 00:00:49,238
+65. delay(2)
+
+18
+00:00:51,240 --> 00:00:51,240
+69. delay(2)
+
+19
+00:00:53,245 --> 00:00:53,245
+73. setText(findTestObject("Object Repository/Sanity Test/registration/Page_Chiragh - Register/input_Email _userEmail"), "556666666.com")
+
+20
+00:00:53,989 --> 00:00:53,989
+77. delay(2)
+
+21
+00:00:55,992 --> 00:00:55,992
+81. setText(findTestObject("Page_Chiragh - Register/input_Password_userPassword"), "6666333")
+
+22
+00:00:56,693 --> 00:00:56,693
+85. delay(7)
+
+23
+00:01:03,697 --> 00:01:03,698
+89. setText(findTestObject("Page_Chiragh - Register/input_Confirm Password_userConfirmPassword"), "92828333")
+
+24
+00:01:04,456 --> 00:01:04,456
+93. delay(6)
+
+25
+00:01:10,459 --> 00:01:10,459
+97. fName = name().firstName()
+
+26
+00:01:10,468 --> 00:01:10,468
+101. setText(findTestObject("Page_Chiragh - Register/input_First Name_userFirstName"), fName)
+
+27
+00:01:11,089 --> 00:01:11,089
+105. com.sanitytest.com.Validation.isAlpha(fName)
+
+28
+00:01:11,102 --> 00:01:11,102
+109. delay(2)
+
+29
+00:01:13,105 --> 00:01:13,105
+113. lName = name().lastName()
+
+30
+00:01:13,106 --> 00:01:13,106
+117. setText(findTestObject("Page_Chiragh - Register/input_Last Name_userlastName"), lName)
+
+31
+00:01:13,802 --> 00:01:13,802
+121. com.sanitytest.com.Validation.isAlpha(lName)
+
+32
+00:01:13,804 --> 00:01:13,804
+125. delay(2)
+
+33
+00:01:15,806 --> 00:01:15,806
+129. number = number.randomNumber()
+
+34
+00:01:15,812 --> 00:01:15,812
+133. setText(findTestObject("Page_Chiragh - Register/input_Email _userEmail"), "testbcm112" + number + "@getnada.com")
+
+35
+00:01:16,549 --> 00:01:16,549
+137. delay(2)
+
+36
+00:01:18,553 --> 00:01:18,553
+141. setText(findTestObject("Page_Chiragh - Register/input_Password_userPassword"), "A123456s@")
+
+37
+00:01:19,438 --> 00:01:19,439
+145. delay(7)
+
+38
+00:01:26,442 --> 00:01:26,443
+149. setText(findTestObject("Page_Chiragh - Register/input_Confirm Password_userConfirmPassword"), "A123456s@")
+
+39
+00:01:27,311 --> 00:01:27,312
+153. delay(2)
+
+40
+00:01:29,315 --> 00:01:29,316
+157. click(findTestObject("Page_Chiragh - Register/button_Next"))
+
+41
+00:01:29,789 --> 00:01:29,789
+161. waitForPageLoad(4)
+
+42
+00:01:29,823 --> 00:01:29,823
+165. click(findTestObject("Page_Chiragh - Register/button_Register"))
+
+43
+00:01:30,392 --> 00:01:30,392
+169. delay(3)
+
+44
+00:01:33,397 --> 00:01:33,397
+173. scrollToElement(findTestObject("Sanity Test/registration/object3/Page_Chiragh - Register/h1_Welcome yuere iyeyrie"), 2)
+
+45
+00:01:33,717 --> 00:01:33,718
+177. delay(5)
+
+46
+00:01:38,720 --> 00:01:38,720
+181. click(findTestObject("Sanity Test/registration/Date/Page_Chiragh - Register/input_Date of Birth_dob"))
+
+47
+00:01:39,186 --> 00:01:39,186
+185. click(findTestObject("Sanity Test/registration/birth/Page_Chiragh - Register/span_May 2020"))
+
+48
+00:01:39,691 --> 00:01:39,692
+189. click(findTestObject("Sanity Test/registration/Date/Page_Chiragh - Register/span_2016"))
+
+49
+00:01:40,249 --> 00:01:40,249
+193. click(findTestObject("Sanity Test/registration/Date/Page_Chiragh - Register/span_May"))
+
+50
+00:01:40,855 --> 00:01:40,855
+197. click(findTestObject("Sanity Test/registration/Date/Page_Chiragh - Register/span_4"))
+
+51
+00:01:41,424 --> 00:01:41,424
+201. delay(2)
+
+52
+00:01:43,429 --> 00:01:43,429
+205. setText(findTestObject("Page_Chiragh - Register/Nationality"), "Pakis")
+
+53
+00:01:44,309 --> 00:01:44,309
+209. click(findTestObject("Page_Chiragh - Register/ng-dropdown-panel_Pakistani"))
+
+54
+00:01:44,825 --> 00:01:44,825
+213. Useraddress = address.fullAddress()
+
+55
+00:01:44,832 --> 00:01:44,832
+217. setText(findTestObject("Page_Chiragh - Register/input_Complete address _address"), Useraddress)
+
+56
+00:01:45,956 --> 00:01:45,956
+221. delay(2)
+
+57
+00:01:47,960 --> 00:01:47,960
+225. PObox = address.zipCode()
+
+58
+00:01:47,965 --> 00:01:47,965
+229. setText(findTestObject("Page_Chiragh - Register/input_POBox_poBox"), PObox)
+
+59
+00:01:48,685 --> 00:01:48,685
+233. setText(findTestObject("Page_Chiragh - Register/Country"), "Pakis")
+
+60
+00:01:49,329 --> 00:01:49,329
+237. click(findTestObject("Page_Chiragh - Register/span_Pakistan"))
+
+61
+00:01:49,894 --> 00:01:49,894
+241. delay(5)
+
+62
+00:01:54,898 --> 00:01:54,898
+245. setText(findTestObject("Page_Chiragh - Register/City"), "Lahor")
+
+63
+00:01:55,596 --> 00:01:55,596
+249. click(findTestObject("Page_Chiragh - Register/span_Lahore"))
+
+64
+00:01:56,173 --> 00:01:56,173
+253. delay(2)
+
+65
+00:01:58,176 --> 00:01:58,176
+257. setText(findTestObject("Page_Chiragh - Register/input_Identification Type_ng-star-inserted"), "National")
+
+66
+00:01:58,877 --> 00:01:58,877
+261. delay(1)
+
+67
+00:01:59,881 --> 00:01:59,881
+265. click(findTestObject("Page_Chiragh - Register/span_National ID"))
+
+68
+00:02:00,225 --> 00:02:00,225
+269. IdCardNumber = number().digits(10)
+
+69
+00:02:00,229 --> 00:02:00,229
+273. setText(findTestObject("Page_Chiragh - Register/input_ID Number_idCardNo"), IdCardNumber)
+
+70
+00:02:01,107 --> 00:02:01,107
+277. click(findTestObject("Page_Chiragh - Register/input_ID Expiry Date_idExpiryDate"))
+
+71
+00:02:01,621 --> 00:02:01,621
+281. click(findTestObject("Page_Chiragh - Register/span_Apr 2020"))
+
+72
+00:02:02,099 --> 00:02:02,099
+285. click(findTestObject("Page_Chiragh - Register/span_2021"))
+
+73
+00:02:02,673 --> 00:02:02,673
+289. click(findTestObject("Page_Chiragh - Register/span_Jan"))
+
+74
+00:02:03,244 --> 00:02:03,244
+293. click(findTestObject("Page_Chiragh - Register/Jan1"))
+
+75
+00:02:03,852 --> 00:02:03,852
+297. delay(2)
+
+76
+00:02:05,856 --> 00:02:05,856
+301. setText(findTestObject("Page_Chiragh - Register/input_Country Code_ng-star-inserted"), "Pakis")
+
+77
+00:02:06,633 --> 00:02:06,633
+305. click(findTestObject("Page_Chiragh - Register/span_(92) Pakistan"))
+
+78
+00:02:07,170 --> 00:02:07,170
+309. setText(findTestObject("Page_Chiragh - Register/input_Mobile Number _mobileNo"), "03451200042")
+
+79
+00:02:08,076 --> 00:02:08,076
+313. click(findTestObject("Page_Chiragh - Register/input_Phone Number_terms"))
+
+80
+00:02:08,681 --> 00:02:08,681
+317. delay(2)
+
+81
+00:02:10,687 --> 00:02:10,687
+321. click(findTestObject("Page_Chiragh - Register/button_Register"))
+
+82
+00:02:11,074 --> 00:02:11,074
+325. delay(2)
+
+83
+00:02:13,079 --> 00:02:13,080
+329. click(findTestObject("Page_Chiragh - Register/button_Proceed"))
+
+84
+00:02:13,482 --> 00:02:13,482
+333. delay(5)
+
+85
+00:02:18,485 --> 00:02:18,485
+337. emailAccount = "testbcm112" + number
+
+86
+00:02:18,488 --> 00:02:18,488
+341. com.sanitytest.com.registration.accountActivation(emailAccount)
+
+87
+00:02:35,076 --> 00:02:35,076
+345. delay(1)
+
+88
+00:02:36,080 --> 00:02:36,080
+349. executeJavaScript("window.open();", [])
+
+89
+00:02:36,151 --> 00:02:36,152
+353. currentWindow = getWindowIndex()
+
+90
+00:02:36,172 --> 00:02:36,172
+357. switchToWindowIndex(currentWindow + 1)
+
+91
+00:02:36,190 --> 00:02:36,190
+361. com.chiragh.com.ChiraghOTP.generateOtp("registration", "1", otpNo)
+
+92
+00:03:03,714 --> 00:03:03,714
+365. switchToWindowIndex(currentWindow)
+
+93
+00:03:03,770 --> 00:03:03,770
+369. delay(5)
+
+94
+00:03:08,777 --> 00:03:08,778
+373. setText(findTestObject("Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue1"), "1")
+
+95
+00:03:09,423 --> 00:03:09,423
+377. setText(findTestObject("Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue2"), "2")
+
+96
+00:03:09,999 --> 00:03:09,999
+381. setText(findTestObject("Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue3"), "3")
+
+97
+00:03:10,584 --> 00:03:10,584
+385. setText(findTestObject("Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/input_Enter Mobile OTP_otpValue4"), "4")
+
+98
+00:03:11,157 --> 00:03:11,157
+389. delay(2)
+
+99
+00:03:13,160 --> 00:03:13,160
+393. click(findTestObject("Object Repository/Sanity Test/registrationObject2/Page_Chiragh - Login/button_Done"))
+
+100
+00:03:13,554 --> 00:03:13,554
+397. delay(5)
+
+101
+00:03:18,557 --> 00:03:18,557
+401. verifyElementText(findTestObject("Page_Chiragh - Registration Confirmation/h1_Thank You  for Registering on Chiragh"), "Thank You")
+

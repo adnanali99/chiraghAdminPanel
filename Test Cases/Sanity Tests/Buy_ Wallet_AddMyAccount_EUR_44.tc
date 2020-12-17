@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add EUR currency personal Account in MY Account Tab. Check the Field Behaviour</description>
+   <name>Buy_ Wallet_AddMyAccount_EUR_44</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08b32544-97a7-4ef7-b1a8-987dc641556f</testCaseGuid>
+</TestCaseEntity>

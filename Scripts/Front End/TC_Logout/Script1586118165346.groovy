@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(60)
 
 WebUI.maximizeWindow()
 
@@ -39,7 +39,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Front End Objects/Logou
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Logout/Page_Chiragh - Login/button_Log In'))
 
-WebUI.delay(2)
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Page_Chiragh - Home/h1_Property investment beyond borders'), 3)
 
 WebUI.click(findTestObject('Object Repository/Front End Objects/Logout/Page_Chiragh - Home/a_ENG_dropdownMenuLink'))
 

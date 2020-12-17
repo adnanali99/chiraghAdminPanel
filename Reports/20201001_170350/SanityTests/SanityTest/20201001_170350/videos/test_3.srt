@@ -1,0 +1,20 @@
+1
+00:00:01,105 --> 00:00:01,106
+1. openBrowser("")
+
+2
+00:00:06,421 --> 00:00:06,422
+5. navigateToUrl(Url)
+
+3
+00:00:14,708 --> 00:00:14,709
+9. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Home/a_BUY"))
+
+4
+00:00:16,723 --> 00:00:16,724
+13. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h1_We Build Trust"), 5)
+
+5
+00:00:19,807 --> 00:00:19,808
+17. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/p_hundreds of registered users have placed _b9b8bc"), 5)
+

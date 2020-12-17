@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Complete Open House Registration flow, Complete the Form, Choose Day, Then Choose Date from Date Drop Down, Enter preferred time in time field, Test Time entry is restricted to only time range provided in System (Date Selection have Time range information along with date), Test AM / PM Restriction , System will lock PM / AM As per schedule decided in Backend. Test If System have schedule from Morning till evening only then user will be Able to Change AM/PM in time selection field.</description>
+   <name>Buy_OpenHousePopup_6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a600d16-60b7-4104-a048-ede82e8548f4</testCaseGuid>
+</TestCaseEntity>

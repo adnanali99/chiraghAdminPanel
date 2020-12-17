@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System will also add the 3rd Party Deducted Amount for Old Company into Overall Available Balance, and then Deduct the New company Payment which will make Impact on Available Balance. Test the addition of Old and Deletion of New balance in the Summary Available Balance and Identify the Calculation and Flow of Transaction is Correct.</description>
+   <name>Sell_ValuationSelection_3rdPartyCompanyWallet_21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>723ab522-bba6-44cc-93f0-668ea83e8168</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate the Properties in Chiragh main page, Navigate View More > Also Scroll Upcoming Auction Section > Identify any Upexpected behavior</description>
+   <name>Buy_propertyBidding_MainLandingPageCurrent Auction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe454ce1-e82e-4770-b1bc-ea6728679c81</testCaseGuid>
+</TestCaseEntity>

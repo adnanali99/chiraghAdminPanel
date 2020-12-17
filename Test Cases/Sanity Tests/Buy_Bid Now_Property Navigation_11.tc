@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test all the Tabs like, Facilities, Features, Neighbourhood, Valuations >> Download valuation by clicking on download valuation button. Click on Picture to have detail view, Click on 360* to have 360 Image detail view, You can also click &lt;> arrows to navigate picture in same property detail window, Each place holder under Image will have hoverover detail popup, hover to Place holder and check  the details are popping up. Test all these scenerios and report any issues.</description>
+   <name>Buy_Bid Now_Property Navigation_11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1749daba-80ad-4130-945c-0f53e1cd521c</testCaseGuid>
+</TestCaseEntity>

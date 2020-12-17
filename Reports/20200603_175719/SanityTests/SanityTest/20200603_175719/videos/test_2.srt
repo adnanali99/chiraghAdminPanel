@@ -1,0 +1,396 @@
+1
+00:00:00,515 --> 00:00:00,515
+1. openBrowser("")
+
+2
+00:00:06,427 --> 00:00:06,429
+5. navigateToUrl(Url)
+
+3
+00:00:21,291 --> 00:00:21,292
+9. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img"), 5)
+
+4
+00:00:22,071 --> 00:00:22,073
+13. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG"))
+
+5
+00:00:22,747 --> 00:00:22,748
+17. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ARA(UAE)"))
+
+6
+00:00:23,419 --> 00:00:23,421
+21. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG"))
+
+7
+00:00:24,295 --> 00:00:24,296
+25. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG_1"))
+
+8
+00:00:25,276 --> 00:00:25,277
+29. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+9
+00:00:26,276 --> 00:00:26,277
+33. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/svg_Guest_svg-inline--fa fa-user fa-w-16"))
+
+10
+00:00:27,303 --> 00:00:27,304
+37. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+11
+00:00:28,365 --> 00:00:28,366
+41. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h1_Dubais Leading Online Real Estate Auction"))
+
+12
+00:00:29,377 --> 00:00:29,379
+45. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Connecting Global Investment Community"))
+
+13
+00:00:30,246 --> 00:00:30,248
+49. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a"))
+
+14
+00:00:31,593 --> 00:00:31,593
+53. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h3_Advance Search"), 5)
+
+15
+00:00:32,427 --> 00:00:32,428
+57. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Area"), 5)
+
+16
+00:00:33,035 --> 00:00:33,038
+61. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Type of Property"), 5)
+
+17
+00:00:33,412 --> 00:00:33,413
+65. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Status"), 5)
+
+18
+00:00:34,007 --> 00:00:34,008
+69. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_City"), 5)
+
+19
+00:00:34,383 --> 00:00:34,385
+73. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(min)"), 5)
+
+20
+00:00:34,986 --> 00:00:34,988
+77. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bed(max)"), 5)
+
+21
+00:00:35,375 --> 00:00:35,376
+81. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(min)"), 5)
+
+22
+00:00:36,081 --> 00:00:36,082
+85. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Bath(max)"), 5)
+
+23
+00:00:36,471 --> 00:00:36,472
+89. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Kitchen"), 5)
+
+24
+00:00:36,999 --> 00:00:37,001
+93. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Car Parking"), 5)
+
+25
+00:00:37,375 --> 00:00:37,376
+97. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Rent Status"), 5)
+
+26
+00:00:38,082 --> 00:00:38,084
+101. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Furnished"), 5)
+
+27
+00:00:38,460 --> 00:00:38,461
+105. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Currency"), 5)
+
+28
+00:00:39,078 --> 00:00:39,079
+109. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(min)"), 5)
+
+29
+00:00:39,467 --> 00:00:39,468
+113. verifyElementPresent(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/label_Price(max)"), 5)
+
+30
+00:00:40,062 --> 00:00:40,063
+117. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/a_"))
+
+31
+00:00:40,739 --> 00:00:40,740
+121. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1"))
+
+32
+00:00:41,438 --> 00:00:41,439
+125. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Dubai Land Dept Regulated"))
+
+33
+00:00:42,366 --> 00:00:42,368
+129. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2"))
+
+34
+00:00:43,358 --> 00:00:43,359
+133. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Verified Properties"))
+
+35
+00:00:44,364 --> 00:00:44,364
+137. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3"))
+
+36
+00:00:45,322 --> 00:00:45,322
+141. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Third Party Valuation"))
+
+37
+00:00:46,296 --> 00:00:46,296
+145. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4"))
+
+38
+00:00:47,290 --> 00:00:47,291
+149. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Transparent Bidding"))
+
+39
+00:00:48,389 --> 00:00:48,390
+153. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5"))
+
+40
+00:00:49,275 --> 00:00:49,276
+157. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Open House Facility"))
+
+41
+00:00:50,244 --> 00:00:50,244
+161. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h2_Current Auctions"))
+
+42
+00:00:51,324 --> 00:00:51,325
+165. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_Active auctions in process"))
+
+43
+00:00:52,278 --> 00:00:52,279
+169. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_PROPERTY ID 38965"))
+
+44
+00:00:53,374 --> 00:00:53,375
+173. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_5Days07Hours31Minutes16Seconds"))
+
+45
+00:00:54,330 --> 00:00:54,331
+177. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/b_230000  sqm"))
+
+46
+00:00:55,322 --> 00:00:55,323
+181. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_6 Beds"))
+
+47
+00:00:56,362 --> 00:00:56,363
+185. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_4 Baths"))
+
+48
+00:00:57,249 --> 00:00:57,251
+189. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_2 Parkings"))
+
+49
+00:00:58,358 --> 00:00:58,359
+193. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6"))
+
+50
+00:00:59,376 --> 00:00:59,379
+197. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6_7"))
+
+51
+00:01:00,352 --> 00:01:00,353
+201. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/span_Bids  7"))
+
+52
+00:01:01,337 --> 00:01:01,339
+205. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_PROPERTY ID 39651"))
+
+53
+00:01:02,334 --> 00:01:02,336
+209. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_3Days07Hours30Minutes39Seconds"))
+
+54
+00:01:03,307 --> 00:01:03,308
+213. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/b_230000  sqm"))
+
+55
+00:01:04,261 --> 00:01:04,262
+217. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_6 Beds"))
+
+56
+00:01:05,331 --> 00:01:05,333
+221. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_4 Baths"))
+
+57
+00:01:06,321 --> 00:01:06,322
+225. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_2 Parkings"))
+
+58
+00:01:07,286 --> 00:01:07,287
+229. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/span_Bids  3"))
+
+59
+00:01:08,354 --> 00:01:08,355
+233. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6"))
+
+60
+00:01:09,324 --> 00:01:09,326
+237. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6_7"))
+
+61
+00:01:10,275 --> 00:01:10,276
+241. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_PROPERTY ID 39640"))
+
+62
+00:01:11,329 --> 00:01:11,330
+245. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/b_230000  sqm"))
+
+63
+00:01:12,253 --> 00:01:12,253
+249. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/b_6"))
+
+64
+00:01:13,301 --> 00:01:13,302
+253. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/b_4"))
+
+65
+00:01:14,354 --> 00:01:14,355
+257. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_2 Parkings"))
+
+66
+00:01:15,311 --> 00:01:15,312
+261. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6"))
+
+67
+00:01:16,393 --> 00:01:16,393
+265. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/img_1_2_3_4_5_6_7"))
+
+68
+00:01:17,266 --> 00:01:17,268
+269. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/button_View More (6)"))
+
+69
+00:01:18,281 --> 00:01:18,282
+273. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h2_Upcoming Auction"))
+
+70
+00:01:20,271 --> 00:01:20,272
+277. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_Stand by and mark your favourite properties"))
+
+71
+00:01:21,324 --> 00:01:21,325
+281. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_No upcoming auctions are available at th_0ef46d"))
+
+72
+00:01:22,284 --> 00:01:22,285
+285. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h4_When its time to sell you are in control_bf89f4"))
+
+73
+00:01:23,351 --> 00:01:23,353
+289. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h4_Financial Partners"))
+
+74
+00:01:24,321 --> 00:01:24,321
+293. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_Check your mortgage eligibility"))
+
+75
+00:01:25,267 --> 00:01:25,268
+297. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h6_Convenient Multi-currency"))
+
+76
+00:01:26,343 --> 00:01:26,345
+301. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h2_Auction Deposit  withdrawal"))
+
+77
+00:01:27,313 --> 00:01:27,315
+305. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_Depositing or withdrawing money is simpl_b81dd9"))
+
+78
+00:01:28,315 --> 00:01:28,317
+309. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h3_Help center"))
+
+79
+00:01:29,281 --> 00:01:29,282
+313. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h4_How it works"))
+
+80
+00:01:30,298 --> 00:01:30,299
+317. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_How to buy"))
+
+81
+00:01:31,296 --> 00:01:31,297
+321. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_How to sell"))
+
+82
+00:01:32,387 --> 00:01:32,387
+325. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_Our Partners"))
+
+83
+00:01:33,356 --> 00:01:33,357
+329. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/h5_How can we Assist"))
+
+84
+00:01:34,275 --> 00:01:34,276
+333. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_About Us"))
+
+85
+00:01:35,387 --> 00:01:35,388
+337. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Our mission is to provide a user-friend_97e858"))
+
+86
+00:01:36,334 --> 00:01:36,334
+341. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Quick Links"))
+
+87
+00:01:37,490 --> 00:01:37,490
+345. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Newsletter"))
+
+88
+00:01:38,367 --> 00:01:38,369
+349. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Dont miss a chance to get a best deal S_65e1a0"))
+
+89
+00:01:39,258 --> 00:01:39,259
+353. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Contact"))
+
+90
+00:01:40,471 --> 00:01:40,472
+357. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_109-110 Building  6 Emaar Gold  Diamond_c60f27"))
+
+91
+00:01:41,271 --> 00:01:41,272
+361. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_971 4338 8823 Sunday to Thursday 900 am_906058"))
+
+92
+00:01:42,333 --> 00:01:42,334
+365. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Copyright  Chiraghcom"))
+
+93
+00:01:43,319 --> 00:01:43,319
+369. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_Licensed by Dubai Land Department (DLD)"))
+
+94
+00:01:44,274 --> 00:01:44,275
+373. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_109-110 Building  6 Emaar Gold  Diamond_c60f27"))
+
+95
+00:01:45,345 --> 00:01:45,346
+377. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_971 4338 8823 Sunday to Thursday 900 am_906058"))
+
+96
+00:01:46,287 --> 00:01:46,288
+381. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Sunday to Thursday 900 am to 600 pm"))
+
+97
+00:01:47,262 --> 00:01:47,262
+385. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/p_Saturdays 930 am to 500 pm"))
+
+98
+00:01:48,218 --> 00:01:48,219
+389. click(findTestObject("Object Repository/Sanity Test/ChiraghHomeUIpages/Page_Chiragh - Home/div_971 4338 8823 Sunday to Thursday 900 am_906058"))
+
+99
+00:01:49,249 --> 00:01:49,250
+393. closeBrowser()
+

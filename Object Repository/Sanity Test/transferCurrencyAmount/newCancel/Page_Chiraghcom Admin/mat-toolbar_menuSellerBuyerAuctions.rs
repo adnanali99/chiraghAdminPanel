@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-toolbar_menuSellerBuyerAuctions</name>
+   <tag></tag>
+   <elementGuidId>f772a9a7-d700-4152-b48b-b25ad8b29df5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-toolbar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-toolbar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fix-nav mat-toolbar mat-toolbar-single-row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>menuSellerBuyerAuctionsTasksFinanceSettings?Syed Hussaini | Super Admin115NotificationsNew 'Contact Us' query has been created by a user.From Guest User 6 days agoNew 'Contact Us' query has been created by a user.From Guest User 6 days agoNew 'Contact Us' query has been created by a user.From Guest User 7 days agoNew 'Contact Us' query has been created by a user.From Guest User 7 days agoThe lead has been archivedFrom Syed Hussaini  (Super Admin) ARE-DXB-39638 11 days agoNew Brokerage proposal is awaiting for your confirmation.From Farhan M  (Brokerage Hod) ARE-AUH-38920 25 days agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal a month agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Guest User 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoNew 'Contact Us' query has been created by a user.From Mehwish Iqbal 2 months agoSee AllNotificationsNothing here yet .....This collection is empty.. Keep checking .....sh</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/app-topnav[1]/mat-toolbar[@class=&quot;fix-nav mat-toolbar mat-toolbar-single-row&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-toolbar</value>
+   </webElementXpaths>
+</WebElementEntity>

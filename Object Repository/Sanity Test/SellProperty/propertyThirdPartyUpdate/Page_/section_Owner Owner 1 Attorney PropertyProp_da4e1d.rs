@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Owner Owner 1 Attorney PropertyProp_da4e1d</name>
+   <tag></tag>
+   <elementGuidId>351897d6-bec3-4579-a82e-fe8e9d64253d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='tabs']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tabs</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Owner Owner 1 Attorney PropertyProperty Mortgage Property Rent Valuation Property Valuation Please select independent real estate valuator option and choose from partnered valuation companies. CHIRAGH (FREE ESTIMATES) INDEPENDENT REAL ESTATE VALUATOR (FEE INVOLVED) Knight Frank  AED 2,000.00 *T&amp;C AppliesA residential &amp; commercial property consultantFounded in 1896; Middle East presence from 2008Leading independent real estate consultancy, Dubai JLL  AED 2,000.00 *T&amp;C AppliesAn estate service and investment management firmFounded in 1999; Middle East presence from 2006Fortune 500 company and leading player in Gulf Savills  AED 2,000.00 *T&amp;C AppliesSavills plc is a global real estate services providerIt is the London Stock Exchange and is a constituent of the FTSE 250 Index CBRE  AED 2,000.00 *T&amp;C AppliesCBRE Group, Inc. is a commercial real estate services and investment firmIt is the largest company of its kind in the world.It is based in Los Angeles, California and operates more than 450 offices worldwide and serves clients in more than 100 countries CHIRAGH TEST  AED 2,200.00 *T&amp;C AppliesA residential &amp; commercial property consultantFounded in 1896; Middle East presence from 2008Leading independent real estate consultancy, Dubai‹› Update &amp; Pay Now  Insufficient balance in your AED wallet ×Available balance AED 15,045,480.00 Payable Amount* AED 2,000.00  Insufficient balance for this transaction in your  AED  wallet.Top Up your AED account to complete the transaction or choose other currency wallet.  Cancel  Top Up NowNote: By clicking &quot;Top Up Now&quot; you will be redirected to Chiragh wallet Top Up screen. Your property details will still be saved. After topping up your wallet, come here and complete your property submission process. You can still submit your property without 3rd party valuation company free of charge. Please note that change in the property details can only be done while your property is in Chiragh verification department.  Proceed </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//section[@id='tabs']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='leftMenu']/div/div/div[2]/section</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section</value>
+   </webElementXpaths>
+</WebElementEntity>

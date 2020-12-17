@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="E2E_Registration" time="200.116" tests="1" failures="0" errors="0">
+   <testsuite name="E2E_Registration" tests="1" failures="0" errors="0" time="200.116" timestamp="2020-07-22 17:38:48" hostname="hp - Adnan" id="Test Suites/SanityTests/E2E_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200722_173841\\SanityTests\\E2E_Registration\\20200722_173841"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\chiraghAdminPanel\\Reports\\20200722_173841\\SanityTests\\E2E_Registration\\20200722_173841\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hp - Adnan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.18.69"/>
+         <property name="sessionId" value="066f714c655bd7eaf32083807bcdd8c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity Tests/TC_Registration" time="193.741" classname="Test Cases/Sanity Tests/TC_Registration" status="PASSED">
+         <system-out><![CDATA[2020-07-22 17:38:49 - [TEST_CASE][PASSED] - Test Cases/Sanity Tests/TC_Registration: Test Cases/Sanity Tests/TC_Registration]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-22 17:38:48 - [TEST_SUITE][PASSED] - E2E_Registration: Test Cases/Sanity Tests/TC_Registration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

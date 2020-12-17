@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>06 Stage Property Selling / Registration portal for Client >> Test any lapse, delay in form opening, system error or any unexpected issue.</description>
+   <name>ClickSelland06StagePropertyRegistrationportalwillOpen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dede64c1-bbc6-4c9a-836b-6bbc177a3b6e</testCaseGuid>
+</TestCaseEntity>

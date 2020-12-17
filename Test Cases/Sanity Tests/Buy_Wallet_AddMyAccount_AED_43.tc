@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add AED currency personal Account in MY Account Tab. Check the Field Behaviour</description>
+   <name>Buy_Wallet_AddMyAccount_AED_43</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e0f38af-224c-4458-b0fd-cd93f96a5104</testCaseGuid>
+</TestCaseEntity>

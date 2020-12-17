@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://test.chiragh.com'</initValue>
+      <initValue>'https://test.chiragh.com/'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AUTOCHIRAGH'</initValue>
+      <initValue>'testbcm11%2bac@gmail.com'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://test-admin-chiragh.surge.sh'</initValue>
+      <initValue>'https://test-operations.chiragh.com/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1234567890'</initValue>
+      <initValue>'1234@@Password'</initValue>
       <name>changePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -53,5 +53,15 @@
       <description>Where we need to upload a file, this variable will be used</description>
       <initValue>System.getProperty(&quot;user.home&quot;)+'\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
       <name>fileUpload</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test.chiragh.com/sell/owner'</initValue>
+      <name>SellerPropertyUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://chiragh:AeBcm%231t@test.chiragh.com'</initValue>
+      <name>Url2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

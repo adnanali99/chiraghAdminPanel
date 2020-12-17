@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valuation Reports are available for Buyer to review, Under property detail view >> Valuation Tab. Report will only be available as per the Upload, If only 01 Report is Uploaded, There will 01 Report available, If both report are opted for then System will show both Reports available for review. Make sure to check its not opening the Popup and Asking for Allow Pop up in browser, and Its opening as Popup in window and giving you thumbnail for Each Report.</description>
+   <name>Sell_ValuationReportVisibility_Frontend_24</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a97b2fa0-d1d4-485f-a5a5-c24f4292b0c1</testCaseGuid>
+</TestCaseEntity>

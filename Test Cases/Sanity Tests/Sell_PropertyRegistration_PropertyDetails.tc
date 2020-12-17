@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill up the form and verify all mandatory &amp; non mandatory field are working as per behaviour. Also make sure to fill up correct information of Original Properties from Bayut / Property Finder</description>
+   <name>Sell_PropertyRegistration_PropertyDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30c2582-1e2b-48ed-bdad-5276ccf05a64</testCaseGuid>
+</TestCaseEntity>

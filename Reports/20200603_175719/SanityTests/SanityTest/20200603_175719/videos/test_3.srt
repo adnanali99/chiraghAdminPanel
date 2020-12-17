@@ -1,0 +1,80 @@
+1
+00:00:00,363 --> 00:00:00,364
+1. openBrowser("")
+
+2
+00:00:06,236 --> 00:00:06,237
+5. navigateToUrl(Url)
+
+3
+00:00:22,186 --> 00:00:22,187
+9. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Home/a_BUY"))
+
+4
+00:00:23,345 --> 00:00:23,346
+13. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h1_We Build Trust"), 5)
+
+5
+00:00:24,907 --> 00:00:24,907
+17. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/p_hundreds of registered users have placed _b9b8bc"), 5)
+
+6
+00:00:25,254 --> 00:00:25,255
+21. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h2_Current Auctions"), 5)
+
+7
+00:00:25,783 --> 00:00:25,784
+25. verifyElementPresent(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h6_ACTIVE AUCTIONS IN PROCESS"), 5)
+
+8
+00:00:26,161 --> 00:00:26,162
+29. scrollToElement(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h5_Our Partners"), 1)
+
+9
+00:00:26,752 --> 00:00:26,753
+33. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_About Us"))
+
+10
+00:00:27,387 --> 00:00:27,388
+37. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Our mission is to provide a user-friend_97e858"))
+
+11
+00:00:28,004 --> 00:00:28,005
+41. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Quick Links"))
+
+12
+00:00:29,087 --> 00:00:29,088
+45. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Newsletter"))
+
+13
+00:00:30,006 --> 00:00:30,007
+49. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Dont miss a chance to get a best deal S_65e1a0"))
+
+14
+00:00:30,982 --> 00:00:30,982
+53. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_Contact"))
+
+15
+00:00:32,037 --> 00:00:32,037
+57. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_109-110 Building  6 Emaar Gold  Diamond_c60f27"))
+
+16
+00:00:32,974 --> 00:00:32,974
+61. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/div_971 4338 8823 Sunday to Thursday 900 am_906058"))
+
+17
+00:00:34,028 --> 00:00:34,030
+65. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/h2_Current Auctions"))
+
+18
+00:00:35,074 --> 00:00:35,076
+69. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Buy Property/img_ACTIVE AUCTIONS IN PROCESS_wow zoomIn"))
+
+19
+00:00:36,162 --> 00:00:36,163
+73. click(findTestObject("Object Repository/Sanity Test/BuyerPropertyTab/Page_Chiragh - Property Detail/b_230000 sqm"))
+
+20
+00:01:08,921 --> 00:01:08,922
+77. closeBrowser()
+

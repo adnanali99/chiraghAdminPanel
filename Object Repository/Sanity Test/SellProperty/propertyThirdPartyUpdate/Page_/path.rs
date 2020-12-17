@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>727409b4-5173-4cec-95bc-61cc84e7f174</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;modal-main-open&quot;]/app-root[1]/app-layout[@class=&quot;ng-star-inserted&quot;]/section[1]/div[@class=&quot;profile-main&quot;]/div[@class=&quot;profile-right&quot;]/app-sell[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;my-deshbord-wallet&quot;]/div[@class=&quot;dashbord-content&quot;]/app-in-process[@class=&quot;ng-star-inserted&quot;]/section[1]/div[@class=&quot;upcomming-auction-outer&quot;]/div[@class=&quot;upcomming-auction px-md-4 ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 wow zoomIn ng-star-inserted&quot;]/div[@class=&quot;upcomming-properties&quot;]/div[@class=&quot;upcoming-pro-img dateNotFound&quot;]/div[@class=&quot;menu-oprations&quot;]/a[@class=&quot;bid-left-menu&quot;]/svg[@class=&quot;svg-inline--fa fa-chevron-up fa-w-14&quot;]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

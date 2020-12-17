@@ -1,0 +1,36 @@
+1
+00:00:00,950 --> 00:00:00,951
+1. openBrowser("")
+
+2
+00:00:06,019 --> 00:00:06,019
+5. navigateToUrl(Url)
+
+3
+00:00:50,566 --> 00:00:50,567
+9. waitForPageLoad(20)
+
+4
+00:00:59,148 --> 00:00:59,149
+13. scrollToElement(findTestObject("Front End Objects/Subscribe/Page_Chiragh - Home/input_Newsletter_email"), 5)
+
+5
+00:00:59,797 --> 00:00:59,798
+17. email = RandomStringUtils.randomAlphanumeric(9)
+
+6
+00:00:59,815 --> 00:00:59,816
+21. setText(findTestObject("Object Repository/Front End Objects/Subscribe/Page_Chiragh - Home/input_Newsletter_email"), email + "@gmail.com")
+
+7
+00:01:01,043 --> 00:01:01,044
+25. click(findTestObject("Object Repository/Front End Objects/Subscribe/Page_Chiragh - Home/button_Subscribe"))
+
+8
+00:01:01,764 --> 00:01:01,764
+29. verifyElementPresent(findTestObject("Object Repository/Front End Objects/Subscribe/Page_Chiragh - Home/div_You are now subscribed to our Newslette_4ff70c"), 5)
+
+9
+00:01:03,445 --> 00:01:03,445
+33. closeBrowser()
+

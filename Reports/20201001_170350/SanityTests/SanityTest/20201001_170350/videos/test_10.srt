@@ -1,0 +1,32 @@
+1
+00:00:03,523 --> 00:00:03,524
+1. faker = new com.github.javafaker.Faker()
+
+2
+00:00:04,482 --> 00:00:04,487
+5. projectname = address().streetName()
+
+3
+00:00:04,507 --> 00:00:04,512
+9. openBrowser("")
+
+4
+00:00:15,999 --> 00:00:15,999
+13. navigateToUrl(Url)
+
+5
+00:01:03,317 --> 00:01:03,318
+17. waitForPageLoad(15)
+
+6
+00:01:13,321 --> 00:01:13,322
+21. maximizeWindow()
+
+7
+00:01:16,556 --> 00:01:16,560
+25. delay(3)
+
+8
+00:01:19,565 --> 00:01:19,565
+29. click(findTestObject("Property submission/owner/Page_Chiragh - Home/a_SELL"))
+
