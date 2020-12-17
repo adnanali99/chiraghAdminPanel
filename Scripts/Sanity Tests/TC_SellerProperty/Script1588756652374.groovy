@@ -51,9 +51,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Sanity Test/SellPropert
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Login/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Home/a_SELL'))
+//WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Home/a_SELL'))
+//
+//WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/h5_Personal Detail'))
 
-WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/h5_Personal Detail'))
+WebUI.click(findTestObject('Object Repository/Sanity Test/sellerNewObject/Page_Chiragh - Home/a_LIST'))
+
+WebUI.click(findTestObject('Object Repository/Sanity Test/sellerNewObject/Page_Chiragh - Home/a_SALE LISTING'))
 
 WebUI.click(findTestObject('Object Repository/Sanity Test/SellProperty/Page_Chiragh - Sell Your Property/label_First Name'))
 
@@ -488,6 +492,8 @@ WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property 
     GlobalVariable.fileUpload)
 
 WebUI.delay(7)
+WebUI.uploadFile(findTestObject('Object Repository/Sanity Test/upload10/Page_Chiragh - Sell Your Property/input_Upload Property Pictures_custom-file-input'),
+	GlobalVariable.fileUpload)
 
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 

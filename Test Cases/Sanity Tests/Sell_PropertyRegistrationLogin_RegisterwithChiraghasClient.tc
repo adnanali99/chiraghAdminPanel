@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valid Username / Password to Register/Sell property on Chiragh (Test user will not be able to Submit or even view property registration form)</description>
+   <name>Sell_PropertyRegistrationLogin_RegisterwithChiraghasClient</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d408d2d0-6d88-469f-8b57-bc08eba92255</testCaseGuid>
+</TestCaseEntity>

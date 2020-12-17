@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+
 
 WebUI.openBrowser('')
 
@@ -67,4 +67,3 @@ WebUI.click(findTestObject('Object Repository/Sanity Test/PropertyBidingRegistra
 WebUI.delay(1)
 
 WebUI.closeBrowser()
-
