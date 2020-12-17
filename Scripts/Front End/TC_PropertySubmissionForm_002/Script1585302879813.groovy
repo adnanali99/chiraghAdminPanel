@@ -16,6 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.WebElement as WebElement
 
 Faker faker = new Faker()
 
@@ -78,9 +79,10 @@ WebUI.delay(4)
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'), 
     GlobalVariable.fileUpload)
 
-WebUI.delay(7)
+WebUI.delay(15)
 
-WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'))
+CustomKeywords.'com.sanitytest.com.js_click.clickUsingJS'(findTestObject('Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'), 
+    20)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes'), 
     4)
@@ -98,6 +100,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Property submission/POA/Page_Ch
 
 WebUI.delay(4)
 
+//CustomKeywords.com.example.WebUIKeywords.clickUsingJS(findTestObject('Page_LeadershipMicroStar Logistic/a_Learn More 1′), 30)
 WebUI.click(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(4)
