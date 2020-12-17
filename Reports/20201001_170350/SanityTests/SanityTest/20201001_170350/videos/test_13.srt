@@ -1,0 +1,52 @@
+1
+00:00:00,536 --> 00:00:00,537
+1. openBrowser("")
+
+2
+00:00:04,318 --> 00:00:04,318
+5. navigateToUrl(Url)
+
+3
+00:00:12,672 --> 00:00:12,673
+9. waitForPageLoad(60)
+
+4
+00:00:25,517 --> 00:00:25,517
+13. maximizeWindow()
+
+5
+00:00:28,193 --> 00:00:28,194
+17. delay(3)
+
+6
+00:00:31,197 --> 00:00:31,197
+21. click(findTestObject("Object Repository/Front End Objects/Logout/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:31,725 --> 00:00:31,726
+25. click(findTestObject("Object Repository/Front End Objects/Logout/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:32,402 --> 00:00:32,403
+29. delay(2)
+
+9
+00:00:34,406 --> 00:00:34,406
+33. setText(findTestObject("Object Repository/Front End Objects/Logout/Page_Chiragh - Login/input_Username_un"), userName)
+
+10
+00:00:35,235 --> 00:00:35,235
+37. setEncryptedText(findTestObject("Object Repository/Front End Objects/Logout/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+11
+00:00:35,828 --> 00:00:35,828
+41. click(findTestObject("Object Repository/Front End Objects/Logout/Page_Chiragh - Login/button_Log In"))
+
+12
+00:00:36,306 --> 00:00:36,308
+45. delay(5)
+
+13
+00:00:41,311 --> 00:00:41,312
+49. verifyElementPresent(findTestObject("Page_Chiragh - Home/h1_Property investment beyond borders"), 3)
+

@@ -1,0 +1,48 @@
+1
+00:00:01,244 --> 00:00:01,245
+1. openBrowser("")
+
+2
+00:00:06,397 --> 00:00:06,398
+5. navigateToUrl(Url)
+
+3
+00:00:15,279 --> 00:00:15,279
+9. waitForPageLoad(15)
+
+4
+00:00:21,775 --> 00:00:21,775
+13. maximizeWindow()
+
+5
+00:00:24,251 --> 00:00:24,252
+17. delay(3)
+
+6
+00:00:27,256 --> 00:00:27,257
+21. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_ENG_dropdownMenuLink"))
+
+7
+00:00:28,498 --> 00:00:28,499
+25. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/a_Login"))
+
+8
+00:00:29,628 --> 00:00:29,629
+29. setText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Username_un"), userName)
+
+9
+00:00:30,675 --> 00:00:30,675
+33. setEncryptedText(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/input_Password_userPassword"), "RigbBhfdqOBDK95asqKeHw==")
+
+10
+00:00:31,376 --> 00:00:31,376
+37. click(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Login/button_Log In"))
+
+11
+00:00:31,924 --> 00:00:31,925
+41. waitForPageLoad(15)
+
+12
+00:00:31,992 --> 00:00:31,993
+45. scrollToElement(findTestObject("Object Repository/Front End Objects/RegisterUserAdd(WatchList)/Page_Chiragh - Home/h6_Active auctions in process"), 4)
+

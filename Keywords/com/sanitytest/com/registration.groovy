@@ -42,13 +42,13 @@ public class registration {
 		WebUI.click(findTestObject('Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/div_Chiragh Reset Password At Mon Apr 06 07_2f7f77'))
 
 		WebUI.switchToWindowTitle('Nada - temp mail - fast and free')
-		
-		WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccount06768942e6aac26f6c5a2df859a8d9294732'))
-		
-		WebUI.switchToWindowTitle('Chiragh - Login')
-		
 
-//		WebUI.click(findTestObject('Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/a_Reset Password'))
+		WebUI.click(findTestObject('Object Repository/Sanity Test/registrationObject/Page_Nada - temp mail - fast and free/a_httptestchiraghcomactivateAccount06768942e6aac26f6c5a2df859a8d9294732'))
+
+		WebUI.switchToWindowTitle('Chiragh - Login')
+
+
+		//		WebUI.click(findTestObject('Object Repository/Front End Objects/ForgetPassword/Page_Nada - temp mail - fast and free/a_Reset Password'))
 
 		WebUI.delay(1)
 

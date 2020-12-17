@@ -1,0 +1,8 @@
+1
+00:00:00,859 --> 00:00:00,861
+1. openBrowser("")
+
+2
+00:00:06,215 --> 00:00:06,215
+5. navigateToUrl("http://business.chiragh.com/")
+

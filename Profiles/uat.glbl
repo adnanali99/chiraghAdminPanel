@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://uat.chiragh.com'</initValue>
+      <initValue>'http://chiragh:AeBcm%231t@biz.chiragh.com'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://uat-admin-chiragh.surge.sh'</initValue>
+      <initValue>'http://biz-admin-chiragh.surge.sh'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
