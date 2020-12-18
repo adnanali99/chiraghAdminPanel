@@ -27,11 +27,10 @@ import internal.GlobalVariable
 
 public class js_click {
 	@Keyword
-	def clickUsingJS(TestObject to, int timeout)
-	{
-	WebDriver driver = DriverFactory.getWebDriver()
-	WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
-	JavascriptExecutor executor = ((driver) as JavascriptExecutor)
-	executor.executeScript('arguments[0].click()', element)
+	def clickUsingJS(TestObject to, int timeout) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
+		JavascriptExecutor executor = ((driver) as JavascriptExecutor)
+		executor.executeScript('arguments[0].click()', element)
 	}
 }
