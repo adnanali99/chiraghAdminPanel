@@ -92,14 +92,14 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
 
 WebUI.delay(4)
 
-WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 WebUI.delay(7)
 
 WebUI.delay(4)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'), 
-    GlobalVariable.fileUpload2)
+    GlobalVariable.fileUpload)
 
 WebUI.delay(15)
 
@@ -250,39 +250,38 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/Prop
     5)
 
 WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'), 
-    GlobalVariable.fileUpload2)
+    GlobalVariable.fileUpload)
 
 WebUI.delay(7)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'), 
-    GlobalVariable.fileUpload2)
+    GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(10)
-
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //mortgage//
