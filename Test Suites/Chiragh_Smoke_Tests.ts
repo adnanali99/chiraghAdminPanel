@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Front End/TC_LoginWithValidCredentials_001</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f8edb78c-05c0-4ccf-9734-0b819420f2f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Front End/TC_PropertySubmissionForm_002</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

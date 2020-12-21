@@ -29,6 +29,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basket Ball Court\u0027])[1]/following::label[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bank ATM Facility\u0027])[1]/following::label[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Neighbourhoods\u0027])[1]/following::label[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show all\u0027])[2]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input",
+      "brokenLocator": "/html/body/app-root/app-core/app-sell/div/div/app-mortgage/form/div[1]/div/div[1]/div/div/ng-select/div/div/div[2]/input[count(. | //input[@type \u003d \u0027text\u0027]) \u003d count(//input[@type \u003d \u0027text\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@type\u003d\u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input",
+      "brokenLocator": "/html/body/app-root/app-core/app-sell/div/div/app-rent/form/div[1]/div/div[1]/div/div/ng-select/div/div/div[2]/input[count(. | //input[@type \u003d \u0027text\u0027]) \u003d count(//input[@type \u003d \u0027text\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@type\u003d\u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input",
+      "brokenLocator": "//input[@type\u003d\u0027text\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Property status/input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029",
+      "brokenLocator": "//owl-date-time-container[@id\u003d\u0027owl-dt-picker-1\u0027]/div[2]/owl-date-time-calendar/div[2]/owl-date-time-multi-year-view/table/tbody/tr[5]/td[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[5]/td[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029_position.png"
     }
   ]
 }
