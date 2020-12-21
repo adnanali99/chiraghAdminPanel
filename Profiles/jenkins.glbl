@@ -62,6 +62,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'\\var\\lib\\jenkins\\workspace\\Katalon_Integration\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
+      <name>fileUpload1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Where we need to upload a file, this variable will be used</description>
+      <initValue>System.getProperty(&quot;user.home&quot;)+'\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
       <name>fileUpload</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

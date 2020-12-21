@@ -17,7 +17,13 @@ import com.github.javafaker.Faker as Faker
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.WebElement as WebElement
-
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.remote.LocalFileDetector as LocalFileDetector
+import org.openqa.selenium.remote.RemoteWebDriver
+import org.openqa.selenium.support.events.EventFiringWebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 Faker faker = new Faker()
 
 String projectname = faker.address().streetName()
@@ -92,7 +98,18 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
 
 WebUI.delay(4)
 
-WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
+String filePath = GlobalVariable.fileUpload  // finds the directory that katalon is running in and grabs myfile.txt
+
+EventFiringWebDriver driver = DriverFactory.getWebDriver()  // get the event driver (aka the katalon smartwait driver)
+
+RemoteWebDriver wrappedDriver = driver.getWrappedDriver() // get the driver inside the smart wait driver (remote,chrome, firefox,etc)
+
+wrappedDriver.setFileDetector(new LocalFileDetector()) //points your remote,chrome,firefox,etc driver to the local files in the run.
+
+WebElement fileInput = wrappedDriver.findElementByXPath("/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[3]/div/div[1]/div[1]/app-upload-file/div/input")// specify your selector (I'm using CSS) and create fileInput as the object that is found by your selector
+
+fileInput.sendKeys(filePath) //Send the fileInput object your filepath, which is a directory. It will begin the upload at this point.
+//WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 WebUI.delay(7)
 
