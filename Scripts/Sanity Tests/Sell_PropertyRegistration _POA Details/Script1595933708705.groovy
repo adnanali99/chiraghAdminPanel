@@ -165,14 +165,14 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
 
 WebUI.delay(4)
 
-WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
 WebUI.delay(4)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
-	GlobalVariable.fileUpload)
+	GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
@@ -315,15 +315,15 @@ WebUI.sendKeys(findTestObject('Property Submission(All Forms)/POA/POA Details/Pa
 
 WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), 5)
 
-WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), GlobalVariable.fileUpload2)
 
 WebUI.delay(8)
 
-WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), GlobalVariable.fileUpload2)
 
 WebUI.delay(8)
 
-WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), GlobalVariable.fileUpload2)
 
 WebUI.delay(8)
 

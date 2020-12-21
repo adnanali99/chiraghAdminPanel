@@ -52,7 +52,7 @@
    <GlobalVariableEntity>
       <description>Where we need to upload a file, this variable will be used</description>
       <initValue>System.getProperty(&quot;user.home&quot;)+'\\git\\chiraghAdminPanel\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
-      <name>fileUpload</name>
+      <name>fileUpload2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -63,5 +63,10 @@
       <description></description>
       <initValue>'http://chiragh:AeBcm%231t@test.chiragh.com'</initValue>
       <name>Url2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Include\\PropertyImages\\1584693242612-Scanned_Passport_Copy.png'</initValue>
+      <name>fileUpload</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

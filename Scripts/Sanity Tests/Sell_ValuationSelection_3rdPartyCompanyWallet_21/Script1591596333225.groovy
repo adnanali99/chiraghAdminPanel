@@ -80,14 +80,14 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
 
 WebUI.delay(4)
 
-WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
 WebUI.delay(4)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'), 
-    GlobalVariable.fileUpload)
+    GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
@@ -224,12 +224,12 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/Prop
     5)
 
 WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'), 
-    GlobalVariable.fileUpload)
+    GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'), 
-    GlobalVariable.fileUpload)
+    GlobalVariable.fileUpload2)
 
 WebUI.delay(7)
 
