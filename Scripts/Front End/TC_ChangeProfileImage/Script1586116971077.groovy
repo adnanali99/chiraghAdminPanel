@@ -2,6 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -10,26 +11,10 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.remote.LocalFileDetector as LocalFileDetector
-import org.openqa.selenium.support.events.EventFiringWebDriver
-import org.junit.After
-import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.remote.LocalFileDetector as LocalFileDetector
-import org.openqa.selenium.remote.RemoteWebDriver
-import org.openqa.selenium.support.events.EventFiringWebDriver
-import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker as Faker
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import java.rmi.Remote
-
-import org.openqa.selenium.WebElement as WebElement
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -63,18 +48,7 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChan
 
 WebUI.delay(2)
 
-EventFiringWebDriver driver = DriverFactory.getWebDriver()  // get the event driver (aka the katalon smartwait driver)
-RemoteWebDriver wdriver = driver.getWrappedDriver()
-wdriver.setFileDetector(new LocalFileDetector());
-File file = new File(System.getProperty(GlobalVariable.fileUpload));
-
-println("file exists: " + file.exists());
-
-String imagePath = file.getAbsolutePath();
-WebElement input = driver.findElement(By.xpath("//input[@name='file']"));
-input.sendKeys(imagePath);
-
-//WebUI.uploadFile(findTestObject('Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Object Repository/Front End Objects/ProfileImageChange/capture/Page_Chiragh - Dashborad Home/input_You have no new notifications at the moment_file'), GlobalVariable.fileUpload)
 WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated'))
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Dashborad Home/div_Profile image successfully updated'))
