@@ -75,14 +75,14 @@ public class PropertyReportValuation {
 
 		WebUI.delay(4)
 
-		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(7)
 
 		WebUI.delay(4)
 
 		WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'),
-				GlobalVariable.fileUpload2)
+				GlobalVariable.fileUpload22)
 
 		WebUI.delay(7)
 
@@ -176,15 +176,15 @@ public class PropertyReportValuation {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Passport Copy'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(8)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned ID Copy'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(8)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/POA/POA Documents/Scanned Notarized POA'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(8)
 
@@ -302,11 +302,11 @@ public class PropertyReportValuation {
 		WebUI.scrollToElement(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'),
 				5)
 
-		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Scanned Title Deed/Scanned Title Deed'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(7)
 
-		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/SPA/SPA'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(7)
 
@@ -364,7 +364,7 @@ public class PropertyReportValuation {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Mortgage/Mortgage Documents/Scanned NOC form'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(10)
 
@@ -418,7 +418,7 @@ public class PropertyReportValuation {
 
 		WebUI.scrollToElement(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), 5)
 
-		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), GlobalVariable.fileUpload2)
+		WebUI.uploadFile(findTestObject('Property Submission(All Forms)/Rent/Rental Document/Ejari Contract'), GlobalVariable.fileUpload22)
 
 		WebUI.delay(8)
 
@@ -607,11 +607,11 @@ public class PropertyReportValuation {
 		WebUI.delay(5)
 
 		WebUI.uploadFile(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/img_Form A_ng-star-inserted'),
-				GlobalVariable.fileUpload2)
+				GlobalVariable.fileUpload22)
 
 
 		WebUI.uploadFile(findTestObject('Admin/brokerage department/Page_Chiragh.com Admin/img_Brokerage Report_ng-star-i'),
-				GlobalVariable.fileUpload2)
+				GlobalVariable.fileUpload22)
 
 		WebUI.delay(5)
 

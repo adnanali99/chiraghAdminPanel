@@ -17,13 +17,7 @@ import com.github.javafaker.Faker as Faker
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.remote.LocalFileDetector as LocalFileDetector
-import org.openqa.selenium.remote.RemoteWebDriver
-import org.openqa.selenium.support.events.EventFiringWebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 Faker faker = new Faker()
 
 String projectname = faker.address().streetName()
@@ -59,12 +53,19 @@ WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chi
 WebUI.delay(10)
 
 //WebUI.setText(findTestObject('Page_Chiragh - Sell Your Property/input_Passport Number_passportNo'), '234234234233432')
+
 //WebUI.click(findTestObject('Page_Chiragh - Sell Your Property/input_Passport Expiry Date_passportExpiryDate'))
+
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
+
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029'))
+
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month'))
+
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21'))
+
 //WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'), 
     '3294723889')
 
@@ -98,18 +99,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
 
 WebUI.delay(4)
 
-String filePath = GlobalVariable.fileUpload  // finds the directory that katalon is running in and grabs myfile.txt
-
-EventFiringWebDriver driver = DriverFactory.getWebDriver()  // get the event driver (aka the katalon smartwait driver)
-
-RemoteWebDriver wrappedDriver = driver.getWrappedDriver() // get the driver inside the smart wait driver (remote,chrome, firefox,etc)
-
-wrappedDriver.setFileDetector(new LocalFileDetector()) //points your remote,chrome,firefox,etc driver to the local files in the run.
-
-WebElement fileInput = wrappedDriver.findElementByXPath("/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[3]/div/div[1]/div[1]/app-upload-file/div/input")// specify your selector (I'm using CSS) and create fileInput as the object that is found by your selector
-
-fileInput.sendKeys(filePath) //Send the fileInput object your filepath, which is a directory. It will begin the upload at this point.
-//WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
+WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 WebUI.delay(7)
 
@@ -186,16 +176,20 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
     'sqm')
 
+
 WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 'sqm')
+WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'),
+	'sqm')
 
-WebUI.sendKeys(findTestObject('Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
+
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'), 
     '2300')
@@ -238,26 +232,26 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Property for
     '2')
 
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room'))
-WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen'))
-WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished'))
-WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access'))
-//WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access'))
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility'))
-WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance'))
-WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques'))
-WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools'))
-//WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools'))
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls'))
-WebUI.delay(2)
+
 WebUI.scrollToElement(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/div_Description _ngx-editor-textarea'), 
     5)
-WebUI.delay(2)
+
 WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/div_Description _ngx-editor-textarea'), 
     'Villa for sale')
 
@@ -299,6 +293,7 @@ WebUI.delay(5)
 WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //mortgage//

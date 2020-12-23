@@ -90,7 +90,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/To
 WebUI.setText(findTestObject('Object Repository/Front End Objects/TopUpCriteria/Page_Chiragh - Transaction Top Up/input_Transaction ID _transactionId'), 
     '2252555')
 
-WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload22)
 
 WebUI.delay(5)
 
@@ -122,7 +122,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/To
 WebUI.setText(findTestObject('Object Repository/Front End Objects/TopUpCriteria/Page_Chiragh - Transaction Top Up/input_Transaction ID _transactionId'), 
     '25874125')
 
-WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload22)
 
 WebUI.delay(5)
 
@@ -152,7 +152,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Front End Objects/To
 WebUI.setText(findTestObject('Object Repository/Front End Objects/TopUpCriteria/Page_Chiragh - Transaction Top Up/input_Transaction ID _transactionId'), 
     '111111')
 
-WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload2)
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload22)
 
 WebUI.delay(5)
 
