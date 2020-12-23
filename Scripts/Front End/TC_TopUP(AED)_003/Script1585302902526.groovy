@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transact
 WebUI.setText(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/input_Transaction ID _transact'), 
     '676767')
 
-WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload22)
+WebUI.uploadFile(findTestObject('Front End Objects/TopUp(AED)/Page_Chiragh - Transaction Top Up/UploadReceipt'), GlobalVariable.fileUpload222)
 
 WebUI.delay(5)
 
