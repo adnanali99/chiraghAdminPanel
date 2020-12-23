@@ -62,10 +62,10 @@ WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChan
 WebUI.click(findTestObject('Object Repository/Front End Objects/ProfileImageChange/Page_Chiragh - Home/a_HI chiragh1234'))
 
 WebUI.delay(2)
-EventFiringWebDriver driver = DriverFactory.getWebDriver()  // get the event driver (aka the katalon smartwait driver)
 
-RemoteWebDriver driver = driver.getWrappedDriver()
-driver.setFileDetector(new LocalFileDetector());
+EventFiringWebDriver driver = DriverFactory.getWebDriver()  // get the event driver (aka the katalon smartwait driver)
+RemoteWebDriver wdriver = driver.getWrappedDriver()
+wdriver.setFileDetector(new LocalFileDetector());
 File file = new File(System.getProperty(GlobalVariable.fileUpload));
 
 println("file exists: " + file.exists());
