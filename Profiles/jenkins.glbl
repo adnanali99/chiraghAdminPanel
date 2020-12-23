@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/var/lib/jenkins/workspace/Katalon_Integration/Include/PropertyImages/1584693242612-Scanned_Passport_Copy.png'</initValue>
+      <initValue>'Include/PropertyImages/1584693242612-Scanned_Passport_Copy.png'</initValue>
       <name>fileUpload</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
