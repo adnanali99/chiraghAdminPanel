@@ -318,7 +318,7 @@ WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Ch
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
+//WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 
 WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
 
