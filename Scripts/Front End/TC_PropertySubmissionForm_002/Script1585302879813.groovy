@@ -96,8 +96,8 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
     5)
 
 WebUI.delay(4)
-String dirName = RunConfiguration.getProjectDir()
-println("Project Dir:", dirName)
+//String dirName = RunConfiguration.getProjectDir()
+//println("Project Dir:", dirName)
 
 WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
