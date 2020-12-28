@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import java.rmi.Remote as Remote
 import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 Faker faker = new Faker()
 
@@ -46,6 +46,7 @@ WebUI.click(findTestObject('Page_Chiragh - Home/a_SALE LISTING'))
 WebUI.delay(3)
 
 url = WebUI.getUrl()
+
 println(url)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
@@ -67,8 +68,11 @@ WebUI.delay(10)
 //WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'), 
     '3294723889')
+
 url = WebUI.getUrl()
+
 println(url)
+
 WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry'))
 
 WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
@@ -98,9 +102,9 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
     5)
 
 WebUI.delay(4)
+
 //String dirName = RunConfiguration.getProjectDir()
 //println("Project Dir:", dirName)
-
 WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 WebUI.delay(7)
@@ -115,7 +119,9 @@ WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Sell Your P
 WebUI.delay(5)
 
 url = WebUI.getUrl()
+
 println(url)
+
 //CustomKeywords.'com.sanitytest.com.js_click.clickUsingJS'(findTestObject('Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'), 
 //  20)
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes'), 
@@ -127,8 +133,11 @@ WebUI.delay(4)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'), 
     'No')
+
 url = WebUI.getUrl()
+
 println(url)
+
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
 
@@ -182,28 +191,30 @@ WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - 
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
-    'sqm')
+//WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
+  //  'sqm')
 
-WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
-    Keys.chord(Keys.ENTER))
+//WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
+  //  Keys.chord(Keys.ENTER))
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'), 
-    '2300')
+//WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'), 
+  //  '2300')
 
-WebUI.delay(4)
+//WebUI.delay(4)
 
 WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Address/Page_Chiragh - Sell Your Property/input_Address_address'), 
     'United Arab Emirates')
+WebUI.delay(4)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'), 
     'Dubai')
+WebUI.delay(4)
 
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/City/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
-
+WebUI.delay(4)
 WebUI.sendKeys(findTestObject('Page_Chiragh - Sell Your Property/input_Location Map_mapLocation'), 'Burj Khalifa - Sheikh Mohammed bin Rashid Boulevard - Dubai - United Arab Emirates')
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Developer Name/Page_Chiragh - Sell Your Property/input_Developer Name_developer'), 
@@ -217,10 +228,11 @@ WebUI.sendKeys(findTestObject('Object Repository/Property submission/Property fo
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Approx Age/Page_Chiragh - Sell Your Property/input_Property Approx. Age_pro'), 
     '2 years')
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Beds/Page_Chiragh - Sell Your Property/input_Bedrooms_noOfBedrooms'), 
     '6')
-
+WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Baths/Page_Chiragh - Sell Your Property/input_Bathrooms_noOfBaths'), 
     '4')
 
@@ -229,25 +241,25 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Car Parkings/input_car_parkings'), 
     '2')
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Driver Room'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Fitted Kitchen'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Features/Page_Chiragh - Sell Your Property/label_Fully Furnished'))
 
-WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access'))
-
+//WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Beach Access'))
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_Bank ATM Facility'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Facilities/Page_Chiragh - Sell Your Property/label_24 Hours Maintenance'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Mosques'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Schools'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Neighbourhoods/Page_Chiragh - Sell Your Property/label_Shopping Malls'))
-
+WebUI.delay(2)
 WebUI.scrollToElement(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Description/Page_Chiragh - Sell Your Property/div_Description _ngx-editor-textarea'), 
     5)
 
@@ -292,15 +304,21 @@ WebUI.delay(5)
 WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(10)
+
 url = WebUI.getUrl()
+
 println(url)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //mortgage//
 WebUI.setText(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     'No')
+
 url = WebUI.getUrl()
+
 println(url)
+
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
 
@@ -318,15 +336,20 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Rental/Page_
 
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'), Keys.chord(
         Keys.ENTER))
+
 url = WebUI.getUrl()
+
 println(url)
+
 WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(5)
-url = WebUI.getUrl()
-println(url)
-//WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 
+url = WebUI.getUrl()
+
+println(url)
+
+//WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
 
 WebUI.delay(8)
@@ -335,4 +358,3 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Property submission
     5)
 
 WebUI.closeBrowser()
-
