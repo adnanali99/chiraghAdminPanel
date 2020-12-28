@@ -4,7 +4,16 @@
    <name>Scanned Passport Copy</name>
    <tag></tag>
    <elementGuidId>3fa6d3f6-d590-431b-ae53-fd05e734cfea</elementGuidId>
+   <imagePath>Include/propertyImages/1584693242612-Scanned_Passport_Copy.png</imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>Include/propertyImages/1584693242612-Scanned_Passport_Copy.png</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[3]/div/div[1]/div[1]/app-upload-file/div/input</value>
@@ -14,8 +23,8 @@
          <value>/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[3]/div/div[1]/div[1]/app-upload-file/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <selectorMethod>IMAGE</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
