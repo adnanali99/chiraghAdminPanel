@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ced40cc7-9fc0-43ca-bbe5-67e25cd5c8eb</testSuiteGuid>
    <testCaseLink>
-      <guid>951e8756-b332-46db-a2e0-4687181296cf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Front End/TC_LoginWithValidCredentials_001</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f8edb78c-05c0-4ccf-9734-0b819420f2f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

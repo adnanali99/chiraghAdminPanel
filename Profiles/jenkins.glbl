@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'chiraghAdminPanel/Include/PropertyImages/1584693242612-Scanned_Passport_Copy.png'</initValue>
+      <initValue>'/chiraghAdminPanel/Include/PropertyImages/1584693242612-Scanned_Passport_Copy.png'</initValue>
       <name>fileUpload</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
