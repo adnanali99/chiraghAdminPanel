@@ -285,7 +285,7 @@ WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property 
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
+/*WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(5)
 
@@ -303,7 +303,7 @@ WebUI.delay(5)
 
 WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
-WebUI.delay(10)
+WebUI.delay(10)*/
 
 url = WebUI.getUrl()
 
