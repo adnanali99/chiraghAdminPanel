@@ -6,15 +6,15 @@
    <elementGuidId>9e800f78-54df-4b87-aff1-c8c1bedfc89b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button[count(. | //*[@type = 'button' and (text() = 'Submit' or . = 'Submit')]) = count(//*[@type = 'button' and (text() = 'Submit' or . = 'Submit')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
