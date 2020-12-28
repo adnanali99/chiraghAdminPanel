@@ -317,7 +317,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Property submission/Rental/Page
 WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(5)
-
+WebUI.getUrl()
 //WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 
 WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
