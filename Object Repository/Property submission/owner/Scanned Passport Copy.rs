@@ -8,7 +8,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>body > app-root > app-core > app-sell > div > div > app-owner > div > app-owner-base-form > form > div:nth-child(3) > div > div:nth-child(3) > div:nth-child(1) > app-upload-file > div > input</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -23,7 +23,7 @@
          <value>/html/body/app-root/app-core/app-sell/div/div/app-owner/div/app-owner-base-form/form/div[3]/div/div[1]/div[1]/app-upload-file/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>IMAGE</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
