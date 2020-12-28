@@ -289,13 +289,13 @@ WebUI.delay(5)
 WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property Picures'), GlobalVariable.fileUpload)
 
 WebUI.delay(10)
-
+WebUI.getUrl()
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //mortgage//
 WebUI.setText(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     'No')
-
+WebUI.getUrl()
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
 
@@ -313,7 +313,7 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Rental/Page_
 
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'), Keys.chord(
         Keys.ENTER))
-
+WebUI.getUrl()
 WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(5)
