@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button</value>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button/text()</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button[count(. | //*[@type = 'button' and (text() = 'Submit' or . = 'Submit')]) = count(//*[@type = 'button' and (text() = 'Submit' or . = 'Submit')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
