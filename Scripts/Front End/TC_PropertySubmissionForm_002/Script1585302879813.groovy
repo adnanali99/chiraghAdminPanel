@@ -46,6 +46,7 @@ WebUI.click(findTestObject('Page_Chiragh - Home/a_SALE LISTING'))
 WebUI.delay(3)
 
 url = WebUI.getUrl()
+println(url)
 
 WebUI.setText(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Login/input_Username_un'), GlobalVariable.userName)
 
@@ -67,6 +68,7 @@ WebUI.delay(10)
 WebUI.setText(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'), 
     '3294723889')
 url = WebUI.getUrl()
+println(url)
 WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/ID card expiry'))
 
 WebUI.click(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
@@ -113,7 +115,7 @@ WebUI.click(findTestObject('Property submission/owner/Page_Chiragh - Sell Your P
 WebUI.delay(5)
 
 url = WebUI.getUrl()
-
+println(url)
 //CustomKeywords.'com.sanitytest.com.js_click.clickUsingJS'(findTestObject('Property submission/owner/Page_Chiragh - Sell Your Property/button_Next'), 
 //  20)
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Property submission/owner/Page_Chiragh - Sell Your Property/div_Owner details added succes'), 
@@ -126,7 +128,7 @@ WebUI.delay(4)
 WebUI.setText(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'), 
     'No')
 url = WebUI.getUrl()
-
+println(url)
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/POA/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
 
@@ -291,12 +293,14 @@ WebUI.uploadFile(findTestObject('Page_Chiragh - Sell Your Property/div_Property 
 
 WebUI.delay(10)
 url = WebUI.getUrl()
+println(url)
 WebUI.click(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 //mortgage//
 WebUI.setText(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     'No')
 url = WebUI.getUrl()
+println(url)
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Mortgage/Mortgage Status/Page_Chiragh - Sell Your Property/input'), 
     Keys.chord(Keys.ENTER))
 
@@ -315,10 +319,12 @@ WebUI.setText(findTestObject('Object Repository/Property submission/Rental/Page_
 WebUI.sendKeys(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/input'), Keys.chord(
         Keys.ENTER))
 url = WebUI.getUrl()
+println(url)
 WebUI.click(findTestObject('Object Repository/Property submission/Rental/Page_Chiragh - Sell Your Property/Next/Page_Chiragh - Sell Your Property/button_Next'))
 
 WebUI.delay(5)
 url = WebUI.getUrl()
+println(url)
 //WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
 
 WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
