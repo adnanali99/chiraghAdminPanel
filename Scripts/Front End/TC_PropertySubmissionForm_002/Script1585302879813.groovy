@@ -350,7 +350,7 @@ url = WebUI.getUrl()
 println(url)
 
 //WebUI.scrollToElement(findTestObject('Property submission/ValuationCompany/button_SUBMIT'), 5)
-WebUI.click(findTestObject('Property submission/ValuationCompany/button_SUBMIT'))
+WebUI.click(findTestObject('Object Repository/Property submission/ValuationCompany/button_SUBMIT'))
 
 WebUI.delay(8)
 

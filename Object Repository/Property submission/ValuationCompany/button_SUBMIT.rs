@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button/text()</value>
+         <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
