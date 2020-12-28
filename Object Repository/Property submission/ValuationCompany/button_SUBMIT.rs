@@ -14,7 +14,7 @@
          <value>/html/body/app-root/app-core/app-sell/div/div/app-valuation/form/div/div/div[3]/div[1]/div[2]/button[count(. | //*[@type = 'button' and (text() = 'Submit' or . = 'Submit')]) = count(//*[@type = 'button' and (text() = 'Submit' or . = 'Submit')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
