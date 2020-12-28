@@ -21,6 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import java.rmi.Remote as Remote
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.configuration.RunConfiguration
 
 Faker faker = new Faker()
 
@@ -95,6 +96,8 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property submission/owne
     5)
 
 WebUI.delay(4)
+String dirName = RunConfiguration.getProjectDir()
+print("Project Dir:", dirName)
 
 WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
