@@ -10,19 +10,16 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.remote.LocalFileDetector as LocalFileDetector
-
-import org.junit.After
+import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import java.rmi.Remote
-
+import java.rmi.Remote as Remote
 import org.openqa.selenium.WebElement as WebElement
 
 Faker faker = new Faker()
@@ -60,19 +57,12 @@ WebUI.click(findTestObject('Object Repository/Property submission/owner/Page_Chi
 WebUI.delay(10)
 
 //WebUI.setText(findTestObject('Page_Chiragh - Sell Your Property/input_Passport Number_passportNo'), '234234234233432')
-
 //WebUI.click(findTestObject('Page_Chiragh - Sell Your Property/input_Passport Expiry Date_passportExpiryDate'))
-
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_Mar 2020'))
-
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_2029'))
-
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/month'))
-
 //WebUI.click(findTestObject('Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/span_21'))
-
 //WebUI.delay(3)
-
 WebUI.setText(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/input_ID Card Number_idCardNo'), 
     '3294723889')
 
@@ -109,8 +99,6 @@ WebUI.delay(4)
 WebUI.uploadFile(findTestObject('Property submission/owner/Scanned Passport Copy'), GlobalVariable.fileUpload)
 
 WebUI.delay(7)
-
-WebUI.delay(4)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property submission/owner form/Page_Chiragh - Sell Your Property/Page_Chiragh - Sell Your Property/div_Scanned ID Copy  (UAE or c'), 
     GlobalVariable.fileUpload)
@@ -183,20 +171,18 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
     'sqm')
 
-
 WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'),
-	'sqm')
+WebUI.setText(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
+    'sqm')
 
-WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Unit_ng-star-inserted'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
-
 
 WebUI.setText(findTestObject('Object Repository/Property submission/Property form/Page_Chiragh - Sell Your Property/Area/Page_Chiragh - Sell Your Property/input_Gross Area_grossArea'), 
     '2300')
